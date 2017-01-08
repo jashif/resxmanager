@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rechargeOption">
+        <item>പ്രീപെയ്ഡ്</item>
+        <item>പോസ്റ്റ്പെയ്ഡ്</item>
+    </string-array>
+    <string-array name="DashBoard">
+        <item>ടോപ് അപ്</item>
+        <item>റീചാർജ്ജ് </item>
+        <item>എന്റെ സേവനങ്ങൾ</item>
+        <item>എന്റെ ഉപയോഗം</item>
+        <item>ഡിഎൻഡി മുൻഗണന</item>
+        <item>ട്രബിൾ ടിക്കറ്റ്</item>
+        <item>Trouble Status</item>
+        <item>പ്രസ്താവന</item>
+        <item>ക്രമീകരണങ്ങൾ</item>
+    </string-array>
+    <string-array name="SliderItems">
+        <item>myJio</item>
+        <!-- <item>My Orders</item> -->
+        <item>ഹെൽപ് ടിക്കറ്റ്</item>
+        <item>പ്രൊഫൈൽ</item>
+        <item>ക്രമീകരണങ്ങൾ</item>
+        <!-- <item>My Groups</item> -->
+        <item>ലോഗൗട്ട്</item>
+
+        <!-- <item>Recharge &#38; Top History</item> -->
+        <!--
+        <item>One Item</item>
+        <item>Two Items</item>
+        <item>More Item</item>
+
+
+
+
+
+        -->
+    </string-array>
+    <string-array name="networkType">
+        <item>MIFI 20GB DATA PLAN</item>
+        <item>LTE DEVICE</item>
+        <item>MIFI 20GB DATA PLAN</item>
+    </string-array>
+    <string-array name="data_rate_rs">
+        <item>10 Rs/sec</item>
+        <item>20 Rs/sec</item>
+        <item>30 Rs/sec</item>
+        <item>40 Rs/sec</item>
+        <item>50 Rs/sec</item>
+        <item>60 Rs/sec</item>
+        <item>70 Rs/sec</item>
+        <item>80 Rs/sec</item>
+        <item>90 Rs/sec</item>
+        <item>100 Rs/sec</item>
+    </string-array>
+
+    <!-- Service Type Digital Service -->
+    <string-array name="data_digital_service">
+        <item>എൽടിഇ-റസിഡൻഷ്യൽ</item>
+        <item>എൽടിഇ-മൊബിലിറ്റി</item>
+        <item>എൽടിഇ വോയ്സ്</item>
+        <item>എൽടിഇ ഡാറ്റാ</item>
+        <item>ഫൈബർ</item>
+        <item>വൈഫൈ-ഹോട്ട്‌സ്പോട്ട്</item>
+        <item>വൈഫൈ ട്രയൽ</item>
+        <item>മെച്ചപ്പെട്ട ആശയവിനിമയ സേവനങ്ങൾ</item>
+        <item>ആവശ്യപ്രകാരമുള്ള വീഡിയോ</item>
+        <item>തൽസമയ ടിവി</item>
+        <item>ജിയോ ഡ്രൈവ്</item>
+        <item>ജിയോ കെയർ</item>
+        <item>ജിയോ വേൾഡ്</item>
+        <item>ജിയോ ബീറ്റ്സ്</item>
+        <item>ജിയോ ന്യൂസ്‌പേപ്പർ</item>
+        <item>ജിയോ മാഗ്സ്</item>
+        <item>ജിയോ ചാറ്റ്</item>
+        <item>പേയ്മെന്റ്</item>
+        <item>ജിയോ ബ്രോഡ്കാസ്റ്റ്</item>
+        <item>ജിയോ എൽബിഎസ് </item>
+        <item>ഒ‌‌ടി‌ടി</item>
+        <item>ജിയോ എഫ്എം</item>
+    </string-array>
+    <string-array name="array_trouble_ticket_status">
+        <item>മുഴുവൻ</item>
+        <item>തുറക്കുക</item>
+        <item>പരിഹരിച്ചു</item>
+        <item>നിരസിച്ചു</item>
+        <item>വീണ്ടും തുറന്നു</item>
+        <item>അടച്ചു</item>
+        <item>പ്രവർത്തനം പുരോഗതിയിലാണ്</item>
+    </string-array>
+    <string-array name="array_category_trouble_ticket">
+        <item>തിരഞ്ഞെടുക്കുക</item>
+        <item>സംഭവം</item>
+        <item>വിവരത്തിനായി അഭ്യർത്ഥിക്കുക</item>
+    </string-array>
+    <string-array name="array_sub1_category1_trouble_ticket">
+        <item>തിരഞ്ഞെടുക്കുക</item>
+        <item>നെറ്റ്‌വർക്ക്</item>
+        <item>സേവനം</item>
+        <item>ഉപകരണം</item>
+    </string-array>
+    <string-array name="array_indian_states">
+        <item>സംസ്ഥാനം തിരഞ്ഞെടുക്കുക</item>
+    </string-array>
+    <string-array name="array_order_status">
+        <item>മുഴുവൻ</item>
+        <item>അംഗീകാരം കാത്തിരിക്കുന്നു</item>
+        <item>അംഗീകരിച്ചു/സജീവമാക്കൽ കാത്തിരിക്കുക</item>
+        <item>സാധുവാക്കൽ പരാജയപ്പെട്ടു</item>
+        <item>സിഎഎഫ് നിരസിച്ചു</item>
+        <item>പൂർത്തിയാക്കി</item>
+        <item>ടെലി-വെരിഫിക്കേഷൻ പരാജയപ്പെട്ടു</item>
+        <item>ഓർഡർ റദ്ദാക്കൽ</item>
+        <item>സിഎഎഫ് ആവശ്യമില്ല</item>
+    </string-array>
+    <string-array name="map_types">
+        <item>സാധാരണം</item>
+        <item>സാറ്റ്‌ലൈറ്റ്</item>
+    </string-array>
+    <string-array name="search_types">
+        <item>JioHotSpots</item>
+        <item>ചില്ലറവിൽപ്പനശാല</item>
+        <item>JioCenter</item>
+    </string-array>
+    <string-array name="search_radius">
+        <item>500m</item>
+        <item>2km</item>
+        <item>3km</item>
+        <item>4km</item>
+        <item>5km</item>
+        <item>10km</item>
+    </string-array>
+    <string-array name="array_dnd_preferences">
+        <item>ബാങ്കിംഗ്/ഇൻഷുറൻസ്/സാമ്പത്തിക ഉത്‌പ്പന്നങ്ങൾ/ക്രെഡിറ്റ് കാർഡുകൾ</item>
+        <item>റിയൽ എസ്റ്റേറ്റ്</item>
+        <item>വിദ്യാഭ്യാസം</item>
+        <item>ആരോഗ്യം</item>
+        <item>ഉപഭോഗ വസ്തുക്കളും വാഹനങ്ങളും</item>
+        <item>ആശയ വിനിമയം/ബ്രോഡ്കാസ്റ്റ് ചെയ്യൽ/വിനോദം/ഐടി</item>
+        <item>വിനോദസഞ്ചാരവും വിശ്രമ വേളയും</item>
+    </string-array>
+
+    <!-- This is given all 3 the array is used to show in Customer facing Services using dummy data -->
+    <string-array name="array_cfs_parent_services">
+        <item>FTTX സ്റ്റാൻഡേർഡ്</item>
+        <item>LTE ഹോം</item>
+    </string-array>
+    <string-array name="array_cfs_fttx_lte_dependent_services">
+        <item>IAD</item>
+        <item>Wi-Fi  ആഡ് ഓൺ</item>
+        <item>Mobi TV</item>
+    </string-array>
+
+    <!--
+    <string-array name="array_cfs_dependent_services">
+        <item>STD</item>
+        <item>ISD</item>
+        <item>National Roaming</item>
+        <item>International Roaming</item>
+        <item>CRBT</item>
+        <item>Video Call</item>
+        <item>SMS</item>
+    </string-array>
+
+
+
+
+
+    -->
+
+    <!-- Email Screen -->
+    <string-array name="array_email_category">
+        <item>ബ്രോഡ്ബാൻഡ്</item>
+        <item>പൊതുവായത്</item>
+        <item>Mi-Fi</item>
+        <item>വോയ്സ്</item>
+    </string-array>
+
+
+    <string-array name="array_quick_pay_topup">
+        <item>Phone No.</item>
+        <item>Email Id</item>
+        <item>Service Id</item>
+        <item>Account Id</item>
+    </string-array>
+
+    <string-array name="array_recharge_my">
+        <item>Data</item>
+        <item>Voice , Video and Messaging</item>
+        <item>Fiber</item>
+        <item>Digital Services</item>
+
+    </string-array>
+
+    <string-array name="array_with">
+        <item>All Apps</item>
+        <item>Jio Beats</item>
+        <item>Jio Drive</item>
+        <item>Jio Mags</item>
+        <item>Jio News</item>
+        <item>Jio On-Demand</item>
+        <item>Jio Play</item>
+
+    </string-array>
+
+    <string-array name="array_with_fiber">
+        <item>All</item>
+        <item>Rate Cutter</item>
+    </string-array>
+
+    <string-array name="array_my">
+        <item>Phone No</item>
+        <item>Email Id</item>
+    </string-array>
+
+    <string-array name="array_contact_us">
+        <item>Call Us</item>
+        <item>Request To Call</item>
+        <item>Email Us</item>
+    </string-array>
+
+    <!-- Login Module -->
+    <string-array name="forgot_jio_id_cateory" >
+        <item>Customer ID</item>
+        <item>Service ID</item>
+        <item>Mobile Number</item>
+        <item>Order Number</item>
+    </string-array>
+
+</resources>

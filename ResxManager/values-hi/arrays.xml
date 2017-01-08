@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rechargeOption">
+        <item>प्रीपैड</item>
+        <item>पोस्टपैड</item>
+    </string-array>
+    <string-array name="DashBoard">
+        <item>टॉप-अप</item>
+        <item>रीचार्ज</item>
+        <item>मेरी सेवाएँ</item>
+        <item>मेरा उपयोग</item>
+        <item>DND वरीयता</item>
+        <item>समस्या टिकट</item>
+        <item>समस्या की स्थिति</item>
+        <item>कथन</item>
+        <item>सेटिंग</item>
+    </string-array>
+    <string-array name="SliderItems">
+        <item>myJio</item>
+        <!--  <item>मेरे ऑर्डर</item> -->
+        <item>मदद टिकट</item>
+        <item>प्रोफ़ाइल</item>
+        <item>सेटिंग</item>
+        <!--  <item>मेरे समूह</item> -->
+        <item>लॉग आउट करें</item>
+    </string-array>
+
+    <string-array name="networkType">
+        <item>MIFI 20GB DATA PLAN</item>
+        <item>LTE DEVICE</item>
+        <item>MIFI 20GB DATA PLAN</item>
+    </string-array>
+
+    <string-array name="data_rate_rs">
+        <item>10 रू./सेकंड</item>
+        <item>20 रू./सेकंड</item>
+        <item>30 रू./सेकंड</item>
+        <item>40 रू./सेकंड</item>
+        <item>50 रू./सेकंड</item>
+        <item>60 रू./सेकंड</item>
+        <item>70 रू./सेकंड</item>
+        <item>80 रू./सेकंड</item>
+        <item>90 रू./सेकंड</item>
+        <item>100 रू./सेकंड</item>
+    </string-array>
+
+    <!-- Service Type Digital Service -->
+    <string-array name="data_digital_service">
+        <item>LTE-आवासीय</item>
+        <item>LTE-गतिशीलता</item>
+        <item>LTE ध्वनि</item>
+        <item>LTE डेटा</item>
+        <item>फ़ाइबर</item>
+        <item>WiFi–हॉटस्पॉट</item>
+        <item>WiFi परीक्षण</item>
+        <item>विस्तृत संचार सेवाएं</item>
+        <item>वीडियो ऑन डिमांड</item>
+        <item>लाइव टीवी</item>
+        <item>Jio ड्राइव</item>
+        <item>Jio केयर</item>
+        <item>Jio वर्ल्ड</item>
+        <item>Jio बीट्स</item>
+        <item>Jio समाचार-पत्र</item>
+        <item>Jio मैग्स</item>
+        <item>Jio चैट</item>
+        <item>भुगतान</item>
+        <item>Jio ब्रॉडकास्ट</item>
+        <item>Jio LBS</item>
+        <item>OTT</item>
+        <item>JIO FM</item>
+    </string-array>
+
+    <string-array name="array_trouble_ticket_status">
+        <item>सभी</item>
+        <item>खोलें</item>
+        <item>समाधान किया गया</item>
+        <item>अस्वीकृत</item>
+        <item>पुनः खोला गया</item>
+        <item>बंद किया गया</item>
+        <item>कार्य प्रगति पर है</item>
+    </string-array>
+    <string-array name="array_category_trouble_ticket">
+        <item>चुनें</item>
+        <item>घटना</item>
+        <item>जानकारी के लिए अनुरोध</item>
+    </string-array>
+    <string-array name="array_sub1_category1_trouble_ticket">
+        <item>चुनें</item>
+        <item>नेटवर्क</item>
+        <item>सेवा</item>
+        <item>डिवाइस</item>
+    </string-array>
+    <string-array name="array_indian_states">
+        <item>राज्य चुनें</item>
+    </string-array>
+    <string-array name="array_order_status">
+        <item>सभी</item>
+        <item>अनुमोदन प्रतीक्षित</item>
+        <item>अनुमोदित/प्रतीक्षित सक्रियण</item>
+        <item>मान्यीकरण विफल्</item>
+        <item>CAF अस्वीकृत</item>
+        <item>पूर्ण</item>
+        <item>टेली-सत्यापन विफल</item>
+        <item>रद्दीकरण का ऑर्डर करें</item>
+        <item>CAF आवश्यक नहीं</item>
+    </string-array>
+
+    <string-array name="map_types">
+        <item>सामान्य</item>
+        <item>सैटेलाइट</item>
+    </string-array>
+    <string-array name="search_types">
+        <item>JioHotSpots</item>
+        <item>RetailStores</item>
+        <item>JioCenter</item>
+    </string-array>
+    <string-array name="search_radius">
+        <item>500मी</item>
+        <item>2किमी</item>
+        <item>3किमी</item>
+        <item>4किमी</item>
+        <item>5किमी</item>
+        <item>10किमी</item>
+    </string-array>
+    <string-array name="array_dnd_preferences">
+        <item>बैंकिंग/बीमा/वित्तीय उत्पाद/क्रेडिट कार्ड</item>
+        <item>रियल एस्टेट</item>
+        <item>शिक्षा</item>
+        <item>स्वास्थ्य</item>
+        <item>उपभोक्ता सामान और ऑटोमोबाइल</item>
+        <item>संचार/प्रसारण/मनोरंजन/आईटी</item>
+        <item>पर्यटन और विश्राम</item>
+    </string-array>
+
+
+    <!-- This is given all 3 the array is used to show in Customer facing Services using dummy data -->
+    <string-array name="array_cfs_parent_services">
+        <item>FTTX मानक</item>
+        <item>LTE होम</item>
+    </string-array>
+
+    <string-array name="array_cfs_fttx_lte_dependent_services">
+        <item>IAD</item>
+        <item>Wi-Fi एड-ऑन</item>
+        <item>Mobi TV</item>
+    </string-array>
+
+    <!-- Email Screen -->
+    <string-array name="array_email_category">
+        <item>Mi-Fi</item>
+        <item>ब्रॉडबैंड</item>
+        <item>ध्वनि</item>
+        <item>सामान्य</item>
+    </string-array>
+
+    <string-array name="array_quick_pay_topup">
+        <item>Phone No.</item>
+        <item>Email Id</item>
+        <item>Service Id</item>
+        <item>Account Id</item>
+    </string-array>
+
+    <string-array name="array_recharge_my">
+        <item>Data</item>
+        <item>Voice , Video and Messaging</item>
+        <item>Fiber</item>
+        <item>Digital Services</item>
+
+    </string-array>
+
+    <string-array name="array_with">
+        <item>All Apps</item>
+        <item>Jio Beats</item>
+        <item>Jio Drive</item>
+        <item>Jio Mags</item>
+        <item>Jio News</item>
+        <item>Jio On-Demand</item>
+        <item>Jio Play</item>
+
+    </string-array>
+
+    <string-array name="array_with_fiber">
+        <item>All</item>
+        <item>Rate Cutter</item>
+    </string-array>
+
+    <string-array name="array_my">
+        <item>Phone No</item>
+        <item>Email Id</item>
+    </string-array>
+
+    <string-array name="array_contact_us">
+        <item>Call Us</item>
+        <item>Request To Call</item>
+        <item>Email Us</item>
+    </string-array>
+
+    <!-- Login Module -->
+    <string-array name="forgot_jio_id_cateory" >
+        <item>Customer ID</item>
+        <item>Service ID</item>
+        <item>Mobile Number</item>
+        <item>Order Number</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,1294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">myJio</string>
+
+    <!-- LoginScreen -->
+
+    <string name="display_name">Username :</string>
+    <string name="session_expired">Your session has expired</string>
+    <string name="enter_display_name">Enter a display name</string>
+    <string name="public_identity">Password :</string>
+    <string name="enter_public_identity"> Enter public identity</string>
+    <string name="jio_mselfcare_copywrites">&#169;2015&#8211;2016 Reliance Jio Infocomm Ltd.</string>
+    <string name="jio_mselfcare_rights">All rights reserved.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="Forgot_username_or_password">Forgot username or password?</string>
+    <string name="sign_up_for_mselfcare" translatable="false">   Sign Up for M-Selfcare     </string>
+    <string name="please_enter_correct_username_password">Please enter correct username and password</string>
+    <string name="loading_customer_data">Loading customer data</string>
+    <string name="configuring">Configuring</string>
+    <string name="unable_to_receive_your_detail">Unable to receive your details. Try again later</string>
+    <string name="email_ivalide_format">Email id is invalid</string>
+    <string name="would_you_like_work_offline">Would you like to work offline ?</string>
+    <string name="offline_login">Offline Log In</string>
+
+    <!-- Frist Time Activation -->
+
+    <string name="activate_jio_id">Activate Jio ID</string>
+    <string name="first_time_activation">First Time Activation</string>
+    <string name="please_enter_user_id_and_mob">Please enter username and mobile number</string>
+    <string name="please_enter_user_id">Please enter username</string>
+    <string name="please_enter_mobile_num">Please enter mobile number</string>
+    <string name="mobile_num_ivalide_format">Mobile number is invalid</string>
+    <string name="sending_otp">Sending OTP</string>
+    <string name="request_missing">Request is missing required parameters or parameters are not valid</string>
+    <string name="user_id_mob_num_not_valid">User name or mobile number is not valid</string>
+    <string name="confirm_your_user_name">Confirm your user name. You will receive OTP on registered mobile number or email</string>
+    <string name="reclaim_title">Identifier not owned by user. Please select the appropriate option and click Submit to Reclaim.</string>
+    <string name="mobile_number_hint">+[Country Code][Mobile No.]</string>
+    <string name="reclaim">Reclaim existing mobile no.</string>
+    <string name="reclaim_email">Reclaim existing email id</string>
+    <string name="update_mob">Update mobile no.</string>
+    <string name="use_same_number">I have another Jio ID, use the same number for both Jio IDs</string>
+    <string name="use_same_email">I have another Jio ID, use the same email id for both Jio IDs</string>
+    <string name="update_email">Update email id</string>
+    <string name="verify">verify</string>
+    <string name="activate">activate</string>
+    <string name="mobile">Mobile</string>
+    <string name="reclaim_activation">Your number is reclaimed, please proceed with activation process.</string>
+    <string name="please_enter_valid_otp">Please enter valid OTP</string>
+    <string name="updating">Updating</string>
+    <string name="update_mob_msg">Your number is updated successfully, please proceed with activation process.</string>
+    <string name="update_mob_title">Enter the mobile with country code. This will update as your register number</string>
+    <string name="mobile_num_old_mob_same">You can not set previous mobile number as updated mobile number</string>
+    <string name="slide_send_otp">Slide to send OTP</string>
+
+    <!-- OTP Confirmation -->
+    <string name="please_enter_jio_id" >Please enter and verify Jio Id</string>
+    <string name="please_enter_otp">Please enter OTP</string>
+    <string name="please_enter_otp_and_pass">Please enter OTP and password</string>
+    <string name="verifying">Verifying</string>
+    <string name="invalid_otp">OTP is invalid</string>
+    <string name="activate_successfully">Activated successfully</string>
+    <string name="password_changed_successfully">Password changed successfully</string>
+    <string name="opt_resend_sent_to_your_mob">One Time Password(OTP) has been sent to your registered mobile number. Click on resend button, if not received</string>
+    <string name="opt_resend_sent_to_your_email">One Time Password(OTP) has been sent to your registered email. Click on resend button, if not received</string>
+    <string name="otp">OTP</string>
+    <string name="skip" >Skip</string>
+    <string name="username_invalid">That is an Invalid Username. The length must be 8 to 32 characters.</string>
+    <string name="already_has_this_user_name">Someone already has this username. Please provide another name</string>
+    <string name="username_invalid_remove_special_character">That is an Invalid Username. Please remove special characters. Length must be 8 to 32 characters.</string>
+    <string name="account_activated_change_username">Account activated successfully, you can change username</string>
+
+    <!-- Dashboard -->
+
+    <string name="value_dashboard_header">Data</string>
+    <string name="value_current_Services">Current Services</string>
+    <string name="value_available_for_activation_services">Available for activation</string>
+    <string name="phone">Phone Number</string>
+    <string name="price">Price : </string>
+    <string name="services">Add-ons</string>
+    <string name="forgot_password_">Forgot Password?</string>
+    <string name="submit">SUBMIT</string>
+    <string name="quick_pay">Quick Pay</string>
+    <string name="new_order">New Order</string>
+    <string name="server_error">Server is not responding</string>
+    <string name="logout_msg">Do you want to log out now?</string>
+    <string name="logging_out">Logging Out</string>
+
+    <!-- Turbo Boost -->
+    <string name="value_turbo_boost_header">Current Network</string>
+    <string name="value_turbo_boost_plans">Boost Your Network</string>
+    <string name="account">Account :</string>
+    <string name="id" >Service ID</string>
+    <string name="amount">Amount</string>
+    <string name="account_recharge">Account Recharge</string>
+    <string name="pay">Pay</string>
+    <string name="refresh">REFRESH</string>
+    <string name="product_sync_btn">Product Sync</string>
+    <string name="history">Check History</string>
+    <string name="net_banking">Net Banking</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="buy">Buy</string>
+    <string name="rs" translatable="false">\u20B9</string>
+    <string name="rsbracket" translatable="false">(\u20B9)</string>
+
+    <string name="rso" translatable="false">\u20B9 0</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email Id </string>
+    <string name="billing_address">Billing Address</string>
+    <string name="anniversary_date">Anniversary Date</string>
+    <string name="date_of_birth">Birth Date</string>
+    <string name="gender">Gender</string>
+    <string name="nationality">Nationality</string>
+    <string name="mode_of_communication">Preferred Mode of Communication</string>
+    <string name="mode_of_payment">Preferred Mode of Payment</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="family_contact_detail">Family Contact Details</string>
+    <string name="text_gift">Gift</string>
+    <!-- <string name="text_inbox">Inbox</string> -->
+    <string name="text_product">Product</string>
+    <string name="text_help">Help</string>
+    <string name="select_ringtone">Select Ringtone</string>
+    <!-- Used for navigation drawer -->
+
+    <string name="uses_summary">Usage</string>
+    <string name="payment">Payment</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="product_specifications">Product Specifications</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="stay_signed_in">Stay signed in</string>
+    <string name="user_id">Username</string>
+    <string name="unable_to_logout">Unable to log out. Retry later</string>
+    <string name="logout_successfully">Log out successfully</string>
+    <string name="username_email_mobile_num">Username/Email/+[Country Code][Mobile No.]</string>
+    <string name="mandatory">mandatory</string>
+
+    <!-- Forgot Password -->
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="otp_has_been_sent_on_mob">OTP has been sent to your registered mobile number</string>
+    <string name="unable_to_send_otp">Unable to send OTP. Retry later</string>
+    <string name="please_enter_user_name_and_pass">Please enter username and password</string>
+    <string name="please_enter_user_name">Please enter username</string>
+    <string name="user_name_invalid">Username is invalid</string>
+    <string name="verifying_user_name">Verifying user</string>
+
+    <!-- Change Password -->
+    <string name="changing_password_progress">Changing password</string>
+    <string name="please_enter_old_and_new_password">Please enter old and new password</string>
+    <string name="unable_to_update_pass">Unable to update password. Retry later</string>
+    <string name="please_enter_correct_password">Please enter correct old password</string>
+    <string name="new_password_n_confirm_pass_must_same">New password and confirm password must be same</string>
+    <string name="old_n_new_pass_can_not_same">Old and new password can not be same</string>
+    <string name="pass_case_sensitive">Password should be of minimum 8 characters and maximum of 30 characters and should be combination of at least 1 alphabetic and numeric character.</string>
+
+    <!-- DataSummary -->
+    <string name="tv_empty_list">No plans for this service</string>
+    <string name="txt_data">Data</string>
+    <string name="txt_voice">Voice</string>
+    <string name="txt_unit">Unit</string>
+    <string name="chat">Live Chat</string>
+    <string name="mail">Mail</string>
+    <string name="call">Call</string>
+    <string name="video_chat">Video Chat</string>
+
+    <!-- Forgot Password -->
+
+    <string name="tv_no_customer">No registered customer</string>
+    <string name="welcome_login">Welcome to myJio</string>
+    <string name="login_text">Login</string>
+    <string name="service_name">Service Name</string>
+    <string name="service_id">Service ID</string>
+    <string name="account_id">Account ID</string>
+
+    <!-- Plan Specification Fragment -->
+
+    <string name="plan_check_availability">Availability</string>
+    <string name="transfer">Transfer</string>
+    <string name="password_change_text">Change your password credentials</string>
+    <string name="forgot_password_text">Retrieve your password credential</string>
+
+    <!-- Recipient Fragment -->
+    <string name="title_dialog_register">Select account to register service</string>
+    <string name="button_select">Get Services</string>
+
+    <!-- Digital Services -->
+    <string name="tv_empty_service">No services available</string>
+    <string name="no_data">No data</string>
+    <string name="digital_title">Subscription plans</string>
+
+    <!-- Screen Name -->
+    <string name="myjio" translatable="false">myJio</string>
+    <string name="cug">CUG</string>
+    <string name="group">Group</string>
+    <string name="groups">Groups</string>
+    <string name="profile">Profile</string>
+    <string name="productdetails">Product Details</string>
+    <string name="plandetails">Plan Details</string>
+    <string name="trouble_ticket_main">Help Ticket</string>
+    <string name="raise_new">Raise New</string>
+    <string name="my_req">My Request</string>
+    <string name="create_customer_problem">Creating customer problems</string>
+    <string name="create_trouble_success">Trouble ticket successfully created. Your trouble ticket id is:</string>
+    <string name="error_trouble_ticket">Error creating trouble ticket.</string>
+    <string name="fetching_customer_request">Fetching customer requests.</string>
+
+    <string name="hotspot_locator">Hotspot locator</string>
+    <string name="hot_spot">Hot Spot</string>
+    <string name="digital_service">Digital Services</string>
+    <string name="digital_service_plans">Digital Service Plans</string>
+    <string name="data_summary">Data Summary</string>
+    <string name="credit_transfer">Credit Transfer</string>
+    <string name="add_recipient">Add Payee</string>
+    <string name="recipient_list">Payee</string>
+    <string name="product_title">Products</string>
+    <string name="myorders">My Orders</string>
+    <string name="myservices">My Services</string>
+    <string name="customer_facing_services_features">Services Features</string>
+    <string name="customer_facing_services_list">Services</string>
+    <string name="transaction_history">Recharge &#38; Topup History</string>
+    <string name="about_us">About Us</string>
+    <string name="faq">FAQs</string>
+    <string name="gift">Gift</string>
+    <string name="help">Help</string>
+    <string name="inbox">Inbox</string>
+    <string name="offer">Offer</string>
+    <string name="settings">Settings</string>
+    <string name="dnd">DND Preferences</string>
+    <string name="turbo_boost">Turbo Boost</string>
+    <string name="themes">Themes</string>
+    <string name="hotspot">Locator</string>
+    <string name="_hotspot">HotSpot</string>
+    <string name="excellent">\u0020Excellent</string>
+    <string name="satisfactory">\u0020Satisfactory</string>
+    <string name="good">\u0020Good</string>
+    <string name="ott_products">OTT Products</string>
+    <string name="ott_plans">OTT Plans</string>
+    <string name="email">Email</string>
+    <string name="email_us">Email Us</string>
+
+    <!-- Loding messages -->
+    <string name="text_transaction_history">Payment History</string>
+    <string name="text_refill_now">Refill Now</string>
+    <string name="connecting">Connecting</string>
+    <string name="connection_error">Please check for your data connection and try later.</string>
+    <string name="failed">Failed</string>
+    <string name="failed_recharge_history">Failed to load last five recharges.</string>
+    <string name="recharge_history_unavailable">Recharge history not available.</string>
+    <string name="loading_services">Loading services</string>
+    <string name="account_not_activated">You have not activated any service yet.</string>
+    <string name="failed_to_tech_services">Failed to fetch accounts services.</string>
+    <string name="loading_account_balance">Loading account balance</string>
+
+    <!-- Common -->
+    <string name="warning">Warning</string>
+    <string name="exit">Exit</string>
+    <string name="ok">OK</string>
+    <string name="fetching_contacts">Fetching Contacts</string>
+    <string name="content_description">content Description</string>
+    <string name="jio">jio</string>
+    <string name="confirm">Confirm</string>
+    <string name="upgrade_auth_y">Y</string>
+    <string name="upgrade_auth_n">N</string>
+    <string name="internet_not_available">Internet connection is not available</string>
+    <string name="please_enter_password">Please enter Password</string>
+    <string name="please_enter_old_password">Please enter Old Password</string>
+    <string name="please_enter_valid_old_password">Old Password is Invalid</string>
+    <string name="please_enter_new_password">Please enter New Password</string>
+    <string name="please_enter_valid_password_alphanumeric_special_char">Password should be combination of at least 1 numeric and alpha character</string>
+    <string name="password_invalide_format">Password must be at least 8 characters long</string>
+    <string name="user_name_password_invalid">User Name or Password is Invalid</string>
+    <string name="new_password_invalide_format">New Password must be at least 8 characters long</string>
+    <string name="please_enter_confirm_pass">Please enter confirm password</string>
+    <string name="password_n_confirm_pass_must_same">Password and confirm password must be same</string>
+    <string name="error">Error</string>
+    <string name="authenticating">Authenticating</string>
+    <string name="unable_to_connect_server">Unable to connect to server. Retry later</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="account_already_active">This account is already active</string>
+    <string name="account_unactive">This JIO ID doesn\'t seem to be active. Please activate your account</string>
+
+    <!-- CUG and FNF module -->
+    <string name="no_groups_n_contacts_ava">No groups and contacts available in your device</string>
+    <string name="no_match_contacts">No matching contacts found</string>
+    <string name="can_not_drop">You can\'t drop the item here</string>
+    <string name="no_contacts_ava">No contacts available</string>
+    <string name="creating_group">Creating group</string>
+    <string name="created_successfully">Created successfully</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="group_description">Create a group for Closed User Group(CUG) and Family and Friends(FNF).</string>
+    <string name="add_member">Add Member</string>
+    <string name="search_here">Search</string>
+    <string name="fnf">FNF</string>
+    <string name="type_topup">TOP-UP</string>
+    <string name="type_recharge">CONNECTIVITY RECHARGE</string>
+    <string name="type_startup" translatable="false">CONNECTIVITY STARTUP</string>
+    <string name="type_baseplan" translatable="false"> CONNECTIVITY BASEPLAN</string>
+    <string name="type_content_ott_recharge" translatable="false">CONTENT/OTT RECHARGE</string>
+    <string name="type_content_ott_startup" translatable="false">CONTENT/OTT STARTUP</string>
+    <string name="type_content_ott_baseplan" translatable="false">CONTENT/OTT BASEPLAN</string>
+
+    <string name="type_combo">CONNECTIVITY + CONTENT/OTT RECHARGE</string>
+    <string name="type_connectivity_postpaid" translatable="false">CONNECTIVITY POSTPAID</string>
+    <string name="type_connectivity_addon" translatable="false">CONNECTIVITY ADDON</string>
+    <string name="type_connectivity_content" translatable="false">CONNECTIVITY+CONTENT/OTT POSTPAID</string>
+    <string name="type_ott_addon" translatable="false">CONNECTIVITY+CONTENT/OTT ADDON</string>
+    <string name="type_flexy_topup" translatable="false">FLEXI TOP-UP</string>
+    <string name="type_vas" translatable="false">VAS</string>
+    <string name="type_content_ott_addon" translatable="false">CONTENT/OTT ADDON</string>
+    <string name="type_vas_base_plan" translatable="false">VAS BASE PLAN</string>
+    <string name="type_regulatory" translatable="false">REGULATORY</string>
+
+
+    <string name="no_group_available">No Group Available</string>
+    <string name="loading_groups">Loading Groups</string>
+    <string name="removing_group" >Removing Group</string>
+
+    <!-- Add or Edit Group Dialog -->
+
+    <string name="create_cug" translatable="false">Create CUG</string>
+    <string name="create_fnf" translatable="false">Create F&amp;F</string>
+    <string name="create_group">Create Group</string>
+    <string name="join_cug_group" >Join CUG Group</string>
+    <string name="loading_contacts">Loading contacts</string>
+    <string name="add_group">Add Group</string>
+    <string name="update_group">Update group</string>
+    <string name="already_exist_group">This group name is already exist</string>
+    <string name="enter_group_name">Please enter the group name</string>
+    <string name="sure_delete">Are you sure to delete</string>
+    <string name="group_icon">Group Icon</string>
+    <string name="group_name">Group Name</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="plan">Plan</string>
+    <string name="select_plan">Select plan</string>
+    <string name="max_allowed_member">Max allowed member</string>
+    <string name="selected_member">Selected Member</string>
+    <string name="please_select_plan">Please select the plan</string>
+    <string name="auto_renew">Auto renew</string>
+    <string name="group_type">Group type</string>
+    <!-- Group Detail Dialog -->
+    <string name="group_detail">Group Detail</string>
+    <string name="exit_app_message">Please press BACK again to exit</string>
+    <string name="remove_group">Remove group</string>
+    <string name="remove_group_msg">Are you sure you want to remove this group?</string>
+    <string name="remove_member_msg">Are you sure you want to remove this member?</string>
+    <string name="max_allowed_members_exceed">Maximum allowed members exceed</string>
+
+    <!-- Strings for OrderDetails screen -->
+    <string name="order_ref_number">
+<![CDATA[
+			Order Ref. Number: <b>%1$s</b><br>Offer Name: <b>%2$s</b><br>
+		]]>
+    </string>
+    <string name="order_info">
+<![CDATA[
+			Product Name: <b>%1$s</b><br>
+			Product Id: %2$s<br>
+			Estimated Completion time: %3$s<br>
+			Installation date: %3$s<br>
+			Calling party number: %4$s
+		]]>
+    </string>
+    <string name="billing_address_str">
+<![CDATA[
+			Address Id: <b>%1$s</b><br>Building Id: <b>%2$s</b><br>Address Type: <b>%3$s</b><br>
+			Care Of: <b>%4$s</b><br>House No/Flat No/Name: <b>%5$s</b><br>Building No/Name: <b>%6$s</b><br>
+			Society Name: <b>%7$s</b><br>Street No/Name: <b>%8$s</b><br>Landmark: <b>%9$s</b><br>Sub Locality: <b>%10$s</b><br>
+			Area/Tehsil: <b>%11$s</b><br>Pincode: <b>%12$s</b><br>Village/City: <b>%13$s</b><br>District: <b>%14$s</b><br>
+			State: <b>%15$s</b><br>Country: <b>%16$s</b><br>Total floors: <b>%17$s</b><br>Jio Centre Id: <b>%18$s</b><br>
+		]]>
+    </string>
+    <string name="local_ref_details">
+<![CDATA[
+			Name: <b>%1$s</b><br><br>%2$s<br><br>
+			Contact Number: <b>%3$s</b><br>Email: <b>%4$s</b>
+		]]>
+    </string>
+    <string name="order_delivery_address">
+<![CDATA[
+        	Address Id: %1$s<br>Building Id: %2$s<br>
+			C/O %3$s, House No/Flat No/Name: %4$s, Building No/Name: %5$s,
+			Society Name: %6$s, Street No/Name: %7$s, Landmark: %8$s, Sub Locality: %9$s,
+			Area/Tehsil: %10$s, Pincode: %11$s, Village/City: %12$s, District: %13$s,
+			State: %14$s, Country: %15$s, Total floors: %16$s, Jio Centre Id: %17$s
+        ]]>
+    </string>
+    <string name="failed_to_load_plan">Failed to load available plans</string>
+    <string name="fetching_customer_orders">Fetching customer orders</string>
+
+    <!-- About Us -->
+
+    <string name="my_jio_about_us">As part of planning the 4G initiative to be launched on Broadband Wireless Access (BWA) Spectrum in all 22 circles of India, RIL considers the broadband opportunity as a new frontier of knowledge economy in which it can take a leadership position and provide world-class 4G network and services. 
+Reliance Jio Infocomm Limited, a communication based subsidiary of Reliance Industries Limited (RIL), plans to roll out 4G broadband services in India. Moving from Tier 1 cities (Mumbai and Delhi) to lower tiered ones, LTE, WiFi, and FTTx technology will be launched across India. The Program named R4G, focus to provide digital services on LTE and not on just providing bandwidth.</string>
+    <string name="my_jio_mission">The Reliance Group, founded by Dhirubhai H. Ambani (1932-2002), is Indias largest private sector enterprise, with businesses in the energy and materials value chain. Groups annual revenues are in excess of US$ 66 billion. The flagship company, Reliance Industries Limited,
+        is a Fortune Global 500 company and is the largest private sector company in India.</string>
+    <string name="my_jio_vision">The Reliance Group, founded by Dhirubhai H. Ambani (1932-2002), is Indias largest private sector enterprise, with businesses in the energy and materials value chain. Groups annual revenues are in excess of US$ 66 billion. The flagship company, Reliance Industries Limited,
+        is a Fortune Global 500 company and is the largest private sector company in India.</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="auto_renewable">Auto Renewable:</string>
+    <string name="digital_services">Digital Services</string>
+    <string name="recharge_detail">Payment Detail</string>
+    <string name="recharge_detail_">Recharge Detail</string>
+    <string name="loading_recharge_detail">Loading Details</string>
+
+    <!-- MyServices -->
+
+    <string name="tap_for_info">tap for info</string>
+    <string name="removeFeatures">Remove Feature</string>
+
+    <!-- Available Plans -->
+    <string name="available_plans">Available Plans</string>
+    <string name="add">Add</string>
+
+    <!-- Group Available Plans -->
+    <string name="group_available_plans">Group Available Plans</string>
+    <string name="success">Success</string>
+    <string name="service_recharge">Service has been recharged successfully</string>
+    <string name="failed_to_recharged">Failed to recharge service</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="amount_or_voucher_code">Amount or voucher code</string>
+    <string name="topup">Topup</string>
+    <string name="processing">Please wait processing</string>
+    <string name="loading_recharge_history">Loading payment history</string>
+    <string name="loading_available_plans">Loading available plans</string>
+    <string name="plan_details">Plan Details</string>
+    <string name="digital_plan_details">Digital Plan Details</string>
+    <string name="choose_plan">Choose a Plan</string>
+
+    <!-- RadioGroup digital services -->
+    <string name="start_up">Start Up</string>
+    <string name="recharge">Recharge Plans</string>
+    <string name="base_plan">Base Plan</string>
+
+    <!-- Credit Transfer -->
+    <string name="tv_transfer_setting">Transfer Setting</string>
+    <string name="tv_search">Search</string>
+    <string name="tv_contact">Contacts</string>
+    <string name="edt_recipient_hint">Recipient\&apos;s Mobile No. </string>
+    <string name="btn_select_contact">Select Contact: </string>
+    <string name="text_credit_dialog">Rotate the device to transfer data </string>
+    <string name="text_donot_show">Don\'t show again?</string>
+    <string name="btn_deactivate_service"> Deactivate Service</string>
+    <string name="tv_set_rate">Set Rate</string>
+    <string name="tv_rate">Rate :</string>
+    <string name="tv_more_details">More Details</string>
+    <string name="tv_check_balance">Check Balance</string>
+    <string name="do_you_want_to_continue">Do you want to continue?</string>
+    <string name="recharge_successfull">"Recharge successful with transaction number "</string>
+    <string name="recharge_failed_">Recharge failed.</string>
+    <string name="buy_plan">Buy Plan</string>
+    <string name="rename_your_account">Set service alias</string>
+    <string name="tv_transfer">Credit Transfer</string>
+    <string name="tv_set_alert">Set Alert</string>
+    <string name="tv_non_monetary">Transfer</string>
+    <string name="tv_bills">Bills</string>
+    <string name="select_account">Select account</string>
+    <string name="select_service">Select service</string>
+    <string name="enter_account_name">Enter service name(Max character 20)</string>
+    <string name="enter_account_id" translatable="false">Enter Account Id</string>
+    <string name="error_toast_message">Unable to process your request!</string>
+    <string name="no_internet_message">Internet connection is not available</string>
+    <string name="tv_loading">Loading</string>
+    <string name="set_app_priority">Set App Priority</string>
+    <string name="failed_recharge_detail">Failed to fetch recharge details</string>
+
+    <!-- Payment Gateway -->
+    <string name="usage">Usage</string>
+    <string name="wrong_number">Please check the number again!</string>
+    <string name="account_not_available">No account available for this customer</string>
+    <string name="loading_balance">"Please wait loading balance"</string>
+    <string name="digital_service_details">Digital Service Details</string>
+    <string name="store_loacator">Store Locator</string>
+    <string name="products">Products</string>
+    <string name="exit_msg">Do you want to Exit?</string>
+    <string name="loading">Loading</string>
+    <string name="refill_now">Refill Now</string>
+    <string name="do_you_want_to_cancel_this_transaction">Do you want to cancel this transaction?</string>
+    <string name="recharge_amount_invalid">Recharge amount is invalid</string>
+    <string name="amount_invalid">Payment amount is invalid </string>
+    <string name="payment_canceled">Payment canceled</string>
+    <string name="payment_failed">Payment failed</string>
+    <string name="payment_successfully">Payment done successfully</string>
+    <string name="save_pdf">Save PDF</string>
+    <string name="product_unavailable">
+<![CDATA[
+	    	The product <b>%1$s</b> is not available in your locality. Please share your interests.
+		]]>
+    </string>
+    <string name="product_unavailable_interest_taken">
+<![CDATA[
+	    	The product <b>%1$s</b> is not available in your locality. We have already taken your interest, your request id is <b>%2$s</b>.
+		]]>
+    </string>
+    <string name="product_available">
+<![CDATA[
+	    	The product <b>%1$s</b> is available in your locality. To know more about the product, request for callback.
+		]]>
+    </string>
+    <string name="failed_to_load_service_info">Failed to load service info</string>
+    <string name="loading_service_info">Loading service info</string>
+    <string name="service_info">Service Info</string>
+    <string name="installation_address">Installation Address</string>
+    <string name="activated_plans">Activated Services</string>
+    <string name="dnd_preferences">DND Preferences</string>
+    <string name="device_info">Device Info</string>
+    <string name="product_available_request_callback">
+<![CDATA[
+	    	You have already requested for a callback for the product <b>%1$s</b>. Your request id is <b>%2$s</b>
+		]]>
+    </string>
+
+    <!-- DND PREFERENCES -->
+    <string name="dnd_preference_title">DND Preference</string>
+
+    <!-- Set Alert -->
+    <string name="set_alert">Set Alert</string>
+    <string name="txt_set_alert_desc">Set alerts for the accounts amount limit</string>
+    <string name="updating_data">Updating Data</string>
+    <string name="unable_to_update">Unable to update. Retry later</string>
+    <string name="updated_successfully">Updated Successfully</string>
+    <string name="txt_account">Account</string>
+    <string name="no_account_available">No Account Available</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="monetary_threshold">Monetary Threshold</string>
+    <string name="nonmonetary_threshold">Nonmonetary Threshold</string>
+    <string name="failed_to_load_recharges">Failed to load recharges</string>
+    <string name="failed_to_load_topups_">Failed to load topups</string>
+    <string name="failed_to_load_plans">Plans not available</string>
+    <string name="validity_">Validity:</string>
+    <string name="enter_amount_to_recharge">Enter amount</string>
+    <string name="tv_select_service">Select service to register payee</string>
+    <string name="success_register_donor">Donor Registered successfully</string>
+    <string name="tv_name">Name </string>
+    <string name="tv_service">Service ID </string>
+    <string name="tv_plan">Plan ID </string>
+    <string name="tv_service_status">Service Status </string>
+    <string name="tv_text_activation">Activation Date </string>
+    <string name="tv_text_requested">Requested Date </string>
+    <string name="tv_text_auto">Auto Renew </string>
+    <string name="tv_text_bearer">Bearer Type :</string>
+    <string name="tv_text_renewable">Renewable Date </string>
+    <string name="tv_text_renewable_price">Renewable Price </string>
+    <string name="tv_text_charged">Amount Charged :</string>
+
+    <!-- Product Specification -->
+
+    <string name="service_availability_areas">Service Availability Areas</string>
+    <string name="loading_states">Loading States</string>
+    <string name="balance_not_available">N/A</string>
+    <string name="your_prepaid_ac_balance_is">"Prepaid A/C balance is "</string>
+    <string name="your_postpaid_ac_balance_is">"Postpaid"</string>
+    <string name="loading_transactions">Loading transactions</string>
+    <string name="pay_for_service">Pay For Service</string>
+    <string name="failed_to_recharge_service">Failed to recharge service</string>
+    <string name="service_recharge_success">Service has been recharge successfully</string>
+    <string name="please_enter_an_amount">Please enter an amount</string>
+    <string name="not_available">N/A</string>
+    <string name="units">Units</string>
+    <string name="minutes">Minutes</string>
+    <string name="mb">MB</string>
+    <string name="product_id_">Product ID-</string>
+    <string name="device_type_">Device Type-</string>
+    <string name="device_model_">Device Model-</string>
+    <string name="vendor_">Vendor-</string>
+    <string name="warranty_date_">Warranty Date-</string>
+    <string name="activation_date_">Activation Date:</string>
+    <string name="activation_preference_">"Activation Preference: "</string>
+    <string name="expire_on_">"Expires on: "</string>
+    <string name="account_name_can_t_be_empty_">Service name can\'t be empty</string>
+    <string name="account_rename_success">Service has been renamed successfully</string>
+    <string name="sending_information_to_payment">Sending Information to payment</string>
+    <string name="server_is_not_responding">Server is not responding</string>
+    <string name="data_is_not_retrieved">Data is not retrieved</string>
+    <string name="top_up_details">Top Up Details</string>
+    <string name="top_up_reference_no_">"Top Up Reference No. "</string>
+    <string name="price_">Price: </string>
+    <string name="plan_type_connectivity_recharge">CONNECTIVITY RECHARGE</string>
+    <string name="loading_topups">Loading topups</string>
+    <string name="loading_recharges">Loading recharges</string>
+    <string name="loading_combo_plans">Loading combo plans</string>
+    <string name="ref_no_">"Ref No: "</string>
+    <string name="detail_">"Detail: "</string>
+    <string name="_minutes">" Minutes"</string>
+    <string name="my_services">My Services</string>
+    <string name="plan_type">Plan Type: </string>
+
+    <!-- Product Specification -->
+
+    <string name="edt_transfer_hint">Transfer To</string>
+    <string name="trouble_ticket_not_found">No trouble tickets found</string>
+    <string name="enter_pincode">Enter pincode</string>
+
+    <!-- Transform -->
+
+    <string name="your_account_balance">"Your A/C balance is "</string>
+    <string name="reset">Reset</string>
+    <string name="plans">Plans</string>
+    <string name="more_detail">Info</string>
+    <string name="info">Info</string>
+    <string name="check_balance">Balance</string>
+    <string name="credit_transform">Transform</string>
+    <string name="data_not_availble_">Data not available</string>
+    <string name="select_plan_transfer">Select a Plan to Transfer</string>
+    <string name="select_plan_transform">Select a Plan to Transform</string>
+    <string name="transfer_from">Transfer From</string>
+    <string name="transfer_rate">Transfer Rate</string>
+    <string name="tv_register_new_recipient">Contact</string>
+    <string name="transation_history">Payment History</string>
+    <string name="tv_transfer_balance_type">Transfer Type</string>
+    <string name="text_transform">Transform to</string>
+    <string name="tv_loading_digital">Loading Digital Service</string>
+    <string name="done">Done</string>
+    <string name="select">Select</string>
+    <string name="title_ott_dialog">OTT</string>
+    <string name="payee">Transfer to payee</string>
+    <string name="new_payee">Register new</string>
+    <string name="search_by_refrence_no_">Search by reference no.</string>
+    <string name="search_by_refrence_no_or_title">Search by title or reference no.</string>
+    <string name="search_by_ticket_no_or_title">Search by title or ticket no.</string>
+    <string name="by_status">By Status</string>
+    <string name="by_date">By Date</string>
+    <string name="search_check_avial">Check Availability &amp; Delivery Option</string>
+    <string name="all">All</string>
+    <string name="approval_awaited">Approval awaited</string>
+    <string name="approved_await_activation">Approved/Await Activation</string>
+    <string name="validation_failed">Validation failed</string>
+    <string name="caf_rejected">CAF Rejected</string>
+    <string name="completed">Completed</string>
+    <string name="tele_verification_failed">Tele-Verification Failed</string>
+    <string name="caf_not_required">CAF not required</string>
+    <string name="offer_cancellation">Offer Cancellation</string>
+    <string name="welcome_call_success" translatable="false">Welcome Call Success</string>
+    <string name="change_in_progress">Change in progress</string>
+    <string name="caf_rework">CAF Re-Work</string>
+    <string name="inflight_cancel">Inflight Cancel</string>
+    <string name="order_cancellation">Order Cancellation</string>
+    <string name="help_ticket_details">Help Ticket Details</string>
+    <string name="or">OR</string>
+    <string name="google_api_key" translatable="false">AIzaSyCcnmK3fr6BFH3BZW1a95moSSZ-teP9RE0</string>
+    <string name="google_api_key2" translatable="false">AIzaSyCcnmK3fr6BFH3BZW1a95moSSZ-teP9RE0</string>
+    <string name="google_api_key3" translatable="false">AIzaSyAdVIoF_mSCtIizD_BSD9SCSFjuW098GPo</string>
+    <string name="search_by_location">Search by location.</string>
+    <string name="jio_store">Jio Store</string>
+    <string name="jio_hot_spot">Jio Hotspot</string>
+    <string name="jio_center">Jio Center</string>
+    <!-- Dialog Fragment -->
+    <string name="title">title</string>
+    <string name="title_">Title</string>
+    <string name="msg">message</string>
+    <string name="positive_txt" translatable="false">positive_text</string>
+    <string name="negative_txt">negative_text</string>
+    <string name="order_details">Order Details</string>
+    <string name="title_dialog_register_service">Enter Service ID to register</string>
+    <string name="title_dialog_register_service_alias">Enter Alias name to register payee</string>
+    <string name="select_sub_type">Select Sub Type</string>
+    <string name="local_reference_details">Permanent Address</string>
+    <string name="update_order">Update Order</string>
+    <string name="offer_name">Offer Name:</string>
+    <string name="product_name_">Product Name:\u0020</string>
+    <string name="products_name">Product Name</string>
+    <string name="product_id">Product ID</string>
+    <string name="estimated_completion_time">Estimated Completion Time:</string>
+    <string name="installation_date">Installation Date:</string>
+    <string name="calling_party_number">Calling Party Number:</string>
+    <string name="order_ref_no">Order Ref No:</string>
+    <string name="service_name_header">Service Name Header</string>
+    <string name="my_orders">My Order</string>
+    <string name="services_help">Services</string>
+    <string name="accounts_id">Account Id:\u0020</string>
+    <string name="customers_id">Customer Id:\u0020</string>
+    <string name="status">Status:\u0020</string>
+    <string name="descriptions">Description:\u0020</string>
+    <string name="raise_date">Raise Date:</string>
+    <string name="services_id">Service Id:\u0020</string>
+    <string name="services_type">Service Type:\u0020</string>
+    <string name="resolution_date">Resolution Date:\u0020</string>
+    <string name="estimated_resolution_time">Estimated Resolution Time:\u0020</string>
+    <string name="category">Category:\u0020</string>
+    <string name="category_id">Category ID:\u0020</string>
+    <string name="help_title">Title:\u0020</string>
+
+    <!-- Edit address string -->
+    <string name="jio_center_id">JIO Center ID</string>
+    <string name="number_of_floors">Number of Floors</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="landmark">Landmark</string>
+    <string name="street">Street</string>
+    <string name="sub_locality">Sub Locality</string>
+    <string name="area_locality">Area/Locality</string>
+    <string name="village_city">Village/City</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="society_name">Society Name</string>
+    <string name="building_number_name">Building Name/Number</string>
+    <string name="house_flat_number_name">House/Flat Number/Name</string>
+    <string name="care_of">Care Of</string>
+    <string name="building_id">Building Id</string>
+    <string name="last_name">Last Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="first_name">First Name</string>
+    <string name="addon_service_id">Service ID:</string>
+    <string name="str_feature_name_addon">Feature Name</string>
+    <string name="create_fliter">Create Filter</string>
+    <string name="from_date">From date</string>
+    <string name="to_date">To Date</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <!-- Product Detail Fragment Screen -->
+    <string name="buy_now">BUY NOW</string>
+    <string name="check">Check</string>
+    <string name="optionals_plan">Optional Plans</string>
+    <string name="details">Details</string>
+    <string name="technical_details"> Technical Details</string>
+    <string name="store_pickup">STORE PICKUP</string>
+    <string name="change">Change</string>
+    <string name="order_summary">ORDER SUMMARY</string>
+    <string name="product_">Product:</string>
+    <string name="items">ITEMS</string>
+    <string name="plan_">Plan:</string>
+    <string name="qty">QTY.</string>
+    <string name="cost">COST</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="apply">APPLY</string>
+    <string name="place_order">PLACE ORDER</string>
+    <string name="del_address">DELIVERY ADDRESS</string>
+
+    <string name="apply_voucher">apply voucher</string>
+    <string name="nearest_stores">Nearest Stores</string>
+    <string name="checking_avail">Checking Availability..</string>
+    <string name="fetching_summary">Fetching Summary..</string>
+    <string name="product_sync">Product Syncing..</string>
+    <!-- Product Descriptions -->
+    <string name="desc_mifi">Description : \n
+Jio MiFi is your very own pocket sized personal, mobile Wi-Fi hotspot router with the power to connect up to 5/ 10 Wi-Fi gadgets at the same time. With the feature of password protected connection it gives you the choice to share your secured high speed connection with close friends and family with peace of mind.
+\n
+Key Features : \n
+
+1 . Super-fast Speed across Multiple devices and users \n
+2 . Access to high quality and diverse Content \n
+3 . Device Design \n
+4 . Convenient on-boarding and set-up \n
+5 . Easy account management using a single Jio Id across channels- Mobile App and Web</string>
+    <string name="desc_wifi">Description : \n
+Enjoy high speed internet on the go. Connect to Jio WiFi across public locations at Jio Hotspots in your city. Experience Ultra High Speed with an unmatched ecosystem of Jio services.
+\n
+Key Features : \n
+
+1 . Access Jionet Anywhere  \n
+2 . High-speed internet access on your WiFi enabled devices \n
+3 . Registration on Jio WiFi \n
+4 . Superior web experience</string>
+    <string name="desc_lte">Description : Coming soon&#8230;</string>
+    <string name="desc_volte">Description : \n
+Crackling voice calls, low signals, slow speeds are now history. Say hello to 4G LTE. A technology that helps you work smarter and play harder, bringing a plethora of communication possibilities at your fingertips. You will be able to enjoy natural-sounding High-Definition (HD) Voice and a Video Calling experience thats as simple as making a traditional voice call.
+
+With your 4G VoLTE phone, you are now powered to experience a next-gen network and live better. Packed with high-end services and apps enabled by Jio, you will now be able to reimagine life and make every connectivity dream come true. Get unlimited Jio to Jio Voice and Video calling with VoLTE Base Offer. Also, you get free access to 50 sports channel on Jio Play as part of this offer.
+
+Get started. Upgrade to a new way of life! \n
+
+Key Features: \n
+
+1 . Superior calling experience with HD Voice and Video calls \n
+2 . Faster call connection time \n
+3 . Switching between Voice and Video calls \n
+4 . Free acces to 50 Jio Play Sports channels as part of the offer \n
+5 . Real time balance and account information \n
+6 . Enhanced communication \n
+7 . Easy account management using a single Jio Id across channels- Mobile App and Web \n
+8 . Convenient on-boarding and set-up </string>
+    <string name="desc_ftth"> Description : \n
+Jio Fiber Ultra Fast Broadband - High Speed Internet delivered over Fiber to your home.
+\n
+Key Features : \n
+
+1 . Download Speeds up to 100 Mbps \n
+2 . Future ready - Supports High speed, latency sensitive applications \n
+3 . High speed performance powered by a fiber broadband connection</string>
+    <string name="str_add_ons">Add-Ons</string>
+    <string name="str_dnd_message">Promotional calls and messages to your Jio ID\'s and registered number should stop within 7 days from registration. You will receive a Unique Reference Number through SMS, for your records. If you have registered and recently updated your preferences, please give us 7 days to implement the changes.</string>
+    <string name="str_dnd_alert_message">Add-Ons</string>
+    <string name="dnd_update_nmsg">Do you wish to receive special messages and alerts from the following sectors?</string>
+    <string name="loading_dnd_preferences">Loading DND preferences</string>
+    <string name="str_service_feature_not_available">Feature not available.</string>
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="downloads">Downloads</string>
+
+    <!-- Settings screen -->
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="your_app_will_restart">If you want to change the language. \nYour application will restart.</string>
+    <string name="apply_filters">Apply Filters</string>
+    <string name="no_local_reference_found">No local reference details found.</string>
+    <string name="order_updation_failed_">Order updation failed.</string>
+    <string name="order_updated_successfully_">Order updated successfully.</string>
+    <string name="updating_customer_order">Updating customer order</string>
+    <string name="no_billing_add_found">No billing address found.</string>
+    <string name="loading_order_details">Loading order details</string>
+    <string name="couldn_t_fetch_order_details">Couldn\'t fetch order details.</string>
+    <string name="loading_service_features">Loading Service Features</string>
+    <string name="service_features_not_available">Service features not available.</string>
+    <string name="flexi_topup">Flexi Topup</string>
+    <string name="voucher">Voucher</string>
+    <string name="enter_voucher_code">Enter voucher code</string>
+    <string name="service_id_">"Service ID : "</string>
+    <string name="a_c_no_">A/C No</string>
+    <string name="loading_turbo_boost_plans">Loading turbo boost plans</string>
+    <string name="service_features">Service Features</string>
+    <string name="a_c_id_">"A/C ID : "</string>
+    <string name="app_tour">App Tour</string>
+
+    <!-- Splash Screen -->
+    <string name="version">Version </string>
+
+    <!-- Change Password Screen -->
+    <string name="change_pass">Change Password</string>
+
+    <!-- CUG and FNF -->
+    <string name="group_for_cug_fnf">Group for CUG &amp; FNF</string>
+    <string name="step1">Step1</string>
+    <string name="step2">Step2</string>
+    <string name="step3">Step3</string>
+    <string name="step4">Step4</string>
+    <string name="create_group_name">Create Group Name</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="select_group_icon">Select Group Icon</string>
+    <string name="max_allowed_members">Max Allowed Members</string>
+    <string name="add_jio_contacts">Add Jio Contacts</string>
+    <string name="invite">Invite</string>
+    <string name="plan_name">Name of the plan</string>
+    <string name="group_">Group - </string>
+    <string name="members">Members - </string>
+    <string name="not_support_crop_action">Your device does not support the crop action</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="select_from_gallery">Select from Gallery</string>
+    <string name="remove_member">Remove Member</string>
+    <string name="remove_picture">Remove Picture</string>
+    <string name="change_picture">Change Picture</string>
+
+    <!-- OTP Screen -->
+    <string name="resend">Resend</string>
+
+    <!-- Products -->
+    <string name="product_specification_details">Loading product specification details</string>
+    <string name="loading_plan_details">Loading plan details</string>
+    <string name="product_not_available">Product is not available in your location.</string>
+    <string name="enter_pin_code">Please enter 6 digit pin code.</string>
+    <string name="more">More</string>
+    <string name="less">Less</string>
+    <string name="tab_data">DATA</string>
+    <string name="tab_voice">VOICE</string>
+    <string name="tab_units">SMS</string>
+    <string name="usage_service_id">Service Id: </string>
+    <string name="start_date">From </string>
+    <string name="end_date">To </string>
+    <string name="left"> left </string>
+    <string name="available">Available</string>
+    <string name="used"> Used</string>
+    <string name="product_details">Product Details</string>
+    <string name="product_buy">Product Buy</string>
+    <string name="you_have_selected">You have selected plan:\u0020</string>
+    <string name="proceed">Proceed</string>
+    <!-- DND Preferences -->
+    <string name="banking_insurance_financial_products_credit_cards">Banking/Insurance/Financial products/credit cards</string>
+    <string name="real_estate">Real Estate</string>
+    <string name="education">Education</string>
+    <string name="health">Health</string>
+    <string name="consumer_goods_and_automobiles">Consumer goods and automobiles</string>
+    <string name="communication_broadcasting_entertainment_it">Communication/Broadcasting/Entertainment/IT</string>
+    <string name="tourism_and_leisure">Tourism and Leisure</string>
+    <string name="coming_soon">Coming soon</string>
+
+    <!-- Profile -->
+
+    <string name="tab_personal">Personal </string>
+    <string name="tab_address">Address </string>
+    <string name="loading_customer_info">Loading customer information.</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="passport_number">Passport Number</string>
+    <string name="visa_number">Visa Number</string>
+    <string name="visa_validity_date">Visa Validity Date</string>
+    <string name="occupation">Occupation</string>
+    <string name="house_name_number">House Name/Number</string>
+    <string name="street_name">Street Name</string>
+    <string name="type_of_house">Type Of House</string>
+    <string name="home_phone">Home Phone</string>
+    <string name="work_phone">Work Phone</string>
+    <string name="occupation_type">Occupation Type</string>
+    <string name="update_profile_info">Updating customer information</string>
+    <string name="enter_valid_otp">Please enter Valid OTP.</string>
+    <string name="confirm_otp">Confirm OTP</string>
+    <string name="verify_otp">Verifying OTP</string>
+    <string name="cant_generate_otp_try_again">Can not generate OTP , Please try again.</string>
+    <string name="update">Update</string>
+    <string name="updatng"> updating..</string>
+    <string name="update_new_details">Do you want to update new details ?</string>
+    <string name="retry">Retry</string>
+    <string name="otp_is_matched">OTP is matched.</string>
+    <string name="loading_districts">Loading Districts</string>
+    <string name="pay_bill">Pay Bill</string>
+
+    <!-- Postpaid Bill Summery -->
+
+    <string name="outstanding_amount">Outstanding Amount</string>
+    <string name="bill_number">Bill Number</string>
+    <string name="due_date">Bill Cycle</string>
+    <string name="bill_date">Bill Date</string>
+    <string name="billing_period">Billing Period</string>
+    <string name="your_account_statement">Your Account Statement</string>
+    <string name="previous_amount">Previous Amount</string>
+    <string name="previous_payment">Previous Payment</string>
+    <string name="adjustments">Adjustments</string>
+    <string name="current_charges">Current Charges</string>
+    <string name="amount_payable_by">Amount Payable By</string>
+    <string name="amount_payable_after">Amount Payable After</string>
+    <string name="this_month_charge">Total Charges</string>
+    <string name="monthly_charges">Monthly Charges</string>
+    <string name="usage_charges">Usage Charges</string>
+    <string name="other_credit_and_charges">Other Credit And Charges</string>
+    <string name="discounts">Discounts</string>
+    <string name="taxes">Taxes</string>
+    <string name="this_month_charges">Total Charges </string>
+    <string name="pay_now">Pay Now</string>
+    <string name="loading_bill_summary">Loading bill summary</string>
+    <string name="processing_payment">Processing payment</string>
+    <string name="prev_btns">PREV</string>
+    <string name="next_btns">NEXT</string>
+    <string name="get_bill">GET BILL</string>
+    <string name="get_statement" >GET Statement</string>
+    <string name="no_bills_available">No bills found. Please download your bill using Get Bill options below.</string>
+
+    <!-- Email screen -->
+    <string name="send_us_your_enquiry">Send us your enquiry and we will reply</string>
+    <string name="send_us_your_enquiry_24">Within 24 hours</string>
+    <string name="on_your_email">on your email Id</string>
+    <string name="subject">Subject</string>
+    <string name="send">Send</string>
+    <string name="your_message">Your Message</string>
+    <string name="sending_email">Sending email</string>
+    <string name="send_successfully">Sent successfully</string>
+    <string name="enter_msg">Please enter message</string>
+    <string name="enter_subject">Please enter subject</string>
+    <string name="select_category">Please select category</string>
+    <string name="enter_email_id">Please enter valid Email Id</string>
+    <string name="your_email">Your email id</string>
+
+    <!-- Trouble Ticket -->
+    <string name="help_description_hint">Enter description (max 100 characters)</string>
+    <string name="max_100_char" >max 100 characters</string>
+    <string name="account_id_">"Account Id "</string>
+    <string name="services_">Services</string>
+    <string name="category_">Category</string>
+    <string name="sub_category_"> Sub Category</string>
+    <string name="sub_sub_category_"> Sub Sub Category</string>
+    <string name="descriptions_">Description</string>
+    <string name="ticket_id">Ticket ID:\u0020</string>
+    <string name="processing_fee">Processing Fee :</string>
+    <string name="information_can_t_be_updated_at_the_moment">Information can\'t be updated at the moment.</string>
+    <string name="loading_product_details">Loading product details</string>
+    <string name="creation_date">Creation Date:</string>
+    <string name="ticket_id_">Ticket ID:</string>
+    <string name="specify_about" >Specify About</string>
+    <string name="issue_regarding" >Regarding</string>
+    <string name="enter_problem_des" >Describe your problem here.</string>
+
+    <!-- Invoice -->
+    <string name="invoice">Invoice</string>
+    <string name="online_payment_receipt">Online Payment Receipt</string>
+    <string name="invoice_welcome_msg">Thank you.Please quote this receipt no. for any queries in future related to this transaction.</string>
+    <string name="account_no_">Account No.</string>
+    <string name="receipt_no_">Receipt No.</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="transaction_details">Payment Details</string>
+    <string name="transaction_ref_no">Transaction Reference Number</string>
+    <string name="amount_paid">Amount Paid (\u20B9)</string>
+    <string name="payment_from">Payment From</string>
+    <string name="date">Date</string>
+    <string name="print">Print</string>
+    <string name="close">Close</string>
+    <string name="term_and_conditions">Term &amp; Conditions:</string>
+    <string name="thanks_receipt_msg">..........Thank for using  my jio online payment service..........</string>
+    <string name="record_is_updated">Record is updated.</string>
+    <string name="total_data">Total Data</string>
+    <string name="summary">Summary</string>
+    <string name="help_dialog_ok_button_text">OK I got it.</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="bill">Summary</string>
+    <!-- bill statement fragment -->
+    <string name="usages_summary">Usage Summary</string>
+    <string name="bill_statement">Bill Statements</string>
+    <string name="select_date"> Select Date</string>
+    <string name="msg_payment_incomplete_data">Incomplete information to proceed for payment.</string>
+    <string name="update_old_details">Do you want to update old details ?</string>
+    <string name="otp_is_invalid">OTP is Invalid.</string>
+    <string name="text_get_bill">Get Bill</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="download_statement" >Download Statement</string>
+    <string name="transferred_value">Transferred Value</string>
+    <string name="transferable_value">Transferable Value</string>
+    <string name="status_">Status</string>
+    <string name="transfer_to">Transfer</string>
+    <string name="registered_services">Registered Service</string>
+    <string name="n_a">N/A</string>
+    <string name="choose_from_the_menus">Choose from the menus</string>
+    <string name="swipe_left_for_digital_services">Swipe left for digital services</string>
+    <string name="tap_to_flip_the_view">Tap to flip the view</string>
+    <string name="navigate_to_screens_from_here">Navigate to screens from here</string>
+    <string name="swipe_right_for_credit_transfer">Swipe right for Credit Transfer</string>
+
+    <!-- Error Msg mapping -->
+
+    <string name="response_default_error_0">Something went wrong, try again later</string>
+
+    <!-- Login Module Error messages -->
+    <string name="c_03006">Seems this number is already used by someone</string>
+    <!-- <string name="c_01000">Invalid Username or Password</string> -->
+    <string name="c_01000">Authentication failed</string>
+    <string name="c_00001">Element identified by one of the IDs provided in the request doesn’t exist or it exists but the current user is not authorized to perform such an operation on that element.</string>
+    <string name="c_01001">Session has expired, please login again</string>
+    <string name="c_00000">Input is not valid</string>
+    <string name="c_01003">Password does not match with given requirements</string>
+    <string name="c_01002">Old password isn\'t correct</string>
+    <!-- The feature that is part of a called API has not been implemented yet -->
+    <string name="c_00002">Coming soon</string>
+    <string name="c_00004">Input is not valid</string>
+    <string name="c_02001">This account is not authorized to perform the selected operation</string>
+    <string name="c_7000">Input is not valid</string>
+    <string name="c_00005">Insufficient data to process request</string>
+    <string name="c_ril4g_t_seco_7004">Unable to connect to server. Retry later</string>
+    <string name="add_on">Add-Ons</string>
+    <string name="daily_usage">Daily Usage</string>
+    <string name="transform">Transform</string>
+    <string name="update_contacts_information">Update contacts information</string>
+    <string name="enter_phone_number_or_email_id_only">Enter phone number or email id only.</string>
+
+    <!-- Trasnform Receipt -->
+    <string name="transform_receipt">Transform Receipt</string>
+    <string name="transform_from_service_id">Transform from service ID</string>
+    <string name="transform_to_service_id">Transform to service ID</string>
+    <string name="transform_type">Transform Type</string>
+    <string name="transform_amount">Transformed Amount</string>
+    <string name="total_used_amount">Total Used Amount</string>
+    <string name="total_conversion_amount">Total Conversion Amount</string>
+    <string name="ref_no">Reference No.</string>
+    <string name="transform_details">Transform Details</string>
+
+    <!-- Transferred Receipt -->
+    <string name="transfer_receipt">Transfer Receipt</string>
+    <string name="transfer_from_service_id">Transferred from service ID</string>
+    <string name="transfer_to_service_id">Transferred to service ID</string>
+    <string name="transferred_amount">Transferred Amount</string>
+
+    <!-- Profile -->
+    <string name="indian">Indian</string>
+    <string name="india">India</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="salutation">Salutation</string>
+    <string name="pan_number">PAN Number</string>
+    <string name="aadhar_number">Aadhaar Number</string>
+    <string name="other_details">Other Details</string>
+    <string name="occupation_description">Occupation Description</string>
+    <string name="communication_channel">Communication Channel</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="address_">Address*</string>
+    <string name="vibrate_device_when_a_new_message_arrives_while_application_is_running_">Vibrate device when a new message arrives while application is running.</string>
+    <string name="notification_tone">Notification tone</string>
+    <string name="select_a_sound_to_play_for_a_new_notification_message_">Select a sound to play for a new notification message.</string>
+    <string name="faqs">FAQs</string>
+
+    <!-- Product detail -->
+    <string name="product_cost_">Product Cost:\u0020</string>
+    <string name="plan_cost_">Plan Cost:\u0020</string>
+    <string name="order_discount_">Order Discount:\u0020</string>
+    <string name="remove_voucher">Remove Voucher</string>
+    <string name="no_usages_"> No Usages Available</string>
+    <string name="total">Total</string>
+    <string name="service_not_activated">Service not activated on this account.</string>
+    <string name="title_recharge_digital">Digital</string>
+    <string name="title_recharge_service_digital">Digital +Recharge</string>
+    <string name="your_a_c_balance_is">Your account balance is</string>
+    <string name="a_c">A/C</string>
+    <string name="reference_no">Reference No</string>
+    <string name="search">Search</string>
+    <string name="customer_id">Customer Id</string>
+    <string name="order_type">Order Type</string>
+    <string name="mbps">Mbps</string>
+    <string name="prepaid_">"Prepaid - "</string>
+    <string name="loyalty_points">Loyalty Points</string>
+    <string name="key_features">Key Features</string>
+    <string name="code" translatable="false">"+91"</string>
+    <string name="processing_text">"Your request is currently being processed"</string>
+    <string name="alias_hint">"Alias Name"</string>
+    <string name="tap_on_chart">Tap on chart !</string>
+
+
+    <string name="combo_plans">Combo Plans</string>
+    <string name="plan_specification">Plan Specification</string>
+
+    <string name="invalid_mobile">Please Enter a Valid Mobile Number</string>
+    <string name="to_payee">to Payee</string>
+    <string name="tv_empty_transform">Plans not available for Transform</string>
+    <string name="tv_empty_transfer">Plans not available for Transfer</string>
+    <string name="renew_plan">Renew</string>
+    <string name="minimum_amount_message">Minimum amount should be 10</string>
+
+    <string name="low_balance_header">Low balance</string>
+    <string name="low_account_balance_msg">Account balance is Low</string>
+    <string name="low_service_balance_msg">Service balance is Low</string>
+    <string name="recharge_now">Recharge</string>
+    <string name="track_orders">Track Order</string>
+    <string name="msg_track_orders">Check the status of your order with ease.\n
+    Just use the order number sent in the order confirmation mail or SMS.</string>
+
+    <!-- login module-->
+    <string name="track_order">Order</string>
+    <string name="support">Support</string>
+    <string name="store_locator">Locator</string>
+    <string name="offers" >Offers</string>
+    <string name="unable_login">Unable to Login?</string>
+    <string name="forgot_jio_id">Forgot Jio ID</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="retrieve_your_jio_id">Retrieve your Jio ID</string>
+    <string name="sending_jio_id">Sending Jio ID</string>
+    <string name="enter_mobile_num">Enter Mobile Number</string>
+    <string name="enter_order_number">Enter Order Number</string>
+    <string name="enter_service_id">Enter Service ID</string>
+    <string name="enter_customer_id">Enter Customer ID</string>
+    <string name="please">Please</string>
+    <string name="order_num_ivalide">Order number is invalid</string>
+    <string name="service_id_ivalide">Service ID is invalid</string>
+    <string name="customer_id_ivalide">Customer ID is invalid</string>
+    <string name="jio_id_send_email">Jio Id is sent to your registered Email ID</string>
+    <string name="jio_id_send_mobile">Jio Id is sent to your registered Mobile Number</string>
+    <string name="jio_id" translatable="false">Jio ID</string>
+    <string name="available_jio_id" >Jio Id already used, Available Jio ID\'s</string>
+    <string name="availability" >Availability</string>
+    <string name="check_available_id" >Check available ID\'s</string>
+
+    <string name="service_top_up">Service Top up</string>
+    <string name="account_top_up">Account Top up</string>
+    <string name="pick_plan">pick a plan</string>
+    <string name="show_plans">Show Plans</string>
+    <string name="bill_payment">Bill Payment</string>
+    <string name="loading_plans">Loading plans</string>
+    <string name="modify_my_plan">Modify my plan</string>
+
+
+    <string name="hint_search_loc">Search Location</string>
+    <string name="no_store_found">No stores found near your location.</string>
+    <string name="enter_valid_phone_no">Enter valid Phone No</string>
+    <string name="enter_valid">"Enter valid "</string>
+
+
+    <!-- vibrate alert-->
+    <string name="off">Off</string>
+    <string name="_default">Default</string>
+    <string name="_short">Short</string>
+    <string name="_long">Long</string>
+
+    <!-- Tour Module-->
+    <string name="home_scr">Home Screen</string>
+    <string name="home_scr_msg">You can check your account balance, Recharge your account, recharge your service, check your service usage, check your service balance.</string>
+    <string name="credit_transfer_scr">Credit Transfer</string>
+    <string name="credit_transfer_scr_msg">You can transfer your account balance to other account.</string>
+    <string name="digital_service_src">Digital Service</string>
+    <string name="digital_service_src_msg">You can check your My Apps and details in your account</string>
+    <string name="enter_amount_greater_than_ten">Enter amount greater than 10.</string>
+
+
+    <string name="loading_store">Loading Stores</string>
+    <string name="request_call">Request To Call</string>
+
+    <string name="register">Register</string>
+
+    <string name="set_alias">Please set an alias for this Payee?</string>
+    <string name="max_transferable">You can transfer 80% of total available balance</string>
+
+    <string name="text_tranform"> Transform Value. Processing Charge</string>
+
+    <string name="text_transfer"> Transfer Value . Processing charge</string>
+    <string name="jio_money_message">Our jio money payment system is 100% safe and secure.</string>
+    <string name="control_to_login">For personalized plan and better control of your service, Simply <a href="">Log In</a> </string>
+    <string name="net_transferable">Net Payable</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="refill_account_recharge">Account Recharge</string>
+    <string name="new_recharge">New Recharge</string>
+    <string name="prepaid">Prepaid</string>
+    <string name="renew">Renew</string>
+    <string name="days_left">" days left "</string>
+    <string name="add_me_as_member">"Add me as Member."</string>
+    <string name="current_plan">"Current Plans"</string>
+    <string name="otp_has_been_sent_send_on_email">OTP has been sent to your registered email id</string>
+    <string name="feature" >Select Feature</string>
+
+    <!-- Service Suspend and Resume -->
+    <string name="manage_services">"Manage Services"</string>
+    <string name="current_status">"Current Status"</string>
+    <string name="select_reason">"Select Reason"</string>
+    <string name="resume">"Resume"</string>
+    <string name="suspend">"Suspend"</string>
+    <string name="suspend_resume_service">"Suspend Resume Services"</string>
+    <string name="safe_custody">"Safe Custody"</string>
+    <string name="msg_no_postpaid">"You dont seems to have any postpaid account."</string>
+
+    <string name="select_customer">Select Customer</string>
+    <string name="search_payee">Search Contact</string>
+    <string name="successfully_request_for_group">Your request to create group %1$s has been processed with reference no. %2$s</string>
+    <string name="successfully_request_for_update_group" >Your request to %1$s has been processed with reference no. %2$s</string>
+    <string name="successfully_request_for_remove_group" >Your request to removed group %1$s has been processed with reference no. %2$s</string>
+
+    <string name="in_queue">In Queue</string>
+    <string name="load_device_details">Loading device details</string>
+    <string name="device_details">Device Details</string>
+    <string name="store_pick_up" >Store Pick Up</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="pick_frm_contacts"><u>Pick from contacts</u></string>
+    <string name="pick_from_contacts" >Pick from contacts</string>
+    <string name="no_transactions_are_available">No transactions are available.</string>
+    <string name="max" >Max</string>
+    <string name="balance_limit" >(80%) can be transferred.</string>
+    <string name="no_recipient" >No Recipient Selected</string>
+    <string name="digital_title_service" >My Apps</string>
+    <string name="new_digital_title" >Subscribe Apps</string>
+    <string name="monetory_value_validation">Monetary value cannot be empty or less than 0.</string>
+    <string name="message_non_monetory_validation">Non Monetary value cannot be empty or less than 0.</string>
+    <string name="charges_monthy" >30.00 Monthly Charges</string>
+    <string name="due_date_postpaid">Due Date</string>
+
+    <string name="select_plan_price" >"Select Plan Price"</string>
+    <string name="app_center" >App Center</string>
+    <string name="title_activity_main" translatable="false">BottonNavigationActivity</string>
+    <string name="updating_alias">Updating alias</string>
+    <string name="gps_network_not_enabled" >Location services must be on to detect your location. Please switch on location services.</string>
+    <string name="open_location_settings" >Open LOCATION SETTINGS</string>
+    <string name="con_recharge" >Recharge</string>
+    <string name="pick_from_contacts_underline" ><a href="">Pick from Conatcts</a></string>
+    <string name="account_rdo">Account</string>
+    <string name="service_rdo">Service</string>
+    <string name="paybill">Pay Bill</string>
+    <string name="paybill_for_another_jio_number">Pay bill for another Jio number</string>
+    <string name="topup_for_another_jio_no">Topup for another Jio number</string>
+    <string name="serviceId">Service ID</string>
+    <string name="order_status">Order Status</string>
+    <string name="Cancel" translatable="false" >Cancel</string>
+    <string name="notifications">Notifications</string>
+    <string name="select_tone">Select Tone</string>
+    <string name="postpaid">"Postpaid- "</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="flexi_topup_new">Enter Flexi Topup</string>
+    <string name="voucher_new">Enter Voucher</string>
+    <string name="device_">Device :</string>
+    <string name="serial_number_">Serial Number :</string>
+    <string name="manufatures_name_">Manufatures Name :</string>
+    <string name="signal_strength_">Signal Strength :</string>
+    <string name="cpu_usage_">CPU Usage :</string>
+    <string name="up_time_">Up Time :</string>
+    <string name="firmware_version_">Firmware Version :</string>
+    <string name="warranty_expiry_date_">Warranty Expiry Date :</string>
+    <string name="ipv6_address_">IPV6 Address :</string>
+    <string name="ipv4_address_">IPV4 Address :</string>
+    <string name="device_mac_id_">Device Mac ID :</string>
+    <string name="expected_delivery_date">Expected Delivery Date</string>
+    <string name="created_on">Created On</string>
+    <string name="recharge_amout">Recharge Amount</string>
+    <string name="date_recharge">Date of Recharge</string>
+    <string name="your_alias_updated_reference_number">"Your alias is updated with reference number : "</string>
+    <string name="failed_update_alias">Failed to update alias.</string>
+    <string name="current_cycle_bill">"Your bill for current cycle \n Due Date : "</string>
+    <string name="chat_title">Chat</string>
+    <string name="plz_enter_valid">"Please enter valid "</string>
+    <string name="connected_devices">Connected Devices</string>
+    <string name="see_connected_devices">See Conencted Devices</string>
+    <string name="voice_hrs">VOICE-Hrs</string>
+    <string name="sms">SMS</string>
+    <string name="data_gb">DATA-GBs</string>
+
+
+</resources>

@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LoginScreen -->
+
+    <string name="display_name">ഉപയോക്തൃ നാമം :</string>
+    <string name="session_expired">സെഷൻ കഴിഞ്ഞു</string>
+    <string name="enter_display_name">ഒരു പ്രദർശന നാമം നൽകുക</string>
+    <string name="public_identity">പാസ്‌വേഡ് :</string>
+    <string name="enter_public_identity"> എല്ലാവർക്കുമുള്ള ഐഡന്റിറ്റി നൽകുക</string>
+    <string name="jio_mselfcare_copywrites">&#169;2014&#8211;2015 റിലയൻസ് ജിയോ ഇൻഫോകോം ലിമിറ്റഡ്</string>
+    <string name="jio_mselfcare_rights">അവകാശങ്ങൾ റിസർവ്വ് ചെയ്തിരിക്കുന്നു</string>
+    <string name="sign_in">സൈൻ ഇൻ</string>
+    <string name="Forgot_username_or_password">ഉപയോക്തൃ നാമം അല്ലെങ്കിൽ പാസ്‌വേഡ് മറന്നോ?</string>
+    <string name="please_enter_correct_username_password">ശരിയായ ഉപയോക്തൃ നാമവും പാസ്‌വേഡും നൽകുക</string>
+    <string name="loading_customer_data">ഉപഭോക്തൃ ഡാറ്റാ ലോഡു ചെയ്യുന്നു</string>
+    <string name="configuring">കോൺഫിഗർ ചെയ്യുന്നു</string>
+    <string name="unable_to_receive_your_detail">നിങ്ങളുടെ വിശദാംശങ്ങൾ സ്വീകരിക്കാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="email_ivalide_format">ഇമെയിൽ ഐഡി അസാധുവാണ്</string>
+    <string name="would_you_like_work_offline">ഓഫ്‌ലൈനിൽ ജോലി ചെയ്യാൻ താൽപ്പര്യമുണ്ടോ ?</string>
+    <string name="offline_login">ഓഫ്‌ലൈൻ ലോഗിൻ</string>
+
+    <!-- Frist Time Activation -->
+
+    <string name="first_time_activation">ആദ്യത്തെ സജീവമാക്കൽ</string>
+    <string name="please_enter_user_id_and_mob">ഉപയോക്തൃ നാമവും മൊബൈൽ നമ്പറും നൽകുക</string>
+    <string name="please_enter_user_id">ഉപയോക്തൃ നാമം നൽകുക</string>
+    <string name="please_enter_mobile_num">മൊബൈൽ നമ്പർ നൽകുക</string>
+    <string name="mobile_num_ivalide_format">മൊബൈൽ നമ്പർ അസാധുവാണ്</string>
+    <string name="sending_otp">ഒടിപി അയയ്ക്കുന്നു</string>
+    <string name="request_missing">അഭ്യർത്ഥനയിൽ ആവശ്യമായ പാരാമീറ്ററുകൾ നഷ്ടമായി അല്ലെങ്കിൽ പാരാമീറ്ററുകൾ സാധുവല്ല</string>
+    <string name="user_id_mob_num_not_valid">ഉപയോക്തൃ നാമം അല്ലെങ്കിൽ മൊബൈൽ നമ്പർ സാധുവല്ല</string>
+    <string name="confirm_your_user_name">നിങ്ങളുടെ ഉപയോക്തൃ നാമം സ്ഥിരീകരിക്കുക. നിങ്ങളുടെ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലോ ഇമെയിലിലോ OTP ലഭിക്കും </string>
+    <string name="reclaim_title">ഐഡന്റിഫയർ ഉപയോക്താവിന്റേതല്ല. വീണ്ടെടുക്കുന്നതിന് അനുയോജ്യമായ ഓപ്ഷൻ തിരഞ്ഞെടുത്ത് സമർപ്പിക്കുക ക്ലിക്കുചെയ്യുക </string>
+    <string name="mobile_number_hint">+[Country Code][Mobile No.]</string>
+    <string name="reclaim">വീണ്ടെടുക്കുക </string>
+    <string name="update_mob">മൊബൈൽ നമ്പർ അപ്ഡേറ്റുചെയ്യുക </string>
+    <string name="update_email">ഇമെയിൽ ഐഡി അപ്ഡേറ്റുചെയ്യുക </string>
+    <string name="verify">പരിശോധിച്ചുറപ്പിക്കുന്നു</string>
+    <string name="mobile">മൊബൈൽ </string>
+    <string name="reclaim_activation">നിങ്ങളുടെ നമ്പർ വീണ്ടെടുത്തു, സജീവമാക്കുന്നത് തുടരുക </string>
+    <string name="please_enter_valid_otp">സാധുവായ OTP നൽകുക </string>
+    <string name="updating">അപ്ഡേറ്റുചെയ്യുന്നു </string>
+    <string name="update_mob_msg">നിങ്ങളുടെ നമ്പർ അപ്ഡേറ്റുചെയ്തു, സജീവമാക്കൽ പ്രോസ്സസ് തുടരുക </string>
+    <string name="update_mob_title">രാജ്യ കോഡിനോടൊപ്പം മൊബൈൽ നമ്പർ നൽകുക. ഇത് നിങ്ങളുടെ രജിസ്‌റ്റർ നമ്പറായി അപ്ഡേറ്റ് ചെയ്യും </string>
+    <string name="mobile_num_old_mob_same">മൊബൈൽ നമ്പർ അപ്ഡേറ്റുചെയ്യുമ്പോൾ മുമ്പത്തേത് നിങ്ങൾക്ക് സജ്ജീകരിക്കാനാകില്ല </string>
+    <string name="slide_send_otp">OTP അയയ്‌ക്കുന്നതിനായി സ്ലൈഡ് ചെയ്യുക </string>
+
+    <!-- OTP Confirmation -->
+    <string name="please_enter_otp">ഒടിപി നൽകുക</string>
+    <string name="please_enter_otp_and_pass">ഒടിപിയും പാസ്‌വേഡും നൽകുക</string>
+    <string name="verifying">പരിശോധിച്ചുറപ്പിക്കുന്നു</string>
+    <string name="invalid_otp">ഒടിപി അസാധുവാണ്</string>
+    <string name="activate_successfully">സജീവമാക്കൽ വിജയിച്ചു</string>
+    <string name="password_changed_successfully">പാസ്‌വേഡ് മാറ്റം വിജയിച്ചു</string>
+
+    <string name="otp">ഒടിപി</string>
+    <string name="username_invalid">ഉപയോക്തൃനാമം അസാധുവാണ്. പ്രതീകങ്ങളുടെ ദൈർഘ്യം 8 മുതൽ 32 വരെ ആയിരിക്കണം </string>
+    <string name="already_has_this_user_name"> ഈ ഉപയോക്തൃ നാമം ഇതിനകം മറ്റൊരാൾ ഉപയോഗിക്കുന്നു. മറ്റൊരു നാമം നൽകുക </string>
+    <string name="username_invalid_remove_special_character">ഉപയോക്തൃനാമം അസാധുവാണ്. പ്രത്യേക പ്രതീകങ്ങൾ നീക്കം ചെയ്യുക. പ്രതീകങ്ങളുടെ ദൈർഘ്യം 8 മുതൽ 32 വരെ ആയിരിക്കണം </string>
+    <string name="account_activated_change_username">അക്കൗണ്ട് സജീവമാക്കി, നിങ്ങൾക്ക് ഉപയോക്തൃ നാമം മാറ്റാൻ കഴിയും </string>
+
+    <!-- Dashboard -->
+
+    <string name="value_dashboard_header">ഡാറ്റാ</string>
+    <string name="value_current_Services">നിലവിലെ സേവനങ്ങൾ</string>
+    <string name="value_available_for_activation_services">സജീവമാക്കുന്നതിന് ലഭ്യമാണ്</string>
+    <string name="phone">ഫോൺ നമ്പർ</string>
+    <string name="price">വില : </string>
+    <string name="services">ആഡ് ഓണുകൾ</string>
+    <string name="forgot_password_">പാസ്‌വേഡ് മറന്നോ?</string>
+    <string name="submit">സമർപ്പിക്കുക</string>
+    <string name="quick_pay">വേഗത്തിലുള്ള പണമടയ്ക്കൽ</string>
+    <string name="new_order">പുതിയ ഓർഡർ</string>
+    <string name="server_error">സെർവർ പ്രതികരിക്കുന്നില്ല</string>
+    <string name="logout_msg">നിങ്ങൾക്ക് ഇപ്പോൾ ലോഗൗട്ട് ചെയ്യണോ?</string>
+    <string name="logging_out">ലോഗൗട്ട് ചെയ്യുന്നു</string>
+
+    <!-- Turbo Boost -->
+    <string name="value_turbo_boost_header">നിലവിലെ നെറ്റ്‌വർക്ക്</string>
+    <string name="value_turbo_boost_plans">നിങ്ങളുടെ നെറ്റ്‌വർക്ക് ബൂസ്റ്റു ചെയ്യുക</string>
+    <string name="account">അക്കൗണ്ട് :</string>
+    <string name="serviceId">സേവന ഐഡി </string>
+    <string name="amount">തുക </string>
+    <string name="account_recharge">അക്കൗണ്ട് റീചാർജ്ജ്</string>
+    <string name="pay">പണമടയ്ക്കുക</string>
+    <string name="refresh">പുതുക്കുക</string>
+    <string name="history">ചരിത്രം പരിശോധിക്കുക</string>
+    <string name="net_banking">നെറ്റ് ബാങ്കിംഗ്</string>
+    <string name="credit_card">ക്രെഡിറ്റ് കാർഡ്</string>
+    <string name="debit_card">ഡെബിറ്റ് കാർഡ്</string>
+    <string name="buy">വാങ്ങുക</string>
+    <string name="contact_number">കോണ്ടാക്റ്റ് നമ്പർ</string>
+    <string name="name">പേര്</string>
+    <string name="email_id">ഇമെയിൽ ഐഡി  </string>
+    <string name="billing_address">ബില്ലിംഗ് വിലാസം</string>
+    <string name="anniversary_date">വാർഷിക ദിവസം</string>
+    <string name="date_of_birth">ജനന ദിവസം</string>
+    <string name="gender">ലിംഗഭേദം</string>
+    <string name="nationality">ദേശീയത</string>
+    <string name="mode_of_communication">ഇഷ്ടപ്പെട്ട ആശയ വിനിമയ രീതി</string>
+    <string name="mode_of_payment">ഇഷ്ടപ്പെട്ട പണമടയ്ക്കൽ രീതി</string>
+    <string name="preferred_language">ഇഷ്ടപ്പെട്ട ഭാഷ</string>
+    <string name="family_contact_detail">കുടുംബ കോൺടാക്റ്റ് വിശദാംശങ്ങൾ</string>
+    <string name="text_gift">സമ്മാനം</string>
+    <!-- <string name="text_inbox">Inbox</string> -->
+    <string name="text_product">ഉൽപ്പന്നങ്ങൾ</string>
+    <string name="text_help">സഹായം</string>
+    <string name="select_ringtone">റിംഗ് ടോൺ തിരഞ്ഞെടുക്കുക</string>
+    <!-- Used for navigation drawer -->
+
+    <string name="uses_summary">ഉപയോഗം</string>
+    <string name="payment">പേയ്മെന്റ്</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="save">സംരക്ഷിക്കുക</string>
+    <string name="edit_profile">പ്രൊഫൈൽ എഡിറ്റു ചെയ്യുക</string>
+    <string name="product_specifications">ഉൽപ്പന്ന സവിശേഷതകൾ</string>
+    <string name="username">ഉപയോക്തൃ നാമം</string>
+    <string name="password">പാസ്‌വേഡ്</string>
+    <string name="login">ലോഗിൻ</string>
+    <string name="logout">ലോഗൗട്ട്</string>
+    <string name="stay_signed_in">സൈൻ ഇൻ ആയി തുടരുക</string>
+    <string name="user_id">ഉപയോക്തൃ നാമം</string>
+    <string name="unable_to_logout">ലോഗൗട്ട് ചെയ്യാനാകുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="logout_successfully">വിജയകരമായി ലോഗൗട്ട് ചെയ്തു</string>
+    <string name="username_email_mobile_num">ഉപയോക്തൃ നാമം/ഇമെയിൽ/+[Country Code][Mobile No.]</string>
+    <string name="mandatory">നിർബന്ധം</string>
+
+    <!-- Forgot Password -->
+    <string name="old_password">പഴയ പാസ്‌വേഡ്</string>
+    <string name="new_password">പുതിയ പാസ്‌വേഡ്</string>
+    <string name="confirm_password">പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക</string>
+    <string name="otp_has_been_sent_on_mob">നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലേയ്ക്ക് ഒടിപി അയച്ചിട്ടുണ്ട്.</string>
+    <string name="otp_has_been_sent_send_on_email">നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത ഇമെയിലിലേയ്ക്ക് ഒടിപി അയച്ചിട്ടുണ്ട്.</string>
+    <string name="unable_to_send_otp">ഒ‌ടി‌പി അയയ്ക്കാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="please_enter_user_name_and_pass">ഉപയോക്തൃ നാമവും പാസ്‌വേഡും നൽകുക</string>
+    <string name="please_enter_user_name">ഉപയോക്തൃ നാമം നൽകുക</string>
+    <string name="user_name_invalid">ഉപയോക്തൃ നാമം അസാധുവാണ്</string>
+    <string name="verifying_user_name">ഉപയോക്താവിനെ പരിശോധിച്ചുറപ്പിക്കുന്നു</string>
+
+    <!-- Change Password -->
+    <string name="changing_password_progress">പാസ്‌വേഡ് മാറ്റുന്നു</string>
+    <string name="please_enter_old_and_new_password">പഴയതും പുതിയതുമായ പാസ്‌വേഡ് നൽകുക</string>
+    <string name="unable_to_update_pass">പാസ്‌വേഡ് അപ്ഡേറ്റു ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="please_enter_correct_password">ശരിയായ പഴയ പാസ്‌വേഡ് നൽകുക</string>
+    <string name="new_password_n_confirm_pass_must_same">പുതിയ പാസ്‌വേഡും സ്ഥിരീകരണ പാസ്‌വേഡും ഒന്നുതന്നെയായിരിക്കണം</string>
+    <string name="old_n_new_pass_can_not_same">പഴയതും പുതിയതുമായ പാസ്‌വേഡ് ഒന്നുതന്നെയായിരിക്കാൻ പാടില്ല</string>
+    <string name="pass_case_sensitive">പാസ്‌വേഡ് കുറഞ്ഞത് 8 ഉം കൂടിയത് 30 ഉം പ്രതീകങ്ങൾ ഉള്ളതും ഏറ്റവും കുറഞ്ഞത് ഒരു അക്ഷരത്തിന്റെയും അക്കത്തിന്റെയും പ്രതീകങ്ങൾ കൂടിച്ചേർന്നതും ആയിരിക്കണം</string>
+
+    <!-- DataSummary -->
+    <string name="tv_empty_list">ഈ സേവനത്തിനായി പ്ലാൻ ഒന്നുമില്ല</string>
+    <string name="txt_data">ഡാറ്റാ</string>
+    <string name="txt_voice">ശബ്ദം</string>
+    <string name="txt_unit">യൂണിറ്റ്</string>
+    <string name="chat">തൽസമയ ചാറ്റ്</string>
+    <string name="mail">മെയിൽ</string>
+    <string name="call">കോൾ</string>
+    <string name="video_chat">എഫ്എ‌ക്യു</string>
+
+    <!-- Forgot Password -->
+
+    <string name="tv_no_customer">രജിസ്റ്റർ ചെയ്ത ഉപഭോക്താക്കൾ ഇല്ല</string>
+    <string name="welcome_login">മൈ ജിയോയിലേയ്ക്ക് സ്വാഗതം</string>
+    <string name="login_text">നിങ്ങളുടെ ഉപയോക്തൃ നാമവും പാസ്‌വേഡും ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യുക</string>
+    <string name="service_name">സേവന നാമം</string>
+    <string name="service_id">സേവന ഐഡി</string>
+    <string name="account_id">അക്കൗണ്ട് ഐഡി</string>
+
+    <!-- Plan Specification Fragment -->
+
+    <string name="plan_check_availability">ലഭ്യത</string>
+    <string name="transfer">കൈമാറുക</string>
+    <string name="password_change_text">നിങ്ങളുടെ പാസ്‌വേഡ് ക്രെഡൻഷ്യലുകൾ മാറ്റുക</string>
+    <string name="forgot_password_text">നിങ്ങളുടെ പാസ്‌വേഡ് ക്രെഡൻഷ്യലുകൾ വീണ്ടെടുക്കുക</string>
+
+    <!-- Recipient Fragment -->
+    <string name="title_dialog_register">സേവനം രജിസ്റ്റർ ചെയ്യുന്നതിന് അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക</string>
+    <string name="button_select">സേവനങ്ങൾ നേടുക</string>
+
+    <!-- Digital Services -->
+    <string name="tv_empty_service">സേവനങ്ങൾ ലഭ്യമല്ല</string>
+    <string name="no_data">ഡാറ്റാ ഇല്ല</string>
+
+    <!-- Screen Name -->
+    <string name="cug">സി‌യു‌ജി</string>
+    <string name="group">ഗ്രൂപ്പ്</string>
+    <string name="groups">ഗ്രൂപ്പുകൾ </string>
+    <string name="profile">പ്രൊഫൈൽ</string>
+    <string name="productdetails">ഉൽപ്പന്ന വിശദാംശങ്ങൾ</string>
+    <string name="plandetails">പ്ലാൻ വിശദാംശങ്ങൾ</string>
+    <string name="trouble_ticket_main">ഹെൽപ് ടിക്കറ്റ്</string>
+    <string name="hotspot_locator">ഹോട്ട്‌സ്പോട്ട് ലൊക്കേറ്റർ</string>
+    <string name="hot_spot">Hot Spot</string>
+    <string name="digital_service">ഡിജിറ്റൽ സേവനങ്ങൾ</string>
+    <string name="digital_service_plans">ഡിജിറ്റൽ സേവന പ്ലാനുകൾ</string>
+    <string name="data_summary">ഡാറ്റാ സംഗ്രഹം</string>
+    <string name="credit_transfer">ക്രെഡിറ്റ് കൈമാറ്റം</string>
+    <string name="add_recipient">പണം കൈപ്പറ്റുന്ന ആളെ ചേർക്കുക</string>
+    <string name="recipient_list">പണം കൈപ്പറ്റുന്ന ആൾ</string>
+    <string name="product_title">ഉൽപ്പന്നങ്ങൾ</string>
+    <string name="myorders">എന്റെ ഓർഡറുകൾ</string>
+    <string name="myservices">എന്റെ സേവനങ്ങൾ</string>
+    <string name="customer_facing_services_features">സേവനങ്ങളുടെ സവിശേഷതകൾ</string>
+    <string name="customer_facing_services_list">സേവനങ്ങൾ</string>
+    <string name="transaction_history">റീചാർജ്ജ് &#38; ടോപ് അപ് ചരിത്രം</string>
+    <string name="about_us">ഞങ്ങളെക്കുറിച്ച്</string>
+    <string name="faq">എഫ്എ‌ക്യുകൾ</string>
+    <string name="gift">സമ്മാനം</string>
+    <string name="help">സഹായം</string>
+    <string name="inbox">ഇൻബോക്സ്</string>
+    <string name="offer">ഓഫർ</string>
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="dnd">ഡിഎൻഡി മുൻഗണനകൾ</string>
+    <string name="turbo_boost">ടർബോ ബൂസ്റ്റ്</string>
+    <string name="themes">തീമുകൾ</string>
+    <string name="hotspot">ലൊക്കേറ്റർ</string>
+    <string name="ott_products">ഒ‌ടി‌ടി ഉൽപ്പന്നങ്ങൾ</string>
+    <string name="ott_plans">ഒ‌ടി‌ടി പ്ലാനുകൾ</string>
+    <string name="email">ഇമെയിൽ</string>
+    <string name="email_us">ഞങ്ങൾക്ക് ഇമെയിൽ അയയ്ക്കുക </string>
+
+    <!-- Loding messages -->
+    <string name="text_transaction_history">ഇടപാട് ചരിത്രം</string>
+    <string name="text_refill_now">ഇപ്പോൾ വീണ്ടും നിറയ്ക്കുക</string>
+    <string name="connecting">കണക്റ്റു ചെയ്യുന്നു</string>
+    <string name="connection_error">നിങ്ങളുടെ ഡാറ്റാ കണക്ഷൻ പരിശോധിച്ചശേഷം പിന്നീട് ശ്രമിക്കുക.</string>
+    <string name="failed">പരാജയപ്പെട്ടു</string>
+    <string name="failed_recharge_history">അവസാന അഞ്ച് റീചാർജ്ജുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു.</string>
+    <string name="recharge_history_unavailable">റീചാർജ്ജ് ചരിത്രം ലഭ്യമല്ല.</string>
+    <string name="loading_services">സേവനങ്ങൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="account_not_activated">നിങ്ങൾ ഇതുവരെയും ഒരു സേവനവും സജീവമാക്കിയിട്ടില്ല.</string>
+    <string name="failed_to_tech_services">അക്കൗണ്ടുകളുടെ സേവനങ്ങൾ ലഭ്യമാക്കുന്നത് പരാജയപ്പെട്ടു.</string>
+    <string name="loading_account_balance">അക്കൗണ്ട് ബാലൻസ് ലോഡു ചെയ്യുന്നു</string>
+
+    <!-- Common -->
+    <string name="warning">മുന്നറിയിപ്പ്</string>
+    <string name="exit">പുറത്തുകടക്കുക</string>
+    <string name="ok">ശരി</string>
+    <string name="fetching_contacts">കോൺടാക്‌റ്റുകൾ ലഭ്യമാക്കുന്നു</string>
+    <string name="content_description">ഉള്ളടക്ക വിവരണം</string>
+    <string name="jio">ജിയോ</string>
+    <string name="confirm">സ്ഥിരീകരിക്കുക</string>
+    <string name="upgrade_auth_y">അ </string>
+    <string name="upgrade_auth_n">ഇ </string>
+    <string name="internet_not_available">ഇൻന്റർനെറ്റ് കണക്ഷൻ ലഭ്യമല്ല</string>
+    <string name="please_enter_password">പാസ്‌വേഡ് നൽകുക</string>
+    <string name="please_enter_old_password">പഴയ പാസ്‌വേഡ് നൽകുക</string>
+    <string name="please_enter_valid_old_password">പഴയ പാസ്‌വേഡ് അസാധുവാണ്</string>
+    <string name="please_enter_new_password">പുതിയ പാസ്‌വേഡ് നൽകുക</string>
+    <string name="please_enter_valid_password_alphanumeric_special_char">പാസ്‌വേഡ് ഏറ്റവും കുറഞ്ഞത് ഒരു അക്ഷരത്തിന്റെയും അക്കത്തിന്റെയും പ്രതീകങ്ങൾ കൂടിച്ചേർന്നതായിരിക്കണം</string>
+    <string name="password_invalide_format">പാസ്‌വേഡ് ഏറ്റവും കുറഞ്ഞത് 8 പ്രതീകങ്ങളുടെ ദൈർഘ്യമുള്ളതായിരിക്കണം</string>
+    <string name="user_name_password_invalid">ഉപയോക്തൃ നാമം അല്ലെങ്കിൽ പാസ്‌വേഡ് അസാധുവാണ്</string>
+    <string name="new_password_invalide_format">പുതിയ പാസ്‌വേഡ് ഏറ്റവും കുറഞ്ഞത് 8 പ്രതീകങ്ങളുടെ ദൈർഘ്യമുള്ളതായിരിക്കണം</string>
+    <string name="please_enter_confirm_pass">സ്ഥിരീകരിച്ച പാസ്‌വേഡ് നൽകുക</string>
+    <string name="password_n_confirm_pass_must_same">പാസ്‌വേഡ് എന്നതും സ്ഥിരീകരിച്ച പാസ്‌വേഡ് എന്നതും ഒന്നു തന്നെയായിരിക്കണം</string>
+    <string name="error">പിശക്</string>
+    <string name="authenticating">പ്രാമാണീകരിക്കുന്നു</string>
+    <string name="unable_to_connect_server">സെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="authentication_failed">പ്രാമാണീകരിക്കൽ പരാജയപ്പെട്ടു</string>
+    <string name="account_already_active">ഈ അക്കൗണ്ട് ഇതിനകം സജീവമാണ് </string>
+
+    <!-- CUG and FNF module -->
+    <string name="no_groups_n_contacts_ava">നിങ്ങളുടെ ഉപകരണത്തിൽ യാതൊരു ഗ്രൂപ്പുകളും കോണ്ടാക്റ്റുകളും ലഭ്യമല്ല</string>
+    <string name="no_match_contacts">യോജിച്ച കോണ്ടാക്റ്റുകളൊന്നും കണ്ടില്ല</string>
+    <string name="can_not_drop">ഈ ഇനം ഇവിടെ ഇടാൻ നിങ്ങൾക്കു കഴിയും/ഇല്ല </string>
+    <string name="no_contacts_ava">ഒരു കോണ്ടാക്റ്റുകളും ലഭ്യമല്ല</string>
+    <string name="creating_group">ഗ്രൂപ്പ് സൃഷ്ടിക്കുന്നു</string>
+    <string name="created_successfully">വിജയകരമായി സൃഷ്ടിച്ചു</string>
+    <string name="previous">മുമ്പത്തേത്</string>
+    <string name="next">അടുത്തത്</string>
+    <string name="group_description">അടുത്ത ഉപയോക്തൃ ഗ്രൂപ്പ് (സി‌യു‌ജി) എന്നതിനും കുടുംബാംഗങ്ങളും സുഹൃത്തുക്കളും (എഫ്എൻഎഫ്) എന്നതിനും ഒരു ഗ്രൂപ്പ് സൃഷ്ടിക്കുക.</string>
+    <string name="add_member">അംഗത്തെ ചേർക്കുക</string>
+    <string name="search_here">തിരയുക</string>
+    <string name="fnf">FNF</string>
+    <string name="no_group_available">ഒരു ഗ്രൂപ്പും ലഭ്യമല്ല </string>
+
+    <!-- Add or Edit Group Dialog -->
+    <string name="create_group">ഗ്രൂപ്പ് സൃഷ്ടിക്കുക</string>
+    <string name="loading_contacts">കോൺടാക്‌റ്റുകൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="add_group">ഗ്രൂപ്പ് ചേർക്കുക</string>
+    <string name="update_group">ഗ്രൂപ്പ് അപ്ഡേറ്റു ചെയ്യുക</string>
+    <string name="already_exist_group">ഈ ഗ്രൂപ്പ് പേര് നിലവിൽ ഉണ്ട്</string>
+    <string name="enter_group_name">ഗ്രൂപ്പ് പേര് നൽകുക</string>
+    <string name="sure_delete">ഇല്ലാതാക്കണമെന്നത് തീർച്ചയാണോ?</string>
+    <string name="group_icon">ഗ്രൂപ്പ് ഐക്കൺ</string>
+    <string name="group_name">ഗ്രൂപ്പ് പേര് </string>
+    <string name="edit_group">ഗ്രൂപ്പ് എഡിറ്റു ചെയ്യുക</string>
+    <string name="plan">പ്ലാൻ</string>
+    <string name="select_plan">പ്ലാൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="max_allowed_member">പരമാവധി അനുവദിച്ച അംഗം</string>
+    <string name="selected_member">തിരഞ്ഞെടുത്ത അംഗം</string>
+    <string name="please_select_plan">പ്ലാൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="auto_renew">യാന്ത്രിക പുതുക്കൽ</string>
+    <string name="group_type">ഗ്രൂപ്പ് തരം</string>
+    <!-- Group Detail Dialog -->
+    <string name="group_detail">ഗ്രൂപ്പ് വിശദാംശം</string>
+    <string name="exit_app_message">പുറത്തുകടക്കുന്നതിന് \"പിന്നോട്ട്\" എന്നത് വീണ്ടും അമർത്തുക</string>
+    <string name="remove_group">ഗ്രൂപ്പ് നീക്കം ചെയ്യുക</string>
+    <string name="remove_group_msg">ഈ ഗ്രൂപ്പ് നീക്കം ചെയ്യണമെന്നത് തീർച്ചയാണോ?</string>
+    <string name="remove_member_msg">ഈ അംഗത്തെ നീക്കം ചെയ്യണമെന്നത് തീർച്ചയാണോ?</string>
+    <string name="max_allowed_members_exceed">പരമാവധി അനുവദനീയ അംഗങ്ങളുടെ എണ്ണം കവിയുന്നു </string>
+
+    <!-- Strings for OrderDetails screen -->
+    <string name="order_ref_number">
+<![CDATA[
+			Order Ref. Number: <b>%1$s</b><br>Offer Name: <b>%2$s</b><br>
+		]]>
+    </string>
+    <string name="order_info">
+<![CDATA[
+			Product Name: <b>%1$s</b><br>
+			Product Id: %2$s<br>
+			Estimated Completion time: %3$s<br>
+			Installation date: %3$s<br>
+			Calling party number: %4$s
+		]]>
+    </string>
+    <string name="billing_address_str">
+<![CDATA[
+			Address Id: <b>%1$s</b><br>Building Id: <b>%2$s</b><br>Address Type: <b>%3$s</b><br>
+			Care Of: <b>%4$s</b><br>House No/Flat No/Name: <b>%5$s</b><br>Building No/Name: <b>%6$s</b><br>
+			Society Name: <b>%7$s</b><br>Street No/Name: <b>%8$s</b><br>Landmark: <b>%9$s</b><br>Sub Locality: <b>%10$s</b><br>
+			Area/Tehsil: <b>%11$s</b><br>Pincode: <b>%12$s</b><br>Village/City: <b>%13$s</b><br>District: <b>%14$s</b><br>
+			State: <b>%15$s</b><br>Country: <b>%16$s</b><br>Total floors: <b>%17$s</b><br>Jio Centre Id: <b>%18$s</b><br>
+		]]>
+    </string>
+    <string name="local_ref_details">
+<![CDATA[
+			Name: <b>%1$s</b><br><br>%2$s<br><br>
+			Contact Number: <b>%3$s</b><br>Email: <b>%4$s</b>
+		]]>
+    </string>
+    <string name="order_delivery_address">
+<![CDATA[
+        	Address Id: %1$s<br>Building Id: %2$s<br>
+			C/O %3$s, House No/Flat No/Name: %4$s, Building No/Name: %5$s,
+			Society Name: %6$s, Street No/Name: %7$s, Landmark: %8$s, Sub Locality: %9$s,
+			Area/Tehsil: %10$s, Pincode: %11$s, Village/City: %12$s, District: %13$s,
+			State: %14$s, Country: %15$s, Total floors: %16$s, Jio Centre Id: %17$s
+        ]]>
+    </string>
+    <string name="failed_to_load_plan">ലഭ്യമായ പ്ലാനുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="fetching_customer_orders">ഉപഭോക്താക്കളുടെ ഓർഡറുകൾ ലഭ്യമാക്കുന്നു</string>
+
+    <!-- About Us -->
+
+    <string name="my_jio_about_us">ഇന്ത്യയിലെ 22 സർക്കിളുകളിലും ബ്രോഡ്ബാൻഡ് വയർലെസ് ആക്സസ് (BWA) സ്പെക്ട്രത്തിൽ 4ജി സംരംഭം സമാരംഭിക്കുന്നതിനുള്ള പ്ലാനിംഗിന്റെ ഭാഗമായി, ലോകോത്തര 4ജി നെറ്റ്വർക്കും സേവനങ്ങളും മുൻനിരയിൽ നിന്നുകൊണ്ട് പകർന്നു നൽകാൻ കഴിയുന്ന ബ്രോഡ്ബാൻഡ് സൗകര്യത്തെ വിജ്ഞാന സമ്പത്തിന്റെ പുതിയ അതിർവരമ്പായി RIL കരുതുന്നു</string>
+    <string name="my_jio_mission">ധിരുഭായി എച്ച്. അംബാനി (1932-2002) സ്ഥാപിച്ച റിലയൻസ് ഗ്രൂപ്പ്, ഊർജ്ജത്തിന്റെയും മറ്റു സാമഗ്രികളുടെയും മൂല്യ ശൃംഘലയിൽ വാണിജ്യത്തിലേർപ്പെട്ടിരിക്കുന്ന ഇന്ത്യയിലെ ഏറ്റവും വലിയ സ്വകാര്യ മേഖലാ വ്യവസായ സ്ഥാപനമാണ്. ഗ്രൂപ്പിന്റെ വാർഷിക വരുമാനം 66 ബില്ല്യൺ യുഎസ് ഡോളറിലും അധികമാണ്. റിലയൻസ് ഇൻഡസ്ട്രീസ് ലിമിറ്റഡ് എന്ന പ്രധാന കമ്പനി</string>
+    <string name="my_jio_vision">ധിരുഭായി എച്ച്. അംബാനി (1932-2002) സ്ഥാപിച്ച റിലയൻസ് ഗ്രൂപ്പ്, ഊർജ്ജത്തിന്റെയും മറ്റു സാമഗ്രികളുടെയും മൂല്യ ശൃംഘലയിൽ വാണിജ്യത്തിലേർപ്പെട്ടിരിക്കുന്ന ഇന്ത്യയിലെ ഏറ്റവും വലിയ സ്വകാര്യ മേഖലാ വ്യവസായ സ്ഥാപനമാണ്. ഗ്രൂപ്പിന്റെ വാർഷിക വരുമാനം 66 ബില്ല്യൺ യുഎസ് ഡോളറിലും അധികമാണ്. റിലയൻസ് ഇൻഡസ്ട്രീസ് ലിമിറ്റഡ് എന്ന പ്രധാന കമ്പനി</string>
+    <string name="no">അല്ല</string>
+    <string name="yes">അതെ</string>
+    <string name="auto_renewable">യാന്ത്രികമായി പുതുക്കാവുന്നത്:</string>
+    <string name="digital_services">ഡിജിറ്റൽ സേവനങ്ങൾ</string>
+    <string name="recharge_detail">ഇടപാട് വിശദാംശം</string>
+    <string name="recharge_detail_">റീചാർജ്ജ് വിശദാംശം</string>
+    <string name="loading_recharge_detail">ലോഡു ചെയ്യൽ വിശദാംശം</string>
+
+    <!-- MyServices -->
+
+    <string name="tap_for_info">വിവരങ്ങൾക്ക് ടാപ്പു ചെയ്യുക</string>
+    <string name="removeFeatures">സവിശേഷത നീക്കം ചെയ്യുക</string>
+
+    <!-- Available Plans -->
+    <string name="available_plans">ലഭ്യമായ പ്ലാനുകൾ </string>
+    <string name="add">ചേർക്കുക</string>
+
+    <!-- Group Available Plans -->
+    <string name="group_available_plans">ഗ്രൂപ്പിന് ലഭ്യമായ പ്ലാനുകൾ</string>
+    <string name="success">വിജയിച്ചു</string>
+    <string name="service_recharge">സേവനം വിജയകരമായി റീചാർജ്ജ് ചെയ്തു</string>
+    <string name="failed_to_recharged">സേവനം റീചാർജ്ജ് ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="enter_amount">തുക നൽകുക</string>
+    <string name="amount_or_voucher_code">തുക അല്ലെങ്കിൽ വൗച്ചർ കോഡ്</string>
+    <string name="topup">ടോപ് അപ്</string>
+    <string name="processing">പ്രോസസ്സു ചെയ്യുന്നു, കാത്തിരിക്കുക</string>
+    <string name="loading_recharge_history">ഇടപാടു ചരിത്രം ലോഡു ചെയ്യുന്നു</string>
+    <string name="loading_available_plans">ലഭ്യമായ പ്ലാനുകൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="plan_details">പ്ലാൻ വിശദാംശങ്ങൾ</string>
+    <string name="digital_plan_details">ഡിജിറ്റൽ പ്ലാൻ വിശദാംശങ്ങൾ</string>
+    <string name="choose_plan">ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക</string>
+
+    <!-- RadioGroup digital services -->
+    <string name="start_up">തുടങ്ങുക</string>
+    <string name="recharge">റീചാർജ്ജ് </string>
+    <string name="base_plan">അടിസ്ഥാന പ്ലാൻ</string>
+
+    <!-- Credit Transfer -->
+    <string name="tv_transfer_setting">ക്രമീകരണം കൈമാറുക</string>
+    <string name="tv_search">തിരയുക</string>
+    <string name="tv_contact">കോണ്ടാക്റ്റുകൾ</string>
+    <string name="edt_recipient_hint">സ്വീകർത്താവ്\മൊബൈൽ നമ്പർ</string>
+    <string name="btn_select_contact">കോണ്ടാക്റ്റ് തിരഞ്ഞെടുക്കുക: </string>
+    <string name="text_credit_dialog">ഡാറ്റാ കൈമാറ്റം ചെയ്യുന്നതിന് ഉപകരണം തിരിക്കുക </string>
+    <string name="text_donot_show">ഈ സന്ദേശം വീണ്ടും കാണിക്കരുത് </string>
+    <string name="btn_deactivate_service"> സേവനം നിർജ്ജീവമാക്കുക</string>
+    <string name="tv_set_rate">നിരക്ക് സജ്ജീകരിക്കുക</string>
+    <string name="tv_rate">നിരക്ക്  :</string>
+    <string name="tv_more_details">കൂടുതൽ വിശദാംശങ്ങൾ</string>
+    <string name="tv_check_balance">ബാലൻസ് പരിശോധിക്കുക</string>
+    <string name="do_you_want_to_continue">നിങ്ങൾക്ക് തുടരണമോ?</string>
+    <string name="recharge_successfull">ഇടപാട് നമ്പറോടുകൂടി റീചാർജ്ജ് വിജയകരമായി</string>
+    <string name="recharge_failed_">റീചാർജ്ജ് പരാജയപ്പെട്ടു</string>
+    <string name="buy_plan">പ്ലാൻ വാങ്ങുക</string>
+    <string name="rename_your_account">അക്കൗണ്ടുകളുടെ അപരനാമം സജ്ജീകരിക്കുക</string>
+    <string name="tv_transfer">ക്രെഡിറ്റ് കൈമാറ്റം</string>
+    <string name="tv_set_alert">അലേർട്ട് സജ്ജീകരിക്കുക</string>
+    <string name="tv_non_monetary">കൈമാറ്റം ചെയ്യുക</string>
+    <string name="tv_bills">ബില്ലുകൾ</string>
+    <string name="select_account">അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക</string>
+    <string name="enter_account_name">അക്കൗണ്ടിന്റെ പേര് നൽകുക</string>
+    <string name="error_toast_message">നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സു ചെയ്യാൻ കഴിയില്ല!</string>
+    <string name="no_internet_message">ഇന്റർനെറ്റ് കണക്ഷൻ ലഭ്യമല്ല</string>
+    <string name="tv_loading">ലോഡു ചെയ്യുന്നു</string>
+    <string name="set_app_priority">ആപ്ലിക്കേഷൻ മുൻഗണന സജ്ജീകരിക്കുക</string>
+    <string name="failed_recharge_detail">റീചാർജ്ജ് വിശദാംശങ്ങൾ ലഭ്യമാക്കുന്നത് പരാജയപ്പെട്ടു</string>
+
+    <!-- Payment Gateway -->
+    <string name="usage">ഉപയോഗം</string>
+    <string name="wrong_number">നമ്പർ വീണ്ടും പരിശോധിക്കുക!</string>
+    <string name="account_not_available">ഈ ഉപഭോക്താവിന്റെ അക്കൗണ്ട് ഒന്നും ലഭ്യമല്ല</string>
+    <string name="loading_balance">"കാത്തിരിക്കുക, ബാലൻസ് ലോഡു ചെയ്യുന്നു"</string>
+    <string name="digital_service_details">ഡിജിറ്റൽ സേവന വിശദാംശങ്ങൾ</string>
+    <string name="store_loacator">സ്റ്റോർ ലൊക്കേറ്റർ</string>
+    <string name="products">ഉൽപ്പന്നങ്ങൾ</string>
+    <string name="exit_msg">നിങ്ങൾക്കു പുറത്തുകടക്കണമോ?</string>
+    <string name="loading">ലോഡു ചെയ്യുന്നു</string>
+    <string name="refill_now">ഇപ്പോൾ റീഫിൽ ചെയ്യുക</string>
+    <string name="do_you_want_to_cancel_this_transaction">ഈ ഇടപാട് റദ്ദാക്കണമോ?</string>
+    <string name="recharge_amount_invalid">റീചാർജ്ജ് തുക അസാധുവാണ്</string>
+    <string name="amount_invalid">പേയ്മെന്റ് തുക അസാധുവാണ് </string>
+    <string name="payment_canceled">പേയ്മെന്റ് റദ്ദാക്കി </string>
+    <string name="payment_failed">പേയ്മെന്റ് പരാജയപ്പെട്ടു </string>
+    <string name="payment_successfully">പേയ്മെന്റ് വിജയകരമായി പൂർത്തിയായി </string>
+    <string name="save_pdf">PDF സംരക്ഷിക്കുക </string>
+    <string name="product_unavailable">
+<![CDATA[
+	    	The product <b>%1$s</b> is not available in your locality. Please share your interests.
+		]]>
+    </string>
+    <string name="product_unavailable_interest_taken">
+<![CDATA[
+	    	The product <b>%1$s</b> is not available in your locality. We have already taken your interest, your request id is <b>%2$s</b>.
+		]]>
+    </string>
+    <string name="product_available">
+<![CDATA[
+	    	The product <b>%1$s</b> is available in your locality. To know more about the product, request for callback.
+		]]>
+    </string>
+    <string name="failed_to_load_service_info">സേവന വിവരങ്ങൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="loading_service_info">സേവന വിവരങ്ങൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="service_info">സേവന വിവരങ്ങൾ</string>
+    <string name="installation_address">സ്ഥാപന വിലാസം</string>
+    <string name="activated_plans">സജീവമാക്കിയ സേവനങ്ങൾ</string>
+    <string name="dnd_preferences">ഡിഎൻഡി മുൻഗണനകൾ</string>
+    <string name="device_info">ഉപകരണ വിവരങ്ങൾ</string>
+    <string name="product_available_request_callback">
+<![CDATA[
+	    	You have already requested for a callback for the product <b>%1$s</b>. Your request id is <b>%2$s</b>
+		]]>
+    </string>
+
+    <!-- DND PREFERENCES -->
+    <string name="dnd_preference_title">ഡിഎൻഡി മുൻഗണനകൾ</string>
+
+    <!-- Set Alert -->
+    <string name="set_alert">അലേർട്ട് സജ്ജീകരിക്കുക</string>
+    <string name="txt_set_alert_desc">അക്കൗണ്ടുകളുടെ തുക പരിധിക്ക് അലേർട്ട് സജ്ജീകരിക്കുക</string>
+    <string name="updating_data">ഡാറ്റാ അപ്ഡേറ്റു ചെയ്യുന്നു</string>
+    <string name="unable_to_update">അപ്ഡേറ്റു ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="updated_successfully">വിജയകരമായി അപ്ഡേറ്റു ചെയ്തു</string>
+    <string name="txt_account">അക്കൗണ്ട്</string>
+    <string name="no_account_available">അക്കൗണ്ട് ലഭ്യമല്ല</string>
+    <string name="total_amount">ആകെ തുക</string>
+    <string name="monetary_threshold">മോണിറ്ററി ത്രെഷോൾഡ്</string>
+    <string name="nonmonetary_threshold">നോൺമോണിറ്ററി ത്രെഷോൾഡ്</string>
+    <string name="failed_to_load_recharges">റീചാർജ്ജുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="failed_to_load_topups_">ടോപ് അപ്പുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="failed_to_load_plans">പ്ലാനുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="validity_">സാധുത:</string>
+    <string name="enter_amount_to_recharge">തുക നൽകുക</string>
+    <string name="tv_select_service">പണം കൈപ്പറ്റുന്ന ആളെ രജിസ്റ്റർ ചെയ്യുന്നതിന് സേവനം തിരഞ്ഞെടുക്കുക</string>
+    <string name="success_register_donor">ദാതാവിനെ വിജയകരമായി രജിസ്റ്റർ ചെയ്തു</string>
+    <string name="tv_name">പേര് </string>
+    <string name="tv_service">സേവന ഐഡി </string>
+    <string name="tv_plan">പ്ലാൻ ഐഡി </string>
+    <string name="tv_service_status">സേവന സ്റ്റാറ്റസ് </string>
+    <string name="tv_text_activation">സജീവമാക്കിയ ദിവസം </string>
+    <string name="tv_text_requested">അഭ്യർത്ഥിച്ച ദിവസം </string>
+    <string name="tv_text_auto">യാന്ത്രിക പുതുക്കൽ </string>
+    <string name="tv_text_bearer">ബെയറർ തരം :</string>
+    <string name="tv_text_renewable">പുതുക്കാവുന്ന ദിവസം </string>
+    <string name="tv_text_renewable_price">പുതുക്കാവുന്ന വില </string>
+    <string name="tv_text_charged">ഈടാക്കിയ തുക :</string>
+
+    <!-- Product Specification -->
+
+    <string name="service_availability_areas">സേവനം ലഭ്യമായ ഏരിയകൾ</string>
+    <string name="loading_states">സംസ്ഥാനങ്ങൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="balance_not_available">ബാധകമല്ല</string>
+    <string name="your_prepaid_ac_balance_is">പ്രീ പെയ്ഡ് അക്കൗണ്ട് ബാലൻസ് </string>
+    <string name="your_postpaid_ac_balance_is">"പോസ്റ്റ്പെയ്ഡ്"</string>
+    <string name="loading_transactions">ഇടപാടുകൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="pay_for_service">സേവനത്തിന് പണമടയ്ക്കുക</string>
+    <string name="failed_to_recharge_service">സേവനം റീചാർജ്ജ് ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="service_recharge_success">സേവനം വിജയകരമായി റീചാർജ്ജ് ചെയ്തു</string>
+    <string name="please_enter_an_amount">ഒരു തുക നൽകുക</string>
+    <string name="not_available">ബാധകമല്ല</string>
+    <string name="units">യൂണിറ്റുകൾ</string>
+    <string name="minutes">മിനിട്ടുകൾ</string>
+    <string name="mb">എംബി</string>
+    <string name="product_id_">ഉൽപ്പന്ന ഐഡി-</string>
+    <string name="device_type_">ഉപകരണത്തിന്റെ തരം-</string>
+    <string name="device_model_">ഉപകരണത്തിന്റെ മോഡൽ-</string>
+    <string name="vendor_">വെൻഡർ-</string>
+    <string name="warranty_date_">വാറണ്ടി ദിവസം-</string>
+    <string name="activation_date_">സജീവമാക്കിയ ദിവസം:</string>
+    <string name="activation_preference_">"സജീവമാക്കൽ മുൻഗണന: "</string>
+    <string name="expire_on_">"കാലാവധി ദിവസം: "</string>
+    <string name="account_name_can_t_be_empty_">അക്കൗണ്ട് പേര് ശൂന്യമായിടാൻ കഴിയും/ഇല്ല</string>
+    <string name="account_rename_success">അക്കൗണ്ട് വിജയകരമായി പുനർനാമകരണം ചെയ്തു</string>
+    <string name="sending_information_to_payment">പേയ്മെന്റിലേയ്ക്ക് വിവരങ്ങൾ അയയ്ക്കുന്നു</string>
+    <string name="server_is_not_responding">സെർവർ പ്രതികരിക്കുന്നില്ല</string>
+    <string name="data_is_not_retrieved">ഡാറ്റാ തിരിച്ചെടുത്തില്ല</string>
+    <string name="top_up_details">ടോപ് അപ് വിശദാംശങ്ങൾ</string>
+    <string name="top_up_reference_no_">"ടോപ് അപ് റഫറൻസ് നമ്പർ. "</string>
+    <string name="price_">വില: </string>
+    <string name="plan_type_connectivity_recharge">കണക്ടിവിറ്റി റീചാർജ്ജ്</string>
+    <string name="loading_topups">ടോപ് അപ്പുകൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="loading_recharges">റീചാർജ്ജുകൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="ref_no_">"റഫറൻസ് നമ്പർ: "</string>
+    <string name="detail_">"വിശദാംശം: "</string>
+    <string name="_minutes">" മിനിട്ടുകൾ"</string>
+    <string name="my_services">എന്റെ സേവനങ്ങൾ</string>
+    <string name="plan_type">പ്ലാൻ തരം: </string>
+
+    <!-- Product Specification -->
+
+    <string name="edt_transfer_hint">കൈമാറ്റം ചെയ്യേണ്ട ആൾ</string>
+    <string name="trouble_ticket_not_found">ട്രബിൾ ടിക്കറ്റുകൾ കാണപ്പെട്ടില്ല</string>
+    <string name="enter_pincode">പിൻകോഡ് നൽകുക</string>
+
+    <!-- Transform -->
+
+    <string name="your_account_balance">"നിങ്ങളുടെ എ/സി ബാലൻസ് "</string>
+    <string name="reset">പുനഃസജ്ജീകരിക്കുക</string>
+    <string name="plans">പ്ലാനുകൾ</string>
+    <string name="more_detail">വിവരങ്ങൾ</string>
+    <string name="info">വിവരങ്ങൾ</string>
+    <string name="check_balance">ബാലൻസ്</string>
+    <string name="credit_transform">രൂപം മാറ്റുക</string>
+    <string name="data_not_availble_">ഡാറ്റാ ലഭ്യമല്ല</string>
+    <string name="select_plan_transfer">കൈമാറുന്നതിന് ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_plan_transform">രൂപം മാറ്റുന്നതിന് ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="transfer_from">ഇതിൽ നിന്ന് കൈമാറുക</string>
+    <string name="transfer_rate">കൈമാറുന്ന നിരക്ക്</string>
+    <string name="tv_register_new_recipient">കോണ്ടാക്റ്റ്</string>
+    <string name="transation_history">ഇടപാടുകളുടെ ചരിത്രം</string>
+    <string name="tv_transfer_balance_type">കൈമാറ്റ തരം</string>
+    <string name="text_transform">ഇതിലേക്ക് രൂപം മാറ്റുക </string>
+    <string name="tv_loading_digital">ഡിജിറ്റൽ സേവനം ലോഡു ചെയ്യുന്നു</string>
+    <string name="done">ചെയ്തു</string>
+    <string name="select">തിരഞ്ഞെടുക്കുക</string>
+    <string name="title_ott_dialog">ഒടി‌ടി</string>
+    <string name="payee">പണം കൈപ്പറ്റുന്നയാൾക്ക് കൈമാറുക</string>
+    <string name="new_payee">പുതുതായി രജിസ്റ്റർ ചെയ്യുക.</string>
+    <string name="search_by_refrence_no_">റഫറൻസ് നമ്പർ പ്രകാരം തിരയുക.</string>
+    <string name="search_by_refrence_no_or_title">ശീർഷകം അല്ലെങ്കിൽ റഫറൻസ് നമ്പർ പ്രകാരം തിരയുക.</string>
+    <string name="search_by_ticket_no_or_title">ശീർഷകം അല്ലെങ്കിൽ ടിക്കറ്റ് നമ്പർ പ്രകാരം തിരയുക </string>
+    <string name="by_status">സ്റ്റാറ്റസ് പ്രകാരം</string>
+    <string name="by_date">ദിവസ പ്രകാരം</string>
+    <string name="search_check_avial">ലഭ്യതയും വിതരണ ഓപ്ഷനും പരിശോധിക്കുക</string>
+    <string name="all">മുഴുവൻ</string>
+    <string name="approval_awaited">അംഗീകാരം കാത്തിരിക്കുന്നു</string>
+    <string name="approved_await_activation">അംഗീകരിച്ചു/സജീവമാക്കൽ കാത്തിരിക്കുക</string>
+    <string name="validation_failed">സാധുവാക്കൽ പരാജയപ്പെട്ടു</string>
+    <string name="caf_rejected">സിഎഎഫ് നിരസിച്ചു</string>
+    <string name="completed">പൂർത്തിയാക്കി</string>
+    <string name="tele_verification_failed">ടെലി-വെരിഫിക്കേഷൻ പരാജയപ്പെട്ടു</string>
+    <string name="caf_not_required">സിഎഎഫ് ആവശ്യമില്ല</string>
+    <string name="order_cancellation">ഓർഡർ റദ്ദാക്കൽ</string>
+    <string name="help_ticket_details">ഹെൽപ് ടിക്കറ്റ് വിശദാംശങ്ങൾ</string>
+    <string name="or">അല്ലെങ്കിൽ</string>
+    <string name="search_by_location">ലൊക്കേഷൻ പ്രകാരം തിരയുക.</string>
+    <string name="jio_store">ജിയോ സ്റ്റോർ</string>
+    <string name="jio_hot_spot">ജിയോ ഹോട്ട്‌സ്പോട്ട്</string>
+    <string name="jio_center">ജിയോ സെന്റർ</string>
+    <!-- Dialog Fragment -->
+    <string name="title">ശീർഷകം</string>
+    <string name="title_">ശീർഷകം</string>
+    <string name="msg">സന്ദേശം</string>
+    <string name="order_details">ഓർഡർ വിശദാംശങ്ങൾ</string>
+    <string name="title_dialog_register_service">രജിസ്റ്റർ ചെയ്യുന്നതിന് സേവന ഐഡി നൽകുക</string>
+    <string name="title_dialog_register_service_alias">പണം കൈപ്പറ്റുന്ന ആളെ രജിസ്‌റ്റർ ചെയ്യുന്നതിന് ഇതരനാമം നൽകുക </string>
+    <string name="select_sub_type">സബ് ടൈപ്പ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="local_reference_details">ലോക്കൽ റഫറൻസ് വിശദാംശങ്ങൾ</string>
+    <string name="update_order">അപ്ഡേറ്റ് ഓർഡർ</string>
+    <string name="offer_name">ഓഫർ പേര്:</string>
+    <string name="product_name_">ഉൽപ്പന്നത്തിന്റെ പേര്:\u0020</string>
+    <string name="products_name">ഉൽപ്പന്നത്തിന്റെ പേര്</string>
+    <string name="product_id">ഉൽപ്പന്ന ഐഡി:\u0020</string>
+    <string name="estimated_completion_time">കണക്കാക്കിയ പൂർത്തീകരിക്കൽ സമയം:</string>
+    <string name="installation_date">സ്ഥാപന ദിവസം:</string>
+    <string name="calling_party_number">കോളിംഗ് പാർട്ടി നമ്പർ:</string>
+    <string name="order_ref_no">ഓർഡർ റഫറൻസ് നമ്പർ:</string>
+    <string name="service_name_header">സേവന പേര് തലക്കെട്ട്</string>
+    <string name="my_orders">എന്റെ ഓർഡറുകൾ</string>
+    <string name="services_help">സേവനങ്ങൾ</string>
+    <string name="accounts_id">അക്കൗണ്ട് ഐഡി:\u0020</string>
+    <string name="customers_id">ഉപഭോക്തൃ ഐഡി:\u0020</string>
+    <string name="status">സ്റ്റാറ്റസ്:\u0020</string>
+    <string name="descriptions">വിവരണം:\u0020</string>
+    <string name="raise_date">ദിവസം ഉന്നയിക്കുക:</string>
+    <string name="services_id">സേവന ഐഡി:\u0020</string>
+    <string name="services_type">സേവന തരം:\u0020</string>
+    <string name="resolution_date">റെസൊല്യൂഷൻ ദിവസം:\u0020</string>
+    <string name="estimated_resolution_time">കണക്കാക്കിയ റെസൊല്യൂഷൻ സമയം:\u0020</string>
+    <string name="category">വിഭാഗം:\u0020</string>
+    <string name="category_id">വിഭാഗം ഐഡി:\u0020</string>
+    <string name="help_title">ശീർഷകം:\u0020</string>
+
+    <!-- Edit address string -->
+    <string name="jio_center_id">ജിയോ സെന്റർ ഐഡി</string>
+    <string name="number_of_floors">നിലകളുടെ എണ്ണം</string>
+    <string name="pin_code">പിൻകോഡ്</string>
+    <string name="landmark">ലാൻഡ്‌മാർക്ക്</string>
+    <string name="street">സ്ട്രീറ്റ്</string>
+    <string name="sub_locality">ഉപ പ്രദേശം</string>
+    <string name="area_locality">ഏരിയ/പ്രദേശം</string>
+    <string name="village_city">വില്ലേജ്/നഗരം</string>
+    <string name="district">ജില്ല</string>
+    <string name="state">സംസ്ഥാനം</string>
+    <string name="country">രാജ്യം</string>
+    <string name="society_name">സൊസൈറ്റിയുടെ പേര്</string>
+    <string name="building_number_name">കെട്ടിട നമ്പർ/പേര്</string>
+    <string name="house_flat_number_name">വീട്/ഫ്ലാറ്റ് നമ്പർ/പേര്</string>
+    <string name="care_of">കെയർ ഓഫ്</string>
+    <string name="building_id">കെട്ടിട ഐഡി</string>
+    <string name="last_name">പേരിന്റെ അവസാനഭാഗം</string>
+    <string name="middle_name">പേരിന്റെ മധ്യഭാഗം</string>
+    <string name="first_name">പേരിന്റെ ആദ്യഭാഗം</string>
+    <string name="addon_service_id">സേവന ഐഡി:</string>
+    <string name="str_feature_name_addon">സവിശേഷതയുടെ പേര്</string>
+    <string name="create_fliter">ഫിൽട്ടർ സൃഷ്ടിക്കുക</string>
+    <string name="from_date">അയച്ച ദിവസം</string>
+    <string name="to_date">കിട്ടിയ ദിവസം</string>
+    <string name="from">മുതൽ </string>
+    <string name="to">സ്വീകർത്താവ് </string>
+    <!-- Product Detail Fragment Screen -->
+    <string name="buy_now">ഇപ്പോൾ വാങ്ങുക </string>
+    <string name="check">പരിശോധിക്കുക </string>
+    <string name="optionals_plan">ഓപ്ഷണൽ പ്ലാനുകൾ </string>
+    <string name="details">വിശദാംശം </string>
+    <string name="technical_details">സാങ്കേതിക വിശദാംശങ്ങൾ </string>
+    <string name="store_pickup">സ്‌റ്റോർ പിക്കപ്പ് </string>
+    <string name="change">മാറ്റുക </string>
+    <string name="order_summary">ഓർഡർ സംഗ്രഹം </string>
+    <string name="product_">ഉൽപ്പന്നം </string>
+    <string name="items">ഇനങ്ങൾ </string>
+    <string name="plan_">പ്ലാൻ :</string>
+    <string name="qty">QTY </string>
+    <string name="cost">ചിലവ് </string>
+    <string name="grand_total">ആകെ തുക </string>
+    <string name="apply">പ്രയോഗിക്കുക </string>
+    <string name="place_order">ഓർഡർ നൽകുക </string>
+    <string name="apply_voucher">വൗച്ചർ പ്രയോഗിക്കുക </string>
+    <string name="nearest_stores">അടുത്തുള്ള സ്റ്റോറുകൾ </string>
+    <string name="checking_avail">ലഭ്യത പരിശോധിക്കുന്നു </string>
+    <string name="fetching_summary">സംഗ്രഹം ലഭ്യമാക്കുന്നു. ..</string>
+    <!-- Product Descriptions -->
+    <string name="desc_mifi">വിവരണം : \n
+ജിയോ മൈഫൈ എന്നത് 5/10 വൈ-ഫൈ ഗാഡ്ജെറ്റുകൾ ഒരേ സമയം കണക്റ്റുചെയ്യാൻ ശേഷിയുള്ള പോക്കറ്റ് വലിപ്പത്തിലാക്കിയ നിങ്ങളുടെ സ്വന്തം വ്യക്തിഗത, മൊബൈൽ വൈ-ഫൈ ഹോട്ട്‌സ്പോട്ട് റൂട്ടർ ആണ്. പാസ്‌വേഡ് സംരക്ഷിത കണക്ഷൻ എന്ന സവിശേഷതയുള്ളതിനാൽ ഏറ്റവുമടുത്ത സുഹൃത്തുക്കളും കുടുംബാംഗങ്ങളുമായി സുരക്ഷിതമായ അതിവേഗ കണക്ഷൻ മനഃസമാധാനത്തോടെ പങ്കിടുന്നതിന് നിങ്ങൾക്കു സാധിക്കും.
+\n
+പ്രധാന സവിശേഷതകൾ : \n
+
+1 . വിവിധ തരം ഉപകരണങ്ങൾക്കും ഉപയോക്താക്കൾക്കുമിടയിലുള്ള അതിവേഗത \n
+2 . ഉയർന്ന നിലവാരവും വൈവിധ്യവുമുള്ള ഉള്ളടക്കങ്ങളിലേയ്ക്കുള്ള ആക്സസ് \n
+3 . ഉപകരണത്തിന്റെ രൂപകൽപ്പന \n
+4 . സൗകര്യപ്രദമായ ഓൺബോർഡിംഗും സജ്ജീകരണവും \n
+5 . ഒരേയൊരു ജിയോ ഐഡി ഉപയോഗിച്ചുകൊണ്ട് എളുപ്പത്തിൽ ചാനലുകൾക്കിടയിൽ അക്കൗണ്ട് നിയന്ത്രണം ചെയ്യാൻ കഴിയുന്നു - മൊബൈൽ ആപ്ലിക്കേഷനിലും വെബ്ബിലും</string>
+    <string name="desc_wifi">വിവരണം : \n
+ഊർജ്ജസ്വലമായി പ്രവർത്തിക്കുന്ന അതിവേഗ ഇന്റർനെറ്റ് ആസ്വദിക്കുക. നിങ്ങളുടെ സിറ്റിയിൽ ജിയോ ഹോട്ട്‌സ്പോട്ട് എന്നതിൽ പൊതു ലൊക്കേഷനുകൾക്കിടയിലുള്ള ജിയോ വൈഫൈയുമായി കണക്റ്റ് ചെയ്യുക. ജിയോ സേവനങ്ങളുടെ അനുപമമായ എക്കോസിസ്റ്റത്തോടുകൂടിയ അത്യധിക വേഗത അനുഭവിച്ചറിയുക.
+\n
+പ്രധാന സവിശേഷതകൾ : \n
+
+1 . എവിടെയും ജിയോനെറ്റ് ആക്സസ്  \n
+2 . വൈഫൈ പ്രവർത്തനക്ഷമമായ നിങ്ങളുടെ ഉപകരണങ്ങളിൽ അതിവേഗ ഇന്റർനെറ്റ് ആക്സസ് \n
+3 . ജിയോ വൈഫൈയിൽ രജിസ്ട്രേഷൻ \n
+4 . ഉത്തമമായ വെബ്ബ് അനുഭവം</string>
+    <string name="desc_lte">വിവരണം : വിവരണം: ഉടൻ വരുന്നു&#8230;</string>
+    <string name="desc_volte">വിവരണം : \n
+അപശബ്ദമുള്ള വോയ്സ് കോളുകൾ, താഴ്ന്ന സിഗ്നലുകൾ, കുറഞ്ഞ സ്പീഡ് എന്നിവ ഇപ്പോൾ ചരിത്രമാകുന്നു. 4ജി എൽടിഇ എന്നതിന് ഒരു ഹലോ പറയുക. ആശയവിനിമയ സാധ്യതകളുടെ ഒരു ബാഹുല്യം നിങ്ങളുടെ വിരൽതുമ്പിൽ നൽകിക്കൊണ്ട് കൂടുതൽ സാമർത്ഥ്യത്തോടെ ജോലിചെയ്യുന്നതിനും തീക്ഷ്ണമായി വിനോദത്തിലേർപ്പെടുന്നതിനും നിങ്ങളെ സഹായിക്കുന്ന ഒരു സാങ്കേതിക വിദ്യ. പരമ്പരാഗത വോയ്സ് കോളുകളുടെ ലാളിത്യത്തോടെ, എന്നാൽ സ്വാഭാവികതയുണർത്തുന്ന ഹൈ-ഡെഫിനിഷൻ (എച്ച്‌ഡി) വോയ്സ്, വീഡിയോ കോളുകളുടെ അനുഭവം ആസ്വദിക്കാൻ നിങ്ങൾക്കു കഴിയും.
+4ജി VoLTE ഫോൺ വഴി അടുത്ത തലമുറയ്ക്കായുള്ള നെറ്റ്‌വർക്ക് അനുഭവിക്കാനും മെച്ചപ്പെട്ട ജീവിതം നയിക്കാനും നിങ്ങൾ ശക്തരാകുന്നു. ജിയോ പ്രവർത്തനക്ഷമമാക്കിയ ഹൈ-എൻഡ് സേവനങ്ങളാൽ പൊതിയപ്പെട്ട്, ജീവിതത്തെ പുനർവിഭാവനം ചെയ്യുന്നതിനും ആശയവിനിമയ സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യവൽക്കരിക്കുന്നതിനും നിങ്ങൾക്കു കഴിയും.VoLTE അടിസ്ഥാന ഓഫറിൽ പരിധിയില്ലാത്ത ജിയോ ടു ജിയോ വോയ്സ്, വീഡിയോ കോളുകൾ നേടുക. ഈ ഓഫറിന്റെ ഭാഗമായി ജിയോ പ്ലേ എന്നതിൽ 50 സ്പോർട്സ് ചാനലുകളിലേയ്ക്കുള്ള സൗജന്യ ആക്സസും നിങ്ങൾക്കു ലഭിക്കും. ആരംഭിക്കുക. ഒരു പുതിയ ജീവിത പന്ഥാവിലേയ്ക്ക് അപ്ഗ്രേഡു
+ \n
+
+പ്രധാന സവിശേഷതകൾ: \n
+
+1 . എച്ച്‌ഡി വോയ്സ്, വീഡിയോ കോളുകളിൽ ഉത്തമ കോളിംഗ് അനുഭവം \n
+2 . വേഗത്തിലുള്ള കോൾ കണക്ഷൻ സമയം \n
+3 . വോയ്സ്, വീഡിയോ കോളുകൾക്കിടയിലുള്ള സ്വിച്ചിംഗ് \n
+4 . ഓഫറിന്റെ ഭാഗമായി 50 ജിയോ സ്പോർട്സ് ചാനലുകളിലേയ്ക്കുള്ള സൗജന്യ ആക്സസ് \n
+5 . റിയൽ ടൈം ബാലൻസും അക്കൗണ്ട് വിവരങ്ങളും \n
+6 . മെച്ചപ്പെട്ട ആശയവിനിമയം \n
+7 .  ഒരൊറ്റ ജിയോ ഐഡി ചാനലുകൾക്കിടയിൽ ഉപയോഗിച്ചുകൊണ്ട് എളുപ്പത്തിൽ ചെയ്യാവുന്ന അക്കൗണ്ട് നിയന്ത്രണം- മൊബൈൽ ആപ്ലിക്കേഷനിലും വെബ്ബിലും \n
+8 . സൗകര്യപ്രദമായ ഓൺബോർഡിംഗും സജ്ജീകരണങ്ങളും </string>
+    <string name="desc_ftth"> വിവരണം : \n
+ജിയോ ഫൈബർ അതിവേഗ ബ്രോഡ്ബാൻഡ്-ഫൈബർ വഴി നിങ്ങളുടെ വീടുകളിലേക്കെത്തുന്ന അതിവേഗ ഇന്റർനെറ്റ്.
+\n
+പ്രധാന സവിശേഷതകൾ : \n
+
+1 . 100 എംബിപിഎസ് വരെയുള്ള ഡൗൺലോഡ് വേഗത \n
+2 . ഫ്യൂച്ചർ റെഡി - ഇത് അതിവേഗ, ലേറ്റൻസി സെൻസിറ്റീവ് ആപ്ലിക്കേഷനുകളെ പിന്തുണയ്ക്കുന്നു \n
+3 . ഒരു ഫൈബർ ബ്രോഡ്ബാൻഡ് കണക്ഷൻ കൊണ്ട് ശക്തിപ്പെടുത്തിയ അതിവേഗ പ്രകടനം</string>
+    <string name="str_add_ons">ആഡ്-ഓണുകൾ</string>
+    <string name="str_dnd_message">നിങ്ങളുടെ ജിയോ ഐഡി/കളിലേയ്ക്കും രജിസ്റ്റർ ചെയ്ത നമ്പറിലേയ്ക്കുമുള്ള പ്രൊമോഷണൽ കോളുകളും സന്ദേശങ്ങളും രജിസ്റ്റർ ചെയ്ത് 7 ദിവസങ്ങൾക്കകം നിൽക്കണം. റെക്കോർഡുകൾക്കായി തനതായ ഒരു റഫറൻസ് നമ്പർ എസ്എംഎസ് വഴി നിങ്ങൾക്കു ലഭിക്കുന്നതാണ്. നിങ്ങളുടെ മുൻഗണനകൾ രജിസ്റ്റർ ചെയ്യുകയും അടുത്ത കാലത്ത് അപ്ഡേറ്റു ചെയ്യുകയും ചെയ്തിട്ടുണ്ടെങ്കിൽ, മാറ്റങ്ങൾ നടപ്പിലാക്കുന്നതിനായി ഞങ്ങൾക്ക് 7 ദിവസം നൽകുക.</string>
+    <string name="str_dnd_alert_message">ആഡ്-ഓണുകൾ</string>
+    <string name="dnd_update_nmsg">താഴെയുള്ള മേഖലകളിൽനിന്ന് പ്രത്യേക സന്ദേശങ്ങളും അലേർട്ടുകളും ലഭിക്കാൻ ആഗ്രഹമുണ്ടോ?</string>
+    <string name="loading_dnd_preferences">ഡിഎൻഡി മുൻഗണനകൾ ലോഡു ചെയ്യുന്നു</string>
+    <string name="str_service_feature_not_available">സവിശേഷത ലഭ്യമല്ല</string>
+    <string name="upload">അപ്‌ലോഡുചെയ്യുക </string>
+    <string name="download">ഡൗൺലോഡ് ചെയ്യുക </string>
+
+    <!-- Server Setting -->
+
+    <!-- Settings screen -->
+    <string name="language">ഭാഷ </string>
+    <string name="select_language">ഭാഷ തിരഞ്ഞെടുക്കുക </string>
+    <string name="your_app_will_restart">നിങ്ങൾക്ക് ഭാഷ മാറ്റണമെങ്കിൽ. \n നിങ്ങളുടെ ആപ്ലിക്കേഷൻ പുനരാരംഭിക്കും </string>
+    <string name="apply_filters">ഫിൽട്ടറുകൾ പ്രയോഗിക്കുക </string>
+    <string name="no_local_reference_found">ലോക്കൽ റഫറൻസ് നമ്പർ കണ്ടെത്തിയില്ല </string>
+    <string name="order_updation_failed_">ഓർഡർ അപ്ഡേറ്റു ചെയ്യൽ പരാജയപ്പെട്ടു </string>
+    <string name="order_updated_successfully_">ഓർഡർ വിജയകരമായി അപ്ഡേറ്റു ചെയ്തു </string>
+    <string name="updating_customer_order">ഉപഭോക്തൃ ഓഡർ അപ്ഡേറ്റുചെയ്യുന്നു </string>
+    <string name="no_billing_add_found">ബില്ലിംഗ് വിലാസം കണ്ടെത്തിയില്ല </string>
+    <string name="loading_order_details">ഓർഡർ വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="couldn_t_fetch_order_details">ഓർഡർ വിശദാംശങ്ങൾ ലഭ്യമാക്കാൻ കഴിയുന്നില്ല. </string>
+    <string name="loading_service_features">സേവന ഫീച്ചറുകൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="service_features_not_available">സേവന ഫീച്ചറുകൾ ലഭ്യമല്ല </string>
+    <string name="flexi_topup">ഫ്ലെക്സി ടോപ് അപ്പ് </string>
+    <string name="voucher">വൗച്ചർ </string>
+    <string name="enter_voucher_code">വൗച്ചർ കോഡ് നൽകുക </string>
+    <string name="service_id_">സേവന ഐഡി </string>
+    <string name="a_c_no_">A/c നം. </string>
+    <string name="loading_turbo_boost_plans">ടർബോ ബൂസ്റ്റ് പ്ലാനുകൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="service_features">സേവന ഫീച്ചറുകൾ </string>
+    <string name="a_c_id_">"A/C ID : "</string>
+
+    <!-- Splash Screen -->
+    <string name="version">പതിപ്പ് </string>
+
+    <!-- Change Password Screen -->
+    <string name="change_pass">പാസ്‌വേഡ് മാറ്റുക </string>
+
+    <!-- CUG and FNF -->
+    <string name="group_for_cug_fnf">CUG &#38; FNF-നായുള്ള ഗ്രൂപ്പ് </string>
+    <string name="step1">ഘട്ടം 1</string>
+    <string name="step2">ഘട്ടം 2</string>
+    <string name="step3">ഘട്ടം 3</string>
+    <string name="step4">ഘട്ടം 4</string>
+    <string name="create_group_name">ഗ്രൂപ്പ് പേര് സൃഷ്ടിക്കുക </string>
+    <string name="add_contacts">കോൺടാക്റ്റുകൾ ചേർക്കുക </string>
+    <string name="select_group_icon">ഗ്രൂപ്പ് ഐക്കൺ തിരഞ്ഞെടുക്കുക </string>
+    <string name="max_allowed_members">പരമാവധി അനുവദനീയ അംഗം </string>
+    <string name="add_jio_contacts">Jio കോൺടാക്റ്റുകൾ ചേർക്കുക </string>
+    <string name="invite">ക്ഷണിക്കുക </string>
+    <string name="plan_name">പ്ലാനിന്റെ പേര് </string>
+    <string name="group_">ഗ്രൂപ്പ്  -</string>
+    <string name="members">അംഗങ്ങൾ  -</string>
+    <string name="not_support_crop_action">നിങ്ങളുടെ ഉപകരണം  ക്രോപ്പ് ആക്ഷൻ പിന്തുണക്കുന്നില്ല </string>
+    <string name="take_photo">ഫോട്ടോ എടുക്കുക </string>
+    <string name="select_from_gallery">ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക </string>
+    <string name="remove_member">അംഗത്തെ നീക്കം ചെയ്യുക </string>
+    <string name="remove_picture">ചിത്രം നീക്കം ചെയ്യുക </string>
+    <string name="change_picture">ചിത്രം മാറ്റുക </string>
+
+    <!-- OTP Screen -->
+    <string name="resend">വീണ്ടും അയയ്ക്കുക </string>
+
+    <!-- Products -->
+    <string name="product_specification_details">ഉൽപ്പന്ന സവിശേഷത വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="loading_plan_details">പ്ലാൻ വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="product_not_available">നിങ്ങളുടെ ലൊക്കേഷനിൽ ഉൽപ്പന്നം ലഭ്യമല്ല </string>
+    <string name="enter_pin_code">6 അക്ക പിൻകോഡ് നൽകുക </string>
+    <string name="more">കൂടുതൽ </string>
+    <string name="less">കുറവ് </string>
+    <string name="tab_data">ഡാറ്റ </string>
+    <string name="tab_voice">വോയ്സ് </string>
+    <string name="tab_units">യൂണിറ്റുകൾ </string>
+    <string name="usage_service_id">സേവന ഐഡി :</string>
+    <string name="start_date">ആരംഭിക്കുക </string>
+    <string name="end_date">അവസാനം :</string>
+    <string name="left">ഇടത്ത് </string>
+    <string name="available">ലഭ്യമായത് </string>
+    <string name="used">ഉപയോഗിച്ചു </string>
+    <string name="product_details">ഉൽപ്പന്ന വിശദാംശങ്ങൾ </string>
+
+    <!-- DND Preferences -->
+    <string name="banking_insurance_financial_products_credit_cards">Banking/Insurance/Financial products/credit cards</string>
+    <string name="real_estate">റിയൽ എസ്റ്റേറ്റ് </string>
+    <string name="education">വിദ്യാഭ്യാസം </string>
+    <string name="health">ആരോഗ്യം </string>
+    <string name="consumer_goods_and_automobiles">ഉപഭോഗ വസ്തുക്കളും വാഹനങ്ങളും </string>
+    <string name="communication_broadcasting_entertainment_it">ആശയ വിനിമയം/ബ്രോഡ്കാസ്റ്റ് ചെയ്യൽ/വിനോദം/ഐടി </string>
+    <string name="tourism_and_leisure">വിനോദസഞ്ചാരവും വിശ്രമ വേളയും </string>
+    <string name="coming_soon">ഉടൻ വരുന്നു </string>
+
+    <!-- Profile -->
+
+    <string name="tab_personal">വ്യക്തിഗതം </string>
+    <string name="tab_address">വിലാസം </string>
+    <string name="loading_customer_info">ഉപഭോക്തൃ വിവരം ലോഡുചെയ്യുന്നു </string>
+    <string name="mobile_number">മൊബൈൽ നമ്പർ  </string>
+    <string name="marital_status">വൈവാഹിക നില </string>
+    <string name="passport_number">പാസ്‌പോർട്ട് നമ്പർ </string>
+    <string name="visa_number">Visa നമ്പർ </string>
+    <string name="visa_validity_date">Visa കാലാവധി തീയതി </string>
+    <string name="occupation">ജോലി </string>
+    <string name="house_name_number">House Name/Number</string>
+    <string name="street_name">സ്ട്രീറ്റിന്റെ പേര് </string>
+    <string name="type_of_house">ഹൗസ് തരം </string>
+    <string name="home_phone">വീട്ടിലെ ഫോൺ </string>
+    <string name="work_phone">ഔദ്യോഗിക ഫോൺ </string>
+    <string name="occupation_type">ജോലി തരം </string>
+    <string name="update_profile_info">ഉപഭോക്തൃ വിവരം അപ്ഡേറ്റുചെയ്യുന്നു </string>
+    <string name="enter_valid_otp">സാധുവായ OTP നൽകുക .</string>
+    <string name="confirm_otp">OTP സ്ഥിരീകരിക്കുക </string>
+    <string name="verify_otp">OTP പരിശോധിച്ചുറപ്പിക്കുന്നു </string>
+    <string name="cant_generate_otp_try_again">OTP സൃഷ്ടിക്കാൻ കഴിയുന്നില്ല, വീണ്ടും ശ്രമിക്കുക. </string>
+    <string name="update">അപ്ഡേറ്റുചെയ്യുക </string>
+    <string name="updatng">അപ്ഡേറ്റുചെയ്യുന്നു </string>
+    <string name="update_new_details">നിങ്ങൾക്ക് പുതിയ വിശദാംശങ്ങൾ അപ്ഡേറ്റ് ചെയ്യണോ? </string>
+    <string name="retry">വീണ്ടും ശ്രമിക്കുക </string>
+    <string name="otp_is_matched">OTP പൊരുത്തപ്പെട്ടു </string>
+    <string name="loading_districts">ജില്ലകൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="pay_bill">ബിൽ അടയ്ക്കുക </string>
+
+    <!-- Postpaid Bill Summery -->
+
+    <string name="outstanding_amount">ബാക്കിയുള്ള തുക  :</string>
+    <string name="bill_number">ബിൽ നമ്പർ  :</string>
+    <string name="due_date">ബിൽ കാലയളവ്  :</string>
+    <string name="bill_date">ബിൽ തീയതി   :</string>
+    <string name="billing_period">ബില്ലിംഗ് കാലയളവ്  :</string>
+    <string name="your_account_statement">നിങ്ങളൂടെ അക്കൗണ്ട് പ്രസ്താവന </string>
+    <string name="previous_amount">മുമ്പത്തെ തുക </string>
+    <string name="previous_payment">മുമ്പത്തെ പേയ്മെന്റ്് </string>
+    <string name="adjustments">ക്രമീകരണങ്ങൾ </string>
+    <string name="current_charges">നിലവിലുള്ള നിരക്കുകൾ </string>
+    <string name="amount_payable_by">ഇതുവരെ അടക്കേണ്ട തുക </string>
+    <string name="amount_payable_after">ഇതിനുശേഷം അടക്കേണ്ട തുക </string>
+    <string name="this_month_charge">മൊത്തം നിരക്കുകൾ </string>
+    <string name="monthly_charges">പ്രതിമാസ നിരക്കുകൾ </string>
+    <string name="usage_charges">ഉപയോഗ നിരക്കുകൾ </string>
+    <string name="other_credit_and_charges">മറ്റ് ക്രെഡിറ്റും നിരക്കുകളും </string>
+    <string name="discounts">ഡിസ്ക്കൗണ്ടുകൾ </string>
+    <string name="taxes">നികുതികൾ </string>
+    <string name="this_month_charges">മൊത്തം നിരക്കുകൾ  :</string>
+    <string name="pay_now">ഇപ്പോൾ പണമടയ്ക്കുക </string>
+    <string name="loading_bill_summary">ബിൽ സംഗ്രഹം ലോഡുചെയ്യുന്നു </string>
+    <string name="processing_payment">പേയ്മെന്റ് പ്രോസസ് ചെയ്യുന്നു </string>
+    <string name="prev_btns">മുമ്പത്തേത് </string>
+    <string name="next_btns">അടുത്തത് </string>
+    <string name="get_bill">ബിൽ ലഭ്യമാക്കുക </string>
+    <string name="no_bills_available">ബില്ലുകൾ കണ്ടെത്തിയില്ല. ചുവടെയുള്ള ഗെറ്റ് ബിൽ ഓപ്‌ഷണലുകൾ ഉപയോഗിച്ച് നിങ്ങളുടെ ബിൽ ഡൗൺലോഡുചെയ്യുക </string>
+
+    <!-- Email screen -->
+    <string name="send_us_your_enquiry">നിങ്ങളുടെ ചോദ്യം ഞങ്ങൾക്ക് അയക്കുക ഞങ്ങൾ മറുപടി നൽകുന്നതാണ് </string>
+    <string name="send_us_your_enquiry_24">24 മണിക്കൂറിനുള്ളിൽ </string>
+    <string name="on_your_email">നിങ്ങളുടെ ഇമെയിൽ ഐഡിയിൽ </string>
+    <string name="subject">വിഷയം </string>
+    <string name="send">അയയ്ക്കുക </string>
+    <string name="your_message">നിങ്ങളുടെ സന്ദേശം </string>
+    <string name="sending_email">ഇമെയിൽ അയയ്ക്കുന്നു </string>
+    <string name="send_successfully">അയച്ചു </string>
+    <string name="enter_msg">സന്ദേശം നൽകുക </string>
+    <string name="enter_subject">വിഷയം നൽകുക </string>
+    <string name="select_category">വിഭാഗം തിരഞ്ഞെടുക്കുക </string>
+    <string name="enter_email_id">സാധുവായ ഇമെയിൽ ഐഡി നൽകുക </string>
+    <string name="your_email">നിങ്ങളുടെ ഇമെയിൽ ഐഡി </string>
+
+    <!-- Trouble Ticket -->
+    <string name="help_description_hint">ആരോഗ്യം സഹായം വിവരണം നൽകുക (പരമാവധി 100 പ്രതീകം) </string>
+    <string name="account_id_">അക്കൗണ്ട് ID </string>
+    <string name="services_">സേവനങ്ങൾ </string>
+    <string name="category_">വിഭാഗം </string>
+    <string name="sub_category_">ഉപ വിഭാഗം </string>
+    <string name="sub_sub_category_">ഉപ ഉപ വിഭാഗം </string>
+    <string name="descriptions_">വിവരണം</string>
+    <string name="ticket_id">ടിക്കറ്റ് ഐഡി :\u0020</string>
+    <string name="processing_fee">പ്രോസസ് ചെയ്യൽ ഫീ  :</string>
+    <string name="information_can_t_be_updated_at_the_moment">ഇപ്പോൾ വിവരങ്ങൾ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല </string>
+    <string name="loading_product_details">ഉൽപ്പന്ന വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="creation_date">സൃഷ്ടിച്ച തീയതി </string>
+    <string name="ticket_id_">ടിക്കറ്റ് ഐഡി :</string>
+
+    <!-- Invoice -->
+    <string name="invoice">ഇൻവോയ്‌സ് </string>
+    <string name="online_payment_receipt">ഓൺലൈൻ പേയ്മെന്റ് രസീത് </string>
+    <string name="invoice_welcome_msg">നന്ദി. ഈ ഇടപാടുമായി ബന്ധപ്പെട്ട ഭാവിയിലുണ്ടാകുന്ന ഏത് സംശയങ്ങളിലും ഈ രസീത് നമ്പർ ഉപയോഗിക്കുക </string>
+    <string name="account_no_">അക്കൗണ്ട് നം. </string>
+    <string name="receipt_no_">രസീത് ന്മ്പർ </string>
+    <string name="transaction_type">ഇടപാട് തരം </string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="transaction_ref_no">ഇടപാട് റഫറൻസ് നമ്പർ </string>
+    <string name="amount_paid">അടച്ച തുക  (\u20B9)</string>
+    <string name="payment_from">ഇനിപ്പറയുന്നതിൽ നിന്നുള്ള പേയ്മെന്റ ് </string>
+    <string name="date">തീയതി </string>
+    <string name="print">പ്രിന്റുചെയ്യുക </string>
+    <string name="close">അടയ്ക്കുക </string>
+    <string name="term_and_conditions">നിബന്ധന &#38; വ്യവസ്ഥകൾ </string>
+    <string name="thanks_receipt_msg">..........my jio ഓൺലൈൻ പേയ്മെന്റ് സേവനം ഉപയോഗിച്ചതിന് നന്ദി ..........</string>
+    <string name="record_is_updated">റെക്കോർഡ് അപ്ഡേറ്റു ചെയ്തു </string>
+    <string name="total_data">മൊത്തം ഡാറ്റ </string>
+    <string name="summary">സംഗ്രഹം </string>
+    <string name="help_dialog_ok_button_text">ശരി, മനസിലായി </string>
+    <string name="drawer_open">നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക </string>
+    <string name="drawer_close">നാവിഗേഷൻ ഡ്രോയർ അടയ്ക്കുക </string>
+    <string name="bill">സംഗ്രഹം </string>
+    <!-- bill statement fragment -->
+    <string name="usages_summary">ഉപയോഗ സംഗ്രഹം </string>
+    <string name="bill_statement">ബിൽ പ്രസ്താവനകൾ </string>
+    <string name="select_date">തീയതി തിരഞ്ഞെടുക്കുക </string>
+    <string name="msg_payment_incomplete_data">പേയ്മെന്റ് തുടരുന്നതിനുള്ള വിവരം പൂർണ്ണമല്ല </string>
+    <string name="update_old_details">നിങ്ങൾക്ക് പഴയ വിശദാംശങ്ങൾ അപ്ഡേറ്റ് ചെയ്യണോ? </string>
+    <string name="otp_is_invalid">OTP അസാധുവാണ് </string>
+    <string name="text_get_bill">ബിൽ നേടുക </string>
+    <string name="download_pdf">PDF ഡൗൺലോഡ് ചെയ്യുക </string>
+    <string name="transferred_value">കൈമാറ്റ മൂല്യം </string>
+    <string name="transferable_value">കൈമാറ്റ മൂല്യം </string>
+    <string name="status_">സ്‌റ്റാറ്റസ് </string>
+    <string name="transfer_to">കൈമാറ്റം ചെയ്യേണ്ട ആൾ </string>
+    <string name="registered_services">രജിസ്റ്റർ ചെയ്ത സേവനം </string>
+    <string name="n_a">N/A</string>
+    <string name="choose_from_the_menus">മെനുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക </string>
+    <string name="swipe_left_for_digital_services">ഡിജിറ്റൽ സേവനങ്ങൾക്കായി ഇടത്തേക്ക് സ്വൈപ്പ് ചെയ്യുക </string>
+    <string name="tap_to_flip_the_view">കാണുന്നത് ഫ്ലിപ്പ് ചെയ്യുന്നതിന് ടാപ്പ് ചെയ്യുക </string>
+    <string name="navigate_to_screens_from_here">ഇവിടെ നിന്ന് സ്ക്രീനുകളിളേക്ക് നാവിഗേറ്റുചെയ്യുക </string>
+    <string name="swipe_right_for_credit_transfer">ക്രെഡിറ്റ് ട്രാൻസ്ഫർ ചെയ്യുന്നതിനായി വലത്തേക്ക് സ്വൈപ്പ് ചെയ്യുക </string>
+
+    <!-- Error Msg mapping -->
+
+    <string name="response_default_error_0">Something went wrong, try again later</string>
+
+    <!-- Login Module Error messages -->
+    <string name="c_03006">ഈ നമ്പർ നേരത്തെ തന്നെ മറ്റൊരാൾ ഉപയോഗിച്ചതായി കാണുന്നു </string>
+    <!-- <string name="c_01000">Invalid Username or Password</string> -->
+    <string name="c_01000">നൽകിയ ഡാറ്റയ്ക്ക് സാധുതയില്ല </string>
+    <string name="c_00001">അഭ്യർത്ഥനയിൽ നൽകിയിരിക്കുന്ന ഐഡികളിൽ ഒന്നിലെ തിരിച്ചറിഞ്ഞ ഘടകം നിലവിലില്ല അല്ലെങ്കിൽ നിലവിലുണ്ട് എന്നാൽ ആ ഘടകത്തിൽ നിലവിലെ ഉപയോക്താവിന് ഇത്തരം പ്രവൃത്തി നിർവഹിക്കാൻ അനുമതിയില്ല. </string>
+    <string name="c_01001">സെഷൻ കാലഹരണപ്പെട്ടു, വീണ്ടും ലോഗിൻ ചെയ്യുക </string>
+    <string name="c_00000">ഇൻപുട്ട് അസാധുവാണ് </string>
+    <string name="c_01003">നൽകിയിരിക്കുന്ന ആവശ്യങ്ങളുമായി പാസ്‌വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല </string>
+    <string name="c_01002">പഴയ പാസ്‌വേഡ് തെറ്റാണ് </string>
+    <!-- The feature that is part of a called API has not been implemented yet -->
+    <string name="c_00002">ഉടൻ വരുന്നു </string>
+    <string name="c_00004">ഇൻപുട്ട് അസാധുവാണ് </string>
+    <string name="c_02001">തിരഞ്ഞെടുത്തിരിക്കുന്ന പ്രവൃത്തി ചെയ്യാൻ അക്കൗണ്ടിന് അനുമതിയില്ല </string>
+    <string name="c_7000">ഇൻപുട്ട് അസാധുവാണ് </string>
+    <string name="c_00005">നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സു ചെയ്യാൻ മതിയായ ഡാറ്റയില്ല </string>
+    <string name="add_on">ആഡ്-ഓണുകൾ് </string>
+    <string name="daily_usage">ദിവസേനയുള്ള ഉപയോഗം </string>
+    <string name="transform">രൂപം മാറ്റുക </string>
+    <string name="update_contacts_information">കോൺടാക്റ്റ് വിവരം അപ്ഡേറ്റുചെയ്യുക </string>
+    <string name="enter_phone_number_or_email_id_only">ഫോൺ നമ്പർ അല്ലെങ്കിൽ ഇമെയിൽ ഐഡി മാത്രം നൽകുക </string>
+
+    <!-- Trasnform Receipt -->
+    <string name="transform_receipt">ട്രാൻസ്ഫോം രസീത് </string>
+    <string name="transform_from_service_id">സേവന ഐഡിയിൽ നിന്നും ട്രാൻസ്ഫോം ചെയ്തു </string>
+    <string name="transform_to_service_id">സേവന ഐഡിയിലേക്ക് ട്രാൻസ്ഫോം ചെയ്യുക </string>
+    <string name="transform_type">ട്രാൻസ്ഫോം തരം </string>
+    <string name="transform_amount">ട്രാൻസ്ഫോം ചെയ്ത തുക </string>
+    <string name="total_used_amount">ഉപയോഗിച്ച മൊത്തം തുക </string>
+    <string name="total_conversion_amount">പൂർണ്ണ പരിവർത്തന തുക </string>
+    <string name="ref_no">റഫറൻസ് നമ്പർ </string>
+    <string name="transform_details">ട്രാൻസ്ഫോം വിശദാംശങ്ങൾ </string>
+
+    <!-- Transferred Receipt -->
+    <string name="transfer_receipt">കൈമാറുന്ന രസീത് </string>
+    <string name="transfer_from_service_id">സേവന ഐഡിയിൽ നിന്നും കൈമാറി </string>
+    <string name="transfer_to_service_id">സേവന ഐഡിയിൽലേക്ക് കൈമാറി </string>
+    <string name="transferred_amount">കൈമാറിയ തുക </string>
+
+    <!-- Profile -->
+    <string name="india">ഇന്ത്യ </string>
+    <string name="personal_details">വ്യക്തിഗത വിശദാംശങ്ങൾ </string>
+    <string name="salutation">അഭിസംബോധന </string>
+    <string name="pan_number">പാൻ നമ്പർ </string>
+    <string name="aadhar_number">ആധാർ നമ്പർ </string>
+    <string name="other_details">മറ്റ് വിശദാംശങ്ങൾ </string>
+    <string name="occupation_description">ജോലി വിവരണം </string>
+    <string name="communication_channel">ആശയ വിനിമയ ചാനൽ </string>
+    <string name="contact_details">കോൺടാക്‌റ്റ് വിശദാംശങ്ങൾ </string>
+    <string name="address_">വിലാസം *</string>
+    <string name="vibrate_device_when_a_new_message_arrives_while_application_is_running_">ആപ്ലിക്കേഷൻ പ്രവർത്തിച്ചിച്ച് കൊണ്ടിരിക്കുമ്പോൾ പുതിയ സന്ദേശം വരികയാണെങ്കിൽ ഉപകരണം വൈബ്രേറ്റ് ചെയ്യുക </string>
+    <string name="notification_tone">അറിയിപ്പ് ടോൺ </string>
+    <string name="select_a_sound_to_play_for_a_new_notification_message_">പുതിയ അറിയിപ്പ് സന്ദേശം ലഭിക്കുമ്പോൾ പ്ലേ ചെയ്യുന്നതിന് ശബ്ദം തിരഞ്ഞെടുക്കുക </string>
+    <string name="faqs">പതിവുചോദ്യങ്ങൾ </string>
+
+    <!-- Product detail -->
+    <string name="product_cost_">ഉൽപ്പന്ന മൂല്യം :\u0020</string>
+    <string name="plan_cost_">പ്ലാൻ ചിലവ് :\u0020</string>
+    <string name="order_discount_">ഓർഡർ ഡിസ്ക്കൗണ്ട് :\u0020</string>
+    <string name="remove_voucher">വൗച്ചർ നീക്കം ചെയ്യുക </string>
+    <string name="no_usages_">ഉപയോഗങ്ങൾ ഒന്നും ലഭ്യമല്ല </string>
+    <string name="total">മൊത്തം </string>
+    <string name="service_not_activated">ഈ അക്കൗണ്ടിൽ സേവനം സജീവമാക്കിയിട്ടില്ല </string>
+    <string name="title_recharge_digital">ഡിജിറ്റൽ </string>
+    <string name="title_recharge_service_digital">ഡിജറ്റൽ +റീചാർജ്ജ് </string>
+    <string name="your_a_c_balance_is">നിങ്ങളുടെ അക്കൗണ്ട് ബാലൻസ് </string>
+    <string name="a_c">A/C</string>
+    <string name="reference_no">റഫറൻസ് നമ്പർ </string>
+    <string name="search">തിരയുക </string>
+    <string name="customer_id">ഉപഭോക്തൃ ഐഡി </string>
+    <string name="order_type">ഓർഡർ തരം </string>
+    <string name="mbps">Mbps</string>
+    <string name="prepaid_">"പ്രീപെയ്ഡ്  - "</string>
+    <string name="loyalty_points">ലോയൽറ്റി പോയിന്റുകൾ </string>
+    <string name="key_features">പ്രധാന സവിശേഷതകൾ</string>
+    <string name="processing_text">നിങ്ങളുടെ അഭ്യർത്ഥന നിലവിൽ പ്രോസസ് ചെയ്തുകൊണ്ടിരിക്കുകയാണ് </string>
+    <string name="alias_hint">അപരനാമം </string>
+    <string name="tap_on_chart">ചാർട്ടിൽ ടാപ്പ് ചെയ്യുക !</string>
+    <string name="combo_plans">കോമ്പോ പ്ലാനുകൾ </string>
+    <string name="plan_specification">പ്ലാൻ സവിശേഷതകൾ </string>
+    <string name="minimum_amount_message">ഏറ്റവും കുറഞ്ഞ തുക 10 ആയിരിക്കണം </string>
+    <string name="c_ril4g_t_seco_7004">സെർവറുമായിസെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക സെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക സെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="digital_title">ഡിജിറ്റൽ ആരംഭ പ്ലാനുകൾ </string>
+    <string name="downloads">ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="hint_search_loc">Search Location</string>
+    <string name="indian">ഇന്ത്യൻ </string>
+    <string name="invalid_mobile">സാധുവായ മൊബൈൽ നമ്പർ നൽകുക </string>
+    <string name="loading_combo_plans">കോമ്പോ പ്ലാനുകൾ ലോഡുചെയ്യുന്നു </string>
+    <string name="low_account_balance_msg">അക്കൗണ്ട് ബാലൻസ് കുറവാണ് </string>
+    <string name="low_balance_header">ബാലൻസ് കുറവാണ് </string>
+    <string name="low_service_balance_msg">സേവന ബാലൻസ് കുറവാണ് </string>
+    <string name="msg_track_orders">Check the status of your order with ease.\n     Just use the order number sent in the order confirmation mail or SMS.</string>
+    <string name="negative_txt">negative_text</string>
+    <string name="no_store_found">No stores found near your location.</string>
+    <string name="opt_resend_sent_to_your_email">നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത ഇമെയിലിലേയ്ക്ക് ഒരു തവണ പാസ്‌വേഡ് (OTP) അയച്ചു. ലഭിച്ചിട്ടില്ലെങ്കിൽ, വീണ്ടും അയയ്ക്കുക ബട്ടൺ ക്ലിക്കു ചെയ്യുക  </string>
+    <string name="opt_resend_sent_to_your_mob">നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലേക്ക് ഒരു തവണ പാസ്‌വേഡ് (OTP) അയച്ചു.  ലഭിച്ചിട്ടില്ലെങ്കിൽ, വീണ്ടും അയയ്ക്കുക ബട്ടൺ ക്ലിക്കു ചെയ്യുക  </string>
+    <string name="recharge_now">റീചാർജ്ജ് </string>
+    <string name="renew_plan">പുതുക്കുക </string>
+    <string name="select_service">സേവനം തിരഞ്ഞെടുക്കുക </string>
+    <string name="store_locator">സ്‌റ്റോർ ലൊക്കേറ്റർ </string>
+    <string name="to_payee">പണം കൈപ്പറ്റുന്ന ആളിലേക്ക് </string>
+    <string name="track_order">Order</string>
+    <string name="tv_empty_transfer">കൈമാറുന്നതിനായി പ്ലാനുകൾ ലഭ്യമല്ല </string>
+    <string name="tv_empty_transform">രൂപം മാറ്റുനതിനായി പ്ലാനുകൾ ലഭ്യമല്ല </string>
+    <string name="_default">Default</string>
+    <string name="_hotspot">HOTSPOT</string>
+    <string name="_long">Long</string>
+    <string name="_short">Short</string>
+    <string name="account_top_up">Account Top up</string>
+    <string name="app_tour">App Tour</string>
+    <string name="bill_payment">Bill Payment</string>
+    <string name="credit_transfer_scr">Credit Transfer</string>
+    <string name="credit_transfer_scr_msg">You can transfer your account balance to other account.</string>
+    <string name="digital_service_src">Digital Service</string>
+    <string name="digital_service_src_msg">You can check digital service details and add digital services in your account</string>
+    <string name="enter_valid">"Enter valid "</string>
+    <string name="enter_valid_phone_no">Enter valid Phone No</string>
+    <string name="home_scr">Home Screen</string>
+    <string name="home_scr_msg">You can check your account balance, Recharge your account, recharge your service, check your service usage, check your service balance.</string>
+    <string name="loading_plans">Loading plans</string>
+    <string name="modify_my_plan">Modify my plan</string>
+    <string name="off">Off</string>
+    <string name="pick_plan">pick a plan</string>
+    <string name="service_top_up">Service Top up</string>
+    <string name="show_plans">Show Plans</string>
+    <string name="support">Support</string>
+    <string name="track_orders">Track Order</string>
+    <string name="enter_amount_greater_than_ten">Enter amount greater than 10.</string>
+    <string name="account_unactive">This JIO ID doesn\'t seem to be active. Please activate your account</string>
+    <string name="activate">activate</string>
+    <string name="activate_jio_id">Activate Jio ID</string>
+    <string name="add_me_as_member">Add me as a member in this group</string>
+    <string name="control_to_login">For personalized plan and better control of your service, Simply <a href="">Log In</a></string>
+    <string name="current_plan">Current Plan</string>
+    <string name="customer_id_ivalide">Customer ID is invalid</string>
+    <string name="days_left">" days left "</string>
+    <string name="enter_customer_id">Enter Customer ID</string>
+    <string name="enter_mobile_num">Enter Mobile Number</string>
+    <string name="enter_order_number">Enter Order Number</string>
+    <string name="enter_service_id">Enter Service ID</string>
+    <string name="forgot_jio_id">Forgot Jio ID</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="in_queue">In Queue</string>
+    <string name="jio_id_send_email">Jio Id is sent to your registered Email ID</string>
+    <string name="jio_id_send_mobile">Jio Id is sent to your registered Mobile Number</string>
+    <string name="jio_money_message">Our jio money payment system is 100% safe and secure.</string>
+    <string name="loading_groups">Loading Groups</string>
+    <string name="loading_store">Loading Stores</string>
+    <string name="max_transferable">You can transfer 80% of total available balance</string>
+    <string name="net_transferable">Net Payable</string>
+    <string name="new_recharge">New Recharge</string>
+    <string name="order_num_ivalide">Order number is invalid</string>
+    <string name="please">Please</string>
+    <string name="prepaid">Prepaid Account</string>
+    <string name="product_sync_btn">Product Sync</string>
+    <string name="product_sync">Product Syncing..</string>
+    <string name="reclaim_email">Reclaim existing email id</string>
+    <string name="refill_account_recharge">Account Recharge</string>
+    <string name="register">Register</string>
+    <string name="renew">Renew</string>
+    <string name="request_call">Request To Call</string>
+    <string name="retrieve_your_jio_id">Retrieve your Jio ID</string>
+    <string name="sending_jio_id">Sending Jio ID</string>
+    <string name="service_id_ivalide">Service ID is invalid</string>
+    <string name="set_alias">Please set an alias for this Payee?</string>
+    <string name="successfully_request_for_group">Your request to create group %1$s has been processed with reference no. %2$s</string>
+    <string name="text_tranform">Transform Value. Processing Charge</string>
+    <string name="text_transfer">Transfer Value . Processing charge</string>
+    <string name="type_combo">CONNECTIVITY + CONTENT/OTT RECHARGE</string>
+    <string name="type_recharge">CONNECTIVITY RECHARGE</string>
+    <string name="type_topup">TOP-UP</string>
+    <string name="unable_login">Unable to Login?</string>
+    <string name="use_same_email">I have another Jio ID, use the same email id for both Jio IDs</string>
+    <string name="use_same_number">I have another Jio ID, use the same number for both Jio IDs</string>
+    <string name="select_reason">"Select Reason"</string>
+    <string name="suspend">"Suspend"</string>
+    <string name="suspend_resume_service">"Suspend Resume Services"</string>
+    <string name="current_status">"Current Status"</string>
+    <string name="manage_services">"Manage Services"</string>
+    <string name="resume">"Resume"</string>
+    <string name="msg_no_postpaid">"You dont seems to have any postpaid account."</string>
+    <string name="search_payee">Search Contact</string>
+    <string name="safe_custody">"Safe Custody"</string>
+    <string name="select_customer">Select Customer</string>
+    <string name="device_details">Device Details</string>
+    <string name="load_device_details">Loading device details</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="pick_frm_contacts">Pick from contacts</string>
+    <string name="no_transactions_are_available">No transactions are available.</string>
+    <string name="monetory_value_validation">Monetary value cannot be empty or less than 0.</string>
+    <string name="message_non_monetory_validation">Non Monetary value cannot be empty or less than 0.</string>
+    <string name="due_date_postpaid">Due Date</string>
+    <string name="updating_alias">Updating alias</string>
+    <string name="account_rdo">Account</string>
+    <string name="service_rdo">Service</string>
+    <string name="paybill">Pay Bill</string>
+    <string name="paybill_for_another_jio_number">Pay bill for another Jio number</string>
+    <string name="topup_for_another_jio_no">Topup for another Jio number</string>
+    <string name="app_center">App Center</string>
+    <string name="availability">Availability</string>
+
+    <string name="available_jio_id">Jio Id already used, Available Jio ID\'s</string>
+    <string name="balance_limit">(80%) can be transferred.</string>
+    <string name="caf_rework">CAF Re-Work</string>
+    <string name="change_in_progress">Change in progress</string>
+    <string name="charges_monthy">30.00 Monthly Charges</string>
+    <string name="check_available_id">Check available ID\'s</string>
+    <string name="con_recharge">Recharge</string>
+    <string name="digital_title_service">My Apps</string>
+    <string name="download_statement">Download Statement</string>
+    <string name="enter_problem_des">Describe your problem here.</string>
+    <string name="feature">Select Feature</string>
+    <string name="get_statement">GET Statement</string>
+    <string name="gps_network_not_enabled">Location services must be on to detect your location. Please switch on location services.</string>
+    <string name="id">Service ID</string>
+    <string name="inflight_cancel">Inflight Cancel</string>
+    <string name="issue_regarding">Regarding</string>
+    <string name="join_cug_group">Join CUG Group</string>
+    <string name="max">Max</string>
+    <string name="max_100_char">max 100 characters</string>
+    <string name="new_digital_title">Subscribe Apps</string>
+    <string name="no_recipient">No Recipient Selected</string>
+    <string name="offer_cancellation">Offer Cancellation</string>
+    <string name="offers">Offers</string>
+    <string name="open_location_settings">Open LOCATION SETTINGS</string>
+    <string name="order_status">Order Status</string>
+    <string name="pick_from_contacts">Pick from contacts</string>
+    <string name="pick_from_contacts_underline"><a href="">Pick from Conatcts</a></string>
+    <string name="please_enter_jio_id">Please enter and verify Jio Id</string>
+    <string name="removing_group">Removing Group</string>
+    <string name="select_plan_price">"Select Plan Price"</string>
+    <string name="skip">Skip</string>
+    <string name="specify_about">Specify About</string>
+    <string name="store_pick_up">Store Pick Up</string>
+    <string name="successfully_request_for_remove_group">Your request to removed group %1$s has been processed with reference no. %2$s</string>
+    <string name="successfully_request_for_update_group">Your request to %1$s has been processed with reference no. %2$s</string>
+    <string name="notifications">Notifications</string>
+    <string name="select_tone">Select Tone</string>
+    <string name="postpaid">"Postpaid- "</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="flexi_topup_new">Flexi Topup</string>
+    <string name="voucher_new">Voucher</string>
+    <string name="device_">Device :</string>
+    <string name="serial_number_">Serial Number :</string>
+    <string name="manufatures_name_">Manufatures Name :</string>
+    <string name="signal_strength_">Signal Strength :</string>
+    <string name="cpu_usage_">CPU Usage :</string>
+    <string name="up_time_">Up Time :</string>
+    <string name="firmware_version_">Firmware Version :</string>
+    <string name="warranty_expiry_date_">Warranty Expiry Date :</string>
+    <string name="ipv6_address_">IPV6 Address :</string>
+    <string name="ipv4_address_">IPV4 Address :</string>
+    <string name="device_mac_id_">Device Mac ID :</string>
+    <string name="expected_delivery_date">Expected Delivery Date</string>
+    <string name="created_on">Created On</string>
+    <string name="recharge_amout">Recharge Amount</string>
+    <string name="date_recharge">Date of Recharge</string>
+    <string name="your_alias_updated_reference_number">"Your alias is updated with reference number : "</string>
+    <string name="failed_update_alias">Failed to update alias.</string>
+    <string name="current_cycle_bill">"Your bill for current cycle \n Due Date : "</string>
+    <string name="fetching_customer_request">Fetching customer requests.</string>
+    <string name="good">\u0020Good</string>
+    <string name="my_req">My Request</string>
+    <string name="proceed">Proceed</string>
+    <string name="product_buy">Product Buy</string>
+    <string name="raise_new">Raise New</string>
+    <string name="satisfactory">\u0020Satisfactory</string>
+    <string name="you_have_selected">You have selected plan:\u0020</string>
+    <string name="create_customer_problem">Creating customer problems</string>
+    <string name="create_trouble_success">Trouble ticket successfully created. Your trouble ticket id is:</string>
+    <string name="del_address">DELIVERY ADDRESS</string>
+    <string name="error_trouble_ticket">Error creating trouble ticket.</string>
+    <string name="excellent">\u0020Excellent</string>
+    <string name="chat_title">Chat</string>
+    <string name="plz_enter_valid">"Please enter valid "</string>
+    <string name="connected_devices">Connected Devices</string>
+    <string name="see_connected_devices">See Conencted Devices</string>
+    <string name="voice_hrs">VOICE-Hrs</string>
+    <string name="sms">SMS</string>
+    <string name="data_gb">DATA-GBs</string>
+
+</resources>

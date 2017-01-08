@@ -1,0 +1,1151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIONCODES" xml:space="preserve">
+    <value>{
+  "SSUSPEND": "Suspend",
+  "SVRESUME": "Resume",
+  "SRVCEASE": "Cease",
+  "ADSRVFTR": "Add_Service_Feature",
+  "RMSRVFTR": "Remove_Service_Feature",
+  "MSISDNCH": "MSISDN_Change",
+  "SIMCHNGE": "SIM_Change",
+  "ASSOUSER": "Associate_User",
+  "DISOUSER": "Dissociate_User",
+  "CUGGRPCR": "CUG_Group_Creation",
+  "CUGGRPDL": "CUG_Group_Deletion",
+  "CUGADMEM": "CUG_Add_Member",
+  "CUGDLMEM": "CUG_Delete_Member",
+  "FFCREATE": "FnF_Creation",
+  "FFMODIFY": "FnF_Modify",
+  "FFDELETN": "FnF_Deletion",
+  "SRSAFCUS": "Safe_Custody",
+  "CPECHNGE": "CPE_Change",
+  "ADDEVICE": "ADD_DEVICE",
+  "RECHARGE": "RECHARGE",
+  "CREDTADJ": "Credit_Adjustment",
+  "DNDSERVC": "DND_Modify",
+  "OGBARING": "Outgoing_Bar",
+  "OGUNBARG": "Outgoing_UnBar",
+  "BPCHANGE": "Billplan_Change",
+  "ADDONADD": "Addon_pack_Add",
+  "ADDONREM": "Addon_pack_Remove",
+  "NMBTRNFR": "Non-Monetary Balance Transfer",
+  "MOBTRNFR": "Monetary Balance Transfer",
+  "NMBTRNFO": "Non-Monetary Balance Transform",
+  "SUBSCHNG": "Subscription Change",
+  "OWNRCHNG": "Ownership Change",
+  "STMTOFAC": "Statement of Account",
+  "TELVERFY": "TELEVERIFY"
+}</value>
+  </data>
+  <data name="HELP" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ListErrorNotificationControl.ErrorText" xml:space="preserve">
+    <value>Error Occured</value>
+  </data>
+  <data name="LOCATOR" xml:space="preserve">
+    <value>Locator</value>
+  </data>
+  <data name="MYORDER" xml:space="preserve">
+    <value>My Order</value>
+  </data>
+  <data name="NUMBER" xml:space="preserve">
+    <value>Number - </value>
+  </data>
+  <data name="PAYBILLTEXT" xml:space="preserve">
+    <value>PAY BILL</value>
+  </data>
+  <data name="PRODUCTS" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="REFILLNOWTEXT" xml:space="preserve">
+    <value>REFILL NOW</value>
+  </data>
+  <data name="ACTIVATIONDATE" xml:space="preserve">
+    <value>Activation Date</value>
+  </data>
+  <data name="AUTORENEW" xml:space="preserve">
+    <value>Auto Renew</value>
+  </data>
+  <data name="PLANID" xml:space="preserve">
+    <value>PlanID</value>
+  </data>
+  <data name="RECHARGEPLANS" xml:space="preserve">
+    <value>RECHARGE PLANS</value>
+  </data>
+  <data name="RENEW" xml:space="preserve">
+    <value>RENEW</value>
+  </data>
+  <data name="RENEWDATE" xml:space="preserve">
+    <value>Renewable Date</value>
+  </data>
+  <data name="RENEWPRICE" xml:space="preserve">
+    <value>Renewable Price</value>
+  </data>
+  <data name="SELECTACCOUNT" xml:space="preserve">
+    <value>Select Account</value>
+  </data>
+  <data name="SERVICENOTACTIVATED" xml:space="preserve">
+    <value>Service not activated on this account</value>
+  </data>
+  <data name="SEVICESTATUS" xml:space="preserve">
+    <value>Service Status</value>
+  </data>
+  <data name="TRANSFERNOTAPPLICABLE" xml:space="preserve">
+    <value>Transfer is not applicable for postpaid account</value>
+  </data>
+  <data name="account.Text" xml:space="preserve">
+    <value>Select Account</value>
+  </data>
+  <data name="ADDONSDISPLAYTEXT" xml:space="preserve">
+    <value>You can enable or disable following features for this service</value>
+  </data>
+  <data name="ADDONSPREFRENCETEXT" xml:space="preserve">
+    <value>Promotional calls and messages to your Jio ID's and registered number should stop within 7 days from registration.You will receive a Unique Reference Number through SMS, for your records.If you have registered and recently updated your preferences, please give us 7 days to implement the changes.</value>
+  </data>
+  <data name="HELPTICKETPAGE_MYREQUEST" xml:space="preserve">
+    <value>MY REQUEST</value>
+  </data>
+  <data name="HELPTICKETPAGE_RAISENEW" xml:space="preserve">
+    <value>RAISE NEW</value>
+  </data>
+  <data name="HELPTICKETPAGE_TITLE" xml:space="preserve">
+    <value>Help Ticket</value>
+  </data>
+  <data name="LOCATORPAGE_CATEGORYHEADING.Text" xml:space="preserve">
+    <value>Store Locator</value>
+  </data>
+  <data name="LOCATORPAGE_COVERAGEEXCELLENT" xml:space="preserve">
+    <value>Excellent</value>
+  </data>
+  <data name="LOCATORPAGE_COVERAGEGOOD" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="LOCATORPAGE_COVERAGESATISFACTORY" xml:space="preserve">
+    <value>Satisfactory</value>
+  </data>
+  <data name="LOCATORPAGE_HOTSPOTBUTTONTEXT" xml:space="preserve">
+    <value>Hotspot</value>
+  </data>
+  <data name="LOCATORPAGE_JIOCENTERBUTTONTEXT" xml:space="preserve">
+    <value>Jio Center</value>
+  </data>
+  <data name="LOCATORPAGE_JIOSTOREBUTTONTEXT" xml:space="preserve">
+    <value>Jio Store</value>
+  </data>
+  <data name="LOCATORPAGE_SEARCHTEXT" xml:space="preserve">
+    <value>Search Location</value>
+  </data>
+  <data name="LOCATORPAGE_SIGNALBUTTONTEXT" xml:space="preserve">
+    <value>Signal</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_ALL" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_CLOSED" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_OPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_REJECTED" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_REOPENED" xml:space="preserve">
+    <value>Re opened</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_RESOLVED" xml:space="preserve">
+    <value>Resolved</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_WIP" xml:space="preserve">
+    <value>Work In Progress</value>
+  </data>
+  <data name="HELPTICKETPAGE_TITLE_DETAIL" xml:space="preserve">
+    <value>Help Ticket Details</value>
+  </data>
+  <data name="HELPTICKETPAGEDETAIL_SERVICES" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="NONETWORKMESSAGE" xml:space="preserve">
+    <value>Internet connection is not available</value>
+  </data>
+  <data name="EDITADDRESSAREA" xml:space="preserve">
+    <value>Area/Locality</value>
+  </data>
+  <data name="EDITADDRESSBUILDINGID" xml:space="preserve">
+    <value>Building Id</value>
+  </data>
+  <data name="EDITADDRESSBUILDINGNAME" xml:space="preserve">
+    <value>Building Name/Number</value>
+  </data>
+  <data name="EDITADDRESSCAREOF" xml:space="preserve">
+    <value>Care Of</value>
+  </data>
+  <data name="EDITADDRESSCOUNTRY" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="EDITADDRESSDISTRICT" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="EDITADDRESSHOUSENAME" xml:space="preserve">
+    <value>House Name/Number</value>
+  </data>
+  <data name="EDITADDRESSLANDMARK" xml:space="preserve">
+    <value>Landmark</value>
+  </data>
+  <data name="EDITADDRESSPINCODE" xml:space="preserve">
+    <value>Pin Code</value>
+  </data>
+  <data name="EDITADDRESSSOCIETYNAME" xml:space="preserve">
+    <value>Society name</value>
+  </data>
+  <data name="EDITADDRESSSTATE" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="EDITADDRESSSTREET" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="EDITADDRESSSUBLOCALITY" xml:space="preserve">
+    <value>Sub Locality</value>
+  </data>
+  <data name="EDITADDRESSVILLAGE" xml:space="preserve">
+    <value>Village/City</value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGCITIES" xml:space="preserve">
+    <value>Could not fetch cities</value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGDISTRICTS" xml:space="preserve">
+    <value>Could not fetch districts </value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGLOCALITIES" xml:space="preserve">
+    <value>Could not fetch localities</value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGSTATES" xml:space="preserve">
+    <value>Could not fetch states</value>
+  </data>
+  <data name="MAPLOADINGERRORMSG" xml:space="preserve">
+    <value>Problem in map loading</value>
+  </data>
+  <data name="HELPPAGE_TITLE" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ENTERAMOUNTMESSAGE" xml:space="preserve">
+    <value>Please enter amount</value>
+  </data>
+  <data name="FEE" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="MAX" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="NETPAYABLE" xml:space="preserve">
+    <value>Net Payable</value>
+  </data>
+  <data name="NOTRANSFER" xml:space="preserve">
+    <value>(80%)can be transferred.</value>
+  </data>
+  <data name="RECIPIENTSELECT" xml:space="preserve">
+    <value>No Recipient selected</value>
+  </data>
+  <data name="SELECTDATA" xml:space="preserve">
+    <value>Please Select some data to be transferred</value>
+  </data>
+  <data name="SELECTDATATRANSFORM" xml:space="preserve">
+    <value>Please Select some data to be transform</value>
+  </data>
+  <data name="SERVICEID" xml:space="preserve">
+    <value>Service ID</value>
+  </data>
+  <data name="TRANSFERMESSAGEBOX" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="TRANSFERNOTAVAILABLE" xml:space="preserve">
+    <value>Plans not Available for Transfer</value>
+  </data>
+  <data name="TRANSFORMMESSAGEBOX" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="TRANSFORMNOTAVAILABLE" xml:space="preserve">
+    <value>Plans not Available for Transform</value>
+  </data>
+  <data name="ALIASNAMEREGISTER" xml:space="preserve">
+    <value>alias Name</value>
+  </data>
+  <data name="ENTERALIASNAME" xml:space="preserve">
+    <value>Enter Alias name to register payee</value>
+  </data>
+  <data name="PROCESSINGFEE" xml:space="preserve">
+    <value>Processing Fee :</value>
+  </data>
+  <data name="RECEIPTCLOSE" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="RECEIPTMSSGE" xml:space="preserve">
+    <value>Thank you, Please quote this receipt no. for any queries in future related to this transcation.</value>
+  </data>
+  <data name="RECEIPTTITLE" xml:space="preserve">
+    <value>Transfer Receipt</value>
+  </data>
+  <data name="REFERANCENO" xml:space="preserve">
+    <value>Referance No.</value>
+  </data>
+  <data name="REGISTERBUTTON" xml:space="preserve">
+    <value>REGISTER NEW</value>
+  </data>
+  <data name="REQUESTPROCESSED" xml:space="preserve">
+    <value>Your request is currently being processed</value>
+  </data>
+  <data name="SAVEPDF" xml:space="preserve">
+    <value>SAVEPDF</value>
+  </data>
+  <data name="TOTALAMOUNT" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="TRANSFERAMOUNT" xml:space="preserve">
+    <value>Transferred Amount</value>
+  </data>
+  <data name="TRANSFERTOSERVICEID" xml:space="preserve">
+    <value>Transferred to service ID</value>
+  </data>
+  <data name="TRASFERREDFROMSERVICEID" xml:space="preserve">
+    <value>Transferred from service ID</value>
+  </data>
+  <data name="ADDONSPREFRENCESUBTEXT" xml:space="preserve">
+    <value>Do you wish to recieve special messages and alerts from the following sectors</value>
+  </data>
+  <data name="STATEMENTPAGE_NOBILLS" xml:space="preserve">
+    <value>No bills found. Please download your bill using Get Bill options below.</value>
+  </data>
+  <data name="STATEMENTPAGE_BILLRANGE" xml:space="preserve">
+    <value>Choose billing range</value>
+  </data>
+  <data name="STATEMENTPAGE_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="STATEMENTPAGE_FETCHBILLS" xml:space="preserve">
+    <value>Fetch Bills</value>
+  </data>
+  <data name="STATEMENTPAGE_GETSTATEMENT" xml:space="preserve">
+    <value>GET STATEMENT</value>
+  </data>
+  <data name="USAGEPAGE_ERROR" xml:space="preserve">
+    <value>No Usages Available</value>
+  </data>
+  <data name="USAGEPAGE_KEY_DOWNLOAD" xml:space="preserve">
+    <value>DOWNLOAD STATEMENT</value>
+  </data>
+  <data name="NODATA_KEY" xml:space="preserve">
+    <value>Data not available</value>
+  </data>
+  <data name="TRANSFERABLE" xml:space="preserve">
+    <value>TRANSFERABLE</value>
+  </data>
+  <data name="HELPPAGE_NOTTICKETS" xml:space="preserve">
+    <value>No trouble tickets found</value>
+  </data>
+  <data name="DOWNLOADSPAGE_NODOWNLOADS" xml:space="preserve">
+    <value>No Dowloads Available</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_CURSTATUS" xml:space="preserve">
+    <value>Current Status</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_REASON" xml:space="preserve">
+    <value>Select Reason</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_SERACTIVE" xml:space="preserve">
+    <value>Service Active</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_SERVICE" xml:space="preserve">
+    <value>Select Service</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SUSPEND" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_TITLE" xml:space="preserve">
+    <value>Manage Services</value>
+  </data>
+  <data name="TICKETDETAILPAGE_ACCID" xml:space="preserve">
+    <value>Account Id :</value>
+  </data>
+  <data name="TICKETDETAILPAGE_CAT" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_CUSID" xml:space="preserve">
+    <value>Customer Id:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_DESC" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_ESR" xml:space="preserve">
+    <value>Estimated Resoultion Time:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_SRTYPE" xml:space="preserve">
+    <value>Service Type :</value>
+  </data>
+  <data name="TICKETDETAILPAGE_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_TITLE" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="SETTINGSABOUTUSCOPYRIGHTTEXT.Text" xml:space="preserve">
+    <value>©2015-2016 Reliance Jio Infocomm Ltd.</value>
+  </data>
+  <data name="SETTINGSABOUTUSVERSION.Text" xml:space="preserve">
+    <value>my Jio V 0.9</value>
+  </data>
+  <data name="PRODUCTS_CMGSOON" xml:space="preserve">
+    <value>Description: coming soon</value>
+  </data>
+  <data name="PRODUCTS_Z0001" xml:space="preserve">
+    <value>Description : Coming soon&amp;#8230;</value>
+  </data>
+  <data name="PRODUCTS_Z0002" xml:space="preserve">
+    <value>Description : 
+Jio MiFi is your very own pocket sized personal, mobile Wi-Fi hotspot router with the power to connect up to 5/ 10 Wi-Fi gadgets at the same time. With the feature of password protected connection it gives you the choice to share your secured high speed connection with close friends and family with peace of mind.
+
+Key Features : 
+
+1 . Super-fast Speed across Multiple devices and users 
+2 . Access to high quality and diverse Content 
+3 . Device Design
+4 . Convenient on-boarding and set-up 
+5 . Easy account management using a single Jio Id across channels- Mobile App and Web</value>
+  </data>
+  <data name="PRODUCTS_Z0003" xml:space="preserve">
+    <value>Description :
+Crackling voice calls, low signals, slow speeds are now history. Say hello to 4G LTE. A technology that helps you work smarter and play harder, bringing a plethora of communication possibilities at your fingertips. You will be able to enjoy natural-sounding High-Definition (HD) Voice and a Video Calling experience thats as simple as making a traditional voice call.
+
+With your 4G VoLTE phone, you are now powered to experience a next-gen network and live better. Packed with high-end services and apps enabled by Jio, you will now be able to reimagine life and make every connectivity dream come true. Get unlimited Jio to Jio Voice and Video calling with VoLTE Base Offer. Also, you get free access to 50 sports channel on Jio Play as part of this offer.
+
+Get started. Upgrade to a new way of life!
+
+Key Features:
+
+1 . Superior calling experience with HD Voice and Video calls 
+2 . Faster call connection time 
+3 . Switching between Voice and Video calls 
+4 . Free acces to 50 Jio Play Sports channels as part of the offer 
+5 . Real time balance and account information 
+6 . Enhanced communication 
+7 . Easy account management using a single Jio Id across channels- Mobile App and Web 
+8 . Convenient on-boarding and set-up</value>
+  </data>
+  <data name="PRODUCTS_Z0005" xml:space="preserve">
+    <value>Description : \n
+Jio Fiber Ultra Fast Broadband - High Speed Internet delivered over Fiber to your home.
+\n
+Key Features : \n
+
+1 . Download Speeds up to 100 Mbps \n
+2 . Future ready - Supports High speed, latency sensitive applications \n
+3 . High speed performance powered by a fiber broadband connection</value>
+  </data>
+  <data name="PRODUCTS_Z0006" xml:space="preserve">
+    <value>Description :
+Enjoy high speed internet on the go. Connect to Jio WiFi across public locations at Jio Hotspots in your city. Experience Ultra High Speed with an unmatched ecosystem of Jio services.
+
+Key Features : 
+
+1 . Access Jionet Anywhere  
+2 . High-speed internet access on your WiFi enabled devices 
+3 . Registration on Jio WiFi 
+4 . Superior web experience</value>
+  </data>
+  <data name="APPCENTERPAGE_TITLE" xml:space="preserve">
+    <value>App Center</value>
+  </data>
+  <data name="COIMINGSOON_KEY" xml:space="preserve">
+    <value>Coming Soon</value>
+  </data>
+  <data name="DEVICEDETAIL_CPUUSAGE" xml:space="preserve">
+    <value>CPU Usage:</value>
+  </data>
+  <data name="DEVICEDETAIL_DEVICE" xml:space="preserve">
+    <value>Device :</value>
+  </data>
+  <data name="DEVICEDETAIL_DEVICEMACID" xml:space="preserve">
+    <value>Device Mac ID :</value>
+  </data>
+  <data name="DEVICEDETAIL_FIRMWAREVERSION" xml:space="preserve">
+    <value>Firmware Version :</value>
+  </data>
+  <data name="DEVICEDETAIL_IPV4ADDRESS" xml:space="preserve">
+    <value>IPV4 Address</value>
+  </data>
+  <data name="DEVICEDETAIL_IPV6ADDRESS" xml:space="preserve">
+    <value>IPV6 Address :</value>
+  </data>
+  <data name="DEVICEDETAIL_MANUFACTURESNAME" xml:space="preserve">
+    <value>Manufacturers Name :</value>
+  </data>
+  <data name="DEVICEDETAIL_SERIALNUMBER" xml:space="preserve">
+    <value>Serial Number :</value>
+  </data>
+  <data name="DEVICEDETAIL_SIGNALSTRENGTH" xml:space="preserve">
+    <value>Signal Strength :</value>
+  </data>
+  <data name="LANAGUAGEPAGE_TITLE" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BILLING_ADDRESS" xml:space="preserve">
+    <value>Billing Address :</value>
+  </data>
+  <data name="DATE" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="FILTER_STATUS_DATE" xml:space="preserve">
+    <value>Filter your order Status or Date</value>
+  </data>
+  <data name="JIOCENTER_ID" xml:space="preserve">
+    <value>JioCenterID :</value>
+  </data>
+  <data name="LANDMARK_ORDER" xml:space="preserve">
+    <value>Landmark :</value>
+  </data>
+  <data name="OFFER_NAME" xml:space="preserve">
+    <value>Offer Name :</value>
+  </data>
+  <data name="OFFER_STATUS" xml:space="preserve">
+    <value>Offer Status :</value>
+  </data>
+  <data name="ORDER_REF_NO" xml:space="preserve">
+    <value>Order Ref No :</value>
+  </data>
+  <data name="PERMANENT_ADD" xml:space="preserve">
+    <value>Permanent Address :</value>
+  </data>
+  <data name="SEARCHBYREFNO" xml:space="preserve">
+    <value>Search by reference no.</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="DEVICEDETAIL_ERRORMSG" xml:space="preserve">
+    <value>MiFi devices are not available</value>
+  </data>
+  <data name="REFERENCE_NO" xml:space="preserve">
+    <value>Order Ref NO :</value>
+  </data>
+  <data name="SUBSCRIPTIONPLANSPAGE_NODATA" xml:space="preserve">
+    <value>No Plans available</value>
+  </data>
+  <data name="PLANSPAGE_NOPLANS" xml:space="preserve">
+    <value>No Plans available</value>
+  </data>
+  <data name="LOCATOR_ERRORTEXT" xml:space="preserve">
+    <value>Data not available</value>
+  </data>
+  <data name="ACCOUNTID_KEY" xml:space="preserve">
+    <value>Account Id</value>
+  </data>
+  <data name="DESCRIPTION_KEY" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="HELPTICKETPAGE_CREATEDDATE" xml:space="preserve">
+    <value>Created Date:</value>
+  </data>
+  <data name="HELPTICKETPAGE_SUB_TIKET_MSG" xml:space="preserve">
+    <value>Trouble Ticket Successfully Created.Your reference number is :</value>
+  </data>
+  <data name="HELPTICKETPAGE_TICKET_ID" xml:space="preserve">
+    <value>Ticket Id :</value>
+  </data>
+  <data name="NODESC_MESSAGE" xml:space="preserve">
+    <value>Enter a short description for the problem</value>
+  </data>
+  <data name="NOTITLE_MESSAGE" xml:space="preserve">
+    <value>Title cannot be  empty</value>
+  </data>
+  <data name="REGARDING_KEY" xml:space="preserve">
+    <value>Regarding</value>
+  </data>
+  <data name="SERVICES_KEY" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="SPECIFY_ABOUT_KEY" xml:space="preserve">
+    <value>Specify About</value>
+  </data>
+  <data name="TITLE_KEY" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="USAGEPAGE_DOWNLOADING" xml:space="preserve">
+    <value>Downloading - </value>
+  </data>
+  <data name="USAGEPAGE_EXEEDMONTHS" xml:space="preserve">
+    <value>Summary Cannot be shown more than 6 month</value>
+    <comment>Summary Cannot be shown more than 6 month</comment>
+  </data>
+  <data name="ADDRESSCHANGE_SAVEBUTTON_TEXT" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="ORDERSUMMARY_APPLY_BUTTON_TEXT" xml:space="preserve">
+    <value>APPLY</value>
+  </data>
+  <data name="ORDERSUMMARY_CHANGE" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="ORDERSUMMARY_COSTTEXT.Text" xml:space="preserve">
+    <value>COST</value>
+  </data>
+  <data name="ORDERSUMMARY_DELIVERYADDRESSTEXT.Text" xml:space="preserve">
+    <value>DELIVERY ADDRESS</value>
+  </data>
+  <data name="ORDERSUMMARY_GRANDTOTAL_TEXT.Text" xml:space="preserve">
+    <value>Grand Total :</value>
+  </data>
+  <data name="ORDERSUMMARY_ITEMSTEXT.Text" xml:space="preserve">
+    <value>ITEMS</value>
+  </data>
+  <data name="ORDERSUMMARY_ORDERDISCOUNT_TEXT.Text" xml:space="preserve">
+    <value>Order Discount :</value>
+  </data>
+  <data name="ORDERSUMMARY_PLACEORDER_BUTTON_TEXT" xml:space="preserve">
+    <value>PLACE ORDER</value>
+  </data>
+  <data name="ORDERSUMMARY_PLANCOST_TEXT.Text" xml:space="preserve">
+    <value>Plan Cost :</value>
+  </data>
+  <data name="ORDERSUMMARY_PLANTEXT.Text" xml:space="preserve">
+    <value> Plan :</value>
+  </data>
+  <data name="ORDERSUMMARY_PRODUCTTEXT.Text" xml:space="preserve">
+    <value>Product :</value>
+  </data>
+  <data name="ORDERSUMMARY_PRUCTCOST_TEXT.Text" xml:space="preserve">
+    <value>Product Cost :</value>
+  </data>
+  <data name="ORDERSUMMARY_QTYTEXT.Text" xml:space="preserve">
+    <value>QTY.</value>
+  </data>
+  <data name="ORDERSUMMARY_REMOVEVOUCHER_TEXT.Text" xml:space="preserve">
+    <value>Remove Voucher</value>
+  </data>
+  <data name="ORDERSUMMARY_STOREPICKUP" xml:space="preserve">
+    <value>STORE PICKUP</value>
+  </data>
+  <data name="ORDERSUMMARY_TITLETEXT.Text" xml:space="preserve">
+    <value>ORDER SUMMARY</value>
+  </data>
+  <data name="ORDERSUMMARY_VOUCHER_PLACEHOLDER" xml:space="preserve">
+    <value>apply voucher</value>
+  </data>
+  <data name="PRODUCTDETAILS_BUYNOW_BUTTON.Content" xml:space="preserve">
+    <value>BUY NOW</value>
+  </data>
+  <data name="PRODUCTDETAILS_DETAILSBUTTONTEXT" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="PRODUCTDETAILS_ERROR_TEXT" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="PRODUCTDETAILS_KEYFEATURESTEXT.Text" xml:space="preserve">
+    <value>Key Features</value>
+  </data>
+  <data name="PRODUCTDETAILS_TECHNICALDETAILSBUTTONTEXT" xml:space="preserve">
+    <value>Technical Details</value>
+  </data>
+  <data name="PRODUCTDETAIL_OPTIONALPLANS.Text" xml:space="preserve">
+    <value>Optional Plans</value>
+  </data>
+  <data name="PRODUCT_STOREPICKUP_NEARESTSTORES_TEXT.Text" xml:space="preserve">
+    <value>Nearest Stores</value>
+  </data>
+  <data name="ABOUTUS" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="APPCENTER" xml:space="preserve">
+    <value>App Center</value>
+  </data>
+  <data name="CHANGEPASSWORD" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="DEVICEDETAILS" xml:space="preserve">
+    <value>Device Details</value>
+  </data>
+  <data name="DOWNLOADS" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LOYALTYPOINTS" xml:space="preserve">
+    <value>Loyalty Points</value>
+  </data>
+  <data name="NOTIFICATIONS" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="SETALERT" xml:space="preserve">
+    <value>Set Alert</value>
+  </data>
+  <data name="SETALERTAMOUNT" xml:space="preserve">
+    <value>Set alerts for the accounts amount limit</value>
+  </data>
+  <data name="SETSERVICEALIAS" xml:space="preserve">
+    <value>Set Service alias</value>
+  </data>
+  <data name="SUSPENDRESUMESERVICE" xml:space="preserve">
+    <value>Suspend Resume Service</value>
+  </data>
+  <data name="ALERT_ALIAS_SUCCESS" xml:space="preserve">
+    <value>Your alias is updated with reference number</value>
+  </data>
+  <data name="ALERT_CANCEL" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="ALERT_CHANGE" xml:space="preserve">
+    <value>CHANGE</value>
+  </data>
+  <data name="ALERT_DND_PREFERENCES" xml:space="preserve">
+    <value>DND Preferences</value>
+  </data>
+  <data name="ALERT_EXIT" xml:space="preserve">
+    <value>EXIT</value>
+  </data>
+  <data name="ALERT_LANGUAGECHANGE" xml:space="preserve">
+    <value>If you want to change the langauge Your application will restart</value>
+  </data>
+  <data name="ALERT_MANAGESERVICE_SUCCESS" xml:space="preserve">
+    <value>Updated Successfully with id</value>
+  </data>
+  <data name="ALERT_NO" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="ALERT_PAYMENT_DESC" xml:space="preserve">
+    <value>Do you want to continue</value>
+  </data>
+  <data name="ALERT_PAYMENT_KEY" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="ALERT_PAYMENT_SUCCESS_DESC" xml:space="preserve">
+    <value>Your payment has been successful with reference number:</value>
+  </data>
+  <data name="ALERT_REQUEST_SUBMIT" xml:space="preserve">
+    <value>Your request has been successfully submitted with reference id</value>
+  </data>
+  <data name="ALERT_SUCCESS" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ALERT_WARNING" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="ALERT_YES" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="APP_EXIT" xml:space="preserve">
+    <value>Do you want to exit</value>
+  </data>
+  <data name="APP_LOGOUT" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="APP_LOGOUT_CONFIRM" xml:space="preserve">
+    <value>LOG OUT</value>
+  </data>
+  <data name="APP_LOGOUT_DESC" xml:space="preserve">
+    <value>Do you want to log out now ?</value>
+  </data>
+  <data name="HOMEPAGE_CRD_TRNSFR" xml:space="preserve">
+    <value>Credit Transfer</value>
+  </data>
+  <data name="HOMEPAGE_MYAPPSTITLE" xml:space="preserve">
+    <value>My Apps</value>
+  </data>
+  <data name="HOMEPAGE_MYJIO" xml:space="preserve">
+    <value>myJio</value>
+  </data>
+  <data name="PAYMENTCANCELLED" xml:space="preserve">
+    <value>Payment cancelled</value>
+  </data>
+  <data name="PAYMENTPAGE_TRANSACTIONCANCEL" xml:space="preserve">
+    <value>Do you like to cancel this transaction</value>
+  </data>
+  <data name="SUBSCRIBEAPPSPAGE_TITLE" xml:space="preserve">
+    <value>Subscribe Apps</value>
+  </data>
+  <data name="ADDONSPAGE_DND_PREF" xml:space="preserve">
+    <value>DNDpreferences</value>
+  </data>
+  <data name="ADDONSPAGE_SERVICEFEATURES" xml:space="preserve">
+    <value>servicefeatures</value>
+  </data>
+  <data name="ADDONSPAGE_TITLE" xml:space="preserve">
+    <value>Addons</value>
+  </data>
+  <data name="HOMEPAGE_ADDONS" xml:space="preserve">
+    <value>Add-Ons</value>
+  </data>
+  <data name="HOMEPAGE_DUSAGE" xml:space="preserve">
+    <value>Daily Usage</value>
+  </data>
+  <data name="HOMEPAGE_GRPS" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="HOMEPAGE_PAY" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="HOMEPAGE_TRNFM" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="HOMEPAGE_TRNSFR" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="PLANDETAILPAGE_DIGITALAPPSTITLE" xml:space="preserve">
+    <value>Digital Plan Details</value>
+  </data>
+  <data name="PLANDETAILPAGE_PLANSAPPSTITLE" xml:space="preserve">
+    <value>Plan Details</value>
+  </data>
+  <data name="PRODCUTDETAILPAGE_TITLE" xml:space="preserve">
+    <value>Product Details</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_ALERT_NO_PLAN" xml:space="preserve">
+    <value>Please select a plan to proceed</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_BUY" xml:space="preserve">
+    <value>Product buy</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_LOADINGTEXT" xml:space="preserve">
+    <value>Loading product specification details</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_NOTARIFFS" xml:space="preserve">
+    <value>No tariffs available</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_PLAN_LOADINGTEXT" xml:space="preserve">
+    <value>Loading plan details</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_SELECT_PLAN" xml:space="preserve">
+    <value>You have selected plan: </value>
+  </data>
+  <data name="PRODUCTSPAGE_LOADING" xml:space="preserve">
+    <value>Loading product details</value>
+  </data>
+  <data name="PRODUCTSPAGE_TITLE" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="EDIT_ADDRESS_NORECORDS_MSG" xml:space="preserve">
+    <value>No records found</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTCITY" xml:space="preserve">
+    <value>Select City</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTDISTRICT" xml:space="preserve">
+    <value>Select District</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTLOCALITY" xml:space="preserve">
+    <value>Select Locality</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTSTATE" xml:space="preserve">
+    <value>Select State</value>
+  </data>
+  <data name="EDIT_ADDRESS_TITLE" xml:space="preserve">
+    <value>Edit Address</value>
+  </data>
+  <data name="LOCATOR_PAGETITLE" xml:space="preserve">
+    <value>Locator</value>
+  </data>
+  <data name="PLANSPECIFICATION_PAGETITLE" xml:space="preserve">
+    <value>Plan Specification</value>
+  </data>
+  <data name="PRODUCTDETAILS_STOREPICKUP_TITLE" xml:space="preserve">
+    <value>Store Pick Up</value>
+  </data>
+  <data name="EDITADDRESS_NODATA_MSG" xml:space="preserve">
+    <value>No records available</value>
+  </data>
+  <data name="ADDONSPAGE_DND_ERROR" xml:space="preserve">
+    <value>Last update was on {0} for the service.Please wait for 7 days before new request</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY1" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY2" xml:space="preserve">
+    <value>Banking/Insurance/Financial products/credit cards</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY3" xml:space="preserve">
+    <value>Real Estate</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY4" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY5" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY6" xml:space="preserve">
+    <value>Consumer goods and automobiles</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY7" xml:space="preserve">
+    <value>Communication/Broadcasting/Entertainment/IT</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY8" xml:space="preserve">
+    <value>Tourism and Leisure</value>
+  </data>
+  <data name="ADDONSPAGE_PRFNC_LOADING" xml:space="preserve">
+    <value>Loading DND preferences</value>
+  </data>
+  <data name="ADDONSPAGE_SAVE" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="ADDONSPAGE_SRVC_LOADING" xml:space="preserve">
+    <value>Loading service features</value>
+  </data>
+  <data name="APP_MENU_ITEM1" xml:space="preserve">
+    <value>myJio</value>
+  </data>
+  <data name="APP_MENU_ITEM2" xml:space="preserve">
+    <value>Help Ticket</value>
+  </data>
+  <data name="APP_MENU_ITEM3" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="APP_MENU_ITEM4" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="APP_MENU_ITEM5" xml:space="preserve">
+    <value>Offers</value>
+  </data>
+  <data name="APP_MENU_ITEM6" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="HELPTICKETDETAILPAGE_LOADINGTEXT" xml:space="preserve">
+    <value>Fetching problem details</value>
+  </data>
+  <data name="HELPTICKETPAGE_LOADINGTEXT" xml:space="preserve">
+    <value>Fetching customer requests</value>
+  </data>
+  <data name="OFFERSPAGE_NOOFFERS" xml:space="preserve">
+    <value>No offers available</value>
+  </data>
+  <data name="OFFERSPAGE_TITLE" xml:space="preserve">
+    <value>Offers</value>
+  </data>
+  <data name="STATEMENTSPAGE_TITLE" xml:space="preserve">
+    <value>View Bills</value>
+  </data>
+  <data name="SUBSCRIBEAPPSPLANS_SUBTITLE" xml:space="preserve">
+    <value>Subscription Plans</value>
+  </data>
+  <data name="USAGEPAGE_LOADING" xml:space="preserve">
+    <value>Fetching summary</value>
+  </data>
+  <data name="USAGEPAGE_NEXT" xml:space="preserve">
+    <value>NEXT</value>
+  </data>
+  <data name="USAGEPAGE_PREV" xml:space="preserve">
+    <value>PREV</value>
+  </data>
+  <data name="USAGEPAGE_TAPONCHART" xml:space="preserve">
+    <value>Tap on Chart</value>
+  </data>
+  <data name="CHAT" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="CREDIT_TRANSFER" xml:space="preserve">
+    <value>Credit Transfer</value>
+  </data>
+  <data name="DONE" xml:space="preserve">
+    <value>DONE</value>
+  </data>
+  <data name="EMAILUS_ENQ1" xml:space="preserve">
+    <value>Send us your enquiry and will replay</value>
+  </data>
+  <data name="EMAILUS_ENQ2" xml:space="preserve">
+    <value>Within 24 Hours</value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN1_SUBTITLE" xml:space="preserve">
+    <value>You can check your acount balance,Recharge your account,Recharge your service,Check your service usage,Check your service balance</value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN2_SUBTITLE" xml:space="preserve">
+    <value>You can check your acount balance,Recharge your account,Recharge your service,Check your service usage,Check your service balance</value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN3_SUBTITLE" xml:space="preserve">
+    <value>You can transfer your acount balance to other account.</value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN4_SUBTITLE" xml:space="preserve">
+    <value>You can check your My Apps and details in your account.</value>
+  </data>
+  <data name="HELPHOMESCREEN_TITLE" xml:space="preserve">
+    <value>Home Screen</value>
+  </data>
+  <data name="LIVE_CHAT" xml:space="preserve">
+    <value>Live Chat</value>
+  </data>
+  <data name="MYAPPS" xml:space="preserve">
+    <value>My Apps</value>
+  </data>
+  <data name="SEND" xml:space="preserve">
+    <value>SEND</value>
+  </data>
+  <data name="SKIP" xml:space="preserve">
+    <value>SKIP</value>
+  </data>
+  <data name="VIDEO_CHAT" xml:space="preserve">
+    <value>Video Chat</value>
+  </data>
+  <data name="YOUREMAILID" xml:space="preserve">
+    <value>Your email Id</value>
+  </data>
+  <data name="ACCOUNT_ID" xml:space="preserve">
+    <value>Account Id :</value>
+  </data>
+  <data name="CALLUS" xml:space="preserve">
+    <value>Call Us</value>
+  </data>
+  <data name="CHECK_BEST_PLAN" xml:space="preserve">
+    <value>Check Best Plans</value>
+  </data>
+  <data name="DATEOF_RECHARGE" xml:space="preserve">
+    <value>Date of Recharge :</value>
+  </data>
+  <data name="DETAILS" xml:space="preserve">
+    <value>Details :</value>
+  </data>
+  <data name="EMAILUS" xml:space="preserve">
+    <value>Email Us</value>
+  </data>
+  <data name="NAMEOFTHE_PLAN" xml:space="preserve">
+    <value>Name of the plan :</value>
+  </data>
+  <data name="PRODUCT_ID" xml:space="preserve">
+    <value>Product Id :</value>
+  </data>
+  <data name="QUICK_TOPUP" xml:space="preserve">
+    <value>Quick Topup</value>
+  </data>
+  <data name="RECENT_TRANASACTION" xml:space="preserve">
+    <value>Recent Transaction</value>
+  </data>
+  <data name="RECHARGE_AMOUNT" xml:space="preserve">
+    <value>Recharge Amount :</value>
+  </data>
+  <data name="REQUESTTOCALL" xml:space="preserve">
+    <value>Request To Call</value>
+  </data>
+  <data name="SERVICE_ID" xml:space="preserve">
+    <value>Service ID :</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+</root>

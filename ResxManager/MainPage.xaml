@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="ResxManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ResxManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <Grid Background="OrangeRed">
+            <TextBlock Foreground="White" Margin="12,0,12,0" Text="Localisation Helper" VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource HeaderTextBlockStyle}" FontSize="38"/>
+        </Grid>
+        <Grid Grid.Row="1" VerticalAlignment="Top">
+            <TextBox Margin="12,0,12,0" x:Name="lancode" Height="80" Header="Language Code"/>
+        </Grid>
+        <Grid Grid.Row="2" VerticalAlignment="Top">
+            <ProgressBar Margin="12" Height="10" Foreground="Red" Minimum="0" x:Name="prg"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <TextBlock VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center" x:Name="status" Foreground="Black" Style="{StaticResource TitleTextBlockStyle}">
+               <Run Text="translated text :"/>
+                <Run x:Name="t1"/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run x:Name="t2"/>
+            </TextBlock>
+        </Grid>
+        <Grid Grid.Row="4" Margin="12,0,12,0" VerticalAlignment="Stretch">
+            <Button Content="Translate" Click="Button_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></Button>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,4555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIONCODES" xml:space="preserve">
+    <value>{
+  "Ssuspend": "സസ്പെൻഡ്",
+  "Svresume": "പുനരാരംഭിക്കുക",
+  "Srvcease": "നിർത്തിവെച്ചു",
+  "Adsrvftr": "add_service_feature",
+  "Rmsrvftr": "remove_service_feature",
+  "Msisdnch": "msisdn_change",
+  "Simchnge": "sim_change",
+  "Assouser": "associate_user",
+  "Disouser": "dissociate_user",
+  "Cuggrpcr": "cug_group_creation",
+  "Cuggrpdl": "cug_group_deletion",
+  "Cugadmem": "cug_add_member",
+  "Cugdlmem": "cug_delete_member",
+  "Ffcreate": "fnf_creation",
+  "Ffmodify": "fnf_modify",
+  "Ffdeletn": "fnf_deletion",
+  "Srsafcus": "safe_custody",
+  "Cpechnge": "cpe_change",
+  "Addevice": "add_device",
+  "റീചാർജ്": "റീച്ചാർജ്",
+  "Credtadj": "credit_adjustment",
+  "Dndservc": "dnd_modify",
+  "Ogbaring": "outgoing_bar",
+  "Ogunbarg": "outgoing_unbar",
+  "Bpchange": "billplan_change",
+  "Addonadd": "addon_pack_add",
+  "Addonrem": "addon_pack_remove",
+  "Nmbtrnfr": "ധനസമ്പാദനത്തിനല്ലാത്തതുമായ ബാലൻസ് ട്രാൻസ്ഫർ",
+  "Mobtrnfr": "പണ ബാലൻസ് ട്രാൻസ്ഫർ",
+  "Nmbtrnfo": "ധനസമ്പാദനത്തിനല്ലാത്തതുമായ ബാലൻസ് രൂപാന്തരപ്പെടുത്തിയോ",
+  "Subschng": "സബ്സ്ക്രിപ്ഷൻ മാറ്റം",
+  "Ownrchng": "ഉടമസ്ഥാവകാശ മാറ്റം",
+  "Stmtofac": "അക്കൗണ്ട് പ്രസ്താവന",
+  "Telverfy": "televerify"
+}</value>
+  </data>
+  <data name="HELP" xml:space="preserve">
+    <value>സഹായം</value>
+  </data>
+  <data name="ListErrorNotificationControl.ErrorText" xml:space="preserve">
+    <value>ഒരുപിശകുണ്ടായി</value>
+  </data>
+  <data name="LOCATOR" xml:space="preserve">
+    <value>സ്‌റ്റോർ ലൊക്കേറ്റർ </value>
+  </data>
+  <data name="MYORDER" xml:space="preserve">
+    <value>എന്റെ ഓർഡറുകൾ</value>
+  </data>
+  <data name="NUMBER" xml:space="preserve">
+    <value>നമ്പർ -</value>
+  </data>
+  <data name="PAYBILLTEXT" xml:space="preserve">
+    <value>Pay Bill</value>
+  </data>
+  <data name="PRODUCTS" xml:space="preserve">
+    <value>ഉൽപ്പന്നങ്ങൾ</value>
+  </data>
+  <data name="REFILLNOWTEXT" xml:space="preserve">
+    <value>ഇപ്പോൾ റീഫിൽ ചെയ്യുക</value>
+  </data>
+  <data name="ACTIVATIONDATE" xml:space="preserve">
+    <value>ആക്ടിവേഷൻ തീയതിയും</value>
+  </data>
+  <data name="AUTORENEW" xml:space="preserve">
+    <value>യാന്ത്രിക പുതുക്കൽ</value>
+  </data>
+  <data name="PLANID" xml:space="preserve">
+    <value>planid</value>
+  </data>
+  <data name="RECHARGEPLANS" xml:space="preserve">
+    <value>റീചാർജ്ജ് </value>
+  </data>
+  <data name="RENEW" xml:space="preserve">
+    <value>Renew</value>
+  </data>
+  <data name="RENEWDATE" xml:space="preserve">
+    <value>റിന്യൂവബിൾ തീയതി</value>
+  </data>
+  <data name="RENEWPRICE" xml:space="preserve">
+    <value>റിന്യൂവബിൾ വില</value>
+  </data>
+  <data name="SELECTACCOUNT" xml:space="preserve">
+    <value>അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക</value>
+  </data>
+  <data name="SERVICENOTACTIVATED" xml:space="preserve">
+    <value>ഈ അക്കൗണ്ടിലെ സജീവമാക്കിയിട്ടില്ല സർവ്വീസ്</value>
+  </data>
+  <data name="SEVICESTATUS" xml:space="preserve">
+    <value>സർവ്വീസ് നില</value>
+  </data>
+  <data name="TRANSFERNOTAPPLICABLE" xml:space="preserve">
+    <value>ട്രാൻസ്ഫർ പെയ്ഡ് അക്കൗണ്ടിന് ബാധകമല്ല</value>
+  </data>
+  <data name="ADDONSDISPLAYTEXT" xml:space="preserve">
+    <value>നിങ്ങൾ ഈ സേവനം ഇനിപ്പറയുന്ന സവിശേഷതകൾ പ്രവർത്തനരഹിതമാക്കാനാകും</value>
+  </data>
+  <data name="ADDONSPREFRENCETEXT" xml:space="preserve">
+    <value>പ്രമോഷണൽ കോളുകളും സന്ദേശങ്ങളും നിങ്ങളുടെ ജിയോ ഐഡി ന്റെ ലേക്ക് രജിസ്റ്റർ നമ്പർ registration.you നിന്ന് 7 ദിവസത്തിനുള്ളിൽ അവസാനിപ്പിക്കണം എസ്എംഎസ് വഴി ഒരു അദ്വിതീയ റഫറൻസ് നമ്പർ ലഭിക്കും, നിങ്ങളുടെ records.if നിങ്ങൾക്കു രജിസ്റ്റർ ചെയ്തു അടുത്തിടെ നിങ്ങളുടെ മുൻഗണനകൾ അപ്ഡേറ്റ്, ദയവായി ഞങ്ങളെ 7 ദിവസം നടപ്പിലാക്കാൻ കൊടുക്കും മാറ്റങ്ങൾ.</value>
+  </data>
+  <data name="HELPTICKETPAGE_MYREQUEST" xml:space="preserve">
+    <value>My Request</value>
+  </data>
+  <data name="HELPTICKETPAGE_RAISENEW" xml:space="preserve">
+    <value>Raise New</value>
+  </data>
+  <data name="HELPTICKETPAGE_TITLE" xml:space="preserve">
+    <value>ഹെൽപ് ടിക്കറ്റ്</value>
+  </data>
+  <data name="LOCATORPAGE_CATEGORYHEADING.Text" xml:space="preserve">
+    <value>സ്റ്റോർ ലൊക്കേറ്റർ</value>
+  </data>
+  <data name="LOCATORPAGE_COVERAGEEXCELLENT" xml:space="preserve">
+    <value>വിശിഷ്ടം</value>
+  </data>
+  <data name="LOCATORPAGE_COVERAGEGOOD" xml:space="preserve">
+    <value>നല്ല</value>
+  </data>
+  <data name="LOCATORPAGE_COVERAGESATISFACTORY" xml:space="preserve">
+    <value>തൃപ്തികരമായി</value>
+  </data>
+  <data name="LOCATORPAGE_HOTSPOTBUTTONTEXT" xml:space="preserve">
+    <value>HOTSPOT</value>
+  </data>
+  <data name="LOCATORPAGE_JIOCENTERBUTTONTEXT" xml:space="preserve">
+    <value>ജിയോ സെന്റർ</value>
+  </data>
+  <data name="LOCATORPAGE_JIOSTOREBUTTONTEXT" xml:space="preserve">
+    <value>ജിയോ സ്റ്റോർ</value>
+  </data>
+  <data name="LOCATORPAGE_SEARCHTEXT" xml:space="preserve">
+    <value>Search Location</value>
+  </data>
+  <data name="LOCATORPAGE_SIGNALBUTTONTEXT" xml:space="preserve">
+    <value>അടയാളം</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_ALL" xml:space="preserve">
+    <value>മുഴുവൻ</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_CLOSED" xml:space="preserve">
+    <value>അടച്ച</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_OPEN" xml:space="preserve">
+    <value>തുറക്കുക</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_REJECTED" xml:space="preserve">
+    <value>നിരസിച്ചു</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_REOPENED" xml:space="preserve">
+    <value>തുറന്നു റീ</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_RESOLVED" xml:space="preserve">
+    <value>പരിഹരിച്ചതായി</value>
+  </data>
+  <data name="HELPTICKETPAGE_FILTERS_WIP" xml:space="preserve">
+    <value>പ്രവൃത്തി പുരോഗതിയിലാണ്</value>
+  </data>
+  <data name="HELPTICKETPAGE_TITLE_DETAIL" xml:space="preserve">
+    <value>ഹെൽപ് ടിക്കറ്റ് വിശദാംശങ്ങൾ</value>
+  </data>
+  <data name="HELPTICKETPAGEDETAIL_SERVICES" xml:space="preserve">
+    <value>സേവനങ്ങൾ </value>
+  </data>
+  <data name="NONETWORKMESSAGE" xml:space="preserve">
+    <value>ഇന്റർനെറ്റ് കണക്ഷൻ ലഭ്യമല്ല</value>
+  </data>
+  <data name="EDITADDRESSAREA" xml:space="preserve">
+    <value>ഏരിയ/പ്രദേശം</value>
+  </data>
+  <data name="EDITADDRESSBUILDINGID" xml:space="preserve">
+    <value>കെട്ടിട ഐഡി</value>
+  </data>
+  <data name="EDITADDRESSBUILDINGNAME" xml:space="preserve">
+    <value>കെട്ടിട നമ്പർ/പേര്</value>
+  </data>
+  <data name="EDITADDRESSCAREOF" xml:space="preserve">
+    <value>കെയർ ഓഫ്</value>
+  </data>
+  <data name="EDITADDRESSCOUNTRY" xml:space="preserve">
+    <value>രാജ്യം</value>
+  </data>
+  <data name="EDITADDRESSDISTRICT" xml:space="preserve">
+    <value>ജില്ല</value>
+  </data>
+  <data name="EDITADDRESSHOUSENAME" xml:space="preserve">
+    <value>House Name/Number</value>
+  </data>
+  <data name="EDITADDRESSLANDMARK" xml:space="preserve">
+    <value>ലാൻഡ്‌മാർക്ക്</value>
+  </data>
+  <data name="EDITADDRESSPINCODE" xml:space="preserve">
+    <value>പിൻകോഡ്</value>
+  </data>
+  <data name="EDITADDRESSSOCIETYNAME" xml:space="preserve">
+    <value>സൊസൈറ്റിയുടെ പേര്</value>
+  </data>
+  <data name="EDITADDRESSSTATE" xml:space="preserve">
+    <value>സംസ്ഥാനം</value>
+  </data>
+  <data name="EDITADDRESSSTREET" xml:space="preserve">
+    <value>സ്ട്രീറ്റ്</value>
+  </data>
+  <data name="EDITADDRESSSUBLOCALITY" xml:space="preserve">
+    <value>ഉപ പ്രദേശം</value>
+  </data>
+  <data name="EDITADDRESSVILLAGE" xml:space="preserve">
+    <value>വില്ലേജ്/നഗരം</value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGCITIES" xml:space="preserve">
+    <value>നഗരം ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല</value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGDISTRICTS" xml:space="preserve">
+    <value>ജില്ലകളിൽ ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല</value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGLOCALITIES" xml:space="preserve">
+    <value>ലൊക്കാലിറ്റികൾ ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല</value>
+  </data>
+  <data name="CHANGEADDRESSERRORMSGSTATES" xml:space="preserve">
+    <value>സംസ്ഥാനങ്ങളിൽ ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല</value>
+  </data>
+  <data name="MAPLOADINGERRORMSG" xml:space="preserve">
+    <value>മാപ്പ് ലോഡുചെയ്യുന്നു പ്രശ്നം</value>
+  </data>
+  <data name="HELPPAGE_TITLE" xml:space="preserve">
+    <value>സഹായിക്കൂ</value>
+  </data>
+  <data name="ENTERAMOUNTMESSAGE" xml:space="preserve">
+    <value>തുക നൽകുക ദയവായി</value>
+  </data>
+  <data name="FEE" xml:space="preserve">
+    <value>ഫീസ്</value>
+  </data>
+  <data name="MAX" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="NETPAYABLE" xml:space="preserve">
+    <value>Net Payable</value>
+  </data>
+  <data name="NOTRANSFER" xml:space="preserve">
+    <value>(80%) മാറ്റാൻ കഴിയൂ.</value>
+  </data>
+  <data name="RECIPIENTSELECT" xml:space="preserve">
+    <value>No Recipient Selected</value>
+  </data>
+  <data name="SELECTDATA" xml:space="preserve">
+    <value>ചില ഡാറ്റ കൈമാറ്റം തെരഞ്ഞെടുക്കുക ദയവായി</value>
+  </data>
+  <data name="SELECTDATATRANSFORM" xml:space="preserve">
+    <value>രൂപാന്തരപ്പെടുത്തിയോ ചില ഡാറ്റ ദയവായി തിരഞ്ഞെടുക്കുക</value>
+  </data>
+  <data name="SERVICEID" xml:space="preserve">
+    <value>സേവന ഐഡി </value>
+  </data>
+  <data name="TRANSFERMESSAGEBOX" xml:space="preserve">
+    <value>കൈമാറ്റം ചെയ്യേണ്ട ആൾ </value>
+  </data>
+  <data name="TRANSFERNOTAVAILABLE" xml:space="preserve">
+    <value>കൈമാറുന്നതിനായി പ്ലാനുകൾ ലഭ്യമല്ല </value>
+  </data>
+  <data name="TRANSFORMMESSAGEBOX" xml:space="preserve">
+    <value>രൂപം മാറ്റുക </value>
+  </data>
+  <data name="TRANSFORMNOTAVAILABLE" xml:space="preserve">
+    <value>രൂപം മാറ്റുനതിനായി പ്ലാനുകൾ ലഭ്യമല്ല </value>
+  </data>
+  <data name="ALIASNAMEREGISTER" xml:space="preserve">
+    <value>അപരനാമം പേര്</value>
+  </data>
+  <data name="ENTERALIASNAME" xml:space="preserve">
+    <value>പണം കൈപ്പറ്റുന്ന ആളെ രജിസ്‌റ്റർ ചെയ്യുന്നതിന് ഇതരനാമം നൽകുക </value>
+  </data>
+  <data name="PROCESSINGFEE" xml:space="preserve">
+    <value>പ്രോസസ് ചെയ്യൽ ഫീ  :</value>
+  </data>
+  <data name="RECEIPTCLOSE" xml:space="preserve">
+    <value>അടയ്ക്കുക </value>
+  </data>
+  <data name="RECEIPTMSSGE" xml:space="preserve">
+    <value>നന്ദി യാതൊരു രസീത് ഉദ്ധരിക്കുക. ഈ transcation ബന്ധപ്പെട്ട ഭാവിയിൽ ഏതെങ്കിലും അന്വേഷണങ്ങളിൽ.</value>
+  </data>
+  <data name="RECEIPTTITLE" xml:space="preserve">
+    <value>കൈമാറുന്ന രസീത് </value>
+  </data>
+  <data name="REFERANCENO" xml:space="preserve">
+    <value>ഇല്ല റെഫറൻസ്.</value>
+  </data>
+  <data name="REGISTERBUTTON" xml:space="preserve">
+    <value>പുതുതായി രജിസ്റ്റർ ചെയ്യുക.</value>
+  </data>
+  <data name="REQUESTPROCESSED" xml:space="preserve">
+    <value>നിങ്ങളുടെ അഭ്യർത്ഥന നിലവിൽ പ്രൊസസ്സ്</value>
+  </data>
+  <data name="SAVEPDF" xml:space="preserve">
+    <value>savepdf</value>
+  </data>
+  <data name="TOTALAMOUNT" xml:space="preserve">
+    <value>ആകെ തുക</value>
+  </data>
+  <data name="TRANSFERAMOUNT" xml:space="preserve">
+    <value>കൈമാറിയ തുക </value>
+  </data>
+  <data name="TRANSFERTOSERVICEID" xml:space="preserve">
+    <value>സേവന ഐഡിയിൽലേക്ക് കൈമാറി </value>
+  </data>
+  <data name="TRASFERREDFROMSERVICEID" xml:space="preserve">
+    <value>സേവന ഐഡിയിൽ നിന്നും കൈമാറി </value>
+  </data>
+  <data name="ADDONSPREFRENCESUBTEXT" xml:space="preserve">
+    <value>നിങ്ങൾ ഇനിപ്പറയുന്ന മേഖലകളിൽ നിന്നുള്ള പ്രത്യേക സന്ദേശങ്ങളും അലർട്ടുകൾ സ്വീകരിക്കുന്നതിനായി ആഗ്രഹിക്കുന്നുവോ</value>
+  </data>
+  <data name="STATEMENTPAGE_NOBILLS" xml:space="preserve">
+    <value>ബില്ലുകൾ കണ്ടെത്തിയില്ല. ചുവടെയുള്ള ഗെറ്റ് ബിൽ ഓപ്‌ഷണലുകൾ ഉപയോഗിച്ച് നിങ്ങളുടെ ബിൽ ഡൗൺലോഡുചെയ്യുക </value>
+  </data>
+  <data name="STATEMENTPAGE_BILLRANGE" xml:space="preserve">
+    <value>ബില്ലിംഗ് ശ്രേണി തിരഞ്ഞെടുക്കാൻ</value>
+  </data>
+  <data name="STATEMENTPAGE_CANCEL" xml:space="preserve">
+    <value>റദ്ദാക്കുക</value>
+  </data>
+  <data name="STATEMENTPAGE_FETCHBILLS" xml:space="preserve">
+    <value>ബില്ലുകൾ ലഭ്യമാക്കാൻ</value>
+  </data>
+  <data name="STATEMENTPAGE_GETSTATEMENT" xml:space="preserve">
+    <value>GET Statement</value>
+  </data>
+  <data name="USAGEPAGE_ERROR" xml:space="preserve">
+    <value>യാതൊരു അവധാനതയോടെ ലഭ്യമാണ്</value>
+  </data>
+  <data name="USAGEPAGE_KEY_DOWNLOAD" xml:space="preserve">
+    <value>Download Statement</value>
+  </data>
+  <data name="NODATA_KEY" xml:space="preserve">
+    <value>ഡാറ്റാ ലഭ്യമല്ല</value>
+  </data>
+  <data name="TRANSFERABLE" xml:space="preserve">
+    <value>കൈമാറാവുന്നതാണ്</value>
+  </data>
+  <data name="HELPPAGE_NOTTICKETS" xml:space="preserve">
+    <value>ട്രബിൾ ടിക്കറ്റുകൾ കാണപ്പെട്ടില്ല</value>
+  </data>
+  <data name="DOWNLOADSPAGE_NODOWNLOADS" xml:space="preserve">
+    <value>യാതൊരു dowloads ലഭ്യമാണ്</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_CURSTATUS" xml:space="preserve">
+    <value>നിലവിലെ നില</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_REASON" xml:space="preserve">
+    <value>തിരഞ്ഞെടുത്ത കാരണം</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_SERACTIVE" xml:space="preserve">
+    <value>സേവനം സജീവം</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SEL_SERVICE" xml:space="preserve">
+    <value>സേവനം തിരഞ്ഞെടുക്കുക </value>
+  </data>
+  <data name="MANAGESERVICEPAGE_SUSPEND" xml:space="preserve">
+    <value>സസ്പെൻഡ്</value>
+  </data>
+  <data name="MANAGESERVICEPAGE_TITLE" xml:space="preserve">
+    <value>സേവനങ്ങൾ നിയന്ത്രിക്കുക</value>
+  </data>
+  <data name="TICKETDETAILPAGE_ACCID" xml:space="preserve">
+    <value>അക്കൗണ്ട് ID :</value>
+  </data>
+  <data name="TICKETDETAILPAGE_CAT" xml:space="preserve">
+    <value>വിഭാഗം:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_CUSID" xml:space="preserve">
+    <value>ഉപഭോക്തൃ ഐഡി:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_DESC" xml:space="preserve">
+    <value>വിവരണം:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_ESR" xml:space="preserve">
+    <value>കണക്കാക്കിയ resoultion സമയം:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_SRTYPE" xml:space="preserve">
+    <value>സർവ്വീസ് തരം:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_STATUS" xml:space="preserve">
+    <value>പദവി:</value>
+  </data>
+  <data name="TICKETDETAILPAGE_TITLE" xml:space="preserve">
+    <value>ശീർഷകം:</value>
+  </data>
+  <data name="SETTINGSABOUTUSCOPYRIGHTTEXT.Text" xml:space="preserve">
+    <value>© 2015-2016 റിലയൻസ് ജിയോ ഇൻഫോകോം ലിമിറ്റഡ്.</value>
+  </data>
+  <data name="SETTINGSABOUTUSVERSION.Text" xml:space="preserve">
+    <value>എന്റെ ജിയോ വി 0.9</value>
+  </data>
+  <data name="PRODUCTS_CMGSOON" xml:space="preserve">
+    <value>വിവരണം: ഉടൻ വരുന്നു</value>
+  </data>
+  <data name="PRODUCTS_Z0001" xml:space="preserve">
+    <value>വിവരണം: ഉടൻ വരുന്നു ...</value>
+  </data>
+  <data name="PRODUCTS_Z0002" xml:space="preserve">
+    <value>വിവരണം :
+ജിയോ മിഫി നിങ്ങളുടെ സ്വന്തം പോക്കറ്റ് വലിപ്പത്തിലുള്ള സ്വകാര്യ മൊബൈൽ വൈഫൈ ഹോട്ട്സ്പോട്ട് ഒരേ സമയം 5/10 വൈഫൈ ഗാഡ്ജറ്റുകൾ വരെ കയറി കണക്ട് ശക്തി റൂട്ടർ ആണ്. പാസ്വേഡ് സംരക്ഷിച്ചിരിക്കുന്നു കണക്ഷന്റെ സവിശേഷത അതു അടുത്ത സുഹൃത്തുക്കളും മനസ്സമാധാനവും കുടുംബം ഉപയോഗിച്ച് നിങ്ങളുടെ സുരക്ഷിത ഹൈ സ്പീഡ് കണക്ഷൻ പങ്കിടാൻ നിങ്ങളെ ചോയ്സ് നൽകുന്നു.
+
+പ്രധാന സവിശേഷതകൾ :
+
+1. ഒന്നിലധികം ഉപകരണങ്ങളും ഉപയോക്താക്കൾക്കിടയിൽ സൂപ്പർ ഫാസ്റ്റ് സ്പീഡ്
+2. ഉയർന്ന നിലവാരം വൈവിധ്യമാർന്ന ഉള്ളടക്കങ്ങൾ ആക്സസ്
+3. ഉപകരണ ഡിസൈൻ
+4. ഓൺ-ബോർഡിംഗ് സജ്ജീകരിക്കുകയും-അപ്പ് സൗകര്യപ്രദവും
+5. channels- മൊബൈൽ അപ്ലിക്കേഷൻ വെബിലുടനീളവും ഒരൊറ്റ ജിയോ ഐഡി ഉപയോഗിച്ച് എളുപ്പത്തിൽ അക്കൗണ്ട് മാനേജുമെന്റ്</value>
+  </data>
+  <data name="PRODUCTS_Z0003" xml:space="preserve">
+    <value>വിവരണം :
+വോയ്സ് കോളുകൾ, കുറഞ്ഞ സിഗ്നലുകൾ പനികൊണ്ട്, സ്ലോ സ്പീഡുകളെല്ലാം ഇപ്പോൾ ചരിത്രമാണ്. 4G LTE ഹലോ പറയൂ. നിങ്ങളുടെ വിരൽത്തുമ്പിൽ ആശയവിനിമയ സാധ്യതകൾ ഒരു പാരഗ്രാഫ് കൊണ്ടുവരുന്നതും നിങ്ങൾ സമർത്ഥമായ പ്രവർത്തിക്കാനും ബുദ്ധിമുട്ടുമാണ് പ്ലേ സഹായിക്കുന്ന ഒരു സാങ്കേതികവിദ്യ. നിങ്ങൾ സ്വാഭാവിക പോലോത്ത ഹൈ-ഡെഫനിഷൻ (HD) ശബ്ദം പരമ്പരാഗത വോയ്സ് കോൾ പോലെ ലളിതമായ പറയണ ഒരു വീഡിയോ കോളിംഗ് അനുഭവം ആസ്വദിക്കാൻ കഴിയും.
+
+നിങ്ങളുടെ 4G VoLTE ഫോൺ ഉപയോഗിച്ച്, ഇപ്പോൾ ഒരു അടുത്ത ഉല്പ നെറ്റ്വർക്ക് നേരിടുകയാണെങ്കിൽ powered മെച്ചപ്പെട്ട സജീവമാണ്. ഹൈ എൻഡ് സേവനങ്ങളും അപ്ലിക്കേഷനുകൾ ജിയോ വഴി പ്രാപ്തമാക്കിയ നിറഞ്ഞതുമാണ്, നിങ്ങൾ ഇപ്പോൾ ജീവിതം reimagine ഓരോ കണക്ടിവിറ്റി സ്വപ്നം പൂവണിയും വരുത്തുവാൻ കഴിയും. ജിയോ വോയ്സ്, വീഡിയോ VoLTE ബേസ് ഓഫറുമായി വിളിക്കുന്നു പരിധിയില്ലാതെ ജിയോ നേടുക. എതിരെ, ഈ ഓഫർ ഭാഗമായി ജിയോ പ്ലേ 50 സ്പോർട്സ് ചാനൽ സൗജന്യ ആക്സസ് നേടുകയും.
+
+ആരംഭിക്കുന്നതിന്. ജീവിതത്തിന്റെ ഒരു പുതിയ മാർഗം അപ്ഗ്രേഡ്!
+
+പ്രധാന സവിശേഷതകൾ:
+
+1. HD വോയ്സ്, വീഡിയോ കോളുകൾ കൊണ്ട് മികച്ചവർ കോളിംഗ് അനുഭവം
+2. വേഗത്തിൽ കോൾ കണക്ഷൻ സമയം
+3. വോയ്സ്, വീഡിയോ കോളുകൾ അസൗകര്യവും
+4. ഓഫർ ഭാഗമായി 50 ജിയോ പ്ലേ സ്പോർട്സ് ചാനലുകൾ സൗജന്യമായി ഇഷ്ടങ്ങൾ
+5. തൽസമയം ബാലൻസ് അക്കൗണ്ട് വിവരങ്ങളും
+6. മെച്ചപ്പെടുത്തിയ ആശയവിനിമയം
+7. channels- മൊബൈൽ അപ്ലിക്കേഷൻ വെബിലുടനീളവും ഒരൊറ്റ ജിയോ ഐഡി ഉപയോഗിച്ച് എളുപ്പത്തിൽ അക്കൗണ്ട് മാനേജുമെന്റ്
+8. ഓൺ-ബോർഡിംഗ് സജ്ജീകരിക്കുകയും-അപ്പ് സൗകര്യപ്രദവും</value>
+  </data>
+  <data name="PRODUCTS_Z0005" xml:space="preserve">
+    <value>വിവരണം: \ n
+ജിയോ ഫൈബർ തീവ്ര ബ്രോഡ്ബാൻഡ് - ഹൈ സ്പീഡ് ഇൻറർനെറ്റ് നിങ്ങളുടെ വീട്ടിൽ നാരുകൾ മേൽ ഏല്പിച്ചു.
+\ n
+കീ ഫീച്ചറുകൾ: \ n
+
+1. ഇറക്കുമതി 100 എം.ബി.പി.എസ് \ n ലേക്ക് വേഗത
+2. ഭാവിയിൽ തയ്യാറാണ് - ലേറ്റന്സിയുള്ള സെൻസിറ്റീവ് പ്രയോഗങ്ങൾ \ n, ഹൈ സ്പീഡ് പിന്തുണയ്ക്കുന്നു
+3. ഒരു ഫൈബർ ബ്രോഡ്ബാൻഡ് കണക്ഷൻ നൽകുന്ന ഉയർന്ന വേഗത പ്രകടനം</value>
+  </data>
+  <data name="PRODUCTS_Z0006" xml:space="preserve">
+    <value>വിവരണം :
+എവിടെയായിരുന്നാലും ഹൈ സ്പീഡ് ഇൻറർനെറ്റ് ആസ്വദിക്കാൻ. നിങ്ങളുടെ നഗരത്തിലെ ജിയോ ഹോട്ട്സ്പോട്ടുകൾ പൊതുജന സ്ഥലങ്ങളിൽ ജിയോ വൈഫൈ കണക്റ്റ്. ജിയോ സേവനങ്ങൾ ഒരു സമാനതകളില്ലാത്ത ആവാസവ്യവസ്ഥ കൂടെ അനുഭവം തീവ്ര ഉയർന്ന വേഗത.
+
+പ്രധാന സവിശേഷതകൾ :
+
+1. എവിടെയും ആക്സസ് jionet
+2. നിങ്ങളുടെ WiFi പ്രാപ്തമാക്കിയ ഉപകരണങ്ങളിൽ ഹൈ-സ്പീഡ് ഇന്റര്നെറ്റ് ലഭ്യത
+3. ജിയോ WiFi രജിസ്ട്രേഷൻ
+4. ഊർദ്ധ്വ വെബ് അനുഭവം</value>
+  </data>
+  <data name="APPCENTERPAGE_TITLE" xml:space="preserve">
+    <value>App Center</value>
+  </data>
+  <data name="COIMINGSOON_KEY" xml:space="preserve">
+    <value>ഉടൻ വരുന്നു </value>
+  </data>
+  <data name="DEVICEDETAIL_CPUUSAGE" xml:space="preserve">
+    <value>CPU ഉപയോഗം:</value>
+  </data>
+  <data name="DEVICEDETAIL_DEVICE" xml:space="preserve">
+    <value>Device :</value>
+  </data>
+  <data name="DEVICEDETAIL_DEVICEMACID" xml:space="preserve">
+    <value>Device Mac ID :</value>
+  </data>
+  <data name="DEVICEDETAIL_FIRMWAREVERSION" xml:space="preserve">
+    <value>Firmware Version :</value>
+  </data>
+  <data name="DEVICEDETAIL_IPV4ADDRESS" xml:space="preserve">
+    <value>IPv4 വിലാസം</value>
+  </data>
+  <data name="DEVICEDETAIL_IPV6ADDRESS" xml:space="preserve">
+    <value>IPV6 Address :</value>
+  </data>
+  <data name="DEVICEDETAIL_MANUFACTURESNAME" xml:space="preserve">
+    <value>നിർമ്മാതാക്കൾ പേര്:</value>
+  </data>
+  <data name="DEVICEDETAIL_SERIALNUMBER" xml:space="preserve">
+    <value>Serial Number :</value>
+  </data>
+  <data name="DEVICEDETAIL_SIGNALSTRENGTH" xml:space="preserve">
+    <value>Signal Strength :</value>
+  </data>
+  <data name="LANAGUAGEPAGE_TITLE" xml:space="preserve">
+    <value>ഭാഷ തിരഞ്ഞെടുക്കുക </value>
+  </data>
+  <data name="a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BILLING_ADDRESS" xml:space="preserve">
+    <value>ബില്ലിംഗ് വിലാസം</value>
+  </data>
+  <data name="DATE" xml:space="preserve">
+    <value>തീയതി </value>
+  </data>
+  <data name="FILTER_STATUS_DATE" xml:space="preserve">
+    <value>ഓർഡർ നില അല്ലെങ്കിൽ തീയതി ഫിൽട്ടർ</value>
+  </data>
+  <data name="JIOCENTER_ID" xml:space="preserve">
+    <value>jiocenterid:</value>
+  </data>
+  <data name="LANDMARK_ORDER" xml:space="preserve">
+    <value>ലാൻഡ്മാർക്ക്:</value>
+  </data>
+  <data name="OFFER_NAME" xml:space="preserve">
+    <value>ഓഫർ പേര്:</value>
+  </data>
+  <data name="OFFER_STATUS" xml:space="preserve">
+    <value>ഓഫർ നില:</value>
+  </data>
+  <data name="ORDER_REF_NO" xml:space="preserve">
+    <value>ഓർഡർ റഫറൻസ് നമ്പർ:</value>
+  </data>
+  <data name="PERMANENT_ADD" xml:space="preserve">
+    <value>സ്ഥിര വിലാസം :</value>
+  </data>
+  <data name="SEARCHBYREFNO" xml:space="preserve">
+    <value>റഫറൻസ് നമ്പർ പ്രകാരം തിരയുക.</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>സ്റ്റാറ്റസ്:\u0020</value>
+  </data>
+  <data name="DEVICEDETAIL_ERRORMSG" xml:space="preserve">
+    <value>മിഫി ഉപകരണങ്ങൾ ലഭ്യമല്ല</value>
+  </data>
+  <data name="REFERENCE_NO" xml:space="preserve">
+    <value>റഫറൻസ് നമ്പർ </value>
+  </data>
+  <data name="SUBSCRIPTIONPLANSPAGE_NODATA" xml:space="preserve">
+    <value>യാതൊരു പദ്ധതികൾ ലഭ്യമാണ്</value>
+  </data>
+  <data name="PLANSPAGE_NOPLANS" xml:space="preserve">
+    <value>യാതൊരു പദ്ധതികൾ ലഭ്യമാണ്</value>
+  </data>
+  <data name="LOCATOR_ERRORTEXT" xml:space="preserve">
+    <value>ലഭ്യമല്ല ഡാറ്റ</value>
+  </data>
+  <data name="ACCOUNTID_KEY" xml:space="preserve">
+    <value>അക്കൗണ്ട് ID</value>
+  </data>
+  <data name="DESCRIPTION_KEY" xml:space="preserve">
+    <value>വിവരണം</value>
+  </data>
+  <data name="HELPTICKETPAGE_CREATEDDATE" xml:space="preserve">
+    <value>സൃഷ്ടിച്ച തീയതി:</value>
+  </data>
+  <data name="HELPTICKETPAGE_SUB_TIKET_MSG" xml:space="preserve">
+    <value>കഷ്ടത ടിക്കറ്റ് വിജയകരമായി created.your റഫറൻസ് നമ്പർ ഇതാണ്:</value>
+  </data>
+  <data name="HELPTICKETPAGE_TICKET_ID" xml:space="preserve">
+    <value>ടിക്കറ്റ് ഐഡി:</value>
+  </data>
+  <data name="NODESC_MESSAGE" xml:space="preserve">
+    <value>പ്രശ്നം ഒരു ലഘു വിവരണം നൽകുക</value>
+  </data>
+  <data name="NOTITLE_MESSAGE" xml:space="preserve">
+    <value>ശീർഷകം ശൂന്യമായിടാൻ കഴിയില്ല</value>
+  </data>
+  <data name="REGARDING_KEY" xml:space="preserve">
+    <value>Regarding</value>
+  </data>
+  <data name="SERVICES_KEY" xml:space="preserve">
+    <value>സേവനങ്ങള്</value>
+  </data>
+  <data name="SPECIFY_ABOUT_KEY" xml:space="preserve">
+    <value>Specify About</value>
+  </data>
+  <data name="TITLE_KEY" xml:space="preserve">
+    <value>ശീർഷകം</value>
+  </data>
+  <data name="USAGEPAGE_DOWNLOADING" xml:space="preserve">
+    <value>ഡൌൺലോഡ് -</value>
+  </data>
+  <data name="USAGEPAGE_EXEEDMONTHS" xml:space="preserve">
+    <value>സംഗ്രഹം 6 ലധികം മാസം കാണിക്കാൻ സാധ്യമല്ല</value>
+    <comment>Summary Cannot be shown more than 6 month</comment>
+  </data>
+  <data name="ADDRESSCHANGE_SAVEBUTTON_TEXT" xml:space="preserve">
+    <value>സംരക്ഷിക്കുക</value>
+  </data>
+  <data name="ORDERSUMMARY_APPLY_BUTTON_TEXT" xml:space="preserve">
+    <value>പ്രയോഗിക്കുക </value>
+  </data>
+  <data name="ORDERSUMMARY_CHANGE" xml:space="preserve">
+    <value>മാറ്റുക </value>
+  </data>
+  <data name="ORDERSUMMARY_COSTTEXT.Text" xml:space="preserve">
+    <value>ചിലവ് </value>
+  </data>
+  <data name="ORDERSUMMARY_DELIVERYADDRESSTEXT.Text" xml:space="preserve">
+    <value>DELIVERY ADDRESS</value>
+  </data>
+  <data name="ORDERSUMMARY_GRANDTOTAL_TEXT.Text" xml:space="preserve">
+    <value>ആകെ തുക :</value>
+  </data>
+  <data name="ORDERSUMMARY_ITEMSTEXT.Text" xml:space="preserve">
+    <value>ഇനങ്ങൾ </value>
+  </data>
+  <data name="ORDERSUMMARY_ORDERDISCOUNT_TEXT.Text" xml:space="preserve">
+    <value>ഓർഡർ കുറഞ്ഞ:</value>
+  </data>
+  <data name="ORDERSUMMARY_PLACEORDER_BUTTON_TEXT" xml:space="preserve">
+    <value>ഓർഡർ നൽകുക </value>
+  </data>
+  <data name="ORDERSUMMARY_PLANCOST_TEXT.Text" xml:space="preserve">
+    <value>പ്ലാൻ കുറഞ്ഞ:</value>
+  </data>
+  <data name="ORDERSUMMARY_PLANTEXT.Text" xml:space="preserve">
+    <value>പ്ലാൻ:</value>
+  </data>
+  <data name="ORDERSUMMARY_PRODUCTTEXT.Text" xml:space="preserve">
+    <value>ഉൽപ്പന്ന:</value>
+  </data>
+  <data name="ORDERSUMMARY_PRUCTCOST_TEXT.Text" xml:space="preserve">
+    <value>ഉൽപ്പന്ന വില:</value>
+  </data>
+  <data name="ORDERSUMMARY_QTYTEXT.Text" xml:space="preserve">
+    <value>QTY </value>
+  </data>
+  <data name="ORDERSUMMARY_REMOVEVOUCHER_TEXT.Text" xml:space="preserve">
+    <value>വൗച്ചർ നീക്കം ചെയ്യുക </value>
+  </data>
+  <data name="ORDERSUMMARY_STOREPICKUP" xml:space="preserve">
+    <value>സ്‌റ്റോർ പിക്കപ്പ് </value>
+  </data>
+  <data name="ORDERSUMMARY_TITLETEXT.Text" xml:space="preserve">
+    <value>ഓർഡർ സംഗ്രഹം </value>
+  </data>
+  <data name="ORDERSUMMARY_VOUCHER_PLACEHOLDER" xml:space="preserve">
+    <value>വൗച്ചർ പ്രയോഗിക്കുക </value>
+  </data>
+  <data name="PRODUCTDETAILS_BUYNOW_BUTTON.Content" xml:space="preserve">
+    <value>ഇപ്പോൾ വാങ്ങുക </value>
+  </data>
+  <data name="PRODUCTDETAILS_DETAILSBUTTONTEXT" xml:space="preserve">
+    <value>വിശദാംശങ്ങൾ</value>
+  </data>
+  <data name="PRODUCTDETAILS_ERROR_TEXT" xml:space="preserve">
+    <value>ഡാറ്റാ ഇല്ല</value>
+  </data>
+  <data name="PRODUCTDETAILS_KEYFEATURESTEXT.Text" xml:space="preserve">
+    <value>പ്രധാന സവിശേഷതകൾ</value>
+  </data>
+  <data name="PRODUCTDETAILS_TECHNICALDETAILSBUTTONTEXT" xml:space="preserve">
+    <value>സാങ്കേതിക വിശദാംശങ്ങൾ</value>
+  </data>
+  <data name="PRODUCTDETAIL_OPTIONALPLANS.Text" xml:space="preserve">
+    <value>ഓപ്ഷണൽ പ്ലാനുകൾ </value>
+  </data>
+  <data name="PRODUCT_STOREPICKUP_NEARESTSTORES_TEXT.Text" xml:space="preserve">
+    <value>അടുത്തുള്ള സ്റ്റോറുകൾ </value>
+  </data>
+  <data name="ABOUTUS" xml:space="preserve">
+    <value>ഞങ്ങളെക്കുറിച്ച്</value>
+  </data>
+  <data name="APPCENTER" xml:space="preserve">
+    <value>അപ്ലിക്കേഷൻ കേന്ദ്രം</value>
+  </data>
+  <data name="CHANGEPASSWORD" xml:space="preserve">
+    <value>പാസ്‌വേഡ് മാറ്റുക </value>
+  </data>
+  <data name="DEVICEDETAILS" xml:space="preserve">
+    <value>Device Details</value>
+  </data>
+  <data name="DOWNLOADS" xml:space="preserve">
+    <value>ഡൗൺലോഡ് ചെയ്യുക</value>
+  </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>ഭാഷ </value>
+  </data>
+  <data name="LOYALTYPOINTS" xml:space="preserve">
+    <value>ലോയൽറ്റി പോയിന്റുകൾ </value>
+  </data>
+  <data name="NOTIFICATIONS" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="SETALERT" xml:space="preserve">
+    <value>അലേർട്ട് സജ്ജീകരിക്കുക</value>
+  </data>
+  <data name="SETALERTAMOUNT" xml:space="preserve">
+    <value>അക്കൗണ്ടുകളുടെ തുക പരിധിക്ക് അലേർട്ട് സജ്ജീകരിക്കുക</value>
+  </data>
+  <data name="SETSERVICEALIAS" xml:space="preserve">
+    <value>അക്കൗണ്ടുകളുടെ അപരനാമം സജ്ജീകരിക്കുക</value>
+  </data>
+  <data name="SUSPENDRESUMESERVICE" xml:space="preserve">
+    <value>പുനരാരംഭിക്കുക സേവനം താൽക്കാലികമായി</value>
+  </data>
+  <data name="ALERT_ALIAS_SUCCESS" xml:space="preserve">
+    <value>നിങ്ങളുടെ അപരനാമം റഫറൻസ് നമ്പർ അപ്ഡേറ്റ്</value>
+  </data>
+  <data name="ALERT_CANCEL" xml:space="preserve">
+    <value>റദ്ദാക്കുക</value>
+  </data>
+  <data name="ALERT_CHANGE" xml:space="preserve">
+    <value>മാറ്റം</value>
+  </data>
+  <data name="ALERT_DND_PREFERENCES" xml:space="preserve">
+    <value>ഡിഎൻഡി മുൻഗണനകൾ</value>
+  </data>
+  <data name="ALERT_EXIT" xml:space="preserve">
+    <value>പുറത്തുകടക്കുക</value>
+  </data>
+  <data name="ALERT_LANGUAGECHANGE" xml:space="preserve">
+    <value>നിങ്ങൾ langauge മാറ്റണമെങ്കിൽ നിങ്ങളുടെ അപ്ലിക്കേഷൻ പുനരാരംഭിക്കും</value>
+  </data>
+  <data name="ALERT_MANAGESERVICE_SUCCESS" xml:space="preserve">
+    <value>ഐഡി ഉപയോഗിച്ച് വിജയകരമായി അപ്ഡേറ്റ്</value>
+  </data>
+  <data name="ALERT_NO" xml:space="preserve">
+    <value>അല്ല</value>
+  </data>
+  <data name="ALERT_PAYMENT_DESC" xml:space="preserve">
+    <value>നിങ്ങൾ തുടരാൻ ആഗ്രഹിക്കുന്നത്</value>
+  </data>
+  <data name="ALERT_PAYMENT_KEY" xml:space="preserve">
+    <value>പേയ്മെന്റ്</value>
+  </data>
+  <data name="ALERT_PAYMENT_SUCCESS_DESC" xml:space="preserve">
+    <value>നിങ്ങളുടെ പേയ്മെന്റ് റഫറൻസ് നമ്പർ വിജയകരമായ ആയിരുന്നു;</value>
+  </data>
+  <data name="ALERT_REQUEST_SUBMIT" xml:space="preserve">
+    <value>നിങ്ങളുടെ അഭ്യർത്ഥന വിജയകരമായി റഫറൻസ് ഐഡി ഉപയോഗിച്ച് സമർപ്പിച്ചു</value>
+  </data>
+  <data name="ALERT_SUCCESS" xml:space="preserve">
+    <value>വിജയിച്ചു</value>
+  </data>
+  <data name="ALERT_WARNING" xml:space="preserve">
+    <value>മുന്നറിയിപ്പ്</value>
+    <comment>Warning</comment>
+  </data>
+  <data name="ALERT_YES" xml:space="preserve">
+    <value>അതെ</value>
+  </data>
+  <data name="APP_EXIT" xml:space="preserve">
+    <value>പുറത്തുകടക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നത്</value>
+  </data>
+  <data name="APP_LOGOUT" xml:space="preserve">
+    <value>ലോഗൗട്ട്</value>
+  </data>
+  <data name="APP_LOGOUT_CONFIRM" xml:space="preserve">
+    <value>ലോഗ് ഔട്ട്</value>
+  </data>
+  <data name="APP_LOGOUT_DESC" xml:space="preserve">
+    <value>താങ്കൾ ഇപ്പോൾ ലോഗിൻ ചെയ്യണോ?</value>
+  </data>
+  <data name="HOMEPAGE_CRD_TRNSFR" xml:space="preserve">
+    <value>Credit Transfer</value>
+  </data>
+  <data name="HOMEPAGE_MYAPPSTITLE" xml:space="preserve">
+    <value>My Apps</value>
+  </data>
+  <data name="HOMEPAGE_MYJIO" xml:space="preserve">
+    <value>myjio</value>
+  </data>
+  <data name="PAYMENTCANCELLED" xml:space="preserve">
+    <value>പേയ്മെന്റ് റദ്ദാക്കി</value>
+  </data>
+  <data name="PAYMENTPAGE_TRANSACTIONCANCEL" xml:space="preserve">
+    <value>ഈ ഇടപാട് റദ്ദാക്കാൻ ഇഷ്ടപ്പെടുന്നത്</value>
+  </data>
+  <data name="SUBSCRIBEAPPSPAGE_TITLE" xml:space="preserve">
+    <value>Subscribe Apps</value>
+  </data>
+  <data name="ADDONSPAGE_DND_PREF" xml:space="preserve">
+    <value>dndpreferences</value>
+  </data>
+  <data name="ADDONSPAGE_SERVICEFEATURES" xml:space="preserve">
+    <value>servicefeatures</value>
+  </data>
+  <data name="ADDONSPAGE_TITLE" xml:space="preserve">
+    <value>ആഡോണുകൾ</value>
+  </data>
+  <data name="HOMEPAGE_ADDONS" xml:space="preserve">
+    <value>ആഡ്-ഓണുകൾ് </value>
+  </data>
+  <data name="HOMEPAGE_DUSAGE" xml:space="preserve">
+    <value>ദിവസേനയുള്ള ഉപയോഗം </value>
+  </data>
+  <data name="HOMEPAGE_GRPS" xml:space="preserve">
+    <value>ഗ്രൂപ്പുകൾ </value>
+  </data>
+  <data name="HOMEPAGE_PAY" xml:space="preserve">
+    <value>പണമടയ്ക്കുക</value>
+  </data>
+  <data name="HOMEPAGE_TRNFM" xml:space="preserve">
+    <value>രൂപാന്തരപ്പെടുത്തിയോ</value>
+  </data>
+  <data name="HOMEPAGE_TRNSFR" xml:space="preserve">
+    <value>ട്രാൻസ്ഫർ</value>
+  </data>
+  <data name="PLANDETAILPAGE_DIGITALAPPSTITLE" xml:space="preserve">
+    <value>ഡിജിറ്റൽ പ്ലാൻ വിശദാംശങ്ങൾ</value>
+  </data>
+  <data name="PLANDETAILPAGE_PLANSAPPSTITLE" xml:space="preserve">
+    <value>പ്ലാൻ വിശദാംശങ്ങൾ</value>
+  </data>
+  <data name="PRODCUTDETAILPAGE_TITLE" xml:space="preserve">
+    <value>ഉൽപ്പന്ന വിശദാംശങ്ങൾ </value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_ALERT_NO_PLAN" xml:space="preserve">
+    <value>തുടരുന്നതിന് ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക ദയവായി</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_BUY" xml:space="preserve">
+    <value>Product Buy</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_LOADINGTEXT" xml:space="preserve">
+    <value>ഉൽപ്പന്ന സവിശേഷത വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_NOTARIFFS" xml:space="preserve">
+    <value>യാതൊരു താരിഫ് ലഭ്യമാണ്</value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_PLAN_LOADINGTEXT" xml:space="preserve">
+    <value>പ്ലാൻ വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </value>
+  </data>
+  <data name="PRODUCTDETAILPAGE_SELECT_PLAN" xml:space="preserve">
+    <value>നിങ്ങൾ തിരഞ്ഞെടുത്ത പ്ലാൻ:</value>
+  </data>
+  <data name="PRODUCTSPAGE_LOADING" xml:space="preserve">
+    <value>ഉൽപ്പന്ന വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </value>
+  </data>
+  <data name="PRODUCTSPAGE_TITLE" xml:space="preserve">
+    <value>ഉൽപ്പന്നങ്ങൾ</value>
+  </data>
+  <data name="EDIT_ADDRESS_NORECORDS_MSG" xml:space="preserve">
+    <value>റെക്കോർഡുകൾ കണ്ടെത്തിയില്ല</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTCITY" xml:space="preserve">
+    <value>നഗരം തിരഞ്ഞെടുക്കുക</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTDISTRICT" xml:space="preserve">
+    <value>ജില്ല തിരഞ്ഞെടുക്കുക</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTLOCALITY" xml:space="preserve">
+    <value>ലൊക്കാലിറ്റി തിരഞ്ഞെടുക്കുക</value>
+  </data>
+  <data name="EDIT_ADDRESS_SELECTSTATE" xml:space="preserve">
+    <value>സംസ്ഥാനം തിരഞ്ഞെടുക്കുക</value>
+  </data>
+  <data name="EDIT_ADDRESS_TITLE" xml:space="preserve">
+    <value>Edit Address</value>
+  </data>
+  <data name="LOCATOR_PAGETITLE" xml:space="preserve">
+    <value>ലൊക്കേറ്റർ</value>
+  </data>
+  <data name="PLANSPECIFICATION_PAGETITLE" xml:space="preserve">
+    <value>പ്ലാൻ സവിശേഷതകൾ </value>
+  </data>
+  <data name="PRODUCTDETAILS_STOREPICKUP_TITLE" xml:space="preserve">
+    <value>Store Pick Up</value>
+  </data>
+  <data name="EDITADDRESS_NODATA_MSG" xml:space="preserve">
+    <value>ലഭ്യമല്ല റെക്കോർഡുകൾ</value>
+  </data>
+  <data name="ADDONSPAGE_DND_ERROR" xml:space="preserve">
+    <value>കഴിഞ്ഞ അപ്ഡേറ്റ് പുതിയ അഭ്യർത്ഥന മുമ്പിൽ 7 ദിവസം service.please കാത്തിരിക്കുക ന് {0} ആയിരുന്നു</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY1" xml:space="preserve">
+    <value>എല്ലാം</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY2" xml:space="preserve">
+    <value>Banking/Insurance/Financial products/credit cards</value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY3" xml:space="preserve">
+    <value>റിയൽ എസ്റ്റേറ്റ് </value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY4" xml:space="preserve">
+    <value>വിദ്യാഭ്യാസം </value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY5" xml:space="preserve">
+    <value>ആരോഗ്യം </value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY6" xml:space="preserve">
+    <value>ഉപഭോഗ വസ്തുക്കളും വാഹനങ്ങളും </value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY7" xml:space="preserve">
+    <value>ആശയ വിനിമയം/ബ്രോഡ്കാസ്റ്റ് ചെയ്യൽ/വിനോദം/ഐടി </value>
+  </data>
+  <data name="ADDONSPAGE_PREFKEY8" xml:space="preserve">
+    <value>വിനോദസഞ്ചാരവും വിശ്രമ വേളയും </value>
+  </data>
+  <data name="ADDONSPAGE_PRFNC_LOADING" xml:space="preserve">
+    <value>ഡിഎൻഡി മുൻഗണനകൾ ലോഡു ചെയ്യുന്നു</value>
+  </data>
+  <data name="ADDONSPAGE_SAVE" xml:space="preserve">
+    <value>രക്ഷിക്കും</value>
+  </data>
+  <data name="ADDONSPAGE_SRVC_LOADING" xml:space="preserve">
+    <value>സേവന ഫീച്ചറുകൾ ലോഡുചെയ്യുന്നു </value>
+  </data>
+  <data name="APP_MENU_ITEM1" xml:space="preserve">
+    <value>myjio</value>
+  </data>
+  <data name="APP_MENU_ITEM2" xml:space="preserve">
+    <value>സഹായം ടിക്കറ്റ്</value>
+  </data>
+  <data name="APP_MENU_ITEM3" xml:space="preserve">
+    <value>പ്രൊഫൈൽ</value>
+  </data>
+  <data name="APP_MENU_ITEM4" xml:space="preserve">
+    <value>ക്രമീകരണങ്ങൾ</value>
+  </data>
+  <data name="APP_MENU_ITEM5" xml:space="preserve">
+    <value>Offers</value>
+  </data>
+  <data name="APP_MENU_ITEM6" xml:space="preserve">
+    <value>ലോഗ് ഔട്ട്</value>
+  </data>
+  <data name="HELPTICKETDETAILPAGE_LOADINGTEXT" xml:space="preserve">
+    <value>പ്രശ്നം വിശദാംശങ്ങൾ നേടുന്നു</value>
+  </data>
+  <data name="HELPTICKETPAGE_LOADINGTEXT" xml:space="preserve">
+    <value>ഉപഭോക്തൃ അഭ്യർത്ഥനകൾ ലഭ്യമാക്കുന്നതിൽ</value>
+  </data>
+  <data name="OFFERSPAGE_NOOFFERS" xml:space="preserve">
+    <value>ഓഫറുകളൊന്നും ലഭ്യമാണ്</value>
+  </data>
+  <data name="OFFERSPAGE_TITLE" xml:space="preserve">
+    <value>ഓഫറുകൾ</value>
+  </data>
+  <data name="STATEMENTSPAGE_TITLE" xml:space="preserve">
+    <value>കാഴ്ച ബില്ലുകൾ</value>
+  </data>
+  <data name="SUBSCRIBEAPPSPLANS_SUBTITLE" xml:space="preserve">
+    <value>ഡിജിറ്റൽ ആരംഭ പ്ലാനുകൾ </value>
+  </data>
+  <data name="USAGEPAGE_LOADING" xml:space="preserve">
+    <value>സംഗ്രഹം ലഭ്യമാക്കുന്നതിൽ</value>
+  </data>
+  <data name="USAGEPAGE_NEXT" xml:space="preserve">
+    <value>അടുത്തത് </value>
+  </data>
+  <data name="USAGEPAGE_PREV" xml:space="preserve">
+    <value>മുമ്പത്തേത് </value>
+  </data>
+  <data name="USAGEPAGE_TAPONCHART" xml:space="preserve">
+    <value>ചാർട്ടിൽ ടാപ്പ്</value>
+  </data>
+  <data name="CHAT" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="CREDIT_TRANSFER" xml:space="preserve">
+    <value>ക്രെഡിറ്റ് കൈമാറ്റം</value>
+  </data>
+  <data name="DONE" xml:space="preserve">
+    <value>ചെയ്തു</value>
+  </data>
+  <data name="EMAILUS_ENQ1" xml:space="preserve">
+    <value>ഞങ്ങളെ നിങ്ങളുടെ അന്വേഷണം അയയ്ക്കുകയും പ്ലേ ചെയ്യും</value>
+  </data>
+  <data name="EMAILUS_ENQ2" xml:space="preserve">
+    <value>24 മണിക്കൂറിനുള്ളിൽ </value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN1_SUBTITLE" xml:space="preserve">
+    <value>നിങ്ങളുടെ വർക്കൌട്ട് ബാലൻസ് പരിശോധിക്കാനും നിങ്ങളുടെ അക്കൗണ്ട് റീചാർജ്, നിങ്ങളുടെ സേവനം റീചാർജ്, നിങ്ങളുടെ സേവനം ഉപയോഗം പരിശോധിക്കുക, നിങ്ങളുടെ സേവനം ബാലൻസ് പരിശോധിക്കുക</value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN2_SUBTITLE" xml:space="preserve">
+    <value>നിങ്ങളുടെ വർക്കൌട്ട് ബാലൻസ് പരിശോധിക്കാനും നിങ്ങളുടെ അക്കൗണ്ട് റീചാർജ്, നിങ്ങളുടെ സേവനം റീചാർജ്, നിങ്ങളുടെ സേവനം ഉപയോഗം പരിശോധിക്കുക, നിങ്ങളുടെ സേവനം ബാലൻസ് പരിശോധിക്കുക</value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN3_SUBTITLE" xml:space="preserve">
+    <value>മറ്റ് അക്കൗണ്ടിലേക്ക് നിങ്ങളുടെ വർക്കൌട്ട് ബാലൻസ് കൈമാറാൻ കഴിയും.</value>
+  </data>
+  <data name="HELPAPPTOUR_SCREEN4_SUBTITLE" xml:space="preserve">
+    <value>നിങ്ങളുടെ അക്കൗണ്ടിൽ നിങ്ങളുടെ എന്റെ അപ്ലിക്കേഷനുകളും വിശദാംശങ്ങൾ പരിശോധിക്കാൻ കഴിയും.</value>
+  </data>
+  <data name="HELPHOMESCREEN_TITLE" xml:space="preserve">
+    <value>Home Screen</value>
+  </data>
+  <data name="LIVE_CHAT" xml:space="preserve">
+    <value>തൽസമയ</value>
+  </data>
+  <data name="MYAPPS" xml:space="preserve">
+    <value>എന്റെ അപ്ലിക്കേഷനുകൾ</value>
+  </data>
+  <data name="SEND" xml:space="preserve">
+    <value>അയയ്ക്കുക </value>
+  </data>
+  <data name="SKIP" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="VIDEO_CHAT" xml:space="preserve">
+    <value>എഫ്എ‌ക്യു</value>
+  </data>
+  <data name="YOUREMAILID" xml:space="preserve">
+    <value>നിങ്ങളുടെ ഇമെയിൽ ഐഡി </value>
+  </data>
+  <data name="ACCOUNT_ID" xml:space="preserve">
+    <value>അക്കൗണ്ട് ഐഡി</value>
+  </data>
+  <data name="CALLUS" xml:space="preserve">
+    <value>ഞങ്ങളെ വിളിക്കാൻ</value>
+  </data>
+  <data name="CHECK_BEST_PLAN" xml:space="preserve">
+    <value>മികച്ച പദ്ധതികൾ പരിശോധിക്കുക</value>
+  </data>
+  <data name="DATEOF_RECHARGE" xml:space="preserve">
+    <value>റീചാർജ് തീയതി:</value>
+  </data>
+  <data name="DETAILS" xml:space="preserve">
+    <value>വിശദാംശം </value>
+  </data>
+  <data name="EMAILUS" xml:space="preserve">
+    <value>ഞങ്ങൾക്ക് ഇമെയിൽ അയയ്ക്കുക </value>
+  </data>
+  <data name="NAMEOFTHE_PLAN" xml:space="preserve">
+    <value>പ്ലാൻ പേര്:</value>
+  </data>
+  <data name="PRODUCT_ID" xml:space="preserve">
+    <value>ഉൽപ്പന്ന ഐഡി:\u0020</value>
+  </data>
+  <data name="QUICK_TOPUP" xml:space="preserve">
+    <value>പെട്ടെന്നുള്ള topup</value>
+  </data>
+  <data name="RECENT_TRANASACTION" xml:space="preserve">
+    <value>സമീപകാല ഇടപാട്</value>
+  </data>
+  <data name="RECHARGE_AMOUNT" xml:space="preserve">
+    <value>റീചാർജ് തുക:</value>
+  </data>
+  <data name="REQUESTTOCALL" xml:space="preserve">
+    <value>Request To Call</value>
+  </data>
+  <data name="SERVICE_ID" xml:space="preserve">
+    <value>സേവന ഐഡി</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="display_name" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം :</value>
+    <comment>Username :</comment>
+  </data>
+  <data name="session_expired" xml:space="preserve">
+    <value>സെഷൻ കഴിഞ്ഞു</value>
+    <comment>Your session has expired</comment>
+  </data>
+  <data name="enter_display_name" xml:space="preserve">
+    <value>ഒരു പ്രദർശന നാമം നൽകുക</value>
+    <comment>Enter a display name</comment>
+  </data>
+  <data name="public_identity" xml:space="preserve">
+    <value>പാസ്‌വേഡ് :</value>
+    <comment>Password :</comment>
+  </data>
+  <data name="enter_public_identity" xml:space="preserve">
+    <value> എല്ലാവർക്കുമുള്ള ഐഡന്റിറ്റി നൽകുക</value>
+    <comment> Enter public identity</comment>
+  </data>
+  <data name="jio_mselfcare_copywrites" xml:space="preserve">
+    <value>©2014–2015 റിലയൻസ് ജിയോ ഇൻഫോകോം ലിമിറ്റഡ്</value>
+    <comment>©2015–2016 Reliance Jio Infocomm Ltd.</comment>
+  </data>
+  <data name="jio_mselfcare_rights" xml:space="preserve">
+    <value>അവകാശങ്ങൾ റിസർവ്വ് ചെയ്തിരിക്കുന്നു</value>
+    <comment>All rights reserved.</comment>
+  </data>
+  <data name="sign_in" xml:space="preserve">
+    <value>സൈൻ ഇൻ</value>
+    <comment>Sign In</comment>
+  </data>
+  <data name="Forgot_username_or_password" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം അല്ലെങ്കിൽ പാസ്‌വേഡ് മറന്നോ?</value>
+    <comment>Forgot username or password?</comment>
+  </data>
+  <data name="sign_up_for_mselfcare" xml:space="preserve">
+    <value>മീറ്റർ-selfcare സൈൻ അപ്പ്</value>
+    <comment>   Sign Up for M-Selfcare     </comment>
+  </data>
+  <data name="please_enter_correct_username_password" xml:space="preserve">
+    <value>ശരിയായ ഉപയോക്തൃ നാമവും പാസ്‌വേഡും നൽകുക</value>
+    <comment>Please enter correct username and password</comment>
+  </data>
+  <data name="loading_customer_data" xml:space="preserve">
+    <value>ഉപഭോക്തൃ ഡാറ്റാ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading customer data</comment>
+  </data>
+  <data name="configuring" xml:space="preserve">
+    <value>കോൺഫിഗർ ചെയ്യുന്നു</value>
+    <comment>Configuring</comment>
+  </data>
+  <data name="unable_to_receive_your_detail" xml:space="preserve">
+    <value>നിങ്ങളുടെ വിശദാംശങ്ങൾ സ്വീകരിക്കാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</value>
+    <comment>Unable to receive your details. Try again later</comment>
+  </data>
+  <data name="email_ivalide_format" xml:space="preserve">
+    <value>ഇമെയിൽ ഐഡി അസാധുവാണ്</value>
+    <comment>Email id is invalid</comment>
+  </data>
+  <data name="would_you_like_work_offline" xml:space="preserve">
+    <value>ഓഫ്‌ലൈനിൽ ജോലി ചെയ്യാൻ താൽപ്പര്യമുണ്ടോ ?</value>
+    <comment>Would you like to work offline ?</comment>
+  </data>
+  <data name="offline_login" xml:space="preserve">
+    <value>ഓഫ്‌ലൈൻ ലോഗിൻ</value>
+    <comment>Offline Log In</comment>
+  </data>
+  <data name="activate_jio_id" xml:space="preserve">
+    <value>Activate Jio ID</value>
+    <comment>Activate Jio ID</comment>
+  </data>
+  <data name="first_time_activation" xml:space="preserve">
+    <value>ആദ്യത്തെ സജീവമാക്കൽ</value>
+    <comment>First Time Activation</comment>
+  </data>
+  <data name="please_enter_user_id_and_mob" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമവും മൊബൈൽ നമ്പറും നൽകുക</value>
+    <comment>Please enter username and mobile number</comment>
+  </data>
+  <data name="please_enter_user_id" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം നൽകുക</value>
+    <comment>Please enter username</comment>
+  </data>
+  <data name="please_enter_mobile_num" xml:space="preserve">
+    <value>മൊബൈൽ നമ്പർ നൽകുക</value>
+    <comment>Please enter mobile number</comment>
+  </data>
+  <data name="mobile_num_ivalide_format" xml:space="preserve">
+    <value>മൊബൈൽ നമ്പർ അസാധുവാണ്</value>
+    <comment>Mobile number is invalid</comment>
+  </data>
+  <data name="sending_otp" xml:space="preserve">
+    <value>ഒടിപി അയയ്ക്കുന്നു</value>
+    <comment>Sending OTP</comment>
+  </data>
+  <data name="request_missing" xml:space="preserve">
+    <value>അഭ്യർത്ഥനയിൽ ആവശ്യമായ പാരാമീറ്ററുകൾ നഷ്ടമായി അല്ലെങ്കിൽ പാരാമീറ്ററുകൾ സാധുവല്ല</value>
+    <comment>Request is missing required parameters or parameters are not valid</comment>
+  </data>
+  <data name="user_id_mob_num_not_valid" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം അല്ലെങ്കിൽ മൊബൈൽ നമ്പർ സാധുവല്ല</value>
+    <comment>User name or mobile number is not valid</comment>
+  </data>
+  <data name="confirm_your_user_name" xml:space="preserve">
+    <value>നിങ്ങളുടെ ഉപയോക്തൃ നാമം സ്ഥിരീകരിക്കുക. നിങ്ങളുടെ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലോ ഇമെയിലിലോ OTP ലഭിക്കും </value>
+    <comment>Confirm your user name. You will receive OTP on registered mobile number or email</comment>
+  </data>
+  <data name="reclaim_title" xml:space="preserve">
+    <value>ഐഡന്റിഫയർ ഉപയോക്താവിന്റേതല്ല. വീണ്ടെടുക്കുന്നതിന് അനുയോജ്യമായ ഓപ്ഷൻ തിരഞ്ഞെടുത്ത് സമർപ്പിക്കുക ക്ലിക്കുചെയ്യുക </value>
+    <comment>Identifier not owned by user. Please select the appropriate option and click Submit to Reclaim.</comment>
+  </data>
+  <data name="mobile_number_hint" xml:space="preserve">
+    <value>+[Country Code][Mobile No.]</value>
+    <comment>+[Country Code][Mobile No.]</comment>
+  </data>
+  <data name="reclaim" xml:space="preserve">
+    <value>വീണ്ടെടുക്കുക </value>
+    <comment>Reclaim existing mobile no.</comment>
+  </data>
+  <data name="reclaim_email" xml:space="preserve">
+    <value>Reclaim existing email id</value>
+    <comment>Reclaim existing email id</comment>
+  </data>
+  <data name="update_mob" xml:space="preserve">
+    <value>മൊബൈൽ നമ്പർ അപ്ഡേറ്റുചെയ്യുക </value>
+    <comment>Update mobile no.</comment>
+  </data>
+  <data name="use_same_number" xml:space="preserve">
+    <value>I have another Jio ID, use the same number for both Jio IDs</value>
+    <comment>I have another Jio ID, use the same number for both Jio IDs</comment>
+  </data>
+  <data name="use_same_email" xml:space="preserve">
+    <value>I have another Jio ID, use the same email id for both Jio IDs</value>
+    <comment>I have another Jio ID, use the same email id for both Jio IDs</comment>
+  </data>
+  <data name="update_email" xml:space="preserve">
+    <value>ഇമെയിൽ ഐഡി അപ്ഡേറ്റുചെയ്യുക </value>
+    <comment>Update email id</comment>
+  </data>
+  <data name="verify" xml:space="preserve">
+    <value>പരിശോധിച്ചുറപ്പിക്കുന്നു</value>
+    <comment>verify</comment>
+  </data>
+  <data name="activate" xml:space="preserve">
+    <value>activate</value>
+    <comment>activate</comment>
+  </data>
+  <data name="mobile" xml:space="preserve">
+    <value>മൊബൈൽ </value>
+    <comment>Mobile</comment>
+  </data>
+  <data name="reclaim_activation" xml:space="preserve">
+    <value>നിങ്ങളുടെ നമ്പർ വീണ്ടെടുത്തു, സജീവമാക്കുന്നത് തുടരുക </value>
+    <comment>Your number is reclaimed, please proceed with activation process.</comment>
+  </data>
+  <data name="please_enter_valid_otp" xml:space="preserve">
+    <value>സാധുവായ OTP നൽകുക </value>
+    <comment>Please enter valid OTP</comment>
+  </data>
+  <data name="updating" xml:space="preserve">
+    <value>അപ്ഡേറ്റുചെയ്യുന്നു </value>
+    <comment>Updating</comment>
+  </data>
+  <data name="update_mob_msg" xml:space="preserve">
+    <value>നിങ്ങളുടെ നമ്പർ അപ്ഡേറ്റുചെയ്തു, സജീവമാക്കൽ പ്രോസ്സസ് തുടരുക </value>
+    <comment>Your number is updated successfully, please proceed with activation process.</comment>
+  </data>
+  <data name="update_mob_title" xml:space="preserve">
+    <value>രാജ്യ കോഡിനോടൊപ്പം മൊബൈൽ നമ്പർ നൽകുക. ഇത് നിങ്ങളുടെ രജിസ്‌റ്റർ നമ്പറായി അപ്ഡേറ്റ് ചെയ്യും </value>
+    <comment>Enter the mobile with country code. This will update as your register number</comment>
+  </data>
+  <data name="mobile_num_old_mob_same" xml:space="preserve">
+    <value>മൊബൈൽ നമ്പർ അപ്ഡേറ്റുചെയ്യുമ്പോൾ മുമ്പത്തേത് നിങ്ങൾക്ക് സജ്ജീകരിക്കാനാകില്ല </value>
+    <comment>You can not set previous mobile number as updated mobile number</comment>
+  </data>
+  <data name="slide_send_otp" xml:space="preserve">
+    <value>OTP അയയ്‌ക്കുന്നതിനായി സ്ലൈഡ് ചെയ്യുക </value>
+    <comment>Slide to send OTP</comment>
+  </data>
+  <data name="please_enter_jio_id" xml:space="preserve">
+    <value>Please enter and verify Jio Id</value>
+    <comment>Please enter and verify Jio Id</comment>
+  </data>
+  <data name="please_enter_otp" xml:space="preserve">
+    <value>ഒടിപി നൽകുക</value>
+    <comment>Please enter OTP</comment>
+  </data>
+  <data name="please_enter_otp_and_pass" xml:space="preserve">
+    <value>ഒടിപിയും പാസ്‌വേഡും നൽകുക</value>
+    <comment>Please enter OTP and password</comment>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>പരിശോധിച്ചുറപ്പിക്കുന്നു</value>
+    <comment>Verifying</comment>
+  </data>
+  <data name="invalid_otp" xml:space="preserve">
+    <value>ഒടിപി അസാധുവാണ്</value>
+    <comment>OTP is invalid</comment>
+  </data>
+  <data name="activate_successfully" xml:space="preserve">
+    <value>സജീവമാക്കൽ വിജയിച്ചു</value>
+    <comment>Activated successfully</comment>
+  </data>
+  <data name="password_changed_successfully" xml:space="preserve">
+    <value>പാസ്‌വേഡ് മാറ്റം വിജയിച്ചു</value>
+    <comment>Password changed successfully</comment>
+  </data>
+  <data name="opt_resend_sent_to_your_mob" xml:space="preserve">
+    <value>നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലേക്ക് ഒരു തവണ പാസ്‌വേഡ് (OTP) അയച്ചു.  ലഭിച്ചിട്ടില്ലെങ്കിൽ, വീണ്ടും അയയ്ക്കുക ബട്ടൺ ക്ലിക്കു ചെയ്യുക  </value>
+    <comment>One Time Password(OTP) has been sent to your registered mobile number. Click on resend button, if not received</comment>
+  </data>
+  <data name="opt_resend_sent_to_your_email" xml:space="preserve">
+    <value>നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത ഇമെയിലിലേയ്ക്ക് ഒരു തവണ പാസ്‌വേഡ് (OTP) അയച്ചു. ലഭിച്ചിട്ടില്ലെങ്കിൽ, വീണ്ടും അയയ്ക്കുക ബട്ടൺ ക്ലിക്കു ചെയ്യുക  </value>
+    <comment>One Time Password(OTP) has been sent to your registered email. Click on resend button, if not received</comment>
+  </data>
+  <data name="otp" xml:space="preserve">
+    <value>ഒടിപി</value>
+    <comment>OTP</comment>
+  </data>
+  <data name="username_invalid" xml:space="preserve">
+    <value>ഉപയോക്തൃനാമം അസാധുവാണ്. പ്രതീകങ്ങളുടെ ദൈർഘ്യം 8 മുതൽ 32 വരെ ആയിരിക്കണം </value>
+    <comment>That is an Invalid Username. The length must be 8 to 32 characters.</comment>
+  </data>
+  <data name="already_has_this_user_name" xml:space="preserve">
+    <value> ഈ ഉപയോക്തൃ നാമം ഇതിനകം മറ്റൊരാൾ ഉപയോഗിക്കുന്നു. മറ്റൊരു നാമം നൽകുക </value>
+    <comment>Someone already has this username. Please provide another name</comment>
+  </data>
+  <data name="username_invalid_remove_special_character" xml:space="preserve">
+    <value>ഉപയോക്തൃനാമം അസാധുവാണ്. പ്രത്യേക പ്രതീകങ്ങൾ നീക്കം ചെയ്യുക. പ്രതീകങ്ങളുടെ ദൈർഘ്യം 8 മുതൽ 32 വരെ ആയിരിക്കണം </value>
+    <comment>That is an Invalid Username. Please remove special characters. Length must be 8 to 32 characters.</comment>
+  </data>
+  <data name="account_activated_change_username" xml:space="preserve">
+    <value>അക്കൗണ്ട് സജീവമാക്കി, നിങ്ങൾക്ക് ഉപയോക്തൃ നാമം മാറ്റാൻ കഴിയും </value>
+    <comment>Account activated successfully, you can change username</comment>
+  </data>
+  <data name="value_dashboard_header" xml:space="preserve">
+    <value>ഡാറ്റ </value>
+    <comment>Data</comment>
+  </data>
+  <data name="value_current_Services" xml:space="preserve">
+    <value>നിലവിലെ സേവനങ്ങൾ</value>
+    <comment>Current Services</comment>
+  </data>
+  <data name="value_available_for_activation_services" xml:space="preserve">
+    <value>സജീവമാക്കുന്നതിന് ലഭ്യമാണ്</value>
+    <comment>Available for activation</comment>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>ഫോൺ നമ്പർ</value>
+    <comment>Phone Number</comment>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>വില : </value>
+    <comment>Price : </comment>
+  </data>
+  <data name="forgot_password_" xml:space="preserve">
+    <value>പാസ്‌വേഡ് മറന്നോ?</value>
+    <comment>Forgot Password?</comment>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>സമർപ്പിക്കുക</value>
+    <comment>SUBMIT</comment>
+  </data>
+  <data name="quick_pay" xml:space="preserve">
+    <value>വേഗത്തിലുള്ള പണമടയ്ക്കൽ</value>
+    <comment>Quick Pay</comment>
+  </data>
+  <data name="new_order" xml:space="preserve">
+    <value>പുതിയ ഓർഡർ</value>
+    <comment>New Order</comment>
+  </data>
+  <data name="server_error" xml:space="preserve">
+    <value>സെർവർ പ്രതികരിക്കുന്നില്ല</value>
+    <comment>Server is not responding</comment>
+  </data>
+  <data name="logout_msg" xml:space="preserve">
+    <value>നിങ്ങൾക്ക് ഇപ്പോൾ ലോഗൗട്ട് ചെയ്യണോ?</value>
+    <comment>Do you want to log out now?</comment>
+  </data>
+  <data name="logging_out" xml:space="preserve">
+    <value>ലോഗൗട്ട് ചെയ്യുന്നു</value>
+    <comment>Logging Out</comment>
+  </data>
+  <data name="value_turbo_boost_header" xml:space="preserve">
+    <value>നിലവിലെ നെറ്റ്‌വർക്ക്</value>
+    <comment>Current Network</comment>
+  </data>
+  <data name="value_turbo_boost_plans" xml:space="preserve">
+    <value>നിങ്ങളുടെ നെറ്റ്‌വർക്ക് ബൂസ്റ്റു ചെയ്യുക</value>
+    <comment>Boost Your Network</comment>
+  </data>
+  <data name="account" xml:space="preserve">
+    <value>അക്കൗണ്ട് :</value>
+    <comment>Account :</comment>
+  </data>
+  <data name="amount" xml:space="preserve">
+    <value>തുക </value>
+    <comment>Amount</comment>
+  </data>
+  <data name="account_recharge" xml:space="preserve">
+    <value>Account Recharge</value>
+    <comment>Account Recharge</comment>
+  </data>
+  <data name="refresh" xml:space="preserve">
+    <value>പുതുക്കുക</value>
+    <comment>REFRESH</comment>
+  </data>
+  <data name="product_sync_btn" xml:space="preserve">
+    <value>Product Sync</value>
+    <comment>Product Sync</comment>
+  </data>
+  <data name="history" xml:space="preserve">
+    <value>ചരിത്രം പരിശോധിക്കുക</value>
+    <comment>Check History</comment>
+  </data>
+  <data name="net_banking" xml:space="preserve">
+    <value>നെറ്റ് ബാങ്കിംഗ്</value>
+    <comment>Net Banking</comment>
+  </data>
+  <data name="credit_card" xml:space="preserve">
+    <value>ക്രെഡിറ്റ് കാർഡ്</value>
+    <comment>Credit Card</comment>
+  </data>
+  <data name="debit_card" xml:space="preserve">
+    <value>ഡെബിറ്റ് കാർഡ്</value>
+    <comment>Debit Card</comment>
+  </data>
+  <data name="buy" xml:space="preserve">
+    <value>വാങ്ങുക</value>
+    <comment>Buy</comment>
+  </data>
+  <data name="rs" xml:space="preserve">
+    <value>\ u20b9</value>
+    <comment>\u20B9</comment>
+  </data>
+  <data name="rsbracket" xml:space="preserve">
+    <value>(\ U20b9)</value>
+    <comment>(\u20B9)</comment>
+  </data>
+  <data name="rso" xml:space="preserve">
+    <value>\ U20b9 0</value>
+    <comment>\u20B9 0</comment>
+  </data>
+  <data name="contact_number" xml:space="preserve">
+    <value>കോണ്ടാക്റ്റ് നമ്പർ</value>
+    <comment>Contact Number</comment>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>പേര്</value>
+    <comment>Name</comment>
+  </data>
+  <data name="email_id" xml:space="preserve">
+    <value>ഇമെയിൽ ഐഡി  </value>
+    <comment>Email Id </comment>
+  </data>
+  <data name="anniversary_date" xml:space="preserve">
+    <value>വാർഷിക ദിവസം</value>
+    <comment>Anniversary Date</comment>
+  </data>
+  <data name="date_of_birth" xml:space="preserve">
+    <value>ജനന ദിവസം</value>
+    <comment>Birth Date</comment>
+  </data>
+  <data name="gender" xml:space="preserve">
+    <value>ലിംഗഭേദം</value>
+    <comment>Gender</comment>
+  </data>
+  <data name="nationality" xml:space="preserve">
+    <value>ദേശീയത</value>
+    <comment>Nationality</comment>
+  </data>
+  <data name="mode_of_communication" xml:space="preserve">
+    <value>ഇഷ്ടപ്പെട്ട ആശയ വിനിമയ രീതി</value>
+    <comment>Preferred Mode of Communication</comment>
+  </data>
+  <data name="mode_of_payment" xml:space="preserve">
+    <value>ഇഷ്ടപ്പെട്ട പണമടയ്ക്കൽ രീതി</value>
+    <comment>Preferred Mode of Payment</comment>
+  </data>
+  <data name="preferred_language" xml:space="preserve">
+    <value>ഇഷ്ടപ്പെട്ട ഭാഷ</value>
+    <comment>Preferred Language</comment>
+  </data>
+  <data name="family_contact_detail" xml:space="preserve">
+    <value>കുടുംബ കോൺടാക്റ്റ് വിശദാംശങ്ങൾ</value>
+    <comment>Family Contact Details</comment>
+  </data>
+  <data name="text_gift" xml:space="preserve">
+    <value>സമ്മാനം</value>
+    <comment>Gift</comment>
+  </data>
+  <data name="text_product" xml:space="preserve">
+    <value>ഉൽപ്പന്നങ്ങൾ</value>
+    <comment>Product</comment>
+  </data>
+  <data name="select_ringtone" xml:space="preserve">
+    <value>റിംഗ് ടോൺ തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select Ringtone</comment>
+  </data>
+  <data name="uses_summary" xml:space="preserve">
+    <value>ഉപയോഗം</value>
+    <comment>Usage</comment>
+  </data>
+  <data name="edit_profile" xml:space="preserve">
+    <value>പ്രൊഫൈൽ എഡിറ്റു ചെയ്യുക</value>
+    <comment>Edit Profile</comment>
+  </data>
+  <data name="product_specifications" xml:space="preserve">
+    <value>ഉൽപ്പന്ന സവിശേഷതകൾ</value>
+    <comment>Product Specifications</comment>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം</value>
+    <comment>Username</comment>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>പാസ്‌വേഡ്</value>
+    <comment>Password</comment>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>ലോഗിൻ</value>
+    <comment>Log In</comment>
+  </data>
+  <data name="stay_signed_in" xml:space="preserve">
+    <value>സൈൻ ഇൻ ആയി തുടരുക</value>
+    <comment>Stay signed in</comment>
+  </data>
+  <data name="unable_to_logout" xml:space="preserve">
+    <value>ലോഗൗട്ട് ചെയ്യാനാകുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</value>
+    <comment>Unable to log out. Retry later</comment>
+  </data>
+  <data name="logout_successfully" xml:space="preserve">
+    <value>വിജയകരമായി ലോഗൗട്ട് ചെയ്തു</value>
+    <comment>Log out successfully</comment>
+  </data>
+  <data name="username_email_mobile_num" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം/ഇമെയിൽ/+[Country Code][Mobile No.]</value>
+    <comment>Username/Email/+[Country Code][Mobile No.]</comment>
+  </data>
+  <data name="mandatory" xml:space="preserve">
+    <value>നിർബന്ധം</value>
+    <comment>mandatory</comment>
+  </data>
+  <data name="old_password" xml:space="preserve">
+    <value>പഴയ പാസ്‌വേഡ്</value>
+    <comment>Old password</comment>
+  </data>
+  <data name="new_password" xml:space="preserve">
+    <value>പുതിയ പാസ്‌വേഡ്</value>
+    <comment>New password</comment>
+  </data>
+  <data name="confirm_password" xml:space="preserve">
+    <value>പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക</value>
+    <comment>Confirm password</comment>
+  </data>
+  <data name="otp_has_been_sent_on_mob" xml:space="preserve">
+    <value>നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലേയ്ക്ക് ഒടിപി അയച്ചിട്ടുണ്ട്.</value>
+    <comment>OTP has been sent to your registered mobile number</comment>
+  </data>
+  <data name="unable_to_send_otp" xml:space="preserve">
+    <value>ഒ‌ടി‌പി അയയ്ക്കാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</value>
+    <comment>Unable to send OTP. Retry later</comment>
+  </data>
+  <data name="please_enter_user_name_and_pass" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമവും പാസ്‌വേഡും നൽകുക</value>
+    <comment>Please enter username and password</comment>
+  </data>
+  <data name="user_name_invalid" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം അസാധുവാണ്</value>
+    <comment>Username is invalid</comment>
+  </data>
+  <data name="verifying_user_name" xml:space="preserve">
+    <value>ഉപയോക്താവിനെ പരിശോധിച്ചുറപ്പിക്കുന്നു</value>
+    <comment>Verifying user</comment>
+  </data>
+  <data name="changing_password_progress" xml:space="preserve">
+    <value>പാസ്‌വേഡ് മാറ്റുന്നു</value>
+    <comment>Changing password</comment>
+  </data>
+  <data name="please_enter_old_and_new_password" xml:space="preserve">
+    <value>പഴയതും പുതിയതുമായ പാസ്‌വേഡ് നൽകുക</value>
+    <comment>Please enter old and new password</comment>
+  </data>
+  <data name="unable_to_update_pass" xml:space="preserve">
+    <value>പാസ്‌വേഡ് അപ്ഡേറ്റു ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</value>
+    <comment>Unable to update password. Retry later</comment>
+  </data>
+  <data name="please_enter_correct_password" xml:space="preserve">
+    <value>ശരിയായ പഴയ പാസ്‌വേഡ് നൽകുക</value>
+    <comment>Please enter correct old password</comment>
+  </data>
+  <data name="new_password_n_confirm_pass_must_same" xml:space="preserve">
+    <value>പുതിയ പാസ്‌വേഡും സ്ഥിരീകരണ പാസ്‌വേഡും ഒന്നുതന്നെയായിരിക്കണം</value>
+    <comment>New password and confirm password must be same</comment>
+  </data>
+  <data name="old_n_new_pass_can_not_same" xml:space="preserve">
+    <value>പഴയതും പുതിയതുമായ പാസ്‌വേഡ് ഒന്നുതന്നെയായിരിക്കാൻ പാടില്ല</value>
+    <comment>Old and new password can not be same</comment>
+  </data>
+  <data name="pass_case_sensitive" xml:space="preserve">
+    <value>പാസ്‌വേഡ് കുറഞ്ഞത് 8 ഉം കൂടിയത് 30 ഉം പ്രതീകങ്ങൾ ഉള്ളതും ഏറ്റവും കുറഞ്ഞത് ഒരു അക്ഷരത്തിന്റെയും അക്കത്തിന്റെയും പ്രതീകങ്ങൾ കൂടിച്ചേർന്നതും ആയിരിക്കണം</value>
+    <comment>Password should be of minimum 8 characters and maximum of 30 characters and should be combination of at least 1 alphabetic and numeric character.</comment>
+  </data>
+  <data name="tv_empty_list" xml:space="preserve">
+    <value>ഈ സേവനത്തിനായി പ്ലാൻ ഒന്നുമില്ല</value>
+    <comment>No plans for this service</comment>
+  </data>
+  <data name="txt_voice" xml:space="preserve">
+    <value>വോയ്സ് </value>
+    <comment>Voice</comment>
+  </data>
+  <data name="txt_unit" xml:space="preserve">
+    <value>യൂണിറ്റ്</value>
+    <comment>Unit</comment>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>മെയിൽ</value>
+    <comment>Mail</comment>
+  </data>
+  <data name="call" xml:space="preserve">
+    <value>കോൾ</value>
+    <comment>Call</comment>
+  </data>
+  <data name="tv_no_customer" xml:space="preserve">
+    <value>രജിസ്റ്റർ ചെയ്ത ഉപഭോക്താക്കൾ ഇല്ല</value>
+    <comment>No registered customer</comment>
+  </data>
+  <data name="welcome_login" xml:space="preserve">
+    <value>മൈ ജിയോയിലേയ്ക്ക് സ്വാഗതം</value>
+    <comment>Welcome to myJio</comment>
+  </data>
+  <data name="login_text" xml:space="preserve">
+    <value>നിങ്ങളുടെ ഉപയോക്തൃ നാമവും പാസ്‌വേഡും ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യുക</value>
+    <comment>Login</comment>
+  </data>
+  <data name="service_name" xml:space="preserve">
+    <value>സേവന നാമം</value>
+    <comment>Service Name</comment>
+  </data>
+  <data name="plan_check_availability" xml:space="preserve">
+    <value>Availability</value>
+    <comment>Availability</comment>
+  </data>
+  <data name="password_change_text" xml:space="preserve">
+    <value>നിങ്ങളുടെ പാസ്‌വേഡ് ക്രെഡൻഷ്യലുകൾ മാറ്റുക</value>
+    <comment>Change your password credentials</comment>
+  </data>
+  <data name="forgot_password_text" xml:space="preserve">
+    <value>നിങ്ങളുടെ പാസ്‌വേഡ് ക്രെഡൻഷ്യലുകൾ വീണ്ടെടുക്കുക</value>
+    <comment>Retrieve your password credential</comment>
+  </data>
+  <data name="title_dialog_register" xml:space="preserve">
+    <value>സേവനം രജിസ്റ്റർ ചെയ്യുന്നതിന് അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select account to register service</comment>
+  </data>
+  <data name="button_select" xml:space="preserve">
+    <value>സേവനങ്ങൾ നേടുക</value>
+    <comment>Get Services</comment>
+  </data>
+  <data name="tv_empty_service" xml:space="preserve">
+    <value>സേവനങ്ങൾ ലഭ്യമല്ല</value>
+    <comment>No services available</comment>
+  </data>
+  <data name="cug" xml:space="preserve">
+    <value>സി‌യു‌ജി</value>
+    <comment>CUG</comment>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>ഗ്രൂപ്പ്</value>
+    <comment>Group</comment>
+  </data>
+  <data name="create_customer_problem" xml:space="preserve">
+    <value>Creating customer problems</value>
+    <comment>Creating customer problems</comment>
+  </data>
+  <data name="create_trouble_success" xml:space="preserve">
+    <value>Trouble ticket successfully created. Your trouble ticket id is:</value>
+    <comment>Trouble ticket successfully created. Your trouble ticket id is:</comment>
+  </data>
+  <data name="error_trouble_ticket" xml:space="preserve">
+    <value>Error creating trouble ticket.</value>
+    <comment>Error creating trouble ticket.</comment>
+  </data>
+  <data name="fetching_customer_request" xml:space="preserve">
+    <value>Fetching customer requests.</value>
+    <comment>Fetching customer requests.</comment>
+  </data>
+  <data name="hotspot_locator" xml:space="preserve">
+    <value>ഹോട്ട്‌സ്പോട്ട് ലൊക്കേറ്റർ</value>
+    <comment>Hotspot locator</comment>
+  </data>
+  <data name="hot_spot" xml:space="preserve">
+    <value>Hot Spot</value>
+    <comment>Hot Spot</comment>
+  </data>
+  <data name="digital_service" xml:space="preserve">
+    <value>ഡിജിറ്റൽ സേവനങ്ങൾ</value>
+    <comment>Digital Services</comment>
+  </data>
+  <data name="digital_service_plans" xml:space="preserve">
+    <value>ഡിജിറ്റൽ സേവന പ്ലാനുകൾ</value>
+    <comment>Digital Service Plans</comment>
+  </data>
+  <data name="data_summary" xml:space="preserve">
+    <value>ഡാറ്റാ സംഗ്രഹം</value>
+    <comment>Data Summary</comment>
+  </data>
+  <data name="add_recipient" xml:space="preserve">
+    <value>പണം കൈപ്പറ്റുന്ന ആളെ ചേർക്കുക</value>
+    <comment>Add Payee</comment>
+  </data>
+  <data name="recipient_list" xml:space="preserve">
+    <value>പണം കൈപ്പറ്റുന്ന ആൾ</value>
+    <comment>Payee</comment>
+  </data>
+  <data name="myorders" xml:space="preserve">
+    <value>എന്റെ ഓർഡറുകൾ</value>
+    <comment>My Orders</comment>
+  </data>
+  <data name="myservices" xml:space="preserve">
+    <value>എന്റെ സേവനങ്ങൾ</value>
+    <comment>My Services</comment>
+  </data>
+  <data name="customer_facing_services_features" xml:space="preserve">
+    <value>സേവനങ്ങളുടെ സവിശേഷതകൾ</value>
+    <comment>Services Features</comment>
+  </data>
+  <data name="transaction_history" xml:space="preserve">
+    <value>റീചാർജ്ജ് &amp; ടോപ് അപ് ചരിത്രം</value>
+    <comment>Recharge &amp; Topup History</comment>
+  </data>
+  <data name="faq" xml:space="preserve">
+    <value>പതിവുചോദ്യങ്ങൾ </value>
+    <comment>FAQs</comment>
+  </data>
+  <data name="inbox" xml:space="preserve">
+    <value>ഇൻബോക്സ്</value>
+    <comment>Inbox</comment>
+  </data>
+  <data name="offer" xml:space="preserve">
+    <value>ഓഫർ</value>
+    <comment>Offer</comment>
+  </data>
+  <data name="turbo_boost" xml:space="preserve">
+    <value>ടർബോ ബൂസ്റ്റ്</value>
+    <comment>Turbo Boost</comment>
+  </data>
+  <data name="themes" xml:space="preserve">
+    <value>തീമുകൾ</value>
+    <comment>Themes</comment>
+  </data>
+  <data name="excellent" xml:space="preserve">
+    <value>\u0020Excellent</value>
+    <comment>\u0020Excellent</comment>
+  </data>
+  <data name="satisfactory" xml:space="preserve">
+    <value>\u0020Satisfactory</value>
+    <comment>\u0020Satisfactory</comment>
+  </data>
+  <data name="good" xml:space="preserve">
+    <value>\u0020Good</value>
+    <comment>\u0020Good</comment>
+  </data>
+  <data name="ott_products" xml:space="preserve">
+    <value>ഒ‌ടി‌ടി ഉൽപ്പന്നങ്ങൾ</value>
+    <comment>OTT Products</comment>
+  </data>
+  <data name="ott_plans" xml:space="preserve">
+    <value>ഒ‌ടി‌ടി പ്ലാനുകൾ</value>
+    <comment>OTT Plans</comment>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>ഇമെയിൽ</value>
+    <comment>Email</comment>
+  </data>
+  <data name="text_transaction_history" xml:space="preserve">
+    <value>ഇടപാടുകളുടെ ചരിത്രം</value>
+    <comment>Payment History</comment>
+  </data>
+  <data name="connecting" xml:space="preserve">
+    <value>കണക്റ്റു ചെയ്യുന്നു</value>
+    <comment>Connecting</comment>
+  </data>
+  <data name="connection_error" xml:space="preserve">
+    <value>നിങ്ങളുടെ ഡാറ്റാ കണക്ഷൻ പരിശോധിച്ചശേഷം പിന്നീട് ശ്രമിക്കുക.</value>
+    <comment>Please check for your data connection and try later.</comment>
+  </data>
+  <data name="failed" xml:space="preserve">
+    <value>പരാജയപ്പെട്ടു</value>
+    <comment>Failed</comment>
+  </data>
+  <data name="failed_recharge_history" xml:space="preserve">
+    <value>അവസാന അഞ്ച് റീചാർജ്ജുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു.</value>
+    <comment>Failed to load last five recharges.</comment>
+  </data>
+  <data name="recharge_history_unavailable" xml:space="preserve">
+    <value>റീചാർജ്ജ് ചരിത്രം ലഭ്യമല്ല.</value>
+    <comment>Recharge history not available.</comment>
+  </data>
+  <data name="loading_services" xml:space="preserve">
+    <value>സേവനങ്ങൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading services</comment>
+  </data>
+  <data name="account_not_activated" xml:space="preserve">
+    <value>നിങ്ങൾ ഇതുവരെയും ഒരു സേവനവും സജീവമാക്കിയിട്ടില്ല.</value>
+    <comment>You have not activated any service yet.</comment>
+  </data>
+  <data name="failed_to_tech_services" xml:space="preserve">
+    <value>അക്കൗണ്ടുകളുടെ സേവനങ്ങൾ ലഭ്യമാക്കുന്നത് പരാജയപ്പെട്ടു.</value>
+    <comment>Failed to fetch accounts services.</comment>
+  </data>
+  <data name="loading_account_balance" xml:space="preserve">
+    <value>അക്കൗണ്ട് ബാലൻസ് ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading account balance</comment>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>ശരി</value>
+    <comment>OK</comment>
+  </data>
+  <data name="fetching_contacts" xml:space="preserve">
+    <value>കോൺടാക്‌റ്റുകൾ ലഭ്യമാക്കുന്നു</value>
+    <comment>Fetching Contacts</comment>
+  </data>
+  <data name="content_description" xml:space="preserve">
+    <value>ഉള്ളടക്ക വിവരണം</value>
+    <comment>content Description</comment>
+  </data>
+  <data name="jio" xml:space="preserve">
+    <value>ജിയോ</value>
+    <comment>jio</comment>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>സ്ഥിരീകരിക്കുക</value>
+    <comment>Confirm</comment>
+  </data>
+  <data name="upgrade_auth_y" xml:space="preserve">
+    <value>അ </value>
+    <comment>Y</comment>
+  </data>
+  <data name="upgrade_auth_n" xml:space="preserve">
+    <value>ഇ </value>
+    <comment>N</comment>
+  </data>
+  <data name="please_enter_password" xml:space="preserve">
+    <value>പാസ്‌വേഡ് നൽകുക</value>
+    <comment>Please enter Password</comment>
+  </data>
+  <data name="please_enter_old_password" xml:space="preserve">
+    <value>പഴയ പാസ്‌വേഡ് നൽകുക</value>
+    <comment>Please enter Old Password</comment>
+  </data>
+  <data name="please_enter_valid_old_password" xml:space="preserve">
+    <value>പഴയ പാസ്‌വേഡ് അസാധുവാണ്</value>
+    <comment>Old Password is Invalid</comment>
+  </data>
+  <data name="please_enter_new_password" xml:space="preserve">
+    <value>പുതിയ പാസ്‌വേഡ് നൽകുക</value>
+    <comment>Please enter New Password</comment>
+  </data>
+  <data name="please_enter_valid_password_alphanumeric_special_char" xml:space="preserve">
+    <value>പാസ്‌വേഡ് ഏറ്റവും കുറഞ്ഞത് ഒരു അക്ഷരത്തിന്റെയും അക്കത്തിന്റെയും പ്രതീകങ്ങൾ കൂടിച്ചേർന്നതായിരിക്കണം</value>
+    <comment>Password should be combination of at least 1 numeric and alpha character</comment>
+  </data>
+  <data name="password_invalide_format" xml:space="preserve">
+    <value>പാസ്‌വേഡ് ഏറ്റവും കുറഞ്ഞത് 8 പ്രതീകങ്ങളുടെ ദൈർഘ്യമുള്ളതായിരിക്കണം</value>
+    <comment>Password must be at least 8 characters long</comment>
+  </data>
+  <data name="user_name_password_invalid" xml:space="preserve">
+    <value>ഉപയോക്തൃ നാമം അല്ലെങ്കിൽ പാസ്‌വേഡ് അസാധുവാണ്</value>
+    <comment>User Name or Password is Invalid</comment>
+  </data>
+  <data name="new_password_invalide_format" xml:space="preserve">
+    <value>പുതിയ പാസ്‌വേഡ് ഏറ്റവും കുറഞ്ഞത് 8 പ്രതീകങ്ങളുടെ ദൈർഘ്യമുള്ളതായിരിക്കണം</value>
+    <comment>New Password must be at least 8 characters long</comment>
+  </data>
+  <data name="please_enter_confirm_pass" xml:space="preserve">
+    <value>സ്ഥിരീകരിച്ച പാസ്‌വേഡ് നൽകുക</value>
+    <comment>Please enter confirm password</comment>
+  </data>
+  <data name="password_n_confirm_pass_must_same" xml:space="preserve">
+    <value>പാസ്‌വേഡ് എന്നതും സ്ഥിരീകരിച്ച പാസ്‌വേഡ് എന്നതും ഒന്നു തന്നെയായിരിക്കണം</value>
+    <comment>Password and confirm password must be same</comment>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>പിശക്</value>
+    <comment>Error</comment>
+  </data>
+  <data name="authenticating" xml:space="preserve">
+    <value>പ്രാമാണീകരിക്കുന്നു</value>
+    <comment>Authenticating</comment>
+  </data>
+  <data name="unable_to_connect_server" xml:space="preserve">
+    <value>സെർവറുമായിസെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക സെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക സെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</value>
+    <comment>Unable to connect to server. Retry later</comment>
+  </data>
+  <data name="authentication_failed" xml:space="preserve">
+    <value>നൽകിയ ഡാറ്റയ്ക്ക് സാധുതയില്ല </value>
+    <comment>Authentication failed</comment>
+  </data>
+  <data name="account_already_active" xml:space="preserve">
+    <value>ഈ അക്കൗണ്ട് ഇതിനകം സജീവമാണ് </value>
+    <comment>This account is already active</comment>
+  </data>
+  <data name="account_unactive" xml:space="preserve">
+    <value>This JIO ID doesn\'t seem to be active. Please activate your account</value>
+    <comment>This JIO ID doesn\'t seem to be active. Please activate your account</comment>
+  </data>
+  <data name="no_groups_n_contacts_ava" xml:space="preserve">
+    <value>നിങ്ങളുടെ ഉപകരണത്തിൽ യാതൊരു ഗ്രൂപ്പുകളും കോണ്ടാക്റ്റുകളും ലഭ്യമല്ല</value>
+    <comment>No groups and contacts available in your device</comment>
+  </data>
+  <data name="no_match_contacts" xml:space="preserve">
+    <value>യോജിച്ച കോണ്ടാക്റ്റുകളൊന്നും കണ്ടില്ല</value>
+    <comment>No matching contacts found</comment>
+  </data>
+  <data name="can_not_drop" xml:space="preserve">
+    <value>ഈ ഇനം ഇവിടെ ഇടാൻ നിങ്ങൾക്കു കഴിയും/ഇല്ല </value>
+    <comment>You can\'t drop the item here</comment>
+  </data>
+  <data name="no_contacts_ava" xml:space="preserve">
+    <value>ഒരു കോണ്ടാക്റ്റുകളും ലഭ്യമല്ല</value>
+    <comment>No contacts available</comment>
+  </data>
+  <data name="creating_group" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് സൃഷ്ടിക്കുന്നു</value>
+    <comment>Creating group</comment>
+  </data>
+  <data name="created_successfully" xml:space="preserve">
+    <value>വിജയകരമായി സൃഷ്ടിച്ചു</value>
+    <comment>Created successfully</comment>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>മുമ്പത്തേത്</value>
+    <comment>Previous</comment>
+  </data>
+  <data name="group_description" xml:space="preserve">
+    <value>അടുത്ത ഉപയോക്തൃ ഗ്രൂപ്പ് (സി‌യു‌ജി) എന്നതിനും കുടുംബാംഗങ്ങളും സുഹൃത്തുക്കളും (എഫ്എൻഎഫ്) എന്നതിനും ഒരു ഗ്രൂപ്പ് സൃഷ്ടിക്കുക.</value>
+    <comment>Create a group for Closed User Group(CUG) and Family and Friends(FNF).</comment>
+  </data>
+  <data name="add_member" xml:space="preserve">
+    <value>അംഗത്തെ ചേർക്കുക</value>
+    <comment>Add Member</comment>
+  </data>
+  <data name="search_here" xml:space="preserve">
+    <value>തിരയുക </value>
+    <comment>Search</comment>
+  </data>
+  <data name="fnf" xml:space="preserve">
+    <value>FNF</value>
+    <comment>FNF</comment>
+  </data>
+  <data name="type_topup" xml:space="preserve">
+    <value>TOP-UP</value>
+    <comment>TOP-UP</comment>
+  </data>
+  <data name="type_recharge" xml:space="preserve">
+    <value>കണക്ടിവിറ്റി റീചാർജ്ജ്</value>
+    <comment>CONNECTIVITY RECHARGE</comment>
+  </data>
+  <data name="type_startup" xml:space="preserve">
+    <value>കണക്റ്റിവിറ്റി പ്രാരംഭത്തില്</value>
+    <comment>CONNECTIVITY STARTUP</comment>
+  </data>
+  <data name="type_baseplan" xml:space="preserve">
+    <value>കണക്റ്റിവിറ്റി baseplan</value>
+    <comment> CONNECTIVITY BASEPLAN</comment>
+  </data>
+  <data name="type_content_ott_recharge" xml:space="preserve">
+    <value>ഉള്ളടക്കം / ഓട്ട് റീചാർജ്</value>
+    <comment>CONTENT/OTT RECHARGE</comment>
+  </data>
+  <data name="type_content_ott_startup" xml:space="preserve">
+    <value>ഉള്ളടക്കം / ഓട്ട് സ്റ്റാർട്ടപ്പ്</value>
+    <comment>CONTENT/OTT STARTUP</comment>
+  </data>
+  <data name="type_content_ott_baseplan" xml:space="preserve">
+    <value>ഉള്ളടക്കം / ഓട്ട് baseplan</value>
+    <comment>CONTENT/OTT BASEPLAN</comment>
+  </data>
+  <data name="type_combo" xml:space="preserve">
+    <value>CONNECTIVITY + CONTENT/OTT RECHARGE</value>
+    <comment>CONNECTIVITY + CONTENT/OTT RECHARGE</comment>
+  </data>
+  <data name="type_connectivity_postpaid" xml:space="preserve">
+    <value>കണക്റ്റിവിറ്റി പോസ്റ്റ്പെയ്ഡ്</value>
+    <comment>CONNECTIVITY POSTPAID</comment>
+  </data>
+  <data name="type_connectivity_addon" xml:space="preserve">
+    <value>കണക്റ്റിവിറ്റി അദ്ദോൻ</value>
+    <comment>CONNECTIVITY ADDON</comment>
+  </data>
+  <data name="type_connectivity_content" xml:space="preserve">
+    <value>കണക്റ്റിവിറ്റി + ഉള്ളടക്കവും / ഓട്ട് പോസ്റ്റ്പെയ്ഡ്</value>
+    <comment>CONNECTIVITY+CONTENT/OTT POSTPAID</comment>
+  </data>
+  <data name="type_ott_addon" xml:space="preserve">
+    <value>കണക്റ്റിവിറ്റി + ഉള്ളടക്കവും / ഓട്ട് അദ്ദോൻ</value>
+    <comment>CONNECTIVITY+CONTENT/OTT ADDON</comment>
+  </data>
+  <data name="type_flexy_topup" xml:space="preserve">
+    <value>ഫ്ലെക്സി ടോപ് അപ്</value>
+    <comment>FLEXI TOP-UP</comment>
+  </data>
+  <data name="type_vas" xml:space="preserve">
+    <value>കൊലഞ്ചേരി</value>
+    <comment>VAS</comment>
+  </data>
+  <data name="type_content_ott_addon" xml:space="preserve">
+    <value>ഉള്ളടക്കം / ഓട്ട് അദ്ദോൻ</value>
+    <comment>CONTENT/OTT ADDON</comment>
+  </data>
+  <data name="type_vas_base_plan" xml:space="preserve">
+    <value>കൊലഞ്ചേരി ബേസ് പ്ലാൻ</value>
+    <comment>VAS BASE PLAN</comment>
+  </data>
+  <data name="type_regulatory" xml:space="preserve">
+    <value>റെഗുലേറ്ററി</value>
+    <comment>REGULATORY</comment>
+  </data>
+  <data name="no_group_available" xml:space="preserve">
+    <value>ഒരു ഗ്രൂപ്പും ലഭ്യമല്ല </value>
+    <comment>No Group Available</comment>
+  </data>
+  <data name="loading_groups" xml:space="preserve">
+    <value>Loading Groups</value>
+    <comment>Loading Groups</comment>
+  </data>
+  <data name="removing_group" xml:space="preserve">
+    <value>Removing Group</value>
+    <comment>Removing Group</comment>
+  </data>
+  <data name="create_cug" xml:space="preserve">
+    <value>സിയുജി സൃഷ്ടിക്കുക</value>
+    <comment>Create CUG</comment>
+  </data>
+  <data name="create_fnf" xml:space="preserve">
+    <value>എഫ് &amp; എഫ് സൃഷ്ടിക്കുക</value>
+    <comment>Create F&amp;F</comment>
+  </data>
+  <data name="create_group" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് സൃഷ്ടിക്കുക</value>
+    <comment>Create Group</comment>
+  </data>
+  <data name="join_cug_group" xml:space="preserve">
+    <value>Join CUG Group</value>
+    <comment>Join CUG Group</comment>
+  </data>
+  <data name="loading_contacts" xml:space="preserve">
+    <value>കോൺടാക്‌റ്റുകൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading contacts</comment>
+  </data>
+  <data name="add_group" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് ചേർക്കുക</value>
+    <comment>Add Group</comment>
+  </data>
+  <data name="update_group" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് അപ്ഡേറ്റു ചെയ്യുക</value>
+    <comment>Update group</comment>
+  </data>
+  <data name="already_exist_group" xml:space="preserve">
+    <value>ഈ ഗ്രൂപ്പ് പേര് നിലവിൽ ഉണ്ട്</value>
+    <comment>This group name is already exist</comment>
+  </data>
+  <data name="enter_group_name" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് പേര് നൽകുക</value>
+    <comment>Please enter the group name</comment>
+  </data>
+  <data name="sure_delete" xml:space="preserve">
+    <value>ഇല്ലാതാക്കണമെന്നത് തീർച്ചയാണോ?</value>
+    <comment>Are you sure to delete</comment>
+  </data>
+  <data name="group_icon" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് ഐക്കൺ</value>
+    <comment>Group Icon</comment>
+  </data>
+  <data name="group_name" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് പേര് </value>
+    <comment>Group Name</comment>
+  </data>
+  <data name="edit_group" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് എഡിറ്റു ചെയ്യുക</value>
+    <comment>Edit Group</comment>
+  </data>
+  <data name="plan" xml:space="preserve">
+    <value>പ്ലാൻ</value>
+    <comment>Plan</comment>
+  </data>
+  <data name="select_plan" xml:space="preserve">
+    <value>പ്ലാൻ തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select plan</comment>
+  </data>
+  <data name="max_allowed_member" xml:space="preserve">
+    <value>പരമാവധി അനുവദിച്ച അംഗം</value>
+    <comment>Max allowed member</comment>
+  </data>
+  <data name="selected_member" xml:space="preserve">
+    <value>തിരഞ്ഞെടുത്ത അംഗം</value>
+    <comment>Selected Member</comment>
+  </data>
+  <data name="please_select_plan" xml:space="preserve">
+    <value>പ്ലാൻ തിരഞ്ഞെടുക്കുക</value>
+    <comment>Please select the plan</comment>
+  </data>
+  <data name="group_type" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് തരം</value>
+    <comment>Group type</comment>
+  </data>
+  <data name="group_detail" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് വിശദാംശം</value>
+    <comment>Group Detail</comment>
+  </data>
+  <data name="exit_app_message" xml:space="preserve">
+    <value>പുറത്തുകടക്കുന്നതിന് \"പിന്നോട്ട്\" എന്നത് വീണ്ടും അമർത്തുക</value>
+    <comment>Please press BACK again to exit</comment>
+  </data>
+  <data name="remove_group" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് നീക്കം ചെയ്യുക</value>
+    <comment>Remove group</comment>
+  </data>
+  <data name="remove_group_msg" xml:space="preserve">
+    <value>ഈ ഗ്രൂപ്പ് നീക്കം ചെയ്യണമെന്നത് തീർച്ചയാണോ?</value>
+    <comment>Are you sure you want to remove this group?</comment>
+  </data>
+  <data name="remove_member_msg" xml:space="preserve">
+    <value>ഈ അംഗത്തെ നീക്കം ചെയ്യണമെന്നത് തീർച്ചയാണോ?</value>
+    <comment>Are you sure you want to remove this member?</comment>
+  </data>
+  <data name="max_allowed_members_exceed" xml:space="preserve">
+    <value>പരമാവധി അനുവദനീയ അംഗങ്ങളുടെ എണ്ണം കവിയുന്നു </value>
+    <comment>Maximum allowed members exceed</comment>
+  </data>
+  <data name="order_ref_number" xml:space="preserve">
+    <value>
+			Order Ref. Number: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;Offer Name: &lt;b&gt;%2$s&lt;/b&gt;&lt;br&gt;
+		</value>
+    <comment>
+			Order Ref. Number: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;Offer Name: &lt;b&gt;%2$s&lt;/b&gt;&lt;br&gt;
+		</comment>
+  </data>
+  <data name="order_info" xml:space="preserve">
+    <value>
+			Product Name: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;
+			Product Id: %2$s&lt;br&gt;
+			Estimated Completion time: %3$s&lt;br&gt;
+			Installation date: %3$s&lt;br&gt;
+			Calling party number: %4$s
+		</value>
+    <comment>
+			Product Name: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;
+			Product Id: %2$s&lt;br&gt;
+			Estimated Completion time: %3$s&lt;br&gt;
+			Installation date: %3$s&lt;br&gt;
+			Calling party number: %4$s
+		</comment>
+  </data>
+  <data name="billing_address_str" xml:space="preserve">
+    <value>
+			Address Id: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;Building Id: &lt;b&gt;%2$s&lt;/b&gt;&lt;br&gt;Address Type: &lt;b&gt;%3$s&lt;/b&gt;&lt;br&gt;
+			Care Of: &lt;b&gt;%4$s&lt;/b&gt;&lt;br&gt;House No/Flat No/Name: &lt;b&gt;%5$s&lt;/b&gt;&lt;br&gt;Building No/Name: &lt;b&gt;%6$s&lt;/b&gt;&lt;br&gt;
+			Society Name: &lt;b&gt;%7$s&lt;/b&gt;&lt;br&gt;Street No/Name: &lt;b&gt;%8$s&lt;/b&gt;&lt;br&gt;Landmark: &lt;b&gt;%9$s&lt;/b&gt;&lt;br&gt;Sub Locality: &lt;b&gt;%10$s&lt;/b&gt;&lt;br&gt;
+			Area/Tehsil: &lt;b&gt;%11$s&lt;/b&gt;&lt;br&gt;Pincode: &lt;b&gt;%12$s&lt;/b&gt;&lt;br&gt;Village/City: &lt;b&gt;%13$s&lt;/b&gt;&lt;br&gt;District: &lt;b&gt;%14$s&lt;/b&gt;&lt;br&gt;
+			State: &lt;b&gt;%15$s&lt;/b&gt;&lt;br&gt;Country: &lt;b&gt;%16$s&lt;/b&gt;&lt;br&gt;Total floors: &lt;b&gt;%17$s&lt;/b&gt;&lt;br&gt;Jio Centre Id: &lt;b&gt;%18$s&lt;/b&gt;&lt;br&gt;
+		</value>
+    <comment>
+			Address Id: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;Building Id: &lt;b&gt;%2$s&lt;/b&gt;&lt;br&gt;Address Type: &lt;b&gt;%3$s&lt;/b&gt;&lt;br&gt;
+			Care Of: &lt;b&gt;%4$s&lt;/b&gt;&lt;br&gt;House No/Flat No/Name: &lt;b&gt;%5$s&lt;/b&gt;&lt;br&gt;Building No/Name: &lt;b&gt;%6$s&lt;/b&gt;&lt;br&gt;
+			Society Name: &lt;b&gt;%7$s&lt;/b&gt;&lt;br&gt;Street No/Name: &lt;b&gt;%8$s&lt;/b&gt;&lt;br&gt;Landmark: &lt;b&gt;%9$s&lt;/b&gt;&lt;br&gt;Sub Locality: &lt;b&gt;%10$s&lt;/b&gt;&lt;br&gt;
+			Area/Tehsil: &lt;b&gt;%11$s&lt;/b&gt;&lt;br&gt;Pincode: &lt;b&gt;%12$s&lt;/b&gt;&lt;br&gt;Village/City: &lt;b&gt;%13$s&lt;/b&gt;&lt;br&gt;District: &lt;b&gt;%14$s&lt;/b&gt;&lt;br&gt;
+			State: &lt;b&gt;%15$s&lt;/b&gt;&lt;br&gt;Country: &lt;b&gt;%16$s&lt;/b&gt;&lt;br&gt;Total floors: &lt;b&gt;%17$s&lt;/b&gt;&lt;br&gt;Jio Centre Id: &lt;b&gt;%18$s&lt;/b&gt;&lt;br&gt;
+		</comment>
+  </data>
+  <data name="local_ref_details" xml:space="preserve">
+    <value>
+			Name: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;%2$s&lt;br&gt;&lt;br&gt;
+			Contact Number: &lt;b&gt;%3$s&lt;/b&gt;&lt;br&gt;Email: &lt;b&gt;%4$s&lt;/b&gt;
+		</value>
+    <comment>
+			Name: &lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;%2$s&lt;br&gt;&lt;br&gt;
+			Contact Number: &lt;b&gt;%3$s&lt;/b&gt;&lt;br&gt;Email: &lt;b&gt;%4$s&lt;/b&gt;
+		</comment>
+  </data>
+  <data name="order_delivery_address" xml:space="preserve">
+    <value>
+        	Address Id: %1$s&lt;br&gt;Building Id: %2$s&lt;br&gt;
+			C/O %3$s, House No/Flat No/Name: %4$s, Building No/Name: %5$s,
+			Society Name: %6$s, Street No/Name: %7$s, Landmark: %8$s, Sub Locality: %9$s,
+			Area/Tehsil: %10$s, Pincode: %11$s, Village/City: %12$s, District: %13$s,
+			State: %14$s, Country: %15$s, Total floors: %16$s, Jio Centre Id: %17$s
+        </value>
+    <comment>
+        	Address Id: %1$s&lt;br&gt;Building Id: %2$s&lt;br&gt;
+			C/O %3$s, House No/Flat No/Name: %4$s, Building No/Name: %5$s,
+			Society Name: %6$s, Street No/Name: %7$s, Landmark: %8$s, Sub Locality: %9$s,
+			Area/Tehsil: %10$s, Pincode: %11$s, Village/City: %12$s, District: %13$s,
+			State: %14$s, Country: %15$s, Total floors: %16$s, Jio Centre Id: %17$s
+        </comment>
+  </data>
+  <data name="failed_to_load_plan" xml:space="preserve">
+    <value>ലഭ്യമായ പ്ലാനുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</value>
+    <comment>Failed to load available plans</comment>
+  </data>
+  <data name="fetching_customer_orders" xml:space="preserve">
+    <value>ഉപഭോക്താക്കളുടെ ഓർഡറുകൾ ലഭ്യമാക്കുന്നു</value>
+    <comment>Fetching customer orders</comment>
+  </data>
+  <data name="my_jio_about_us" xml:space="preserve">
+    <value>ഇന്ത്യയിലെ 22 സർക്കിളുകളിലും ബ്രോഡ്ബാൻഡ് വയർലെസ് ആക്സസ് (BWA) സ്പെക്ട്രത്തിൽ 4ജി സംരംഭം സമാരംഭിക്കുന്നതിനുള്ള പ്ലാനിംഗിന്റെ ഭാഗമായി, ലോകോത്തര 4ജി നെറ്റ്വർക്കും സേവനങ്ങളും മുൻനിരയിൽ നിന്നുകൊണ്ട് പകർന്നു നൽകാൻ കഴിയുന്ന ബ്രോഡ്ബാൻഡ് സൗകര്യത്തെ വിജ്ഞാന സമ്പത്തിന്റെ പുതിയ അതിർവരമ്പായി RIL കരുതുന്നു</value>
+    <comment>As part of planning the 4G initiative to be launched on Broadband Wireless Access (BWA) Spectrum in all 22 circles of India, RIL considers the broadband opportunity as a new frontier of knowledge economy in which it can take a leadership position and provide world-class 4G network and services. 
+Reliance Jio Infocomm Limited, a communication based subsidiary of Reliance Industries Limited (RIL), plans to roll out 4G broadband services in India. Moving from Tier 1 cities (Mumbai and Delhi) to lower tiered ones, LTE, WiFi, and FTTx technology will be launched across India. The Program named R4G, focus to provide digital services on LTE and not on just providing bandwidth.</comment>
+  </data>
+  <data name="my_jio_mission" xml:space="preserve">
+    <value>ധിരുഭായി എച്ച്. അംബാനി (1932-2002) സ്ഥാപിച്ച റിലയൻസ് ഗ്രൂപ്പ്, ഊർജ്ജത്തിന്റെയും മറ്റു സാമഗ്രികളുടെയും മൂല്യ ശൃംഘലയിൽ വാണിജ്യത്തിലേർപ്പെട്ടിരിക്കുന്ന ഇന്ത്യയിലെ ഏറ്റവും വലിയ സ്വകാര്യ മേഖലാ വ്യവസായ സ്ഥാപനമാണ്. ഗ്രൂപ്പിന്റെ വാർഷിക വരുമാനം 66 ബില്ല്യൺ യുഎസ് ഡോളറിലും അധികമാണ്. റിലയൻസ് ഇൻഡസ്ട്രീസ് ലിമിറ്റഡ് എന്ന പ്രധാന കമ്പനി</value>
+    <comment>The Reliance Group, founded by Dhirubhai H. Ambani (1932-2002), is Indias largest private sector enterprise, with businesses in the energy and materials value chain. Groups annual revenues are in excess of US$ 66 billion. The flagship company, Reliance Industries Limited,
+        is a Fortune Global 500 company and is the largest private sector company in India.</comment>
+  </data>
+  <data name="auto_renewable" xml:space="preserve">
+    <value>യാന്ത്രികമായി പുതുക്കാവുന്നത്:</value>
+    <comment>Auto Renewable:</comment>
+  </data>
+  <data name="recharge_detail" xml:space="preserve">
+    <value>ഇടപാട് വിശദാംശം</value>
+    <comment>Payment Detail</comment>
+  </data>
+  <data name="recharge_detail_" xml:space="preserve">
+    <value>റീചാർജ്ജ് വിശദാംശം</value>
+    <comment>Recharge Detail</comment>
+  </data>
+  <data name="loading_recharge_detail" xml:space="preserve">
+    <value>ലോഡു ചെയ്യൽ വിശദാംശം</value>
+    <comment>Loading Details</comment>
+  </data>
+  <data name="tap_for_info" xml:space="preserve">
+    <value>വിവരങ്ങൾക്ക് ടാപ്പു ചെയ്യുക</value>
+    <comment>tap for info</comment>
+  </data>
+  <data name="removeFeatures" xml:space="preserve">
+    <value>സവിശേഷത നീക്കം ചെയ്യുക</value>
+    <comment>Remove Feature</comment>
+  </data>
+  <data name="available_plans" xml:space="preserve">
+    <value>ലഭ്യമായ പ്ലാനുകൾ </value>
+    <comment>Available Plans</comment>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>ചേർക്കുക</value>
+    <comment>Add</comment>
+  </data>
+  <data name="group_available_plans" xml:space="preserve">
+    <value>ഗ്രൂപ്പിന് ലഭ്യമായ പ്ലാനുകൾ</value>
+    <comment>Group Available Plans</comment>
+  </data>
+  <data name="service_recharge" xml:space="preserve">
+    <value>സേവനം വിജയകരമായി റീചാർജ്ജ് ചെയ്തു</value>
+    <comment>Service has been recharged successfully</comment>
+  </data>
+  <data name="failed_to_recharged" xml:space="preserve">
+    <value>സേവനം റീചാർജ്ജ് ചെയ്യുന്നത് പരാജയപ്പെട്ടു</value>
+    <comment>Failed to recharge service</comment>
+  </data>
+  <data name="enter_amount" xml:space="preserve">
+    <value>തുക നൽകുക</value>
+    <comment>Enter Amount</comment>
+  </data>
+  <data name="amount_or_voucher_code" xml:space="preserve">
+    <value>തുക അല്ലെങ്കിൽ വൗച്ചർ കോഡ്</value>
+    <comment>Amount or voucher code</comment>
+  </data>
+  <data name="topup" xml:space="preserve">
+    <value>ടോപ് അപ്</value>
+    <comment>Topup</comment>
+  </data>
+  <data name="processing" xml:space="preserve">
+    <value>പ്രോസസ്സു ചെയ്യുന്നു, കാത്തിരിക്കുക</value>
+    <comment>Please wait processing</comment>
+  </data>
+  <data name="loading_recharge_history" xml:space="preserve">
+    <value>ഇടപാടു ചരിത്രം ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading payment history</comment>
+  </data>
+  <data name="loading_available_plans" xml:space="preserve">
+    <value>ലഭ്യമായ പ്ലാനുകൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading available plans</comment>
+  </data>
+  <data name="choose_plan" xml:space="preserve">
+    <value>ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക</value>
+    <comment>Choose a Plan</comment>
+  </data>
+  <data name="start_up" xml:space="preserve">
+    <value>തുടങ്ങുക</value>
+    <comment>Start Up</comment>
+  </data>
+  <data name="base_plan" xml:space="preserve">
+    <value>അടിസ്ഥാന പ്ലാൻ</value>
+    <comment>Base Plan</comment>
+  </data>
+  <data name="tv_transfer_setting" xml:space="preserve">
+    <value>ക്രമീകരണം കൈമാറുക</value>
+    <comment>Transfer Setting</comment>
+  </data>
+  <data name="tv_contact" xml:space="preserve">
+    <value>കോണ്ടാക്റ്റുകൾ</value>
+    <comment>Contacts</comment>
+  </data>
+  <data name="edt_recipient_hint" xml:space="preserve">
+    <value>സ്വീകർത്താവ്\മൊബൈൽ നമ്പർ</value>
+    <comment>Recipient\'s Mobile No. </comment>
+  </data>
+  <data name="btn_select_contact" xml:space="preserve">
+    <value>കോണ്ടാക്റ്റ് തിരഞ്ഞെടുക്കുക: </value>
+    <comment>Select Contact: </comment>
+  </data>
+  <data name="text_credit_dialog" xml:space="preserve">
+    <value>ഡാറ്റാ കൈമാറ്റം ചെയ്യുന്നതിന് ഉപകരണം തിരിക്കുക </value>
+    <comment>Rotate the device to transfer data </comment>
+  </data>
+  <data name="text_donot_show" xml:space="preserve">
+    <value>ഈ സന്ദേശം വീണ്ടും കാണിക്കരുത് </value>
+    <comment>Don\'t show again?</comment>
+  </data>
+  <data name="btn_deactivate_service" xml:space="preserve">
+    <value> സേവനം നിർജ്ജീവമാക്കുക</value>
+    <comment> Deactivate Service</comment>
+  </data>
+  <data name="tv_set_rate" xml:space="preserve">
+    <value>നിരക്ക് സജ്ജീകരിക്കുക</value>
+    <comment>Set Rate</comment>
+  </data>
+  <data name="tv_rate" xml:space="preserve">
+    <value>നിരക്ക്  :</value>
+    <comment>Rate :</comment>
+  </data>
+  <data name="tv_more_details" xml:space="preserve">
+    <value>കൂടുതൽ വിശദാംശങ്ങൾ</value>
+    <comment>More Details</comment>
+  </data>
+  <data name="tv_check_balance" xml:space="preserve">
+    <value>ബാലൻസ് പരിശോധിക്കുക</value>
+    <comment>Check Balance</comment>
+  </data>
+  <data name="do_you_want_to_continue" xml:space="preserve">
+    <value>നിങ്ങൾക്ക് തുടരണമോ?</value>
+    <comment>Do you want to continue?</comment>
+  </data>
+  <data name="recharge_successfull" xml:space="preserve">
+    <value>ഇടപാട് നമ്പറോടുകൂടി റീചാർജ്ജ് വിജയകരമായി</value>
+    <comment>"Recharge successful with transaction number "</comment>
+  </data>
+  <data name="recharge_failed_" xml:space="preserve">
+    <value>റീചാർജ്ജ് പരാജയപ്പെട്ടു</value>
+    <comment>Recharge failed.</comment>
+  </data>
+  <data name="buy_plan" xml:space="preserve">
+    <value>പ്ലാൻ വാങ്ങുക</value>
+    <comment>Buy Plan</comment>
+  </data>
+  <data name="tv_bills" xml:space="preserve">
+    <value>ബില്ലുകൾ</value>
+    <comment>Bills</comment>
+  </data>
+  <data name="enter_account_name" xml:space="preserve">
+    <value>അക്കൗണ്ടിന്റെ പേര് നൽകുക</value>
+    <comment>Enter service name(Max character 20)</comment>
+  </data>
+  <data name="enter_account_id" xml:space="preserve">
+    <value>അക്കൗണ്ട് ഐഡി നൽകുക</value>
+    <comment>Enter Account Id</comment>
+  </data>
+  <data name="error_toast_message" xml:space="preserve">
+    <value>നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സു ചെയ്യാൻ കഴിയില്ല!</value>
+    <comment>Unable to process your request!</comment>
+  </data>
+  <data name="tv_loading" xml:space="preserve">
+    <value>ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading</comment>
+  </data>
+  <data name="set_app_priority" xml:space="preserve">
+    <value>ആപ്ലിക്കേഷൻ മുൻഗണന സജ്ജീകരിക്കുക</value>
+    <comment>Set App Priority</comment>
+  </data>
+  <data name="failed_recharge_detail" xml:space="preserve">
+    <value>റീചാർജ്ജ് വിശദാംശങ്ങൾ ലഭ്യമാക്കുന്നത് പരാജയപ്പെട്ടു</value>
+    <comment>Failed to fetch recharge details</comment>
+  </data>
+  <data name="wrong_number" xml:space="preserve">
+    <value>നമ്പർ വീണ്ടും പരിശോധിക്കുക!</value>
+    <comment>Please check the number again!</comment>
+  </data>
+  <data name="account_not_available" xml:space="preserve">
+    <value>ഈ ഉപഭോക്താവിന്റെ അക്കൗണ്ട് ഒന്നും ലഭ്യമല്ല</value>
+    <comment>No account available for this customer</comment>
+  </data>
+  <data name="loading_balance" xml:space="preserve">
+    <value>"കാത്തിരിക്കുക, ബാലൻസ് ലോഡു ചെയ്യുന്നു"</value>
+    <comment>"Please wait loading balance"</comment>
+  </data>
+  <data name="digital_service_details" xml:space="preserve">
+    <value>ഡിജിറ്റൽ സേവന വിശദാംശങ്ങൾ</value>
+    <comment>Digital Service Details</comment>
+  </data>
+  <data name="exit_msg" xml:space="preserve">
+    <value>നിങ്ങൾക്കു പുറത്തുകടക്കണമോ?</value>
+    <comment>Do you want to Exit?</comment>
+  </data>
+  <data name="do_you_want_to_cancel_this_transaction" xml:space="preserve">
+    <value>ഈ ഇടപാട് റദ്ദാക്കണമോ?</value>
+    <comment>Do you want to cancel this transaction?</comment>
+  </data>
+  <data name="recharge_amount_invalid" xml:space="preserve">
+    <value>റീചാർജ്ജ് തുക അസാധുവാണ്</value>
+    <comment>Recharge amount is invalid</comment>
+  </data>
+  <data name="amount_invalid" xml:space="preserve">
+    <value>പേയ്മെന്റ് തുക അസാധുവാണ് </value>
+    <comment>Payment amount is invalid </comment>
+  </data>
+  <data name="payment_canceled" xml:space="preserve">
+    <value>പേയ്മെന്റ് റദ്ദാക്കി </value>
+    <comment>Payment canceled</comment>
+  </data>
+  <data name="payment_failed" xml:space="preserve">
+    <value>പേയ്മെന്റ് പരാജയപ്പെട്ടു </value>
+    <comment>Payment failed</comment>
+  </data>
+  <data name="payment_successfully" xml:space="preserve">
+    <value>പേയ്മെന്റ് വിജയകരമായി പൂർത്തിയായി </value>
+    <comment>Payment done successfully</comment>
+  </data>
+  <data name="save_pdf" xml:space="preserve">
+    <value>PDF സംരക്ഷിക്കുക </value>
+    <comment>Save PDF</comment>
+  </data>
+  <data name="product_unavailable" xml:space="preserve">
+    <value>
+	    	The product &lt;b&gt;%1$s&lt;/b&gt; is not available in your locality. Please share your interests.
+		</value>
+    <comment>
+	    	The product &lt;b&gt;%1$s&lt;/b&gt; is not available in your locality. Please share your interests.
+		</comment>
+  </data>
+  <data name="product_unavailable_interest_taken" xml:space="preserve">
+    <value>
+	    	The product &lt;b&gt;%1$s&lt;/b&gt; is not available in your locality. We have already taken your interest, your request id is &lt;b&gt;%2$s&lt;/b&gt;.
+		</value>
+    <comment>
+	    	The product &lt;b&gt;%1$s&lt;/b&gt; is not available in your locality. We have already taken your interest, your request id is &lt;b&gt;%2$s&lt;/b&gt;.
+		</comment>
+  </data>
+  <data name="product_available" xml:space="preserve">
+    <value>
+	    	The product &lt;b&gt;%1$s&lt;/b&gt; is available in your locality. To know more about the product, request for callback.
+		</value>
+    <comment>
+	    	The product &lt;b&gt;%1$s&lt;/b&gt; is available in your locality. To know more about the product, request for callback.
+		</comment>
+  </data>
+  <data name="failed_to_load_service_info" xml:space="preserve">
+    <value>സേവന വിവരങ്ങൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</value>
+    <comment>Failed to load service info</comment>
+  </data>
+  <data name="loading_service_info" xml:space="preserve">
+    <value>സേവന വിവരങ്ങൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading service info</comment>
+  </data>
+  <data name="service_info" xml:space="preserve">
+    <value>സേവന വിവരങ്ങൾ</value>
+    <comment>Service Info</comment>
+  </data>
+  <data name="installation_address" xml:space="preserve">
+    <value>സ്ഥാപന വിലാസം</value>
+    <comment>Installation Address</comment>
+  </data>
+  <data name="activated_plans" xml:space="preserve">
+    <value>സജീവമാക്കിയ സേവനങ്ങൾ</value>
+    <comment>Activated Services</comment>
+  </data>
+  <data name="device_info" xml:space="preserve">
+    <value>ഉപകരണ വിവരങ്ങൾ</value>
+    <comment>Device Info</comment>
+  </data>
+  <data name="product_available_request_callback" xml:space="preserve">
+    <value>
+	    	You have already requested for a callback for the product &lt;b&gt;%1$s&lt;/b&gt;. Your request id is &lt;b&gt;%2$s&lt;/b&gt;
+		</value>
+    <comment>
+	    	You have already requested for a callback for the product &lt;b&gt;%1$s&lt;/b&gt;. Your request id is &lt;b&gt;%2$s&lt;/b&gt;
+		</comment>
+  </data>
+  <data name="dnd_preference_title" xml:space="preserve">
+    <value>ഡിഎൻഡി മുൻഗണനകൾ</value>
+    <comment>DND Preference</comment>
+  </data>
+  <data name="updating_data" xml:space="preserve">
+    <value>ഡാറ്റാ അപ്ഡേറ്റു ചെയ്യുന്നു</value>
+    <comment>Updating Data</comment>
+  </data>
+  <data name="unable_to_update" xml:space="preserve">
+    <value>അപ്ഡേറ്റു ചെയ്യാൻ കഴിയുന്നില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക</value>
+    <comment>Unable to update. Retry later</comment>
+  </data>
+  <data name="updated_successfully" xml:space="preserve">
+    <value>വിജയകരമായി അപ്ഡേറ്റു ചെയ്തു</value>
+    <comment>Updated Successfully</comment>
+  </data>
+  <data name="txt_account" xml:space="preserve">
+    <value>Account</value>
+    <comment>Account</comment>
+  </data>
+  <data name="no_account_available" xml:space="preserve">
+    <value>അക്കൗണ്ട് ലഭ്യമല്ല</value>
+    <comment>No Account Available</comment>
+  </data>
+  <data name="monetary_threshold" xml:space="preserve">
+    <value>മോണിറ്ററി ത്രെഷോൾഡ്</value>
+    <comment>Monetary Threshold</comment>
+  </data>
+  <data name="nonmonetary_threshold" xml:space="preserve">
+    <value>നോൺമോണിറ്ററി ത്രെഷോൾഡ്</value>
+    <comment>Nonmonetary Threshold</comment>
+  </data>
+  <data name="failed_to_load_recharges" xml:space="preserve">
+    <value>റീചാർജ്ജുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</value>
+    <comment>Failed to load recharges</comment>
+  </data>
+  <data name="failed_to_load_topups_" xml:space="preserve">
+    <value>ടോപ് അപ്പുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</value>
+    <comment>Failed to load topups</comment>
+  </data>
+  <data name="failed_to_load_plans" xml:space="preserve">
+    <value>പ്ലാനുകൾ ലോഡു ചെയ്യുന്നത് പരാജയപ്പെട്ടു</value>
+    <comment>Plans not available</comment>
+  </data>
+  <data name="validity_" xml:space="preserve">
+    <value>സാധുത:</value>
+    <comment>Validity:</comment>
+  </data>
+  <data name="tv_select_service" xml:space="preserve">
+    <value>പണം കൈപ്പറ്റുന്ന ആളെ രജിസ്റ്റർ ചെയ്യുന്നതിന് സേവനം തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select service to register payee</comment>
+  </data>
+  <data name="success_register_donor" xml:space="preserve">
+    <value>ദാതാവിനെ വിജയകരമായി രജിസ്റ്റർ ചെയ്തു</value>
+    <comment>Donor Registered successfully</comment>
+  </data>
+  <data name="tv_name" xml:space="preserve">
+    <value>പേര് </value>
+    <comment>Name </comment>
+  </data>
+  <data name="tv_service" xml:space="preserve">
+    <value>സേവന ഐഡി </value>
+    <comment>Service ID </comment>
+  </data>
+  <data name="tv_plan" xml:space="preserve">
+    <value>പ്ലാൻ ഐഡി </value>
+    <comment>Plan ID </comment>
+  </data>
+  <data name="tv_service_status" xml:space="preserve">
+    <value>സേവന സ്റ്റാറ്റസ് </value>
+    <comment>Service Status </comment>
+  </data>
+  <data name="tv_text_activation" xml:space="preserve">
+    <value>സജീവമാക്കിയ ദിവസം </value>
+    <comment>Activation Date </comment>
+  </data>
+  <data name="tv_text_requested" xml:space="preserve">
+    <value>അഭ്യർത്ഥിച്ച ദിവസം </value>
+    <comment>Requested Date </comment>
+  </data>
+  <data name="tv_text_auto" xml:space="preserve">
+    <value>യാന്ത്രിക പുതുക്കൽ </value>
+    <comment>Auto Renew </comment>
+  </data>
+  <data name="tv_text_bearer" xml:space="preserve">
+    <value>ബെയറർ തരം :</value>
+    <comment>Bearer Type :</comment>
+  </data>
+  <data name="tv_text_renewable" xml:space="preserve">
+    <value>പുതുക്കാവുന്ന ദിവസം </value>
+    <comment>Renewable Date </comment>
+  </data>
+  <data name="tv_text_renewable_price" xml:space="preserve">
+    <value>പുതുക്കാവുന്ന വില </value>
+    <comment>Renewable Price </comment>
+  </data>
+  <data name="tv_text_charged" xml:space="preserve">
+    <value>ഈടാക്കിയ തുക :</value>
+    <comment>Amount Charged :</comment>
+  </data>
+  <data name="service_availability_areas" xml:space="preserve">
+    <value>സേവനം ലഭ്യമായ ഏരിയകൾ</value>
+    <comment>Service Availability Areas</comment>
+  </data>
+  <data name="loading_states" xml:space="preserve">
+    <value>സംസ്ഥാനങ്ങൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading States</comment>
+  </data>
+  <data name="balance_not_available" xml:space="preserve">
+    <value>N/A</value>
+    <comment>N/A</comment>
+  </data>
+  <data name="your_prepaid_ac_balance_is" xml:space="preserve">
+    <value>പ്രീ പെയ്ഡ് അക്കൗണ്ട് ബാലൻസ് </value>
+    <comment>"Prepaid A/C balance is "</comment>
+  </data>
+  <data name="your_postpaid_ac_balance_is" xml:space="preserve">
+    <value>"പോസ്റ്റ്പെയ്ഡ്"</value>
+    <comment>"Postpaid"</comment>
+  </data>
+  <data name="loading_transactions" xml:space="preserve">
+    <value>ഇടപാടുകൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading transactions</comment>
+  </data>
+  <data name="pay_for_service" xml:space="preserve">
+    <value>സേവനത്തിന് പണമടയ്ക്കുക</value>
+    <comment>Pay For Service</comment>
+  </data>
+  <data name="service_recharge_success" xml:space="preserve">
+    <value>സേവനം വിജയകരമായി റീചാർജ്ജ് ചെയ്തു</value>
+    <comment>Service has been recharge successfully</comment>
+  </data>
+  <data name="please_enter_an_amount" xml:space="preserve">
+    <value>ഒരു തുക നൽകുക</value>
+    <comment>Please enter an amount</comment>
+  </data>
+  <data name="units" xml:space="preserve">
+    <value>യൂണിറ്റുകൾ</value>
+    <comment>Units</comment>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>മിനിട്ടുകൾ</value>
+    <comment>Minutes</comment>
+  </data>
+  <data name="mb" xml:space="preserve">
+    <value>എംബി</value>
+    <comment>MB</comment>
+  </data>
+  <data name="product_id_" xml:space="preserve">
+    <value>ഉൽപ്പന്ന ഐഡി-</value>
+    <comment>Product ID-</comment>
+  </data>
+  <data name="device_type_" xml:space="preserve">
+    <value>ഉപകരണത്തിന്റെ തരം-</value>
+    <comment>Device Type-</comment>
+  </data>
+  <data name="device_model_" xml:space="preserve">
+    <value>ഉപകരണത്തിന്റെ മോഡൽ-</value>
+    <comment>Device Model-</comment>
+  </data>
+  <data name="vendor_" xml:space="preserve">
+    <value>വെൻഡർ-</value>
+    <comment>Vendor-</comment>
+  </data>
+  <data name="warranty_date_" xml:space="preserve">
+    <value>വാറണ്ടി ദിവസം-</value>
+    <comment>Warranty Date-</comment>
+  </data>
+  <data name="activation_date_" xml:space="preserve">
+    <value>സജീവമാക്കിയ ദിവസം:</value>
+    <comment>Activation Date:</comment>
+  </data>
+  <data name="activation_preference_" xml:space="preserve">
+    <value>"സജീവമാക്കൽ മുൻഗണന: "</value>
+    <comment>"Activation Preference: "</comment>
+  </data>
+  <data name="expire_on_" xml:space="preserve">
+    <value>"കാലാവധി ദിവസം: "</value>
+    <comment>"Expires on: "</comment>
+  </data>
+  <data name="account_name_can_t_be_empty_" xml:space="preserve">
+    <value>അക്കൗണ്ട് പേര് ശൂന്യമായിടാൻ കഴിയും/ഇല്ല</value>
+    <comment>Service name can\'t be empty</comment>
+  </data>
+  <data name="account_rename_success" xml:space="preserve">
+    <value>അക്കൗണ്ട് വിജയകരമായി പുനർനാമകരണം ചെയ്തു</value>
+    <comment>Service has been renamed successfully</comment>
+  </data>
+  <data name="sending_information_to_payment" xml:space="preserve">
+    <value>പേയ്മെന്റിലേയ്ക്ക് വിവരങ്ങൾ അയയ്ക്കുന്നു</value>
+    <comment>Sending Information to payment</comment>
+  </data>
+  <data name="data_is_not_retrieved" xml:space="preserve">
+    <value>ഡാറ്റാ തിരിച്ചെടുത്തില്ല</value>
+    <comment>Data is not retrieved</comment>
+  </data>
+  <data name="top_up_details" xml:space="preserve">
+    <value>ടോപ് അപ് വിശദാംശങ്ങൾ</value>
+    <comment>Top Up Details</comment>
+  </data>
+  <data name="top_up_reference_no_" xml:space="preserve">
+    <value>"ടോപ് അപ് റഫറൻസ് നമ്പർ. "</value>
+    <comment>"Top Up Reference No. "</comment>
+  </data>
+  <data name="price_" xml:space="preserve">
+    <value>വില: </value>
+    <comment>Price: </comment>
+  </data>
+  <data name="loading_topups" xml:space="preserve">
+    <value>ടോപ് അപ്പുകൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading topups</comment>
+  </data>
+  <data name="loading_recharges" xml:space="preserve">
+    <value>റീചാർജ്ജുകൾ ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading recharges</comment>
+  </data>
+  <data name="loading_combo_plans" xml:space="preserve">
+    <value>കോമ്പോ പ്ലാനുകൾ ലോഡുചെയ്യുന്നു </value>
+    <comment>Loading combo plans</comment>
+  </data>
+  <data name="ref_no_" xml:space="preserve">
+    <value>"റഫറൻസ് നമ്പർ: "</value>
+    <comment>"Ref No: "</comment>
+  </data>
+  <data name="detail_" xml:space="preserve">
+    <value>"വിശദാംശം: "</value>
+    <comment>"Detail: "</comment>
+  </data>
+  <data name="_minutes" xml:space="preserve">
+    <value>" മിനിട്ടുകൾ"</value>
+    <comment>" Minutes"</comment>
+  </data>
+  <data name="plan_type" xml:space="preserve">
+    <value>പ്ലാൻ തരം: </value>
+    <comment>Plan Type: </comment>
+  </data>
+  <data name="edt_transfer_hint" xml:space="preserve">
+    <value>കൈമാറ്റം ചെയ്യേണ്ട ആൾ</value>
+    <comment>Transfer To</comment>
+  </data>
+  <data name="enter_pincode" xml:space="preserve">
+    <value>പിൻകോഡ് നൽകുക</value>
+    <comment>Enter pincode</comment>
+  </data>
+  <data name="your_account_balance" xml:space="preserve">
+    <value>"നിങ്ങളുടെ എ/സി ബാലൻസ് "</value>
+    <comment>"Your A/C balance is "</comment>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>പുനഃസജ്ജീകരിക്കുക</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="plans" xml:space="preserve">
+    <value>പ്ലാനുകൾ</value>
+    <comment>Plans</comment>
+  </data>
+  <data name="more_detail" xml:space="preserve">
+    <value>വിവരങ്ങൾ</value>
+    <comment>Info</comment>
+  </data>
+  <data name="check_balance" xml:space="preserve">
+    <value>ബാലൻസ്</value>
+    <comment>Balance</comment>
+  </data>
+  <data name="select_plan_transfer" xml:space="preserve">
+    <value>കൈമാറുന്നതിന് ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select a Plan to Transfer</comment>
+  </data>
+  <data name="select_plan_transform" xml:space="preserve">
+    <value>രൂപം മാറ്റുന്നതിന് ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select a Plan to Transform</comment>
+  </data>
+  <data name="transfer_from" xml:space="preserve">
+    <value>ഇതിൽ നിന്ന് കൈമാറുക</value>
+    <comment>Transfer From</comment>
+  </data>
+  <data name="transfer_rate" xml:space="preserve">
+    <value>കൈമാറുന്ന നിരക്ക്</value>
+    <comment>Transfer Rate</comment>
+  </data>
+  <data name="tv_register_new_recipient" xml:space="preserve">
+    <value>കോണ്ടാക്റ്റ്</value>
+    <comment>Contact</comment>
+  </data>
+  <data name="tv_transfer_balance_type" xml:space="preserve">
+    <value>കൈമാറ്റ തരം</value>
+    <comment>Transfer Type</comment>
+  </data>
+  <data name="text_transform" xml:space="preserve">
+    <value>ഇതിലേക്ക് രൂപം മാറ്റുക </value>
+    <comment>Transform to</comment>
+  </data>
+  <data name="tv_loading_digital" xml:space="preserve">
+    <value>ഡിജിറ്റൽ സേവനം ലോഡു ചെയ്യുന്നു</value>
+    <comment>Loading Digital Service</comment>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select</comment>
+  </data>
+  <data name="title_ott_dialog" xml:space="preserve">
+    <value>ഒടി‌ടി</value>
+    <comment>OTT</comment>
+  </data>
+  <data name="payee" xml:space="preserve">
+    <value>പണം കൈപ്പറ്റുന്നയാൾക്ക് കൈമാറുക</value>
+    <comment>Transfer to payee</comment>
+  </data>
+  <data name="search_by_refrence_no_or_title" xml:space="preserve">
+    <value>ശീർഷകം അല്ലെങ്കിൽ റഫറൻസ് നമ്പർ പ്രകാരം തിരയുക.</value>
+    <comment>Search by title or reference no.</comment>
+  </data>
+  <data name="search_by_ticket_no_or_title" xml:space="preserve">
+    <value>ശീർഷകം അല്ലെങ്കിൽ ടിക്കറ്റ് നമ്പർ പ്രകാരം തിരയുക </value>
+    <comment>Search by title or ticket no.</comment>
+  </data>
+  <data name="by_status" xml:space="preserve">
+    <value>സ്റ്റാറ്റസ് പ്രകാരം</value>
+    <comment>By Status</comment>
+  </data>
+  <data name="by_date" xml:space="preserve">
+    <value>ദിവസ പ്രകാരം</value>
+    <comment>By Date</comment>
+  </data>
+  <data name="search_check_avial" xml:space="preserve">
+    <value>ലഭ്യതയും വിതരണ ഓപ്ഷനും പരിശോധിക്കുക</value>
+    <comment>Check Availability &amp; Delivery Option</comment>
+  </data>
+  <data name="approval_awaited" xml:space="preserve">
+    <value>അംഗീകാരം കാത്തിരിക്കുന്നു</value>
+    <comment>Approval awaited</comment>
+  </data>
+  <data name="approved_await_activation" xml:space="preserve">
+    <value>അംഗീകരിച്ചു/സജീവമാക്കൽ കാത്തിരിക്കുക</value>
+    <comment>Approved/Await Activation</comment>
+  </data>
+  <data name="validation_failed" xml:space="preserve">
+    <value>സാധുവാക്കൽ പരാജയപ്പെട്ടു</value>
+    <comment>Validation failed</comment>
+  </data>
+  <data name="caf_rejected" xml:space="preserve">
+    <value>സിഎഎഫ് നിരസിച്ചു</value>
+    <comment>CAF Rejected</comment>
+  </data>
+  <data name="completed" xml:space="preserve">
+    <value>പൂർത്തിയാക്കി</value>
+    <comment>Completed</comment>
+  </data>
+  <data name="tele_verification_failed" xml:space="preserve">
+    <value>ടെലി-വെരിഫിക്കേഷൻ പരാജയപ്പെട്ടു</value>
+    <comment>Tele-Verification Failed</comment>
+  </data>
+  <data name="caf_not_required" xml:space="preserve">
+    <value>സിഎഎഫ് ആവശ്യമില്ല</value>
+    <comment>CAF not required</comment>
+  </data>
+  <data name="offer_cancellation" xml:space="preserve">
+    <value>Offer Cancellation</value>
+    <comment>Offer Cancellation</comment>
+  </data>
+  <data name="welcome_call_success" xml:space="preserve">
+    <value>സ്വാഗത കോൾ വിജയം</value>
+    <comment>Welcome Call Success</comment>
+  </data>
+  <data name="change_in_progress" xml:space="preserve">
+    <value>Change in progress</value>
+    <comment>Change in progress</comment>
+  </data>
+  <data name="caf_rework" xml:space="preserve">
+    <value>CAF Re-Work</value>
+    <comment>CAF Re-Work</comment>
+  </data>
+  <data name="inflight_cancel" xml:space="preserve">
+    <value>Inflight Cancel</value>
+    <comment>Inflight Cancel</comment>
+  </data>
+  <data name="order_cancellation" xml:space="preserve">
+    <value>ഓർഡർ റദ്ദാക്കൽ</value>
+    <comment>Order Cancellation</comment>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>അല്ലെങ്കിൽ</value>
+    <comment>OR</comment>
+  </data>
+  <data name="google_api_key" xml:space="preserve">
+    <value>aizasyccnmk3fr6bfh3bzw1a95mossz-tep9re0</value>
+    <comment>AIzaSyCcnmK3fr6BFH3BZW1a95moSSZ-teP9RE0</comment>
+  </data>
+  <data name="google_api_key3" xml:space="preserve">
+    <value>aizasyadviof_msctiizd_bsd9scsfjuw098gpo</value>
+    <comment>AIzaSyAdVIoF_mSCtIizD_BSD9SCSFjuW098GPo</comment>
+  </data>
+  <data name="search_by_location" xml:space="preserve">
+    <value>ലൊക്കേഷൻ പ്രകാരം തിരയുക.</value>
+    <comment>Search by location.</comment>
+  </data>
+  <data name="jio_hot_spot" xml:space="preserve">
+    <value>ജിയോ ഹോട്ട്‌സ്പോട്ട്</value>
+    <comment>Jio Hotspot</comment>
+  </data>
+  <data name="msg" xml:space="preserve">
+    <value>സന്ദേശം</value>
+    <comment>message</comment>
+  </data>
+  <data name="positive_txt" xml:space="preserve">
+    <value>positive_text</value>
+    <comment>positive_text</comment>
+  </data>
+  <data name="negative_txt" xml:space="preserve">
+    <value>negative_text</value>
+    <comment>negative_text</comment>
+  </data>
+  <data name="order_details" xml:space="preserve">
+    <value>ഓർഡർ വിശദാംശങ്ങൾ</value>
+    <comment>Order Details</comment>
+  </data>
+  <data name="title_dialog_register_service" xml:space="preserve">
+    <value>രജിസ്റ്റർ ചെയ്യുന്നതിന് സേവന ഐഡി നൽകുക</value>
+    <comment>Enter Service ID to register</comment>
+  </data>
+  <data name="select_sub_type" xml:space="preserve">
+    <value>സബ് ടൈപ്പ് തിരഞ്ഞെടുക്കുക</value>
+    <comment>Select Sub Type</comment>
+  </data>
+  <data name="local_reference_details" xml:space="preserve">
+    <value>ലോക്കൽ റഫറൻസ് വിശദാംശങ്ങൾ</value>
+    <comment>Permanent Address</comment>
+  </data>
+  <data name="update_order" xml:space="preserve">
+    <value>അപ്ഡേറ്റ് ഓർഡർ</value>
+    <comment>Update Order</comment>
+  </data>
+  <data name="product_name_" xml:space="preserve">
+    <value>ഉൽപ്പന്നത്തിന്റെ പേര്:\u0020</value>
+    <comment>Product Name:\u0020</comment>
+  </data>
+  <data name="products_name" xml:space="preserve">
+    <value>ഉൽപ്പന്നത്തിന്റെ പേര്</value>
+    <comment>Product Name</comment>
+  </data>
+  <data name="estimated_completion_time" xml:space="preserve">
+    <value>കണക്കാക്കിയ പൂർത്തീകരിക്കൽ സമയം:</value>
+    <comment>Estimated Completion Time:</comment>
+  </data>
+  <data name="installation_date" xml:space="preserve">
+    <value>സ്ഥാപന ദിവസം:</value>
+    <comment>Installation Date:</comment>
+  </data>
+  <data name="calling_party_number" xml:space="preserve">
+    <value>കോളിംഗ് പാർട്ടി നമ്പർ:</value>
+    <comment>Calling Party Number:</comment>
+  </data>
+  <data name="service_name_header" xml:space="preserve">
+    <value>സേവന പേര് തലക്കെട്ട്</value>
+    <comment>Service Name Header</comment>
+  </data>
+  <data name="accounts_id" xml:space="preserve">
+    <value>അക്കൗണ്ട് ഐഡി:\u0020</value>
+    <comment>Account Id:\u0020</comment>
+  </data>
+  <data name="customers_id" xml:space="preserve">
+    <value>ഉപഭോക്തൃ ഐഡി:\u0020</value>
+    <comment>Customer Id:\u0020</comment>
+  </data>
+  <data name="descriptions" xml:space="preserve">
+    <value>വിവരണം:\u0020</value>
+    <comment>Description:\u0020</comment>
+  </data>
+  <data name="raise_date" xml:space="preserve">
+    <value>ദിവസം ഉന്നയിക്കുക:</value>
+    <comment>Raise Date:</comment>
+  </data>
+  <data name="services_id" xml:space="preserve">
+    <value>സേവന ഐഡി:\u0020</value>
+    <comment>Service Id:\u0020</comment>
+  </data>
+  <data name="services_type" xml:space="preserve">
+    <value>സേവന തരം:\u0020</value>
+    <comment>Service Type:\u0020</comment>
+  </data>
+  <data name="resolution_date" xml:space="preserve">
+    <value>റെസൊല്യൂഷൻ ദിവസം:\u0020</value>
+    <comment>Resolution Date:\u0020</comment>
+  </data>
+  <data name="estimated_resolution_time" xml:space="preserve">
+    <value>കണക്കാക്കിയ റെസൊല്യൂഷൻ സമയം:\u0020</value>
+    <comment>Estimated Resolution Time:\u0020</comment>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>വിഭാഗം:\u0020</value>
+    <comment>Category:\u0020</comment>
+  </data>
+  <data name="category_id" xml:space="preserve">
+    <value>വിഭാഗം ഐഡി:\u0020</value>
+    <comment>Category ID:\u0020</comment>
+  </data>
+  <data name="help_title" xml:space="preserve">
+    <value>ശീർഷകം:\u0020</value>
+    <comment>Title:\u0020</comment>
+  </data>
+  <data name="jio_center_id" xml:space="preserve">
+    <value>ജിയോ സെന്റർ ഐഡി</value>
+    <comment>JIO Center ID</comment>
+  </data>
+  <data name="number_of_floors" xml:space="preserve">
+    <value>നിലകളുടെ എണ്ണം</value>
+    <comment>Number of Floors</comment>
+  </data>
+  <data name="house_flat_number_name" xml:space="preserve">
+    <value>വീട്/ഫ്ലാറ്റ് നമ്പർ/പേര്</value>
+    <comment>House/Flat Number/Name</comment>
+  </data>
+  <data name="last_name" xml:space="preserve">
+    <value>പേരിന്റെ അവസാനഭാഗം</value>
+    <comment>Last Name</comment>
+  </data>
+  <data name="middle_name" xml:space="preserve">
+    <value>പേരിന്റെ മധ്യഭാഗം</value>
+    <comment>Middle Name</comment>
+  </data>
+  <data name="first_name" xml:space="preserve">
+    <value>പേരിന്റെ ആദ്യഭാഗം</value>
+    <comment>First Name</comment>
+  </data>
+  <data name="addon_service_id" xml:space="preserve">
+    <value>സേവന ഐഡി:</value>
+    <comment>Service ID:</comment>
+  </data>
+  <data name="str_feature_name_addon" xml:space="preserve">
+    <value>സവിശേഷതയുടെ പേര്</value>
+    <comment>Feature Name</comment>
+  </data>
+  <data name="create_fliter" xml:space="preserve">
+    <value>ഫിൽട്ടർ സൃഷ്ടിക്കുക</value>
+    <comment>Create Filter</comment>
+  </data>
+  <data name="from_date" xml:space="preserve">
+    <value>അയച്ച ദിവസം</value>
+    <comment>From date</comment>
+  </data>
+  <data name="to_date" xml:space="preserve">
+    <value>കിട്ടിയ ദിവസം</value>
+    <comment>To Date</comment>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>മുതൽ </value>
+    <comment>From</comment>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>സ്വീകർത്താവ് </value>
+    <comment>To</comment>
+  </data>
+  <data name="check" xml:space="preserve">
+    <value>പരിശോധിക്കുക </value>
+    <comment>Check</comment>
+  </data>
+  <data name="technical_details" xml:space="preserve">
+    <value>സാങ്കേതിക വിശദാംശങ്ങൾ </value>
+    <comment> Technical Details</comment>
+  </data>
+  <data name="product_" xml:space="preserve">
+    <value>ഉൽപ്പന്നം </value>
+    <comment>Product:</comment>
+  </data>
+  <data name="plan_" xml:space="preserve">
+    <value>പ്ലാൻ :</value>
+    <comment>Plan:</comment>
+  </data>
+  <data name="grand_total" xml:space="preserve">
+    <value>ആകെ തുക </value>
+    <comment>Grand Total</comment>
+  </data>
+  <data name="checking_avail" xml:space="preserve">
+    <value>ലഭ്യത പരിശോധിക്കുന്നു </value>
+    <comment>Checking Availability..</comment>
+  </data>
+  <data name="fetching_summary" xml:space="preserve">
+    <value>സംഗ്രഹം ലഭ്യമാക്കുന്നു. ..</value>
+    <comment>Fetching Summary..</comment>
+  </data>
+  <data name="product_sync" xml:space="preserve">
+    <value>Product Syncing..</value>
+    <comment>Product Syncing..</comment>
+  </data>
+  <data name="desc_mifi" xml:space="preserve">
+    <value>വിവരണം : \n
+ജിയോ മൈഫൈ എന്നത് 5/10 വൈ-ഫൈ ഗാഡ്ജെറ്റുകൾ ഒരേ സമയം കണക്റ്റുചെയ്യാൻ ശേഷിയുള്ള പോക്കറ്റ് വലിപ്പത്തിലാക്കിയ നിങ്ങളുടെ സ്വന്തം വ്യക്തിഗത, മൊബൈൽ വൈ-ഫൈ ഹോട്ട്‌സ്പോട്ട് റൂട്ടർ ആണ്. പാസ്‌വേഡ് സംരക്ഷിത കണക്ഷൻ എന്ന സവിശേഷതയുള്ളതിനാൽ ഏറ്റവുമടുത്ത സുഹൃത്തുക്കളും കുടുംബാംഗങ്ങളുമായി സുരക്ഷിതമായ അതിവേഗ കണക്ഷൻ മനഃസമാധാനത്തോടെ പങ്കിടുന്നതിന് നിങ്ങൾക്കു സാധിക്കും.
+\n
+പ്രധാന സവിശേഷതകൾ : \n
+
+1 . വിവിധ തരം ഉപകരണങ്ങൾക്കും ഉപയോക്താക്കൾക്കുമിടയിലുള്ള അതിവേഗത \n
+2 . ഉയർന്ന നിലവാരവും വൈവിധ്യവുമുള്ള ഉള്ളടക്കങ്ങളിലേയ്ക്കുള്ള ആക്സസ് \n
+3 . ഉപകരണത്തിന്റെ രൂപകൽപ്പന \n
+4 . സൗകര്യപ്രദമായ ഓൺബോർഡിംഗും സജ്ജീകരണവും \n
+5 . ഒരേയൊരു ജിയോ ഐഡി ഉപയോഗിച്ചുകൊണ്ട് എളുപ്പത്തിൽ ചാനലുകൾക്കിടയിൽ അക്കൗണ്ട് നിയന്ത്രണം ചെയ്യാൻ കഴിയുന്നു - മൊബൈൽ ആപ്ലിക്കേഷനിലും വെബ്ബിലും</value>
+    <comment>Description : \n
+Jio MiFi is your very own pocket sized personal, mobile Wi-Fi hotspot router with the power to connect up to 5/ 10 Wi-Fi gadgets at the same time. With the feature of password protected connection it gives you the choice to share your secured high speed connection with close friends and family with peace of mind.
+\n
+Key Features : \n
+
+1 . Super-fast Speed across Multiple devices and users \n
+2 . Access to high quality and diverse Content \n
+3 . Device Design \n
+4 . Convenient on-boarding and set-up \n
+5 . Easy account management using a single Jio Id across channels- Mobile App and Web</comment>
+  </data>
+  <data name="desc_wifi" xml:space="preserve">
+    <value>വിവരണം : \n
+ഊർജ്ജസ്വലമായി പ്രവർത്തിക്കുന്ന അതിവേഗ ഇന്റർനെറ്റ് ആസ്വദിക്കുക. നിങ്ങളുടെ സിറ്റിയിൽ ജിയോ ഹോട്ട്‌സ്പോട്ട് എന്നതിൽ പൊതു ലൊക്കേഷനുകൾക്കിടയിലുള്ള ജിയോ വൈഫൈയുമായി കണക്റ്റ് ചെയ്യുക. ജിയോ സേവനങ്ങളുടെ അനുപമമായ എക്കോസിസ്റ്റത്തോടുകൂടിയ അത്യധിക വേഗത അനുഭവിച്ചറിയുക.
+\n
+പ്രധാന സവിശേഷതകൾ : \n
+
+1 . എവിടെയും ജിയോനെറ്റ് ആക്സസ്  \n
+2 . വൈഫൈ പ്രവർത്തനക്ഷമമായ നിങ്ങളുടെ ഉപകരണങ്ങളിൽ അതിവേഗ ഇന്റർനെറ്റ് ആക്സസ് \n
+3 . ജിയോ വൈഫൈയിൽ രജിസ്ട്രേഷൻ \n
+4 . ഉത്തമമായ വെബ്ബ് അനുഭവം</value>
+    <comment>Description : \n
+Enjoy high speed internet on the go. Connect to Jio WiFi across public locations at Jio Hotspots in your city. Experience Ultra High Speed with an unmatched ecosystem of Jio services.
+\n
+Key Features : \n
+
+1 . Access Jionet Anywhere  \n
+2 . High-speed internet access on your WiFi enabled devices \n
+3 . Registration on Jio WiFi \n
+4 . Superior web experience</comment>
+  </data>
+  <data name="desc_lte" xml:space="preserve">
+    <value>വിവരണം : വിവരണം: ഉടൻ വരുന്നു…</value>
+    <comment>Description : Coming soon…</comment>
+  </data>
+  <data name="desc_volte" xml:space="preserve">
+    <value>വിവരണം : \n
+അപശബ്ദമുള്ള വോയ്സ് കോളുകൾ, താഴ്ന്ന സിഗ്നലുകൾ, കുറഞ്ഞ സ്പീഡ് എന്നിവ ഇപ്പോൾ ചരിത്രമാകുന്നു. 4ജി എൽടിഇ എന്നതിന് ഒരു ഹലോ പറയുക. ആശയവിനിമയ സാധ്യതകളുടെ ഒരു ബാഹുല്യം നിങ്ങളുടെ വിരൽതുമ്പിൽ നൽകിക്കൊണ്ട് കൂടുതൽ സാമർത്ഥ്യത്തോടെ ജോലിചെയ്യുന്നതിനും തീക്ഷ്ണമായി വിനോദത്തിലേർപ്പെടുന്നതിനും നിങ്ങളെ സഹായിക്കുന്ന ഒരു സാങ്കേതിക വിദ്യ. പരമ്പരാഗത വോയ്സ് കോളുകളുടെ ലാളിത്യത്തോടെ, എന്നാൽ സ്വാഭാവികതയുണർത്തുന്ന ഹൈ-ഡെഫിനിഷൻ (എച്ച്‌ഡി) വോയ്സ്, വീഡിയോ കോളുകളുടെ അനുഭവം ആസ്വദിക്കാൻ നിങ്ങൾക്കു കഴിയും.
+4ജി VoLTE ഫോൺ വഴി അടുത്ത തലമുറയ്ക്കായുള്ള നെറ്റ്‌വർക്ക് അനുഭവിക്കാനും മെച്ചപ്പെട്ട ജീവിതം നയിക്കാനും നിങ്ങൾ ശക്തരാകുന്നു. ജിയോ പ്രവർത്തനക്ഷമമാക്കിയ ഹൈ-എൻഡ് സേവനങ്ങളാൽ പൊതിയപ്പെട്ട്, ജീവിതത്തെ പുനർവിഭാവനം ചെയ്യുന്നതിനും ആശയവിനിമയ സ്വപ്നങ്ങൾ യാഥാർത്ഥ്യവൽക്കരിക്കുന്നതിനും നിങ്ങൾക്കു കഴിയും.VoLTE അടിസ്ഥാന ഓഫറിൽ പരിധിയില്ലാത്ത ജിയോ ടു ജിയോ വോയ്സ്, വീഡിയോ കോളുകൾ നേടുക. ഈ ഓഫറിന്റെ ഭാഗമായി ജിയോ പ്ലേ എന്നതിൽ 50 സ്പോർട്സ് ചാനലുകളിലേയ്ക്കുള്ള സൗജന്യ ആക്സസും നിങ്ങൾക്കു ലഭിക്കും. ആരംഭിക്കുക. ഒരു പുതിയ ജീവിത പന്ഥാവിലേയ്ക്ക് അപ്ഗ്രേഡു
+ \n
+
+പ്രധാന സവിശേഷതകൾ: \n
+
+1 . എച്ച്‌ഡി വോയ്സ്, വീഡിയോ കോളുകളിൽ ഉത്തമ കോളിംഗ് അനുഭവം \n
+2 . വേഗത്തിലുള്ള കോൾ കണക്ഷൻ സമയം \n
+3 . വോയ്സ്, വീഡിയോ കോളുകൾക്കിടയിലുള്ള സ്വിച്ചിംഗ് \n
+4 . ഓഫറിന്റെ ഭാഗമായി 50 ജിയോ സ്പോർട്സ് ചാനലുകളിലേയ്ക്കുള്ള സൗജന്യ ആക്സസ് \n
+5 . റിയൽ ടൈം ബാലൻസും അക്കൗണ്ട് വിവരങ്ങളും \n
+6 . മെച്ചപ്പെട്ട ആശയവിനിമയം \n
+7 .  ഒരൊറ്റ ജിയോ ഐഡി ചാനലുകൾക്കിടയിൽ ഉപയോഗിച്ചുകൊണ്ട് എളുപ്പത്തിൽ ചെയ്യാവുന്ന അക്കൗണ്ട് നിയന്ത്രണം- മൊബൈൽ ആപ്ലിക്കേഷനിലും വെബ്ബിലും \n
+8 . സൗകര്യപ്രദമായ ഓൺബോർഡിംഗും സജ്ജീകരണങ്ങളും </value>
+    <comment>Description : \n
+Crackling voice calls, low signals, slow speeds are now history. Say hello to 4G LTE. A technology that helps you work smarter and play harder, bringing a plethora of communication possibilities at your fingertips. You will be able to enjoy natural-sounding High-Definition (HD) Voice and a Video Calling experience thats as simple as making a traditional voice call.
+
+With your 4G VoLTE phone, you are now powered to experience a next-gen network and live better. Packed with high-end services and apps enabled by Jio, you will now be able to reimagine life and make every connectivity dream come true. Get unlimited Jio to Jio Voice and Video calling with VoLTE Base Offer. Also, you get free access to 50 sports channel on Jio Play as part of this offer.
+
+Get started. Upgrade to a new way of life! \n
+
+Key Features: \n
+
+1 . Superior calling experience with HD Voice and Video calls \n
+2 . Faster call connection time \n
+3 . Switching between Voice and Video calls \n
+4 . Free acces to 50 Jio Play Sports channels as part of the offer \n
+5 . Real time balance and account information \n
+6 . Enhanced communication \n
+7 . Easy account management using a single Jio Id across channels- Mobile App and Web \n
+8 . Convenient on-boarding and set-up </comment>
+  </data>
+  <data name="desc_ftth" xml:space="preserve">
+    <value> വിവരണം : \n
+ജിയോ ഫൈബർ അതിവേഗ ബ്രോഡ്ബാൻഡ്-ഫൈബർ വഴി നിങ്ങളുടെ വീടുകളിലേക്കെത്തുന്ന അതിവേഗ ഇന്റർനെറ്റ്.
+\n
+പ്രധാന സവിശേഷതകൾ : \n
+
+1 . 100 എംബിപിഎസ് വരെയുള്ള ഡൗൺലോഡ് വേഗത \n
+2 . ഫ്യൂച്ചർ റെഡി - ഇത് അതിവേഗ, ലേറ്റൻസി സെൻസിറ്റീവ് ആപ്ലിക്കേഷനുകളെ പിന്തുണയ്ക്കുന്നു \n
+3 . ഒരു ഫൈബർ ബ്രോഡ്ബാൻഡ് കണക്ഷൻ കൊണ്ട് ശക്തിപ്പെടുത്തിയ അതിവേഗ പ്രകടനം</value>
+    <comment> Description : \n
+Jio Fiber Ultra Fast Broadband - High Speed Internet delivered over Fiber to your home.
+\n
+Key Features : \n
+
+1 . Download Speeds up to 100 Mbps \n
+2 . Future ready - Supports High speed, latency sensitive applications \n
+3 . High speed performance powered by a fiber broadband connection</comment>
+  </data>
+  <data name="str_dnd_message" xml:space="preserve">
+    <value>നിങ്ങളുടെ ജിയോ ഐഡി/കളിലേയ്ക്കും രജിസ്റ്റർ ചെയ്ത നമ്പറിലേയ്ക്കുമുള്ള പ്രൊമോഷണൽ കോളുകളും സന്ദേശങ്ങളും രജിസ്റ്റർ ചെയ്ത് 7 ദിവസങ്ങൾക്കകം നിൽക്കണം. റെക്കോർഡുകൾക്കായി തനതായ ഒരു റഫറൻസ് നമ്പർ എസ്എംഎസ് വഴി നിങ്ങൾക്കു ലഭിക്കുന്നതാണ്. നിങ്ങളുടെ മുൻഗണനകൾ രജിസ്റ്റർ ചെയ്യുകയും അടുത്ത കാലത്ത് അപ്ഡേറ്റു ചെയ്യുകയും ചെയ്തിട്ടുണ്ടെങ്കിൽ, മാറ്റങ്ങൾ നടപ്പിലാക്കുന്നതിനായി ഞങ്ങൾക്ക് 7 ദിവസം നൽകുക.</value>
+    <comment>Promotional calls and messages to your Jio ID\'s and registered number should stop within 7 days from registration. You will receive a Unique Reference Number through SMS, for your records. If you have registered and recently updated your preferences, please give us 7 days to implement the changes.</comment>
+  </data>
+  <data name="dnd_update_nmsg" xml:space="preserve">
+    <value>താഴെയുള്ള മേഖലകളിൽനിന്ന് പ്രത്യേക സന്ദേശങ്ങളും അലേർട്ടുകളും ലഭിക്കാൻ ആഗ്രഹമുണ്ടോ?</value>
+    <comment>Do you wish to receive special messages and alerts from the following sectors?</comment>
+  </data>
+  <data name="str_service_feature_not_available" xml:space="preserve">
+    <value>സവിശേഷത ലഭ്യമല്ല</value>
+    <comment>Feature not available.</comment>
+  </data>
+  <data name="upload" xml:space="preserve">
+    <value>അപ്‌ലോഡുചെയ്യുക </value>
+    <comment>Upload</comment>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>ഡൗൺലോഡ് ചെയ്യുക </value>
+    <comment>Download</comment>
+  </data>
+  <data name="your_app_will_restart" xml:space="preserve">
+    <value>നിങ്ങൾക്ക് ഭാഷ മാറ്റണമെങ്കിൽ. \n നിങ്ങളുടെ ആപ്ലിക്കേഷൻ പുനരാരംഭിക്കും </value>
+    <comment>If you want to change the language. \nYour application will restart.</comment>
+  </data>
+  <data name="apply_filters" xml:space="preserve">
+    <value>ഫിൽട്ടറുകൾ പ്രയോഗിക്കുക </value>
+    <comment>Apply Filters</comment>
+  </data>
+  <data name="no_local_reference_found" xml:space="preserve">
+    <value>ലോക്കൽ റഫറൻസ് നമ്പർ കണ്ടെത്തിയില്ല </value>
+    <comment>No local reference details found.</comment>
+  </data>
+  <data name="order_updation_failed_" xml:space="preserve">
+    <value>ഓർഡർ അപ്ഡേറ്റു ചെയ്യൽ പരാജയപ്പെട്ടു </value>
+    <comment>Order updation failed.</comment>
+  </data>
+  <data name="order_updated_successfully_" xml:space="preserve">
+    <value>ഓർഡർ വിജയകരമായി അപ്ഡേറ്റു ചെയ്തു </value>
+    <comment>Order updated successfully.</comment>
+  </data>
+  <data name="updating_customer_order" xml:space="preserve">
+    <value>ഉപഭോക്തൃ ഓഡർ അപ്ഡേറ്റുചെയ്യുന്നു </value>
+    <comment>Updating customer order</comment>
+  </data>
+  <data name="no_billing_add_found" xml:space="preserve">
+    <value>ബില്ലിംഗ് വിലാസം കണ്ടെത്തിയില്ല </value>
+    <comment>No billing address found.</comment>
+  </data>
+  <data name="loading_order_details" xml:space="preserve">
+    <value>ഓർഡർ വിശദാംശങ്ങൾ ലോഡുചെയ്യുന്നു </value>
+    <comment>Loading order details</comment>
+  </data>
+  <data name="couldn_t_fetch_order_details" xml:space="preserve">
+    <value>ഓർഡർ വിശദാംശങ്ങൾ ലഭ്യമാക്കാൻ കഴിയുന്നില്ല. </value>
+    <comment>Couldn\'t fetch order details.</comment>
+  </data>
+  <data name="service_features_not_available" xml:space="preserve">
+    <value>സേവന ഫീച്ചറുകൾ ലഭ്യമല്ല </value>
+    <comment>Service features not available.</comment>
+  </data>
+  <data name="flexi_topup" xml:space="preserve">
+    <value>ഫ്ലെക്സി ടോപ് അപ്പ് </value>
+    <comment>Flexi Topup</comment>
+  </data>
+  <data name="voucher" xml:space="preserve">
+    <value>വൗച്ചർ </value>
+    <comment>Voucher</comment>
+  </data>
+  <data name="enter_voucher_code" xml:space="preserve">
+    <value>വൗച്ചർ കോഡ് നൽകുക </value>
+    <comment>Enter voucher code</comment>
+  </data>
+  <data name="service_id_" xml:space="preserve">
+    <value>സേവന ഐഡി </value>
+    <comment>"Service ID : "</comment>
+  </data>
+  <data name="a_c_no_" xml:space="preserve">
+    <value>A/c നം. </value>
+    <comment>A/C No</comment>
+  </data>
+  <data name="loading_turbo_boost_plans" xml:space="preserve">
+    <value>ടർബോ ബൂസ്റ്റ് പ്ലാനുകൾ ലോഡുചെയ്യുന്നു </value>
+    <comment>Loading turbo boost plans</comment>
+  </data>
+  <data name="service_features" xml:space="preserve">
+    <value>സേവന ഫീച്ചറുകൾ </value>
+    <comment>Service Features</comment>
+  </data>
+  <data name="a_c_id_" xml:space="preserve">
+    <value>"A/C ID : "</value>
+    <comment>"A/C ID : "</comment>
+  </data>
+  <data name="app_tour" xml:space="preserve">
+    <value>App Tour</value>
+    <comment>App Tour</comment>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>പതിപ്പ് </value>
+    <comment>Version </comment>
+  </data>
+  <data name="group_for_cug_fnf" xml:space="preserve">
+    <value>CUG &amp; FNF-നായുള്ള ഗ്രൂപ്പ് </value>
+    <comment>Group for CUG &amp; FNF</comment>
+  </data>
+  <data name="step1" xml:space="preserve">
+    <value>ഘട്ടം 1</value>
+    <comment>Step1</comment>
+  </data>
+  <data name="step2" xml:space="preserve">
+    <value>ഘട്ടം 2</value>
+    <comment>Step2</comment>
+  </data>
+  <data name="step3" xml:space="preserve">
+    <value>ഘട്ടം 3</value>
+    <comment>Step3</comment>
+  </data>
+  <data name="step4" xml:space="preserve">
+    <value>ഘട്ടം 4</value>
+    <comment>Step4</comment>
+  </data>
+  <data name="create_group_name" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് പേര് സൃഷ്ടിക്കുക </value>
+    <comment>Create Group Name</comment>
+  </data>
+  <data name="add_contacts" xml:space="preserve">
+    <value>കോൺടാക്റ്റുകൾ ചേർക്കുക </value>
+    <comment>Add Contacts</comment>
+  </data>
+  <data name="select_group_icon" xml:space="preserve">
+    <value>ഗ്രൂപ്പ് ഐക്കൺ തിരഞ്ഞെടുക്കുക </value>
+    <comment>Select Group Icon</comment>
+  </data>
+  <data name="max_allowed_members" xml:space="preserve">
+    <value>പരമാവധി അനുവദനീയ അംഗം </value>
+    <comment>Max Allowed Members</comment>
+  </data>
+  <data name="add_jio_contacts" xml:space="preserve">
+    <value>Jio കോൺടാക്റ്റുകൾ ചേർക്കുക </value>
+    <comment>Add Jio Contacts</comment>
+  </data>
+  <data name="invite" xml:space="preserve">
+    <value>ക്ഷണിക്കുക </value>
+    <comment>Invite</comment>
+  </data>
+  <data name="plan_name" xml:space="preserve">
+    <value>പ്ലാനിന്റെ പേര് </value>
+    <comment>Name of the plan</comment>
+  </data>
+  <data name="group_" xml:space="preserve">
+    <value>ഗ്രൂപ്പ്  -</value>
+    <comment>Group - </comment>
+  </data>
+  <data name="members" xml:space="preserve">
+    <value>അംഗങ്ങൾ  -</value>
+    <comment>Members - </comment>
+  </data>
+  <data name="not_support_crop_action" xml:space="preserve">
+    <value>നിങ്ങളുടെ ഉപകരണം  ക്രോപ്പ് ആക്ഷൻ പിന്തുണക്കുന്നില്ല </value>
+    <comment>Your device does not support the crop action</comment>
+  </data>
+  <data name="take_photo" xml:space="preserve">
+    <value>ഫോട്ടോ എടുക്കുക </value>
+    <comment>Take Photo</comment>
+  </data>
+  <data name="select_from_gallery" xml:space="preserve">
+    <value>ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക </value>
+    <comment>Select from Gallery</comment>
+  </data>
+  <data name="remove_member" xml:space="preserve">
+    <value>അംഗത്തെ നീക്കം ചെയ്യുക </value>
+    <comment>Remove Member</comment>
+  </data>
+  <data name="remove_picture" xml:space="preserve">
+    <value>ചിത്രം നീക്കം ചെയ്യുക </value>
+    <comment>Remove Picture</comment>
+  </data>
+  <data name="change_picture" xml:space="preserve">
+    <value>ചിത്രം മാറ്റുക </value>
+    <comment>Change Picture</comment>
+  </data>
+  <data name="resend" xml:space="preserve">
+    <value>വീണ്ടും അയയ്ക്കുക </value>
+    <comment>Resend</comment>
+  </data>
+  <data name="product_not_available" xml:space="preserve">
+    <value>നിങ്ങളുടെ ലൊക്കേഷനിൽ ഉൽപ്പന്നം ലഭ്യമല്ല </value>
+    <comment>Product is not available in your location.</comment>
+  </data>
+  <data name="enter_pin_code" xml:space="preserve">
+    <value>6 അക്ക പിൻകോഡ് നൽകുക </value>
+    <comment>Please enter 6 digit pin code.</comment>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>കൂടുതൽ </value>
+    <comment>More</comment>
+  </data>
+  <data name="less" xml:space="preserve">
+    <value>കുറവ് </value>
+    <comment>Less</comment>
+  </data>
+  <data name="tab_units" xml:space="preserve">
+    <value>SMS</value>
+    <comment>SMS</comment>
+  </data>
+  <data name="usage_service_id" xml:space="preserve">
+    <value>സേവന ഐഡി :</value>
+    <comment>Service Id: </comment>
+  </data>
+  <data name="start_date" xml:space="preserve">
+    <value>ആരംഭിക്കുക </value>
+    <comment>From </comment>
+  </data>
+  <data name="end_date" xml:space="preserve">
+    <value>അവസാനം :</value>
+    <comment>To </comment>
+  </data>
+  <data name="left" xml:space="preserve">
+    <value>ഇടത്ത് </value>
+    <comment> left </comment>
+  </data>
+  <data name="available" xml:space="preserve">
+    <value>ലഭ്യമായത് </value>
+    <comment>Available</comment>
+  </data>
+  <data name="used" xml:space="preserve">
+    <value>ഉപയോഗിച്ചു </value>
+    <comment> Used</comment>
+  </data>
+  <data name="you_have_selected" xml:space="preserve">
+    <value>You have selected plan:\u0020</value>
+    <comment>You have selected plan:\u0020</comment>
+  </data>
+  <data name="proceed" xml:space="preserve">
+    <value>Proceed</value>
+    <comment>Proceed</comment>
+  </data>
+  <data name="tab_personal" xml:space="preserve">
+    <value>വ്യക്തിഗതം </value>
+    <comment>Personal </comment>
+  </data>
+  <data name="tab_address" xml:space="preserve">
+    <value>വിലാസം </value>
+    <comment>Address </comment>
+  </data>
+  <data name="loading_customer_info" xml:space="preserve">
+    <value>ഉപഭോക്തൃ വിവരം ലോഡുചെയ്യുന്നു </value>
+    <comment>Loading customer information.</comment>
+  </data>
+  <data name="mobile_number" xml:space="preserve">
+    <value>മൊബൈൽ നമ്പർ  </value>
+    <comment>Mobile Number</comment>
+  </data>
+  <data name="marital_status" xml:space="preserve">
+    <value>വൈവാഹിക നില </value>
+    <comment>Marital Status</comment>
+  </data>
+  <data name="passport_number" xml:space="preserve">
+    <value>പാസ്‌പോർട്ട് നമ്പർ </value>
+    <comment>Passport Number</comment>
+  </data>
+  <data name="visa_number" xml:space="preserve">
+    <value>Visa നമ്പർ </value>
+    <comment>Visa Number</comment>
+  </data>
+  <data name="visa_validity_date" xml:space="preserve">
+    <value>Visa കാലാവധി തീയതി </value>
+    <comment>Visa Validity Date</comment>
+  </data>
+  <data name="occupation" xml:space="preserve">
+    <value>ജോലി </value>
+    <comment>Occupation</comment>
+  </data>
+  <data name="street_name" xml:space="preserve">
+    <value>സ്ട്രീറ്റിന്റെ പേര് </value>
+    <comment>Street Name</comment>
+  </data>
+  <data name="type_of_house" xml:space="preserve">
+    <value>ഹൗസ് തരം </value>
+    <comment>Type Of House</comment>
+  </data>
+  <data name="home_phone" xml:space="preserve">
+    <value>വീട്ടിലെ ഫോൺ </value>
+    <comment>Home Phone</comment>
+  </data>
+  <data name="work_phone" xml:space="preserve">
+    <value>ഔദ്യോഗിക ഫോൺ </value>
+    <comment>Work Phone</comment>
+  </data>
+  <data name="occupation_type" xml:space="preserve">
+    <value>ജോലി തരം </value>
+    <comment>Occupation Type</comment>
+  </data>
+  <data name="update_profile_info" xml:space="preserve">
+    <value>ഉപഭോക്തൃ വിവരം അപ്ഡേറ്റുചെയ്യുന്നു </value>
+    <comment>Updating customer information</comment>
+  </data>
+  <data name="enter_valid_otp" xml:space="preserve">
+    <value>സാധുവായ OTP നൽകുക .</value>
+    <comment>Please enter Valid OTP.</comment>
+  </data>
+  <data name="confirm_otp" xml:space="preserve">
+    <value>OTP സ്ഥിരീകരിക്കുക </value>
+    <comment>Confirm OTP</comment>
+  </data>
+  <data name="verify_otp" xml:space="preserve">
+    <value>OTP പരിശോധിച്ചുറപ്പിക്കുന്നു </value>
+    <comment>Verifying OTP</comment>
+  </data>
+  <data name="cant_generate_otp_try_again" xml:space="preserve">
+    <value>OTP സൃഷ്ടിക്കാൻ കഴിയുന്നില്ല, വീണ്ടും ശ്രമിക്കുക. </value>
+    <comment>Can not generate OTP , Please try again.</comment>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>അപ്ഡേറ്റുചെയ്യുക </value>
+    <comment>Update</comment>
+  </data>
+  <data name="updatng" xml:space="preserve">
+    <value>അപ്ഡേറ്റുചെയ്യുന്നു </value>
+    <comment> updating..</comment>
+  </data>
+  <data name="update_new_details" xml:space="preserve">
+    <value>നിങ്ങൾക്ക് പുതിയ വിശദാംശങ്ങൾ അപ്ഡേറ്റ് ചെയ്യണോ? </value>
+    <comment>Do you want to update new details ?</comment>
+  </data>
+  <data name="retry" xml:space="preserve">
+    <value>വീണ്ടും ശ്രമിക്കുക </value>
+    <comment>Retry</comment>
+  </data>
+  <data name="otp_is_matched" xml:space="preserve">
+    <value>OTP പൊരുത്തപ്പെട്ടു </value>
+    <comment>OTP is matched.</comment>
+  </data>
+  <data name="loading_districts" xml:space="preserve">
+    <value>ജില്ലകൾ ലോഡുചെയ്യുന്നു </value>
+    <comment>Loading Districts</comment>
+  </data>
+  <data name="outstanding_amount" xml:space="preserve">
+    <value>ബാക്കിയുള്ള തുക  :</value>
+    <comment>Outstanding Amount</comment>
+  </data>
+  <data name="bill_number" xml:space="preserve">
+    <value>ബിൽ നമ്പർ  :</value>
+    <comment>Bill Number</comment>
+  </data>
+  <data name="due_date" xml:space="preserve">
+    <value>ബിൽ കാലയളവ്  :</value>
+    <comment>Bill Cycle</comment>
+  </data>
+  <data name="bill_date" xml:space="preserve">
+    <value>ബിൽ തീയതി   :</value>
+    <comment>Bill Date</comment>
+  </data>
+  <data name="billing_period" xml:space="preserve">
+    <value>ബില്ലിംഗ് കാലയളവ്  :</value>
+    <comment>Billing Period</comment>
+  </data>
+  <data name="your_account_statement" xml:space="preserve">
+    <value>നിങ്ങളൂടെ അക്കൗണ്ട് പ്രസ്താവന </value>
+    <comment>Your Account Statement</comment>
+  </data>
+  <data name="previous_amount" xml:space="preserve">
+    <value>മുമ്പത്തെ തുക </value>
+    <comment>Previous Amount</comment>
+  </data>
+  <data name="previous_payment" xml:space="preserve">
+    <value>മുമ്പത്തെ പേയ്മെന്റ്് </value>
+    <comment>Previous Payment</comment>
+  </data>
+  <data name="adjustments" xml:space="preserve">
+    <value>ക്രമീകരണങ്ങൾ </value>
+    <comment>Adjustments</comment>
+  </data>
+  <data name="current_charges" xml:space="preserve">
+    <value>നിലവിലുള്ള നിരക്കുകൾ </value>
+    <comment>Current Charges</comment>
+  </data>
+  <data name="amount_payable_by" xml:space="preserve">
+    <value>ഇതുവരെ അടക്കേണ്ട തുക </value>
+    <comment>Amount Payable By</comment>
+  </data>
+  <data name="amount_payable_after" xml:space="preserve">
+    <value>ഇതിനുശേഷം അടക്കേണ്ട തുക </value>
+    <comment>Amount Payable After</comment>
+  </data>
+  <data name="this_month_charge" xml:space="preserve">
+    <value>മൊത്തം നിരക്കുകൾ </value>
+    <comment>Total Charges</comment>
+  </data>
+  <data name="monthly_charges" xml:space="preserve">
+    <value>പ്രതിമാസ നിരക്കുകൾ </value>
+    <comment>Monthly Charges</comment>
+  </data>
+  <data name="usage_charges" xml:space="preserve">
+    <value>ഉപയോഗ നിരക്കുകൾ </value>
+    <comment>Usage Charges</comment>
+  </data>
+  <data name="other_credit_and_charges" xml:space="preserve">
+    <value>മറ്റ് ക്രെഡിറ്റും നിരക്കുകളും </value>
+    <comment>Other Credit And Charges</comment>
+  </data>
+  <data name="discounts" xml:space="preserve">
+    <value>ഡിസ്ക്കൗണ്ടുകൾ </value>
+    <comment>Discounts</comment>
+  </data>
+  <data name="taxes" xml:space="preserve">
+    <value>നികുതികൾ </value>
+    <comment>Taxes</comment>
+  </data>
+  <data name="this_month_charges" xml:space="preserve">
+    <value>മൊത്തം നിരക്കുകൾ  :</value>
+    <comment>Total Charges </comment>
+  </data>
+  <data name="pay_now" xml:space="preserve">
+    <value>ഇപ്പോൾ പണമടയ്ക്കുക </value>
+    <comment>Pay Now</comment>
+  </data>
+  <data name="loading_bill_summary" xml:space="preserve">
+    <value>ബിൽ സംഗ്രഹം ലോഡുചെയ്യുന്നു </value>
+    <comment>Loading bill summary</comment>
+  </data>
+  <data name="processing_payment" xml:space="preserve">
+    <value>പേയ്മെന്റ് പ്രോസസ് ചെയ്യുന്നു </value>
+    <comment>Processing payment</comment>
+  </data>
+  <data name="get_bill" xml:space="preserve">
+    <value>ബിൽ നേടുക </value>
+    <comment>GET BILL</comment>
+  </data>
+  <data name="send_us_your_enquiry" xml:space="preserve">
+    <value>നിങ്ങളുടെ ചോദ്യം ഞങ്ങൾക്ക് അയക്കുക ഞങ്ങൾ മറുപടി നൽകുന്നതാണ് </value>
+    <comment>Send us your enquiry and we will reply</comment>
+  </data>
+  <data name="on_your_email" xml:space="preserve">
+    <value>നിങ്ങളുടെ ഇമെയിൽ ഐഡിയിൽ </value>
+    <comment>on your email Id</comment>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>വിഷയം </value>
+    <comment>Subject</comment>
+  </data>
+  <data name="your_message" xml:space="preserve">
+    <value>നിങ്ങളുടെ സന്ദേശം </value>
+    <comment>Your Message</comment>
+  </data>
+  <data name="sending_email" xml:space="preserve">
+    <value>ഇമെയിൽ അയയ്ക്കുന്നു </value>
+    <comment>Sending email</comment>
+  </data>
+  <data name="send_successfully" xml:space="preserve">
+    <value>അയച്ചു </value>
+    <comment>Sent successfully</comment>
+  </data>
+  <data name="enter_msg" xml:space="preserve">
+    <value>സന്ദേശം നൽകുക </value>
+    <comment>Please enter message</comment>
+  </data>
+  <data name="enter_subject" xml:space="preserve">
+    <value>വിഷയം നൽകുക </value>
+    <comment>Please enter subject</comment>
+  </data>
+  <data name="select_category" xml:space="preserve">
+    <value>വിഭാഗം തിരഞ്ഞെടുക്കുക </value>
+    <comment>Please select category</comment>
+  </data>
+  <data name="enter_email_id" xml:space="preserve">
+    <value>സാധുവായ ഇമെയിൽ ഐഡി നൽകുക </value>
+    <comment>Please enter valid Email Id</comment>
+  </data>
+  <data name="help_description_hint" xml:space="preserve">
+    <value>ആരോഗ്യം സഹായം വിവരണം നൽകുക (പരമാവധി 100 പ്രതീകം) </value>
+    <comment>Enter description (max 100 characters)</comment>
+  </data>
+  <data name="max_100_char" xml:space="preserve">
+    <value>max 100 characters</value>
+    <comment>max 100 characters</comment>
+  </data>
+  <data name="account_id_" xml:space="preserve">
+    <value>അക്കൗണ്ട് ID </value>
+    <comment>"Account Id "</comment>
+  </data>
+  <data name="category_" xml:space="preserve">
+    <value>വിഭാഗം </value>
+    <comment>Category</comment>
+  </data>
+  <data name="sub_category_" xml:space="preserve">
+    <value>ഉപ വിഭാഗം </value>
+    <comment> Sub Category</comment>
+  </data>
+  <data name="sub_sub_category_" xml:space="preserve">
+    <value>ഉപ ഉപ വിഭാഗം </value>
+    <comment> Sub Sub Category</comment>
+  </data>
+  <data name="ticket_id" xml:space="preserve">
+    <value>ടിക്കറ്റ് ഐഡി :\u0020</value>
+    <comment>Ticket ID:\u0020</comment>
+  </data>
+  <data name="information_can_t_be_updated_at_the_moment" xml:space="preserve">
+    <value>ഇപ്പോൾ വിവരങ്ങൾ അപ്ഡേറ്റ് ചെയ്യാൻ കഴിയില്ല </value>
+    <comment>Information can\'t be updated at the moment.</comment>
+  </data>
+  <data name="creation_date" xml:space="preserve">
+    <value>സൃഷ്ടിച്ച തീയതി </value>
+    <comment>Creation Date:</comment>
+  </data>
+  <data name="ticket_id_" xml:space="preserve">
+    <value>ടിക്കറ്റ് ഐഡി :</value>
+    <comment>Ticket ID:</comment>
+  </data>
+  <data name="enter_problem_des" xml:space="preserve">
+    <value>Describe your problem here.</value>
+    <comment>Describe your problem here.</comment>
+  </data>
+  <data name="invoice" xml:space="preserve">
+    <value>ഇൻവോയ്‌സ് </value>
+    <comment>Invoice</comment>
+  </data>
+  <data name="online_payment_receipt" xml:space="preserve">
+    <value>ഓൺലൈൻ പേയ്മെന്റ് രസീത് </value>
+    <comment>Online Payment Receipt</comment>
+  </data>
+  <data name="invoice_welcome_msg" xml:space="preserve">
+    <value>നന്ദി. ഈ ഇടപാടുമായി ബന്ധപ്പെട്ട ഭാവിയിലുണ്ടാകുന്ന ഏത് സംശയങ്ങളിലും ഈ രസീത് നമ്പർ ഉപയോഗിക്കുക </value>
+    <comment>Thank you.Please quote this receipt no. for any queries in future related to this transaction.</comment>
+  </data>
+  <data name="account_no_" xml:space="preserve">
+    <value>അക്കൗണ്ട് നം. </value>
+    <comment>Account No.</comment>
+  </data>
+  <data name="receipt_no_" xml:space="preserve">
+    <value>രസീത് ന്മ്പർ </value>
+    <comment>Receipt No.</comment>
+  </data>
+  <data name="transaction_type" xml:space="preserve">
+    <value>ഇടപാട് തരം </value>
+    <comment>Transaction Type</comment>
+  </data>
+  <data name="transaction_details" xml:space="preserve">
+    <value>Transaction Details</value>
+    <comment>Payment Details</comment>
+  </data>
+  <data name="transaction_ref_no" xml:space="preserve">
+    <value>ഇടപാട് റഫറൻസ് നമ്പർ </value>
+    <comment>Transaction Reference Number</comment>
+  </data>
+  <data name="amount_paid" xml:space="preserve">
+    <value>അടച്ച തുക  (\u20B9)</value>
+    <comment>Amount Paid (\u20B9)</comment>
+  </data>
+  <data name="payment_from" xml:space="preserve">
+    <value>ഇനിപ്പറയുന്നതിൽ നിന്നുള്ള പേയ്മെന്റ ് </value>
+    <comment>Payment From</comment>
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>പ്രിന്റുചെയ്യുക </value>
+    <comment>Print</comment>
+  </data>
+  <data name="term_and_conditions" xml:space="preserve">
+    <value>നിബന്ധന &amp; വ്യവസ്ഥകൾ </value>
+    <comment>Term &amp; Conditions:</comment>
+  </data>
+  <data name="thanks_receipt_msg" xml:space="preserve">
+    <value>..........my jio ഓൺലൈൻ പേയ്മെന്റ് സേവനം ഉപയോഗിച്ചതിന് നന്ദി ..........</value>
+    <comment>..........Thank for using  my jio online payment service..........</comment>
+  </data>
+  <data name="record_is_updated" xml:space="preserve">
+    <value>റെക്കോർഡ് അപ്ഡേറ്റു ചെയ്തു </value>
+    <comment>Record is updated.</comment>
+  </data>
+  <data name="total_data" xml:space="preserve">
+    <value>മൊത്തം ഡാറ്റ </value>
+    <comment>Total Data</comment>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>സംഗ്രഹം </value>
+    <comment>Summary</comment>
+  </data>
+  <data name="help_dialog_ok_button_text" xml:space="preserve">
+    <value>ശരി, മനസിലായി </value>
+    <comment>OK I got it.</comment>
+  </data>
+  <data name="drawer_open" xml:space="preserve">
+    <value>നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക </value>
+    <comment>Open navigation drawer</comment>
+  </data>
+  <data name="drawer_close" xml:space="preserve">
+    <value>നാവിഗേഷൻ ഡ്രോയർ അടയ്ക്കുക </value>
+    <comment>Close navigation drawer</comment>
+  </data>
+  <data name="usages_summary" xml:space="preserve">
+    <value>ഉപയോഗ സംഗ്രഹം </value>
+    <comment>Usage Summary</comment>
+  </data>
+  <data name="bill_statement" xml:space="preserve">
+    <value>ബിൽ പ്രസ്താവനകൾ </value>
+    <comment>Bill Statements</comment>
+  </data>
+  <data name="select_date" xml:space="preserve">
+    <value>തീയതി തിരഞ്ഞെടുക്കുക </value>
+    <comment> Select Date</comment>
+  </data>
+  <data name="msg_payment_incomplete_data" xml:space="preserve">
+    <value>പേയ്മെന്റ് തുടരുന്നതിനുള്ള വിവരം പൂർണ്ണമല്ല </value>
+    <comment>Incomplete information to proceed for payment.</comment>
+  </data>
+  <data name="update_old_details" xml:space="preserve">
+    <value>നിങ്ങൾക്ക് പഴയ വിശദാംശങ്ങൾ അപ്ഡേറ്റ് ചെയ്യണോ? </value>
+    <comment>Do you want to update old details ?</comment>
+  </data>
+  <data name="otp_is_invalid" xml:space="preserve">
+    <value>OTP അസാധുവാണ് </value>
+    <comment>OTP is Invalid.</comment>
+  </data>
+  <data name="download_pdf" xml:space="preserve">
+    <value>PDF ഡൗൺലോഡ് ചെയ്യുക </value>
+    <comment>Download PDF</comment>
+  </data>
+  <data name="transferred_value" xml:space="preserve">
+    <value>കൈമാറ്റ മൂല്യം </value>
+    <comment>Transferred Value</comment>
+  </data>
+  <data name="transferable_value" xml:space="preserve">
+    <value>കൈമാറ്റ മൂല്യം </value>
+    <comment>Transferable Value</comment>
+  </data>
+  <data name="status_" xml:space="preserve">
+    <value>സ്‌റ്റാറ്റസ് </value>
+    <comment>Status</comment>
+  </data>
+  <data name="registered_services" xml:space="preserve">
+    <value>രജിസ്റ്റർ ചെയ്ത സേവനം </value>
+    <comment>Registered Service</comment>
+  </data>
+  <data name="choose_from_the_menus" xml:space="preserve">
+    <value>മെനുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക </value>
+    <comment>Choose from the menus</comment>
+  </data>
+  <data name="swipe_left_for_digital_services" xml:space="preserve">
+    <value>ഡിജിറ്റൽ സേവനങ്ങൾക്കായി ഇടത്തേക്ക് സ്വൈപ്പ് ചെയ്യുക </value>
+    <comment>Swipe left for digital services</comment>
+  </data>
+  <data name="tap_to_flip_the_view" xml:space="preserve">
+    <value>കാണുന്നത് ഫ്ലിപ്പ് ചെയ്യുന്നതിന് ടാപ്പ് ചെയ്യുക </value>
+    <comment>Tap to flip the view</comment>
+  </data>
+  <data name="navigate_to_screens_from_here" xml:space="preserve">
+    <value>ഇവിടെ നിന്ന് സ്ക്രീനുകളിളേക്ക് നാവിഗേറ്റുചെയ്യുക </value>
+    <comment>Navigate to screens from here</comment>
+  </data>
+  <data name="swipe_right_for_credit_transfer" xml:space="preserve">
+    <value>ക്രെഡിറ്റ് ട്രാൻസ്ഫർ ചെയ്യുന്നതിനായി വലത്തേക്ക് സ്വൈപ്പ് ചെയ്യുക </value>
+    <comment>Swipe right for Credit Transfer</comment>
+  </data>
+  <data name="response_default_error_0" xml:space="preserve">
+    <value>Something went wrong, try again later</value>
+    <comment>Something went wrong, try again later</comment>
+  </data>
+  <data name="c_03006" xml:space="preserve">
+    <value>ഈ നമ്പർ നേരത്തെ തന്നെ മറ്റൊരാൾ ഉപയോഗിച്ചതായി കാണുന്നു </value>
+    <comment>Seems this number is already used by someone</comment>
+  </data>
+  <data name="c_00001" xml:space="preserve">
+    <value>അഭ്യർത്ഥനയിൽ നൽകിയിരിക്കുന്ന ഐഡികളിൽ ഒന്നിലെ തിരിച്ചറിഞ്ഞ ഘടകം നിലവിലില്ല അല്ലെങ്കിൽ നിലവിലുണ്ട് എന്നാൽ ആ ഘടകത്തിൽ നിലവിലെ ഉപയോക്താവിന് ഇത്തരം പ്രവൃത്തി നിർവഹിക്കാൻ അനുമതിയില്ല. </value>
+    <comment>Element identified by one of the IDs provided in the request doesn’t exist or it exists but the current user is not authorized to perform such an operation on that element.</comment>
+  </data>
+  <data name="c_01001" xml:space="preserve">
+    <value>സെഷൻ കാലഹരണപ്പെട്ടു, വീണ്ടും ലോഗിൻ ചെയ്യുക </value>
+    <comment>Session has expired, please login again</comment>
+  </data>
+  <data name="c_00000" xml:space="preserve">
+    <value>ഇൻപുട്ട് അസാധുവാണ് </value>
+    <comment>Input is not valid</comment>
+  </data>
+  <data name="c_01003" xml:space="preserve">
+    <value>നൽകിയിരിക്കുന്ന ആവശ്യങ്ങളുമായി പാസ്‌വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല </value>
+    <comment>Password does not match with given requirements</comment>
+  </data>
+  <data name="c_01002" xml:space="preserve">
+    <value>പഴയ പാസ്‌വേഡ് തെറ്റാണ് </value>
+    <comment>Old password isn\'t correct</comment>
+  </data>
+  <data name="c_02001" xml:space="preserve">
+    <value>തിരഞ്ഞെടുത്തിരിക്കുന്ന പ്രവൃത്തി ചെയ്യാൻ അക്കൗണ്ടിന് അനുമതിയില്ല </value>
+    <comment>This account is not authorized to perform the selected operation</comment>
+  </data>
+  <data name="c_00005" xml:space="preserve">
+    <value>നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സു ചെയ്യാൻ മതിയായ ഡാറ്റയില്ല </value>
+    <comment>Insufficient data to process request</comment>
+  </data>
+  <data name="update_contacts_information" xml:space="preserve">
+    <value>കോൺടാക്റ്റ് വിവരം അപ്ഡേറ്റുചെയ്യുക </value>
+    <comment>Update contacts information</comment>
+  </data>
+  <data name="enter_phone_number_or_email_id_only" xml:space="preserve">
+    <value>ഫോൺ നമ്പർ അല്ലെങ്കിൽ ഇമെയിൽ ഐഡി മാത്രം നൽകുക </value>
+    <comment>Enter phone number or email id only.</comment>
+  </data>
+  <data name="transform_receipt" xml:space="preserve">
+    <value>ട്രാൻസ്ഫോം രസീത് </value>
+    <comment>Transform Receipt</comment>
+  </data>
+  <data name="transform_from_service_id" xml:space="preserve">
+    <value>സേവന ഐഡിയിൽ നിന്നും ട്രാൻസ്ഫോം ചെയ്തു </value>
+    <comment>Transform from service ID</comment>
+  </data>
+  <data name="transform_to_service_id" xml:space="preserve">
+    <value>സേവന ഐഡിയിലേക്ക് ട്രാൻസ്ഫോം ചെയ്യുക </value>
+    <comment>Transform to service ID</comment>
+  </data>
+  <data name="transform_type" xml:space="preserve">
+    <value>ട്രാൻസ്ഫോം തരം </value>
+    <comment>Transform Type</comment>
+  </data>
+  <data name="transform_amount" xml:space="preserve">
+    <value>ട്രാൻസ്ഫോം ചെയ്ത തുക </value>
+    <comment>Transformed Amount</comment>
+  </data>
+  <data name="total_used_amount" xml:space="preserve">
+    <value>ഉപയോഗിച്ച മൊത്തം തുക </value>
+    <comment>Total Used Amount</comment>
+  </data>
+  <data name="total_conversion_amount" xml:space="preserve">
+    <value>പൂർണ്ണ പരിവർത്തന തുക </value>
+    <comment>Total Conversion Amount</comment>
+  </data>
+  <data name="ref_no" xml:space="preserve">
+    <value>റഫറൻസ് നമ്പർ </value>
+    <comment>Reference No.</comment>
+  </data>
+  <data name="transform_details" xml:space="preserve">
+    <value>ട്രാൻസ്ഫോം വിശദാംശങ്ങൾ </value>
+    <comment>Transform Details</comment>
+  </data>
+  <data name="indian" xml:space="preserve">
+    <value>ഇന്ത്യൻ </value>
+    <comment>Indian</comment>
+  </data>
+  <data name="india" xml:space="preserve">
+    <value>ഇന്ത്യ </value>
+    <comment>India</comment>
+  </data>
+  <data name="personal_details" xml:space="preserve">
+    <value>വ്യക്തിഗത വിശദാംശങ്ങൾ </value>
+    <comment>Personal Details</comment>
+  </data>
+  <data name="salutation" xml:space="preserve">
+    <value>അഭിസംബോധന </value>
+    <comment>Salutation</comment>
+  </data>
+  <data name="pan_number" xml:space="preserve">
+    <value>പാൻ നമ്പർ </value>
+    <comment>PAN Number</comment>
+  </data>
+  <data name="aadhar_number" xml:space="preserve">
+    <value>ആധാർ നമ്പർ </value>
+    <comment>Aadhaar Number</comment>
+  </data>
+  <data name="other_details" xml:space="preserve">
+    <value>മറ്റ് വിശദാംശങ്ങൾ </value>
+    <comment>Other Details</comment>
+  </data>
+  <data name="occupation_description" xml:space="preserve">
+    <value>ജോലി വിവരണം </value>
+    <comment>Occupation Description</comment>
+  </data>
+  <data name="communication_channel" xml:space="preserve">
+    <value>ആശയ വിനിമയ ചാനൽ </value>
+    <comment>Communication Channel</comment>
+  </data>
+  <data name="contact_details" xml:space="preserve">
+    <value>കോൺടാക്‌റ്റ് വിശദാംശങ്ങൾ </value>
+    <comment>Contact Details</comment>
+  </data>
+  <data name="address_" xml:space="preserve">
+    <value>വിലാസം *</value>
+    <comment>Address*</comment>
+  </data>
+  <data name="vibrate_device_when_a_new_message_arrives_while_application_is_running_" xml:space="preserve">
+    <value>ആപ്ലിക്കേഷൻ പ്രവർത്തിച്ചിച്ച് കൊണ്ടിരിക്കുമ്പോൾ പുതിയ സന്ദേശം വരികയാണെങ്കിൽ ഉപകരണം വൈബ്രേറ്റ് ചെയ്യുക </value>
+    <comment>Vibrate device when a new message arrives while application is running.</comment>
+  </data>
+  <data name="notification_tone" xml:space="preserve">
+    <value>അറിയിപ്പ് ടോൺ </value>
+    <comment>Notification tone</comment>
+  </data>
+  <data name="select_a_sound_to_play_for_a_new_notification_message_" xml:space="preserve">
+    <value>പുതിയ അറിയിപ്പ് സന്ദേശം ലഭിക്കുമ്പോൾ പ്ലേ ചെയ്യുന്നതിന് ശബ്ദം തിരഞ്ഞെടുക്കുക </value>
+    <comment>Select a sound to play for a new notification message.</comment>
+  </data>
+  <data name="product_cost_" xml:space="preserve">
+    <value>ഉൽപ്പന്ന മൂല്യം :\u0020</value>
+    <comment>Product Cost:\u0020</comment>
+  </data>
+  <data name="plan_cost_" xml:space="preserve">
+    <value>പ്ലാൻ ചിലവ് :\u0020</value>
+    <comment>Plan Cost:\u0020</comment>
+  </data>
+  <data name="order_discount_" xml:space="preserve">
+    <value>ഓർഡർ ഡിസ്ക്കൗണ്ട് :\u0020</value>
+    <comment>Order Discount:\u0020</comment>
+  </data>
+  <data name="no_usages_" xml:space="preserve">
+    <value>ഉപയോഗങ്ങൾ ഒന്നും ലഭ്യമല്ല </value>
+    <comment> No Usages Available</comment>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>മൊത്തം </value>
+    <comment>Total</comment>
+  </data>
+  <data name="service_not_activated" xml:space="preserve">
+    <value>ഈ അക്കൗണ്ടിൽ സേവനം സജീവമാക്കിയിട്ടില്ല </value>
+    <comment>Service not activated on this account.</comment>
+  </data>
+  <data name="title_recharge_digital" xml:space="preserve">
+    <value>ഡിജിറ്റൽ </value>
+    <comment>Digital</comment>
+  </data>
+  <data name="title_recharge_service_digital" xml:space="preserve">
+    <value>ഡിജറ്റൽ +റീചാർജ്ജ് </value>
+    <comment>Digital +Recharge</comment>
+  </data>
+  <data name="your_a_c_balance_is" xml:space="preserve">
+    <value>നിങ്ങളുടെ അക്കൗണ്ട് ബാലൻസ് </value>
+    <comment>Your account balance is</comment>
+  </data>
+  <data name="a_c" xml:space="preserve">
+    <value>A/C</value>
+    <comment>A/C</comment>
+  </data>
+  <data name="customer_id" xml:space="preserve">
+    <value>ഉപഭോക്തൃ ഐഡി </value>
+    <comment>Customer Id</comment>
+  </data>
+  <data name="order_type" xml:space="preserve">
+    <value>ഓർഡർ തരം </value>
+    <comment>Order Type</comment>
+  </data>
+  <data name="mbps" xml:space="preserve">
+    <value>Mbps</value>
+    <comment>Mbps</comment>
+  </data>
+  <data name="prepaid_" xml:space="preserve">
+    <value>"പ്രീപെയ്ഡ്  - "</value>
+    <comment>"Prepaid - "</comment>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>"+91"</value>
+    <comment>"+91"</comment>
+  </data>
+  <data name="processing_text" xml:space="preserve">
+    <value>നിങ്ങളുടെ അഭ്യർത്ഥന നിലവിൽ പ്രോസസ് ചെയ്തുകൊണ്ടിരിക്കുകയാണ് </value>
+    <comment>"Your request is currently being processed"</comment>
+  </data>
+  <data name="alias_hint" xml:space="preserve">
+    <value>അപരനാമം </value>
+    <comment>"Alias Name"</comment>
+  </data>
+  <data name="tap_on_chart" xml:space="preserve">
+    <value>ചാർട്ടിൽ ടാപ്പ് ചെയ്യുക !</value>
+    <comment>Tap on chart !</comment>
+  </data>
+  <data name="combo_plans" xml:space="preserve">
+    <value>കോമ്പോ പ്ലാനുകൾ </value>
+    <comment>Combo Plans</comment>
+  </data>
+  <data name="invalid_mobile" xml:space="preserve">
+    <value>സാധുവായ മൊബൈൽ നമ്പർ നൽകുക </value>
+    <comment>Please Enter a Valid Mobile Number</comment>
+  </data>
+  <data name="to_payee" xml:space="preserve">
+    <value>പണം കൈപ്പറ്റുന്ന ആളിലേക്ക് </value>
+    <comment>to Payee</comment>
+  </data>
+  <data name="minimum_amount_message" xml:space="preserve">
+    <value>ഏറ്റവും കുറഞ്ഞ തുക 10 ആയിരിക്കണം </value>
+    <comment>Minimum amount should be 10</comment>
+  </data>
+  <data name="low_balance_header" xml:space="preserve">
+    <value>ബാലൻസ് കുറവാണ് </value>
+    <comment>Low balance</comment>
+  </data>
+  <data name="low_account_balance_msg" xml:space="preserve">
+    <value>അക്കൗണ്ട് ബാലൻസ് കുറവാണ് </value>
+    <comment>Account balance is Low</comment>
+  </data>
+  <data name="low_service_balance_msg" xml:space="preserve">
+    <value>സേവന ബാലൻസ് കുറവാണ് </value>
+    <comment>Service balance is Low</comment>
+  </data>
+  <data name="recharge_now" xml:space="preserve">
+    <value>Recharge</value>
+    <comment>Recharge</comment>
+  </data>
+  <data name="track_orders" xml:space="preserve">
+    <value>Track Order</value>
+    <comment>Track Order</comment>
+  </data>
+  <data name="msg_track_orders" xml:space="preserve">
+    <value>Check the status of your order with ease.\n     Just use the order number sent in the order confirmation mail or SMS.</value>
+    <comment>Check the status of your order with ease.\n
+    Just use the order number sent in the order confirmation mail or SMS.</comment>
+  </data>
+  <data name="track_order" xml:space="preserve">
+    <value>Order</value>
+    <comment>Order</comment>
+  </data>
+  <data name="support" xml:space="preserve">
+    <value>Support</value>
+    <comment>Support</comment>
+  </data>
+  <data name="unable_login" xml:space="preserve">
+    <value>Unable to Login?</value>
+    <comment>Unable to Login?</comment>
+  </data>
+  <data name="forgot_jio_id" xml:space="preserve">
+    <value>Forgot Jio ID</value>
+    <comment>Forgot Jio ID</comment>
+  </data>
+  <data name="forgot_password" xml:space="preserve">
+    <value>Forgot Password</value>
+    <comment>Forgot Password</comment>
+  </data>
+  <data name="retrieve_your_jio_id" xml:space="preserve">
+    <value>Retrieve your Jio ID</value>
+    <comment>Retrieve your Jio ID</comment>
+  </data>
+  <data name="sending_jio_id" xml:space="preserve">
+    <value>Sending Jio ID</value>
+    <comment>Sending Jio ID</comment>
+  </data>
+  <data name="enter_mobile_num" xml:space="preserve">
+    <value>Enter Mobile Number</value>
+    <comment>Enter Mobile Number</comment>
+  </data>
+  <data name="enter_order_number" xml:space="preserve">
+    <value>Enter Order Number</value>
+    <comment>Enter Order Number</comment>
+  </data>
+  <data name="enter_service_id" xml:space="preserve">
+    <value>Enter Service ID</value>
+    <comment>Enter Service ID</comment>
+  </data>
+  <data name="enter_customer_id" xml:space="preserve">
+    <value>Enter Customer ID</value>
+    <comment>Enter Customer ID</comment>
+  </data>
+  <data name="please" xml:space="preserve">
+    <value>Please</value>
+    <comment>Please</comment>
+  </data>
+  <data name="order_num_ivalide" xml:space="preserve">
+    <value>Order number is invalid</value>
+    <comment>Order number is invalid</comment>
+  </data>
+  <data name="service_id_ivalide" xml:space="preserve">
+    <value>Service ID is invalid</value>
+    <comment>Service ID is invalid</comment>
+  </data>
+  <data name="customer_id_ivalide" xml:space="preserve">
+    <value>Customer ID is invalid</value>
+    <comment>Customer ID is invalid</comment>
+  </data>
+  <data name="jio_id_send_email" xml:space="preserve">
+    <value>Jio Id is sent to your registered Email ID</value>
+    <comment>Jio Id is sent to your registered Email ID</comment>
+  </data>
+  <data name="jio_id_send_mobile" xml:space="preserve">
+    <value>Jio Id is sent to your registered Mobile Number</value>
+    <comment>Jio Id is sent to your registered Mobile Number</comment>
+  </data>
+  <data name="jio_id" xml:space="preserve">
+    <value>ജിയോ ഐഡി</value>
+    <comment>Jio ID</comment>
+  </data>
+  <data name="available_jio_id" xml:space="preserve">
+    <value>Jio Id already used, Available Jio ID\'s</value>
+    <comment>Jio Id already used, Available Jio ID\'s</comment>
+  </data>
+  <data name="check_available_id" xml:space="preserve">
+    <value>Check available ID\'s</value>
+    <comment>Check available ID\'s</comment>
+  </data>
+  <data name="service_top_up" xml:space="preserve">
+    <value>Service Top up</value>
+    <comment>Service Top up</comment>
+  </data>
+  <data name="account_top_up" xml:space="preserve">
+    <value>Account Top up</value>
+    <comment>Account Top up</comment>
+  </data>
+  <data name="pick_plan" xml:space="preserve">
+    <value>pick a plan</value>
+    <comment>pick a plan</comment>
+  </data>
+  <data name="show_plans" xml:space="preserve">
+    <value>Show Plans</value>
+    <comment>Show Plans</comment>
+  </data>
+  <data name="bill_payment" xml:space="preserve">
+    <value>Bill Payment</value>
+    <comment>Bill Payment</comment>
+  </data>
+  <data name="loading_plans" xml:space="preserve">
+    <value>Loading plans</value>
+    <comment>Loading plans</comment>
+  </data>
+  <data name="modify_my_plan" xml:space="preserve">
+    <value>Modify my plan</value>
+    <comment>Modify my plan</comment>
+  </data>
+  <data name="no_store_found" xml:space="preserve">
+    <value>No stores found near your location.</value>
+    <comment>No stores found near your location.</comment>
+  </data>
+  <data name="enter_valid_phone_no" xml:space="preserve">
+    <value>Enter valid Phone No</value>
+    <comment>Enter valid Phone No</comment>
+  </data>
+  <data name="enter_valid" xml:space="preserve">
+    <value>"Enter valid "</value>
+    <comment>"Enter valid "</comment>
+  </data>
+  <data name="off" xml:space="preserve">
+    <value>Off</value>
+    <comment>Off</comment>
+  </data>
+  <data name="_default" xml:space="preserve">
+    <value>Default</value>
+    <comment>Default</comment>
+  </data>
+  <data name="_short" xml:space="preserve">
+    <value>Short</value>
+    <comment>Short</comment>
+  </data>
+  <data name="_long" xml:space="preserve">
+    <value>Long</value>
+    <comment>Long</comment>
+  </data>
+  <data name="home_scr_msg" xml:space="preserve">
+    <value>You can check your account balance, Recharge your account, recharge your service, check your service usage, check your service balance.</value>
+    <comment>You can check your account balance, Recharge your account, recharge your service, check your service usage, check your service balance.</comment>
+  </data>
+  <data name="credit_transfer_scr_msg" xml:space="preserve">
+    <value>You can transfer your account balance to other account.</value>
+    <comment>You can transfer your account balance to other account.</comment>
+  </data>
+  <data name="digital_service_src" xml:space="preserve">
+    <value>Digital Service</value>
+    <comment>Digital Service</comment>
+  </data>
+  <data name="digital_service_src_msg" xml:space="preserve">
+    <value>You can check digital service details and add digital services in your account</value>
+    <comment>You can check your My Apps and details in your account</comment>
+  </data>
+  <data name="enter_amount_greater_than_ten" xml:space="preserve">
+    <value>Enter amount greater than 10.</value>
+    <comment>Enter amount greater than 10.</comment>
+  </data>
+  <data name="loading_store" xml:space="preserve">
+    <value>Loading Stores</value>
+    <comment>Loading Stores</comment>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>Register</value>
+    <comment>Register</comment>
+  </data>
+  <data name="set_alias" xml:space="preserve">
+    <value>Please set an alias for this Payee?</value>
+    <comment>Please set an alias for this Payee?</comment>
+  </data>
+  <data name="max_transferable" xml:space="preserve">
+    <value>You can transfer 80% of total available balance</value>
+    <comment>You can transfer 80% of total available balance</comment>
+  </data>
+  <data name="text_tranform" xml:space="preserve">
+    <value>Transform Value. Processing Charge</value>
+    <comment> Transform Value. Processing Charge</comment>
+  </data>
+  <data name="text_transfer" xml:space="preserve">
+    <value>Transfer Value . Processing charge</value>
+    <comment> Transfer Value . Processing charge</comment>
+  </data>
+  <data name="jio_money_message" xml:space="preserve">
+    <value>Our jio money payment system is 100% safe and secure.</value>
+    <comment>Our jio money payment system is 100% safe and secure.</comment>
+  </data>
+  <data name="control_to_login" xml:space="preserve">
+    <value>For personalized plan and better control of your service, Simply Log In</value>
+    <comment>For personalized plan and better control of your service, Simply Log In</comment>
+  </data>
+  <data name="hello_blank_fragment" xml:space="preserve">
+    <value>ഹലോ ബ്ലാങ്ക് ശകലം</value>
+    <comment>Hello blank fragment</comment>
+  </data>
+  <data name="new_recharge" xml:space="preserve">
+    <value>New Recharge</value>
+    <comment>New Recharge</comment>
+  </data>
+  <data name="prepaid" xml:space="preserve">
+    <value>Prepaid Account</value>
+    <comment>Prepaid</comment>
+  </data>
+  <data name="days_left" xml:space="preserve">
+    <value>" days left "</value>
+    <comment>" days left "</comment>
+  </data>
+  <data name="add_me_as_member" xml:space="preserve">
+    <value>Add me as a member in this group</value>
+    <comment>"Add me as Member."</comment>
+  </data>
+  <data name="current_plan" xml:space="preserve">
+    <value>Current Plan</value>
+    <comment>"Current Plans"</comment>
+  </data>
+  <data name="otp_has_been_sent_send_on_email" xml:space="preserve">
+    <value>നിങ്ങൾ രജിസ്റ്റർ ചെയ്ത ഇമെയിലിലേയ്ക്ക് ഒടിപി അയച്ചിട്ടുണ്ട്.</value>
+    <comment>OTP has been sent to your registered email id</comment>
+  </data>
+  <data name="feature" xml:space="preserve">
+    <value>Select Feature</value>
+    <comment>Select Feature</comment>
+  </data>
+  <data name="manage_services" xml:space="preserve">
+    <value>"Manage Services"</value>
+    <comment>"Manage Services"</comment>
+  </data>
+  <data name="current_status" xml:space="preserve">
+    <value>"Current Status"</value>
+    <comment>"Current Status"</comment>
+  </data>
+  <data name="select_reason" xml:space="preserve">
+    <value>"Select Reason"</value>
+    <comment>"Select Reason"</comment>
+  </data>
+  <data name="resume" xml:space="preserve">
+    <value>"Resume"</value>
+    <comment>"Resume"</comment>
+  </data>
+  <data name="suspend" xml:space="preserve">
+    <value>"Suspend"</value>
+    <comment>"Suspend"</comment>
+  </data>
+  <data name="suspend_resume_service" xml:space="preserve">
+    <value>"Suspend Resume Services"</value>
+    <comment>"Suspend Resume Services"</comment>
+  </data>
+  <data name="safe_custody" xml:space="preserve">
+    <value>"Safe Custody"</value>
+    <comment>"Safe Custody"</comment>
+  </data>
+  <data name="msg_no_postpaid" xml:space="preserve">
+    <value>"You dont seems to have any postpaid account."</value>
+    <comment>"You dont seems to have any postpaid account."</comment>
+  </data>
+  <data name="select_customer" xml:space="preserve">
+    <value>Select Customer</value>
+    <comment>Select Customer</comment>
+  </data>
+  <data name="search_payee" xml:space="preserve">
+    <value>Search Contact</value>
+    <comment>Search Contact</comment>
+  </data>
+  <data name="successfully_request_for_group" xml:space="preserve">
+    <value>Your request to create group %1$s has been processed with reference no. %2$s</value>
+    <comment>Your request to create group %1$s has been processed with reference no. %2$s</comment>
+  </data>
+  <data name="successfully_request_for_update_group" xml:space="preserve">
+    <value>Your request to %1$s has been processed with reference no. %2$s</value>
+    <comment>Your request to %1$s has been processed with reference no. %2$s</comment>
+  </data>
+  <data name="successfully_request_for_remove_group" xml:space="preserve">
+    <value>Your request to removed group %1$s has been processed with reference no. %2$s</value>
+    <comment>Your request to removed group %1$s has been processed with reference no. %2$s</comment>
+  </data>
+  <data name="in_queue" xml:space="preserve">
+    <value>In Queue</value>
+    <comment>In Queue</comment>
+  </data>
+  <data name="load_device_details" xml:space="preserve">
+    <value>Loading device details</value>
+    <comment>Loading device details</comment>
+  </data>
+  <data name="pick_frm_contacts" xml:space="preserve">
+    <value>Pick from contacts</value>
+    <comment>Pick from contacts</comment>
+  </data>
+  <data name="no_transactions_are_available" xml:space="preserve">
+    <value>No transactions are available.</value>
+    <comment>No transactions are available.</comment>
+  </data>
+  <data name="balance_limit" xml:space="preserve">
+    <value>(80%) can be transferred.</value>
+    <comment>(80%) can be transferred.</comment>
+  </data>
+  <data name="monetory_value_validation" xml:space="preserve">
+    <value>Monetary value cannot be empty or less than 0.</value>
+    <comment>Monetary value cannot be empty or less than 0.</comment>
+  </data>
+  <data name="message_non_monetory_validation" xml:space="preserve">
+    <value>Non Monetary value cannot be empty or less than 0.</value>
+    <comment>Non Monetary value cannot be empty or less than 0.</comment>
+  </data>
+  <data name="charges_monthy" xml:space="preserve">
+    <value>30.00 Monthly Charges</value>
+    <comment>30.00 Monthly Charges</comment>
+  </data>
+  <data name="due_date_postpaid" xml:space="preserve">
+    <value>Due Date</value>
+    <comment>Due Date</comment>
+  </data>
+  <data name="select_plan_price" xml:space="preserve">
+    <value>"Select Plan Price"</value>
+    <comment>"Select Plan Price"</comment>
+  </data>
+  <data name="title_activity_main" xml:space="preserve">
+    <value>bottonnavigationactivity</value>
+    <comment>BottonNavigationActivity</comment>
+  </data>
+  <data name="updating_alias" xml:space="preserve">
+    <value>Updating alias</value>
+    <comment>Updating alias</comment>
+  </data>
+  <data name="gps_network_not_enabled" xml:space="preserve">
+    <value>Location services must be on to detect your location. Please switch on location services.</value>
+    <comment>Location services must be on to detect your location. Please switch on location services.</comment>
+  </data>
+  <data name="open_location_settings" xml:space="preserve">
+    <value>Open LOCATION SETTINGS</value>
+    <comment>Open LOCATION SETTINGS</comment>
+  </data>
+  <data name="pick_from_contacts_underline" xml:space="preserve">
+    <value>Pick from Conatcts</value>
+    <comment>Pick from Conatcts</comment>
+  </data>
+  <data name="service_rdo" xml:space="preserve">
+    <value>Service</value>
+    <comment>Service</comment>
+  </data>
+  <data name="paybill_for_another_jio_number" xml:space="preserve">
+    <value>Pay bill for another Jio number</value>
+    <comment>Pay bill for another Jio number</comment>
+  </data>
+  <data name="topup_for_another_jio_no" xml:space="preserve">
+    <value>Topup for another Jio number</value>
+    <comment>Topup for another Jio number</comment>
+  </data>
+  <data name="order_status" xml:space="preserve">
+    <value>Order Status</value>
+    <comment>Order Status</comment>
+  </data>
+  <data name="select_tone" xml:space="preserve">
+    <value>Select Tone</value>
+    <comment>Select Tone</comment>
+  </data>
+  <data name="postpaid" xml:space="preserve">
+    <value>"Postpaid- "</value>
+    <comment>"Postpaid- "</comment>
+  </data>
+  <data name="recent_transactions" xml:space="preserve">
+    <value>Recent Transactions</value>
+    <comment>Recent Transactions</comment>
+  </data>
+  <data name="flexi_topup_new" xml:space="preserve">
+    <value>Flexi Topup</value>
+    <comment>Enter Flexi Topup</comment>
+  </data>
+  <data name="voucher_new" xml:space="preserve">
+    <value>Voucher</value>
+    <comment>Enter Voucher</comment>
+  </data>
+  <data name="manufatures_name_" xml:space="preserve">
+    <value>Manufatures Name :</value>
+    <comment>Manufatures Name :</comment>
+  </data>
+  <data name="cpu_usage_" xml:space="preserve">
+    <value>CPU Usage :</value>
+    <comment>CPU Usage :</comment>
+  </data>
+  <data name="up_time_" xml:space="preserve">
+    <value>Up Time :</value>
+    <comment>Up Time :</comment>
+  </data>
+  <data name="warranty_expiry_date_" xml:space="preserve">
+    <value>Warranty Expiry Date :</value>
+    <comment>Warranty Expiry Date :</comment>
+  </data>
+  <data name="ipv4_address_" xml:space="preserve">
+    <value>IPV4 Address :</value>
+    <comment>IPV4 Address :</comment>
+  </data>
+  <data name="expected_delivery_date" xml:space="preserve">
+    <value>Expected Delivery Date</value>
+    <comment>Expected Delivery Date</comment>
+  </data>
+  <data name="created_on" xml:space="preserve">
+    <value>Created On</value>
+    <comment>Created On</comment>
+  </data>
+  <data name="recharge_amout" xml:space="preserve">
+    <value>Recharge Amount</value>
+    <comment>Recharge Amount</comment>
+  </data>
+  <data name="date_recharge" xml:space="preserve">
+    <value>Date of Recharge</value>
+    <comment>Date of Recharge</comment>
+  </data>
+  <data name="your_alias_updated_reference_number" xml:space="preserve">
+    <value>"Your alias is updated with reference number : "</value>
+    <comment>"Your alias is updated with reference number : "</comment>
+  </data>
+  <data name="failed_update_alias" xml:space="preserve">
+    <value>Failed to update alias.</value>
+    <comment>Failed to update alias.</comment>
+  </data>
+  <data name="current_cycle_bill" xml:space="preserve">
+    <value>"Your bill for current cycle \n Due Date : "</value>
+    <comment>"Your bill for current cycle \n Due Date : "</comment>
+  </data>
+  <data name="plz_enter_valid" xml:space="preserve">
+    <value>"Please enter valid "</value>
+    <comment>"Please enter valid "</comment>
+  </data>
+  <data name="connected_devices" xml:space="preserve">
+    <value>Connected Devices</value>
+    <comment>Connected Devices</comment>
+  </data>
+  <data name="see_connected_devices" xml:space="preserve">
+    <value>See Conencted Devices</value>
+    <comment>See Conencted Devices</comment>
+  </data>
+  <data name="voice_hrs" xml:space="preserve">
+    <value>VOICE-Hrs</value>
+    <comment>VOICE-Hrs</comment>
+  </data>
+  <data name="data_gb" xml:space="preserve">
+    <value>DATA-GBs</value>
+    <comment>DATA-GBs</comment>
+  </data>
+</root>
